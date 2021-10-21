@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+#header h1 {position:fixed; top:50px; left:50px; font-family: 'Architects Daughter', cursive;z-index:999;}
+
+.section {background:#fff url(../img/pg01.png)}
+.section:nth-child(even) {background: #fff url(../img/Untitled-1.png)}
+.container {text-align:center;}
+
+.sc01 h2 {font-family: 'Architects Daughter', cursive; font-size:130px;margin-bottom:50px; transform:translateY(100px); opacity:0;}
+.sc01.on h2 {transform:translateY(0); opacity:1; transition:0.8s;}
+
+
+.sc01 p {font-family: 'Architects Daughter', cursive; font-size:20px;margin-bottom:50px; transform:translateY(100px); opacity:0;}
+.sc01.on p {transform:translateY(0); opacity:1; transition:0.8s 1s;}
+
+.sc01 figure {width:200px; margin:0 auto; background:#fff3ae; margin-bottom:30px; border-radius:50% 50% 50% 10% ; overflow:hidden; transform:scale(0.3); opacity:0; position:relative;}
+.sc01 figure::before {content:"\ea10";font-family: xeicon!important;display:block; width:100%; height:100%; position:absolute;  top:0; left:0; background:url(../img/patten.png); opacity:0.1; color: #ffffff; font-size:100px;}
+.sc01.on figure {transform:scale(1); opacity:1; transition:0.8s 0.5s;}
+.sc01 figure img {width:100%;}
