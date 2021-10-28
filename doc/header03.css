@@ -22,7 +22,7 @@ justify-content:center 는 display:flex로 가로배열된 박스를 가운데�
 #main_visual h2 {font-size:30px; font-weight: 00; margin-bottom:30px;}
 
 
-#content01 {padding: 150px 0; text-align:center;}
+#content01 {padding:150px 0; text-align:center;}
 #content01 h2 {font-size:30px; font-weight:500; margin-bottom:10px;}
 #content01 p {font-size:15px; font-weight:300; margin-bottom:30px;}
 
