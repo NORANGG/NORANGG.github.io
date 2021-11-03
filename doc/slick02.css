@@ -10,7 +10,7 @@
 
 #header .right {font-size:20px; margin-left:40px;}
 
-dd
+
 #main_visual {position:relative;}
 #main_visual figure {height:600px;}
 #main_visual .itm01 {background:url(../lib/base/main_visual01.jpg) no-repeat center center/cover;}
@@ -42,7 +42,7 @@ dd
 
 #content01 .slick-dots {display:flex; justify-content:center;}
 #content01 .slick-dots li {width:60px; height:6px;border-radius:10px; background:#333; margin:30px 4px;}
-#content01 .slick-dots li.slick-active {background:#f50303;}
+#content01 .slick-dots li.slick-active {background:#f51303;}
 #content01 .slick-dots li button {display:none;}
 
 #content01 .btn i {position:absolute; top:53%; left:50%; transform:translate(-50%,-50%); font-size:35px; padding:10px; border-radius:50%; color:#646464;}
