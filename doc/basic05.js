@@ -19,6 +19,72 @@ $('.main_slider').slick({
 
 
 
+//-----------메인 밑에 슬라이드 5개보여주는거--------------------------------//
+
+$('.pr_slider').slick({
+    arrows:false,
+    slidesToShow:5,
+    autoplay:true,
+    autoplaySpeed:2000,
+    //centerMode:true, --------------> 슬라이드 센터모드 
+    //centerPadding:"80px",
+    pauseOnHover:false,
+    pauseOnFocus:false,
+});
+
+//----------------->가운데꺼 커지는 효과
+$('.pr_slider figure').eq(7).addClass('on')
+$('.pr_slider').on('afterChange', function(e,s,c){
+    // c = 1,2....
+    $('.pr_slider figure').eq(c+7).addClass('on').siblings().removeClass('on');
+    $('#product03 .slide_bar>span').css({left:c*100})
+});
+
+
+
+//----------------------제품 03 지그재그한거 슬라이드----------------------//
+$('.pic').slick({
+    arrows:false,
+    autoplay:true,
+    pauseOnHover:false,
+    pauseOnFocus:false,
+    asNavFor:'.pic',
+});
+
+//----------------------제품 04  화살표 슬라이드----------------------//
+$('.pr_slider02').slick({
+    arrows:false,
+    slidesToShow:3,
+    autoplay:true,
+    autoplaySpeed:2000,
+    //centerMode:true, --------------> 슬라이드 센터모드 
+    //centerPadding:"80px",
+    pauseOnHover:false,
+    pauseOnFocus:false,
+});
+    
+$('#product04 .container .con i.xi-arrow-left').on('click', function(){  //----->버튼
+    $('.pr_slider02').slick('slickPrev')
+});
+
+$('#product04 .container .con i.xi-arrow-right').on('click', function(){
+    $('.pr_slider02').slick('slickNext')
+});
+
+
+
+//--------------링크탭에서 새창열기--------------//
+$('#link select').on('change', function(){
+    var link=$(this).val();
+    if(link) {window.open(link)}
+});
+
+
+
+
+
+
+
 
 //---------------------------------------------------------------------------------------
 });
