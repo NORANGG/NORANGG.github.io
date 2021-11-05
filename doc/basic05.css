@@ -102,7 +102,7 @@ bady{color:#333};}
 #product03 img {max-width:100%; }
 #product03 figure {padding:30px 15px;}
 #product03 .case {margin-bottom:30px;}
-#product03 figure img {transition:0.5s;}
+#product03 figure img {transition:0.6s;}
 #product03 figure.on img {transform:scale(1.3);}
 #product03 figure.on  {transform:scale(1.15);} /*---->글자커지게*/
 
@@ -133,12 +133,28 @@ bady{color:#333};}
 
 
 #product04 .dis h3 {font-size:24px; font-weight:500; margin-bottom:10px;} /*----------얘네는글자들*/
-#product04 .dis h3:after {content:""; display:block; width:40px; height:1px; background:#e05f5f; margin:20px 0;}
+#product04 .dis h3:after {content:""; display:block; width:40px; height:1px; background:#e05f5f; margin:20px 0;}   /*--->제목밑에 밑줄긋는거*/
 #product04 .dis p {font-size:16px; font-weight:300; letter-spacing:-0.025em; margin-bottom:20px; line-height:24px;}
 #product04 .dis i {font-size:15px; padding:5px; background:rgba(51, 51, 51, 0.438); color:#fff; border-radius:50%; vertical-align:middle; margin-left:10px; transition: 0.4s;}
 #product04 .dis a:hover i {border-radius:0%;}
 
 #product04 figure {text-align:center;}
+
+
+/*----------------탭슬라이드-------------------*/
+
+#tab {padding:100px 0; background:#f4f4f4;}
+#tab .container {width:1200px; margin:0 auto; padding:0 15px;}
+#tab .tab_maeu {display:flex; border-bottom:1px solid#ddd; margin-bottom:10px;}
+#tab .tab_maeu li a {display:block; line-height:40px; padding:0 50px; background:#369; color:#fff; text-align:center;}
+#tab .tab_maeu li~li {border-left:1px solid#f4f4f4;}
+
+#tab .tab_con {position:relative; height:200px;}
+#tab .tab_con .tab_slider {position:absolute; top:0; left:0; width:100%; visibility:hidden;}             /*--->숨겨라*/
+#tab .tab_con .tab_slider.on {visibility:visible;}                                              /*--->보여라*/
+#tab .tab_con figure {padding:0 15px;}
+#tab .tab_con figure img {width:100%;}
+
 
 
 

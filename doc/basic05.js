@@ -72,8 +72,34 @@ $('#product04 .container .con i.xi-arrow-right').on('click', function(){
 });
 
 
+//----------------탭슬라이드----------------//
+$('.tab_maeu li').on('click', function(){
+    var idx=$(this).index();
+    //$('.tab_con>div').eq(idx).show().siblings().hide();      
+    $('.tab_con>div').eq(idx).addClass('on').siblings().removeClass('on'); 
+});                                                             //----->까지는 클릭하면 내용바뀜
 
-//--------------링크탭에서 새창열기--------------//
+
+
+                                          //------------>부터는 슬라이드 돌림. html에선 figure에 이미지넣엇음 
+$('.tab_slider').slick({
+    arrows:false,
+    autoplay:true,
+    autoplaySpeed:1500,
+    slidesToShow:4,
+    //centerMode:true,                   ----------->슬라이드 양옆에 살짝씩 걸침//
+    pauseOnHover:false,
+    pauseOnFocus:false,
+    
+});
+
+
+
+
+
+
+
+//--------------푸터 링크탭에서 새창열기--------------//
 $('#link select').on('change', function(){
     var link=$(this).val();
     if(link) {window.open(link)}
