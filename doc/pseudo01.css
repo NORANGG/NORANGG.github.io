@@ -17,10 +17,10 @@ section img {max-width:100%;}
 #sec04 h2:after {content:""; display:inline-block; width:40px; height:2px; background:#f00; vertical-align:middle; margin:0 20px; }
 #sec04 h2:before {content:""; display:inline-block; width:40px; height:2px; background:#f00; vertical-align:middle; margin:0 20px;}
 
-#sec05 h2::after {content:""; display:block; width:40px; height:40px; background:url(../lib/png-clipart-snoopy-wood-charlie-brown-peppermint-patty-peanuts-snoopy-charlie-brown-comics-white.png) center center/cover; margin:20px auto;}
+#sec05 h2::after {content:""; display:block; width:40px; height:40px; background:url(../lib/sunoopy.png) center center/cover; margin:20px auto;}
 
-#sec06 h2:after {content:""; display:inline-block; width:40px; height:40px; background:url(../lib/png-clipart-snoopy-wood-charlie-brown-peppermint-patty-peanuts-snoopy-charlie-brown-comics-white.png) center center/cover; vertical-align:middle; margin:0 20px; }
-#sec06 h2:before {content:""; display:inline-block; width:40px; height:40px; background:url(../lib/png-clipart-snoopy-wood-charlie-brown-peppermint-patty-peanuts-snoopy-charlie-brown-comics-white.png) center center/cover; vertical-align:middle; margin:0 20px;}
+#sec06 h2:after {content:""; display:inline-block; width:40px; height:40px; background:url(../lib/sunoopy.png) center center/cover; vertical-align:middle; margin:0 20px; }
+#sec06 h2:before {content:""; display:inline-block; width:40px; height:40px; background:url(../lib/sunoopy.png) center center/cover; vertical-align:middle; margin:0 20px;}
 
 
 #sec07 li {line-height:30px;}
