@@ -107,14 +107,14 @@ $(function(){
                 {
                   breakpoint: 769,
                   settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 4,
                   }
                 },
         
                 {
                     breakpoint: 600,
                     settings: {
-                      slidesToShow: 5,
+                      slidesToShow: 4,
                     }
                   },
         
@@ -147,7 +147,22 @@ $(function(){
 
 
 
-
+        $('.top_b').on('click', function(){
+          $('html, body').animate({scrollTop:0},800);
+      });
+  
+      $(window).on('scroll', function(){
+          var sct=$(window).scrollTop();
+          var wd=$(window).width();
+          if (wd>768) {
+              if(sct>400) {
+                  $('.top_b').fadeIn()
+              }else{
+                  $('.top_b').fadeOut()
+              }
+          }
+  
+      });
 
 
 

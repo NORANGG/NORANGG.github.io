@@ -332,6 +332,11 @@
 
 
 
+/*-----탑버튼----*/
+.top_b {display:block; position:fixed; bottom:30px; right:50px; z-index:1000; cursor: pointer;}
+.top_b i {padding:5px; font-size:35px; border:3px solid#55C1E7; color:#55C1E7; border-radius:50%;}
+.top_b i:hover {color:#68d7ff; border:3px solid#68d7ff;}
+
 
 
 
@@ -482,7 +487,7 @@
     #content_03 .customer_01 .text span a:hover {color:#000; border-bottom:1px solid#779602;}
 
 
-    #content_03 .customer_01 .text b {display:block; font-size:33vw; font-weight:900; position:absolute; bottom:-5%; left:-3%; z-index:-10; color:#f2f4e8;}
+    #content_03 .customer_01 .text b {display:block; font-size:40vw; font-weight:900; position:absolute; bottom:-5%; left:-3%; z-index:-10; color:#f2f4e8;}
 
 
     /*--섹션03의 02--*/
@@ -509,7 +514,7 @@
     #content_03 .customer_03 .text span a:hover {color:#000; border-bottom:1px solid#779602;}
 
 
-    #content_03 .customer_03 .text b {display:block; font-size:33vw; font-weight:900; position:absolute; bottom:-5%; left:-2%; z-index:-10; color:#f2f4e8;}
+    #content_03 .customer_03 .text b {display:block; font-size:40vw; font-weight:900; position:absolute; bottom:-5%; left:-2%; z-index:-10; color:#f2f4e8;}
 
 
     /*--섹션03의 04--*/
@@ -663,7 +668,7 @@
     #footer .info {flex:1; display:flex; justify-content:center;  text-align:center; line-height:30px; }
     
     #footer .info ul {display:flex; margin-left:0px;}
-    #footer .info ul li {padding:0 20px; margin-bottom:20px; font-size:3vw;}
+    #footer .info ul li {padding:0 10px; margin-bottom:20px; font-size:3vw;}
     
     #footer .info span {font-weight:500;}
     #footer .info span:hover {color:#999;}
@@ -684,7 +689,13 @@
 
     /*-----반응형 메뉴버튼-----*/
     .mopen {display:block;}
-    
+        
+
+
+    /*-----탑버튼----*/
+    .top_b {display:block; position:fixed; bottom:25px; right:20px; z-index:1000; cursor: pointer;}
+    .top_b i {padding:5px; font-size:20px; border:2px solid#55C1E7; color:#55C1E7; border-radius:50%;}
+    .top_b i:hover {color:#68d7ff; border:3px solid#68d7ff;}
 
 
     
