@@ -164,6 +164,18 @@ $(function(){
   
       });
 
+      $(window).on('scroll', function(){
+        var sct=$(window).scrollTop();
+        var wd=$(window).width();
+        if (wd<768) {
+            if(sct>400) {
+                $('.top_b').fadeIn()
+            }else{
+                $('.top_b').fadeOut()
+            }
+        }
+
+    });
 
 
     //------------------------------------------------------------------

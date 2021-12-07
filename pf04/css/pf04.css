@@ -65,7 +65,7 @@
 #content_01 .container {display:flex; width:1200px; margin:0 auto; text-align:center; overflow:hidden; padding:0 15px;}
 #content_01 figure {transform:scale(0.65);filter:grayscale(1);transition:0.6s; }
 #content_01 figure img {max-width:130%; margin:30px auto 20px; transition:0.4s;}
-#content_01 figure.on  {transform:scale(1);filter:grayscale(0); filter:brightness(1.15); transition:0.3s;}
+#content_01 figure.on  {transform:scale(1);filter:grayscale(0); filter:brightness(1.15); transition:0.6s;}
 #content_01 figure {flex:1;}
 #content_01 figure:hover img {transform:scale(1.2);}
 
