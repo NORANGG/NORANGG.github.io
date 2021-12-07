@@ -540,14 +540,15 @@
     #content_04  .container {width:auto; margin:0 auto; padding:0 15px; margin-top:85px;}
     
     #content_04  .tab_meun {display:flex;}
-    #content_04  .tab_meun>li {flex:1; text-align:center; line-height:10vw;  background:#fff; position:relative}
-    #content_04  .tab_meun>li.on {color:#008abd; }
+    #content_04  .tab_meun>li {flex:1; text-align:center; line-height:10vw; background:#fff; position:relative}
+    #content_04  .tab_meun>li.on {color:#000; }
     #content_04  .tab_meun>li.on:after {content:""; display:block; width:100%; height:4px; background:#5d7308; position:absolute; bottom:-2px; left:50%; transform:translateX(-50%);}
+    #content_04  .tab_meun>li:last-child::after {display:none;}
     /*#content_04  .tab_meun>li.on:hover:after {width:100%;}*/
     
     #content_04  .tab_meun>li>a {font-size:3.3vw; font-weight:400; position:relative;}
-    #content_04  .tab_meun>li>a>i {font-size:3vw; padding:0vw 0vw 0vw 2vw; }
-    #content_04  .tab_meun>li>a>i:hover {color:#ddd;}
+    #content_04  .tab_meun>li>a>i {font-size:4.5vw; padding:3.5vw 0 0 0;}
+    #content_04  .tab_meun>li>a>i:hover {color:#008abd;}
     
     
     /*--섹션04의 서브콘텐츠 con_01--*/
