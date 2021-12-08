@@ -101,7 +101,7 @@ $(function(){
             arrows:false,
             infinite: true,
             autoplay:true,
-            autoplaySpeed:1500,
+            autoplaySpeed:1000,
             slidesToShow:8,
             responsive: [
                 {
@@ -123,6 +123,15 @@ $(function(){
               ]
         });
         
+
+        /*$('.slider').on("mousemove", moMove);    
+        function moMove(e){
+            if(e.pageX < $(this).width() / 2){
+                $('.slider').slick("slickPrev")
+            }else{
+                $('.slider').slick("slickNext")
+            } 
+        }*/
 
 
 
