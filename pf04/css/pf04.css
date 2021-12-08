@@ -302,20 +302,20 @@
 
 
 /*--푸터--*/
-#footer {padding:60px 0; background:#272626; color:#fff; font-weight:100;}
+#footer {padding:55px 0; background:#272626; color:#fff; font-weight:100;}
 #footer .container {display:flex; justify-content:space-between; width:1200px; margin:0 auto; padding:0 15px;}
 #footer .info {flex:1; display:flex; justify-content:center;  text-align:center; line-height:40px; }
 
-#footer .info ul {display:flex; margin-left:-838px;}
-#footer .info ul li {padding:0 20px; margin-bottom:30px; font-size:17px;}
+#footer .info ul {display:flex; margin-left:-854px;}
+#footer .info ul li {padding:0 20px; margin-bottom:30px; font-size:16px;}
 
 #footer .info span {font-weight:500;}
 #footer .info span:hover {color:#999;}
 
 #footer .company {font-size:14px; line-height:24px;}
 
-#footer .sns {font-size:28px; text-align:right; font-weight:300; margin-bottom:60px;}
-#footer .sns i {font-size:34px; margin:10px 0 42px 0;}
+#footer .sns {font-size:28px; text-align:right; font-weight:300; margin-bottom:55px;}
+#footer .sns i {font-size:34px; margin:10px 0 24px 0;}
 #footer .sns a:hover {color:#55C1E7; transition:0.3s;}
 
 #footer hr {border:1px solid#dddddd34; margin-bottom:40px;}
