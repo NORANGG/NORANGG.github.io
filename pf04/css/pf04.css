@@ -184,7 +184,7 @@
 /*#content_04  .tab_meun>li.on:hover:after {width:100%;}*/
 
 #content_04  .tab_meun>li>a {font-size:18px; font-weight:400; position:relative;}
-#content_04  .tab_meun>li>a>i {font-size:28px; padding:0.5vw 0vw 0vw 0vw; }
+#content_04  .tab_meun>li>a>i {font-size:28px;line-height:60px;}
 #content_04  .tab_meun>li>a>i:hover {color:#008abd;}
 
 
