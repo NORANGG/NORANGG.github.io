@@ -246,7 +246,7 @@
 
 
 @media (max-width:768px) {
-    * {outline:1px solid#f00--;} 
+    * {outline:1px solid#f00;} 
 
     #wrap {min-width:auto;}
     .br {display:block;}
@@ -364,19 +364,19 @@
     #content_01 .con_01 ul>li {display:grid; grid-template-columns:repeat(2, 1fr)}
     #content_01 .con_01 ul>li>a {display:block; font-size:3.5vw; font-weight:300; text-align:center; line-height:5vw; padding-right:3vw;}
     #content_01 .con_01 a:hover {color:#dd3d1b;}
-    #content_01 .con_01 span {display:block; position:absolute; top:34.5%; left:44vw; font-size:3vw; font-weight:300;}
+    #content_01 .con_01 span {display:block; position:absolute; top:35%; left:44vw; font-size:3vw; font-weight:300; color:#474747;}
 
     #content_01 .con_02 {padding-top:20vw;}
     #content_01 .con_02 ul>li {display:grid; grid-template-columns:repeat(3, 1fr); padding:0;}
     #content_01 .con_02 ul>li>a {display:block; font-size:3.5vw; font-weight:300; text-align:center; line-height:5vw; padding-right:3vw;}
     #content_01 .con_02 ul>li>a:hover {color:#dd3d1b;}
-    #content_01 .con_02 span {display:block; position:absolute; top:69%; left:44vw; font-size:3vw; font-weight:300;}
+    #content_01 .con_02 span {display:block; position:absolute; top:69%; left:44vw; font-size:3vw; font-weight:300; color:#474747;}
 
     #content_01 .con_03 {padding-top:20vw;}
     #content_01 .con_03 ul>li {display:grid; grid-template-columns:repeat(3, 1fr); padding:0;}
     #content_01 .con_03 ul>li>a {display:block; font-size:3.5vw; font-weight:300; text-align:center; line-height:30px; padding-right:3vw;}
     #content_01 .con_03 ul>li>a:hover {color:#dd3d1b;}
-    #content_01 .con_03 span {display:block; position:absolute; top:102%; left:44vw; font-size:3vw; font-weight:300;}
+    #content_01 .con_03 span {display:block; position:absolute; top:102%; left:44vw; font-size:3vw; font-weight:300; color:#474747;}
 
     #content_01 span:hover {color:#999;}
 
@@ -497,7 +497,7 @@
     #footer .add {}
     #footer .add dd {line-height:5vw; font-size:3vw; font-weight:100; text-align:center; padding-top:1vw; color:#ddd;}
 
-    #footer .sns {margin:5vw 0 0 0;}
+    #footer .sns {margin:7vw 0 0 0;}
     #footer .sns i {font-size:9.5vw;}
     #footer .sns i:hover {color:#adadad;}
 
