@@ -314,7 +314,7 @@
     /*--메인 슬라이드--*/
     #main_visual {position:relative;}
     #main_visual figure {height:calc(100vh - 30px);}
-    #main_visual .itm01 {background:url(../img/main_01.jpg) no-repeat center center/cover;}
+    #main_visual .itm01 {background:url(../img/main_01.jpg) no-repeat -350px center/cover;}
     #main_visual .itm02 {background:url(../img/main_04.jpg) no-repeat center center/cover;}
     #main_visual .itm03 {background:url(../img/main_03.jpg) no-repeat center center/cover;}
     
