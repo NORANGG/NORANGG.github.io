@@ -201,7 +201,8 @@
 #content_04 .itm strong {font-size:20px; font-weight:300;}
 #content_04 .itm b {font-size:14px; font-weight:100; margin-right:30px;}
 
-#content_04 .slider_04:nth-child(4) {border-bottom:1px solid#ddd;}
+/*#content_04 .slider_04:nth-child(4) {border-bottom:1px solid#ddd;}*/
+#content_04 .slider_04:nth-child(1) {border-top:1px solid#ddd;}
 
 
 
