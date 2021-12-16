@@ -48,10 +48,9 @@
 
 
 /*-----반응형 메뉴버튼-----*/
-.mopen {display:none; position:fixed; top:1rem; right:1rem; font-size:2.5rem; color:#000;  z-index:9999;}
-.mopen i {padding:0.25rem; background:#dddddd86; transition:0.5s;}
+.mopen {display:none; position:fixed; top:1rem; right:1rem; font-size:2.5rem; color:#fff;  z-index:9999;}
+.mopen i {padding:0.25rem; background:#000000a6; transition:0.5s;}
 .mopen i.on {transform:rotate(90deg);}
-.mopen i:hover {color:#888;}
 
 
 
