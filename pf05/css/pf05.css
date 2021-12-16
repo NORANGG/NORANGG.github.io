@@ -314,11 +314,11 @@
     /*--메인 슬라이드--*/
     #main_visual {position:relative;}
     #main_visual figure {height:calc(100vh - 30px);}
-    #main_visual .itm01 {background:url(../img/main_01.jpg) no-repeat -350px center/cover;}
+    #main_visual .itm01 {background:url(../img/main_01.jpg) no-repeat -95vw center/cover;}
     #main_visual .itm02 {background:url(../img/main_04.jpg) no-repeat center center/cover;}
     #main_visual .itm03 {background:url(../img/main_03.jpg) no-repeat center center/cover;}
     
-    #main_visual .slogan {position:static; top:40%; left:50%; width:auto; padding:0 15px; transform:translate(0%,-370%); color:#fff; text-shadow:0 0 2px #444;text-align:center; }
+    #main_visual .slogan {position:absolute; top:50%; left:50%; width:100%; padding:0 15px; transform:translate(-50%,-50%); color:#fff; text-shadow:0 0 2px #444;text-align:center; }
     #main_visual .slogan h2 {font-size:5vw; font-weight:100; margin-bottom:5vw;}
     #main_visual .slogan p {font-size:4vw; font-weight:100; margin-bottom:5vw;}
     #main_visual .slogan span {font-size:6vw; font-weight:400; color:#dd3d1b;}
@@ -336,7 +336,7 @@
 
 
     /*--섹션 콘텐츠 01--*/
-    #content_01 {padding:0 0 100px 0; width:auto; margin:0 auto; text-align:center;}
+    #content_01 {padding:100px 0; width:auto; margin:0 auto; text-align:center;}
     #content_01 h2 {font-size:7vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:10px;}
     #content_01 p {font-size:3vw; font-weight:300; letter-spacing:-0.05em; margin-bottom:80px;}
 
