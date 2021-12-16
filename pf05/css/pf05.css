@@ -236,7 +236,7 @@
 
 
 @media (max-width:768px) {
-    * {outline:1px solid#f00;} 
+    * {outline:1px solid#f00--;} 
 
     #wrap {min-width:auto;}
     .br {display:block;}
