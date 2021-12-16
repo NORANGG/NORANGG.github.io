@@ -464,8 +464,8 @@
     #content_04 .itm strong {font-size:3.5vw; font-weight:300; padding:3vw 0 0 0;}
     #content_04 .itm b {font-size:2vw; font-weight:100; padding:6vw 0;  margin-right:2vw;}
 
-    /*#content_04 .slider_04:nth-child(1) {border-top:1px solid#ddd;}*/
-
+    #content_04 .slider_04:nth-child(4) {border-bottom:1px solid#ddd;}
+    #content_04 .slider_04:nth-child(1) {border-top:1px solid#ddd;} 
 
 
 
