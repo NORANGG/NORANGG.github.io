@@ -17,11 +17,12 @@ $(function(){
 });
 
 
-  var mS=$('.main_slider').slick({
+ var mS=$('.main_slider').slick({
     arrows:false,
     autoplay:true,
     pauseOnHover:false,
-    dots:true,
+    /*dots:true,*/
+    focusOnSelect:true,
   });
 
   $('#main_visual .main_slider .slick-dots li').eq(0).addClass('animation_active')
@@ -42,6 +43,25 @@ $(function(){
     pauseOnFocus:false,
     vertical:true,
     slidesToShow: 1,
+    responsive: [
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+
+      {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+
+
+
+    ]
+  
   });
 
 
