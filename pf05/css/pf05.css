@@ -263,7 +263,7 @@
     #header h1 {position:relative; z-index:9999;}
     #header h1 img {width:25vw;}
     #header h1 a {display:block; width:25vw; height:26vw; background:url(../img/kumhwa_02.png) no-repeat center center/40vw;}
-    #header.on h1 a {height:26vw; background:url(../img/kumhwa_02.png) no-repeat center center/40vw;}
+    #header.on h1 a {height:25vw; background:url(../img/kumhwa_02.png) no-repeat center center/40vw;}
     #header:hover h1 a {background:url(../img/kumhwa_02.png) no-repeat center center/40vw;}
     
     #header .line {transition:0.4s;}
@@ -370,7 +370,7 @@
     #content_01 .con_02 ul>li {display:grid; grid-template-columns:repeat(3, 1fr); padding:0;}
     #content_01 .con_02 ul>li>a {display:block; font-size:3.5vw; font-weight:300; text-align:center; line-height:5vw; padding-right:3vw;}
     #content_01 .con_02 ul>li>a:hover {color:#dd3d1b;}
-    #content_01 .con_02 span {display:block; position:absolute; top:69%; left:44vw; font-size:3vw; font-weight:300; color:#474747;}
+    #content_01 .con_02 span {display:block; position:absolute; top:68.85%; left:44vw; font-size:3vw; font-weight:300; color:#474747;}
 
     #content_01 .con_03 {padding-top:20vw;}
     #content_01 .con_03 ul>li {display:grid; grid-template-columns:repeat(3, 1fr); padding:0;}
