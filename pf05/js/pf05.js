@@ -38,7 +38,7 @@ $(function(){
   $('#content_04 .slider>div').slick({
     arrows:false,
     autoplay:true,
-    autoplaySpeed:1000,
+    autoplaySpeed:4000,
     pauseOnHover:false,
     pauseOnFocus:false,
     vertical:true,
