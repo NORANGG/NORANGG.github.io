@@ -323,7 +323,7 @@
         
     
     /*--메인 슬라이드--*/
-    #main_visual {position:relative; height:80vw; width:auto;}
+    #main_visual {position:relative; height:80vw; width:auto; border-bottom:1px solid#ddd;}
     #main_visual video {padding-top:25vw;}
     /*#main_visual .itm01 {background:url(../img/main_01.jpg) no-repeat center center/cover;}
     #main_visual .itm02 {background:url(../img/main_04.jpg) no-repeat center center/cover;}
