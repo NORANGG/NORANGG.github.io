@@ -80,5 +80,18 @@ $(function(){
     }
   });
 
+
+  $('#content_01 .more').on('click', function(){
+    $('#content_01 .case').slideToggle(500);
+    $(this).toggleClass('on');
+});
+
+
+
+  $('#content_03 .more').on('click', function(){
+    $('#content_03 .case').slideToggle(500);
+    $(this).toggleClass('on');
+});
+
 //------------------------------------------------------------------
 });
