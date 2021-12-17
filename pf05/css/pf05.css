@@ -244,6 +244,11 @@
 
 
 
+
+
+
+
+
 @media (max-width:768px) {
     * {outline:1px solid#f00--;} 
 
@@ -330,10 +335,10 @@
     #main_visual .itm03 {background:url(../img/main_03.jpg) no-repeat center center/cover;}*/
     
     #main_visual .slogan {position:absolute; top:65%; left:50%; width:100%; padding:0 15px; transform:translate(-50%,-50%); color:#fff; text-shadow:0 0 2px #444;text-align:center; }
-    #main_visual .slogan h2 {font-size:4vw; font-weight:100; margin-bottom:5vw; letter-spacing:0.1em;}
-    #main_visual .slogan p {font-size:3.2vw; font-weight:400; margin-bottom:3vw;}
-    #main_visual .slogan span {font-size:8vw; font-weight:900; color:#f2f2f2;}
-    #main_visual .slogan b {font-size:7vw; font-weight:400; }
+    #main_visual .slogan h2 {font-size:3.8vw; font-weight:100; margin-bottom:5vw; letter-spacing:0.1em;}
+    #main_visual .slogan p {font-size:3vw; font-weight:400; margin-bottom:3vw;}
+    #main_visual .slogan span {font-size:7vw; font-weight:900; color:#f2f2f2;}
+    #main_visual .slogan b {font-size:6.7vw; font-weight:400; }
     
     /*#main_visual .main_slider .slick-dots {display:flex; position:absolute; bottom:7vw; left:50%; transform:translateX(-50%); } 
     #main_visual .main_slider .slick-dots li {background:#fff; height:1vw; width:15vw; position:relative; margin:0 1vw;}
@@ -347,12 +352,12 @@
 
 
     /*--섹션 콘텐츠 01--*/
-    #content_01 {position:static; padding:50px 0; width:auto; margin:0 auto; text-align:center;}
+    #content_01 {position:static; padding:50px 0; width:auto; margin:0 auto; text-align:center; }
     #content_01 h2 {font-size:4.5vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:7px;}
     #content_01 p {font-size:2.5vw; font-weight:300; letter-spacing:-0.05em; margin-bottom:40px;}
 
     #content_01 .case {transition:1s; display:none;}
-    #content_01 .container {position:relative; display:flex; width:auto;  margin:0 auto; padding:0 15px;}
+    #content_01 .container {position:relative; display:flex; width:auto;  margin:0 auto; padding:0 15px; }
     #content_01 figure {flex:1; text-align:center;}
     #content_01 .container .case {overflow:hidden; text-align:center;}
     #content_01 figure img {max-width:100%; transition:0.5s;}
@@ -381,8 +386,8 @@
     #content_01 span:hover {color:#999;}
 
     #content_01 .more {display:inline-block; position:static; top:10vw; margin-top:0; left:35vw; }
-    #content_01 .more i {padding:3vw 5vw; font-size:3vw; font-weight:300; color:#adadad; border:1px solid#adadad;}
-    #content_01 .more.on {top:auto; margin-top:20vw; }
+    #content_01 .more i {padding:2.5vw 5vw; font-size:3vw; font-weight:300; color:#777777; border:1px solid#777777;}
+    #content_01 .more.on {top:auto; margin-top:20vw;}
 
 
 
@@ -422,7 +427,7 @@
 
 
     /*--섹션 콘텐츠 03--*/
-    #content_03 {position:static; padding:50px 0; background:#d3dbe496; margin:0 auto; text-align:center;}
+    #content_03 {position:static; padding:50px 0 20px 0; background:#d3dbe496; margin:0 auto; text-align:center;}
     #content_03 h2 {font-size:4.5vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:7px;}
     #content_03 p {font-size:2.5vw; font-weight:300; letter-spacing:-0.05em; margin-bottom:45px; line-height:4.3vw;}
     #content_03 .br {display:block;}
@@ -457,13 +462,13 @@
     #content_03 .con_04 span {display:block; margin:-60px 0 0 0;; font-size:3.5vw; color:#555; line-height:20px;}
 
     #content_03 .more {margin:15vw 0 5vw 0;}
-    #content_03 .more i {font-size:3vw; padding:3vw 5vw; color:#adadad; border:1px solid#adadad;}
+    #content_03 .more i {padding:2.5vw 5vw; font-size:3vw; font-weight:300; color:#777777; border:1px solid#777777;}
 
 
 
 
     /*--섹션 콘텐츠 04--*/
-    #content_04 {padding:80px 0; width:auto; margin:0 auto; text-align:center;}
+    #content_04 {padding:60px 0; width:auto; margin:0 auto; text-align:center;}
     #content_04 h2 {font-size:4.5vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:7px;}
     #content_04 p {font-size:2.5vw; font-weight:300; letter-spacing:-0.05em; margin-bottom:40px;}
 
