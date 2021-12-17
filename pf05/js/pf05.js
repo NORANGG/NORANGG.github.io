@@ -88,7 +88,7 @@ $(function(){
 
 
 
-  $('#content_03 .more').on('click', function(){
+  $('#content_03 .more_m').on('click', function(){
     $('#content_03 .case').slideToggle(500);
     $(this).toggleClass('on');
 });
