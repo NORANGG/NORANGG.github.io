@@ -323,7 +323,7 @@
         
     
     /*--메인 슬라이드--*/
-    #main_visual {position:relative; height:80vw; width:auto; border-bottom:1px solid#ddd;}
+    #main_visual {position:relative; height:80vw; width:auto; border-bottom:1px solid#ddd; }
     #main_visual video {padding-top:25vw;}
     /*#main_visual .itm01 {background:url(../img/main_01.jpg) no-repeat center center/cover;}
     #main_visual .itm02 {background:url(../img/main_04.jpg) no-repeat center center/cover;}
@@ -390,28 +390,28 @@
 
 
     /*--섹션 콘텐츠 02-- z-index:10번대 --*/
-    #content_02 {position:relative; padding:15vw 0; margin-top:0vw; background:url(../img/main_01.jpg) fixed 45% center/cover;}
+    #content_02 {position:relative; padding:15vw 0; margin-top:0vw; background:url(../img/main_01.jpg) fixed 577vw center/cover;}
     #content_02:after {content:""; display:block; width:100%; height:100%; background:rgba(0, 0, 0, 0.5); position:absolute; top:0; left:0;}
     #content_02 .container {display:flex; justify-content:space-between; flex-flow:row wrap; flex:1; text-align:center; width:auto; margin:0 auto; padding:0 15px; color:#fff; }
 
     #content_02 .con_01 {padding:50px 0 0 0 ; z-index:19; transition:0.5s;}
-    #content_02 .con_01 i {font-size:13.5vw;}
-    #content_02 .con_01 strong {font-size:3.7vw; line-height:100px;}
+    #content_02 .con_01 i {font-size:13vw;}
+    #content_02 .con_01 strong {font-size:3.2vw; line-height:90px;}
     #content_02 .con_01:hover {color:#dd3d1b;}
 
     #content_02 .con_02 {padding:50px 0 0 0 ; z-index:19; transition:0.5s;}
-    #content_02 .con_02 i {font-size:13.5vw;}
-    #content_02 .con_02 strong {font-size:3.7vw; line-height:100px;}
+    #content_02 .con_02 i {font-size:13vw;}
+    #content_02 .con_02 strong {font-size:3.2vw; line-height:90px;}
     #content_02 .con_02:hover {color:#dd3d1b;}
 
     #content_02 .con_03 {padding:50px 0 0 0 ; z-index:19; transition:0.5s;}
-    #content_02 .con_03 i {font-size:13.5vw;}
-    #content_02 .con_03 strong {font-size:3.7vw; line-height:100px;}
+    #content_02 .con_03 i {font-size:13vw;}
+    #content_02 .con_03 strong {font-size:3.2vw; line-height:90px;}
     #content_02 .con_03:hover {color:#dd3d1b;}
 
     #content_02 .con_04 {padding:50px 0 0 0 ; z-index:19; transition:0.5s;}
-    #content_02 .con_04 i {font-size:13.5vw;}
-    #content_02 .con_04 strong {font-size:3.7vw; line-height:100px;}
+    #content_02 .con_04 i {font-size:13vw;}
+    #content_02 .con_04 strong {font-size:3.2vw; line-height:90px;}
     #content_02 .con_04:hover {color:#dd3d1b;}
 
 
