@@ -77,5 +77,17 @@ $(function(){
             $this.addClass('on').siblings().removeClass('on');
         });
     });
+
+
+
+    $('.con04_slider').slick({
+        arrows:false,
+        autoplay:true,
+        autoplaySpeed:10000,
+        pauseOnHover:false,
+        slidesToShow: 4,
+
+    });
+
 //------------------------------------------------------------------
 });
