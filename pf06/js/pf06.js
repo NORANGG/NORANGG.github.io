@@ -80,14 +80,57 @@ $(function(){
 
 
 
-    $('.con04_slider').slick({
+    const con04 = $('.con04_slider').slick({
         arrows:false,
         autoplay:true,
-        autoplaySpeed:10000,
+        autoplaySpeed:2000,
         pauseOnHover:false,
-        slidesToShow: 4,
+        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: '30px',
+        responsive: [
+            {
+              breakpoint: 769,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll : 1,
+                centerPadding: '5px',
+              }
+            },
+    
+            {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll : 1,
+                }
+              },
+    
+    
+    
+          ]
 
     });
 
+    $('#content_04 .btn i.xi-angle-left').on('click', function(){  
+        $('.con04_slider').slick('slickPrev')
+    });
+    
+    $('#content_04 .btn i.xi-angle-right').on('click', function(){
+        $('.con04_slider').slick('slickNext')
+    });  
+    
+    $('.con04_slider figure').eq(4).addClass('on')
+    con04.on('afterChange', function(e,s,c){
+        //let this_s=$('.con04_slider').find('.slick-center');
+        //console.log(this_s)  /*<-요게 찍히는지 확인하는거 this_s 는 this의 s(슬릭)이라는뜻 . 모바일때도 똑같이 하고싶다면 밑에처럼 if($(window)해서 적어보기!*/
+        if($(window).width()>768){
+            $('.con04_slider figure').eq(c+4).addClass('on').siblings().removeClass('on'); /*<-c+4는 앞에 4개의 클론이 있는거. 근데 내가헷갈리니까 그냥 1,2,3다 해보고 되는걸로 하자*/
+        } else {
+            $('.con04_slider figure').eq(c+2).addClass('on').siblings().removeClass('on');
+        }
+        
+    });
+    
 //------------------------------------------------------------------
 });
