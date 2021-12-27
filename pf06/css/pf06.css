@@ -570,7 +570,7 @@
 
         #content_05 .container .time {display:block; position:relative;}
         #content_05 .container .time h3 {font-size:6vw; text-align:center; position:relative; font-weight:500; padding:20px 0;}
-        #content_05 .container .time h3::after {content:""; display:none; width:1200px; height:1px; background:#ddd; position:absolute; top:50px; left:0; margin:20px 0px;}
+        #content_05 .container .time h3::after {content:""; display:block; width:93vw; height:1px; background:#ddd; position:absolute; top:9vw; left:0; margin:20px 0px;}
 
         #content_05 .container .time ul {text-align:center; font-size:5vw; color:#fd671a; padding:0px 30px 40px;}
         #content_05 .container .time ul span {font-size:3vw; color:#999;}
@@ -578,7 +578,7 @@
         #content_05 .container .time ul li p {padding:0 0px;}
         #content_05 .container .time ul li b {margin-left:auto;}
 
-        #content_05 .container .time ul::after {content:""; display:block; width:93vw; height:1px; background:#ddd; position:absolute; top:53%; left:-2%; margin:0px 20px;}
+        #content_05 .container .time ul::after {content:""; display:block; width:70vw; height:1px; background:#eeeeee; position:absolute; top:53%; left:10%; margin:0px 20px;}
 
         #content_05 .container .out li {padding-left:0px;}
         #content_05 .container .out li>b {padding-left:0px;}
