@@ -74,10 +74,10 @@ $(function(){
 
     AOS.init({
 
-        disable: function () {
-          var desktop = 768;
-          return window.innerWidth < desktop;
-        } // 768px 이하일 때 disable
+        // disable: function () {
+        //   var desktop = 768;
+        //   return window.innerWidth < desktop;
+        // } // 768px 이하일 때 disable
       
       });
 
