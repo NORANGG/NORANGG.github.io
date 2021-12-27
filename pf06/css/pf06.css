@@ -38,7 +38,7 @@
 
 
 /*-----반응형 메뉴버튼-----*/
-.mopen {display:none; position:fixed; top:70px; right:-5px; font-size:34px; z-index:999;}
+.mopen {display:none; position:fixed; top:65px; right:-5px; font-size:34px; z-index:999;}
 .mopen i {padding:0.25rem; color:#000; background:#dddddd8c; transition:0.5s; }
 
 .mopen .xi-close {display:none; }
@@ -89,7 +89,7 @@
     /*--헤더----*/
     #header {width:auto; margin:0 auto; padding:0 15px;}
     #header .container {display:flex; justify-content:space-between;}
-    #header h1 img {max-width:70%;}
+    #header h1 img {max-width:60%;}
     #header nav {position:absolute; top:0%; left:-100%; width:calc(100% - 60px); height:100%; background:#fff; border-right:1px solid#ddd; transition:0.7s; z-index:999;}
     #header nav.on {left:0%;}
 
@@ -125,7 +125,7 @@
     
     /*--메인슬라이드--*/
     #main_visual {position:relative;}
-    #main_visual figure {height:90vw;}
+    #main_visual figure {height:100vw;}
     #main_visual figure:after {content:""; display:block; width:auto; height:100vw; background:rgba(0, 0, 0, 0.4); position:static; top:0; right:13%;}
     #main_visual .itm01 {background:url(../img/main_01.jpg) no-repeat center center/cover;}
     #main_visual .itm02 {background:url(../img/main_02.jpg) no-repeat center center/cover;}
@@ -175,8 +175,8 @@
         #content_01 .container {display:flex; justify-content:space-between;}
         
         #content_01 .text {text-align:center; flex-flow:row wrap; padding:0 20px;}
-        #content_01 .text h2 {font-size:7vw; font-weight:500; margin-bottom:6vw; color:#0D4993; letter-spacing:-0.07rem;}
-        #content_01 .text span {font-size:3.5vw; font-weight:100; background:#fd671a; color:#fff; padding:1vw 5vw;}
+        #content_01 .text h2 {font-size:6vw; font-weight:500; margin-bottom:1vw; color:#0D4993; letter-spacing:-0.07rem;}
+        #content_01 .text span {display:none; font-size:3.5vw; font-weight:100; background:#fd671a; color:#fff; padding:1vw 5vw;}
 
         #content_01 .content {margin:0 auto; padding-top:25px; text-align:center; margin-bottom:3vw; }
         #content_01 .content ul {display:flex; justify-content:space-between;}
@@ -526,23 +526,62 @@
 
 /*-----섹션05 - 콘텐츠05-----*/
 #content_05 .wrap_controllers{display:none;}
-#content_05 {width:1900px; border-bottom:1px solid#ddd; padding:40px 0; margin:0 auto;}
-#content_05 .container {display:flex; width:1200px; margin:0 auto;}
+#content_05 {width:1900px; border-bottom:1px solid#ddd; padding:20px 0; margin:0 auto;}
+#content_05 .container {width:1200px; margin:0 auto;}
 
-#content_05 .container .map {flex:1; padding-right:15px;}
+#content_05 .container .map { padding-right:15px;}
 
-#content_05 .container .time {flex:1; padding-right:15px;}
-#content_05 .container .time h3 {font-size:30px; margin-bottom:20px;}
-#content_05 .container .time h3::after {content:""; display:block; width:auto; height:1px; background:#ddd; margin:20px 17px;}
-#content_05 .container .time ul {font-size:24px; color:#fd671a; padding:5px 0 15px 0;}
-#content_05 .container .time ul span {font-size:18px; color:#999; }
-#content_05 .container .time ul li {display:flex; font-size:16px; color:#000; line-height:2;}
-#content_05 .container .time ul li p {padding:0 30px;}
+#content_05 .container .time {display:flex; position:relative;}
+#content_05 .container .time h3 { font-size:30px; position:relative; font-weight:500; padding:20px 0;}
+#content_05 .container .time h3::after {content:""; display:block; width:1200px; height:1px; background:#ddd; position:absolute; top:50px; left:0; margin:20px 0px;}
 
+#content_05 .container .time ul {margin:0 auto; font-size:23px; color:#fd671a; padding:90px 30px 15px}
+#content_05 .container .time ul span {font-size:18px; color:#999;}
+#content_05 .container .time ul li {display:flex; font-size:16px; color:#424242; padding-top:20px;}
+#content_05 .container .time ul li p {padding:0 40px;}
+#content_05 .container .time ul li b {margin-left:auto;}
 
+#content_05 .container .time ul::after {content:""; display:block; width:1px; height:260px; background:#ddd; position:absolute; top:26%; left:56%; margin:0px 20px;}
 
+#content_05 .container .out li {padding-left:10px;}
+#content_05 .container .out li>b {padding-left:50px;}
 
+#content_05 .container .den li {padding-left:55px;}
 
+@media (max-width:768px) {
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700&display=swap');
+
+        * {outline:1px solid#f00;} 
+        
+        #wrap {min-width:auto;}
+        .container {display:flex; flex-direction:column; width:auto; margin:0 auto;}                         
+        .container>* {padding:0 15px;}
+        .br {display:none;}
+
+        /*-----섹션05 - 콘텐츠05-----*/
+        #content_05 .wrap_controllers{display:none;}
+        #content_05 {width:auto; border-bottom:1px solid#ddd; padding:0px 0; margin:0 auto;}
+        #content_05 .container {width:auto; margin:0 auto;}
+
+        #content_05 .container .map {padding-right:0px; width:auto; height:100%;}
+
+        #content_05 .container .time {display:block; position:relative;}
+        #content_05 .container .time h3 {font-size:6vw; text-align:center; position:relative; font-weight:500; padding:20px 0;}
+        #content_05 .container .time h3::after {content:""; display:none; width:1200px; height:1px; background:#ddd; position:absolute; top:50px; left:0; margin:20px 0px;}
+
+        #content_05 .container .time ul {text-align:center; font-size:5vw; color:#fd671a; padding:0px 30px 40px;}
+        #content_05 .container .time ul span {font-size:3vw; color:#999;}
+        #content_05 .container .time ul li {display:flex; font-size:4.3vw; color:#424242; padding-top:5vw;}
+        #content_05 .container .time ul li p {padding:0 0px;}
+        #content_05 .container .time ul li b {margin-left:auto;}
+
+        #content_05 .container .time ul::after {content:""; display:block; width:93vw; height:1px; background:#ddd; position:absolute; top:53%; left:-2%; margin:0px 20px;}
+
+        #content_05 .container .out li {padding-left:0px;}
+        #content_05 .container .out li>b {padding-left:0px;}
+
+        #content_05 .container .den li {padding-left:0px;}
+}
 
 
 
