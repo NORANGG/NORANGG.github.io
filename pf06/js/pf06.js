@@ -15,7 +15,7 @@ $(function(){
     });
 
 
-    
+
     $('.mopen').on('click', function(){
         $(this).toggleClass('on');
         $('nav').toggleClass('on');
@@ -72,7 +72,14 @@ $(function(){
         $('.con02_slide').slick('slickNext')
     });   
 
-    AOS.init();
+    AOS.init({
+
+        disable: function () {
+          var desktop = 768;
+          return window.innerWidth < desktop;
+        } // 768px 이하일 때 disable
+      
+      });
 
 
     
@@ -139,5 +146,34 @@ $(function(){
         
     });
     
+
+
+    $('.top_b').on('click', function(){
+        $('html, body').animate({scrollTop:0},800);
+    });
+
+    $(window).on('scroll', function(){
+        var sct=$(window).scrollTop();
+        var wd=$(window).width();
+        if (wd>768) {
+            if(sct>400) {
+                $('.top_b').fadeIn()
+            }else{
+                $('.top_b').fadeOut()
+            }
+        }
+    });
+
+    $(window).on('scroll', function(){
+        var sct=$(window).scrollTop();
+        var wd=$(window).width();
+        if (wd<768) {
+            if(sct>400) {
+                $('.top_b').fadeIn()
+            }else{
+                $('.top_b').fadeOut()
+            }
+        }
+    });
 //------------------------------------------------------------------
 });
