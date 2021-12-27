@@ -367,7 +367,7 @@
         .br {display:none;}
 
         /*-----섹션03 - 콘텐츠03-----*/
-        #content_03 {width:auto; padding:10px 0 50px 0; margin:0 auto; background:url(../img/visual.png) no-repeat left center/cover;}
+        #content_03 {width:auto; padding:10px 0 50px 0; margin:0 auto; background:url(../img/visual.png) no-repeat right center/cover;}
         #content_03 h2 {font-size:6vw; font-weight:500; margin-left:39%; width:auto; padding:30px 0;}
 
         #content_03 .container {display:block; margin:0 auto; padding:0 15px; width:auto; }
