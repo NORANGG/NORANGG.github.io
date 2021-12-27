@@ -551,7 +551,7 @@
 @media (max-width:768px) {
         @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700&display=swap');
 
-        * {outline:1px solid#f00;} 
+        * {outline:1px solid#f00--;} 
         
         #wrap {min-width:auto;}
         .container {display:flex; flex-direction:column; width:auto; margin:0 auto;}                         

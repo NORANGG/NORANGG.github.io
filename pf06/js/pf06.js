@@ -67,8 +67,10 @@ $(function(){
         $('.con02_slide').slick('slickNext')
     });   
 
+    AOS.init();
 
 
+    
     $(function(){
         $('.tab_meun>li').on('click', function(){
             var $this= $(this);
