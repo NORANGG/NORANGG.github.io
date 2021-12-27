@@ -4,13 +4,18 @@ $(function(){
     $('.main_slider').slick({
         arrows:false,
         autoplay:true,
-        autoplaySpeed:10000,
+        autoplaySpeed:7000,
         pauseOnHover:false,
         fade:true,
     });
 
+    $('#main_visual .main_slider figure').eq(0).addClass('on');
+    $('#main_visual .main_slider').on('afterChange', function(e,s,c){
+        $('#main_visual .main_slider figure').eq(c).addClass('on').siblings().removeClass('on');
+    });
 
 
+    
     $('.mopen').on('click', function(){
         $(this).toggleClass('on');
         $('nav').toggleClass('on');
