@@ -96,8 +96,9 @@
     #header nav.on {left:0%;}
 
     #header nav>ul {display:flex; flex-direction:column; padding:20px 0; text-align:center; }
-    #header nav>ul>li {position:relative; }
-    #header nav>ul>li>a {display:block; padding:20px 40px; font-size:18px;}
+    #header nav>ul>li {position:relative; border-bottom:1px solid#eeeeee;}
+    #header nav>ul>li:hover {color:#fd671a;}
+    #header nav>ul>li>a {display:block; padding:15px 10px; font-size:4.5vw; text-align:left;}
     #header nav>ul>li::after {content:""; display:none; width:0px; height:3px; background:#fd671a; transition:0.5s; margin:0 auto; }
     #header nav>ul>li:hover::after {width:100%;}
             /*서브메뉴*/        
@@ -114,10 +115,10 @@
     #header nav .sub_menu {display:none; position:static; top:50px; width:auto; height:auto; overflow:hidden; transition:none; z-index:999;}
     #header nav:hover>.sub_menu {display:none; height:auto;}
 
-    #header nav>ul ul a {display:block; font-size:16px; color:#636363;}
-    #header .sub_menu>li>a:hover {font-size:15px; color:#ffffff;}
+    #header nav>ul ul a {display:block; font-size:4vw; color:#636363;}
+    #header .sub_menu>li>a:hover {font-size:4.5vw; color:#ffffff;}
     
-    #header nav>ul>li>ul>li>a {position:static; top:0.5rem; left:0; width:100%; text-align:center; line-height:15px; background:#f7f7f7; padding:15px 0; z-index:999;}
+    #header nav>ul>li>ul>li>a {position:static; top:0.5rem; left:0; width:100%; text-align:center; line-height:15px; background:#f7f7f7; padding:10px 0; z-index:999;}
 
 
 
