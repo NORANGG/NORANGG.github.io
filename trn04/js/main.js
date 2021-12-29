@@ -24,6 +24,22 @@ $('.main_slider').on('afterChange', function(e,s,c){
 
 
 
+$('.pr_slider').slick({
+    autoplay:true,
+    autoplaySpeed:3000,
+    arrows:false,
+    centerMode:true,
+    centerPadding:'100px',
+    slidesToShow:3,
+    pauseOnHover:false,
+    pauseOnFocus:false,
+    dots:true,
+});
+
+$('.pr_slider figure').eq(0).addClass('on');
+$('.pr_slider').on('afterChange', function(e,s,c){
+    $('.pr_slider figure').eq(c+4).addClass('on').siblings().removeClass('on');
+});
 
 
 

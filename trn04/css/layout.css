@@ -65,11 +65,71 @@ body {font-size:0.8rem;}
 #main_visual .search_box .txt a:hover i {transform:rotate(360deg);}
 
 #main_visual .search_box .right h3 {font-size:1.3rem; font-weight:700; margin-bottom:1rem;}
-#main_visual .search_box .right form {display:flex; justify-content:space-between; border:0.05rem solid var(--lc);  padding:0.3rem 1rem;; border-radius:0.3rem;}
+#main_visual .search_box .right form {display:flex; justify-content:space-between; border:0.05rem solid var(--lc); padding:0.3rem 1rem; border-radius:0.3rem;}
 #main_visual .search_box .right form input[type="search"] {border:none; outline:none; background:transparent;}
 #main_visual .search_box .right form input[type="search"]::placeholder {color: var(--lc);}
+#main_visual .search_box .right form input[type="search"]:focus::placeholder {color:transparent;}
+#main_visual .search_box .right form input[type="search"]:focus {color:var(--lc); font-size:1rem;}
 
 #main_visual .search_box .right form button {font-size:1.5rem; margin-left:auto;}
+
+
+
+
+#solution {padding:10rem 0 10rem 0; text-align:center;}
+#solution h2 {font-size:2rem; font-weight:700;}
+#solution h2:after {content:""; display:block; width:5rem; height:0.15rem; background: var(--mc); margin:0.5rem auto 1rem auto;}
+#solution p {font-size:0.75rem; font-weight:400; margin-bottom:2rem;}
+
+#solution .container {display:flex; flex-flow:row wrap; width:60rem; margin:0 auto;}   /*<-flex-flow:row wrap;때문에 객체들이 60rem을 넘어가면 밑으로 내려감*/
+#solution .container figure {position:relative; width:30rem; height:17.5rem; overflow:hidden;}
+#solution .container figure::after {content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:linear-gradient(to left, transparent, var(--mc)); opacity:0; transition:0.5s;}
+
+#solution .container figure .txt {position:absolute; top:13rem; left:2.5rem; width:100%; height:100%; text-align:left; color: var(--lc); z-index:999; transition:0.5s;}
+#solution .container figure .txt h3 {font-size:1.75rem; font-weight:700;}
+#solution .container figure .txt p {font-size:0.75rem; font-weight:400; line-height:1.45;}
+#solution .container figure .txt h3:after {content:""; display:block; width:2rem; height:0.1rem; background: var(--lc); margin:1.5rem 0; transition:0.5s;}
+
+#solution .container figure:hover:after {opacity:0.5;}
+#solution .container figure:hover .txt {top:8rem;}
+#solution .container figure:hover .txt h3:after {width:10rem;}
+
+#solution .container figure:nth-child(1) {transform:translateY(5rem);}
+#solution .container figure:nth-child(3) {transform:translateY(5rem);}
+
+
+
+
+#product {padding:5rem 0; text-align:center; background:#d1e0e5;}
+#product h2 {font-size:2rem; font-weight:700;}
+#product h2:after {content:""; display:block; width:5rem; height:0.15rem; background: var(--mc); margin:0.5rem auto 1rem auto;}
+#product p {font-size:0.75rem; font-weight:400; margin-bottom:2rem;}
+
+#product .container {}
+#product .container figure {position:relative; width:27.5rem; height:17.5rem; margin:0 0.5rem;}
+#product .container figure .case {position:absolute; top:50%; left:0; width:100%; height:10rem; background:url(../img/img_spec1.jpg) no-repeat center center/cover; transform:translateY(-50%); border:transparent; transition:0.5s;}
+#product .container figure:hover .case {height:100%; border:4px solid var(--lc);}
+
+#product .container figure .itm02 {background:url(../img/img_spec2.jpg) no-repeat center center/cover;}
+#product .container figure .itm03 {background:url(../img/img_spec3.jpg) no-repeat center center/cover;}
+#product .container figure .itm04 {background:url(../img/img_spec4.jpg) no-repeat center center/cover;}
+#product .container figure .itm05 {background:url(../img/img_spec5.jpg) no-repeat center center/cover;}
+
+
+#product .container figure .case .txt {display:block; text-align:left; color: var(--lc); padding:2.5rem; width:100%;}
+#product .container figure h3 {font-size:1.5rem; font-weight:700; margin-bottom:0.7rem;}
+#product .container figure strong {display:block; font-size:0.7rem; font-weight:300; margin-bottom:1rem;}
+#product .container figure a {display:block;}
+#product .container figure span {display:inline-block; width:0rem; overflow:hidden; white-space:nowrap; transition:0.5s;}
+#product .container figure:hover span {width:5rem;}
+
+#product .container figure.on .case {height:100%; border:4px solid var(--lc);}
+#product .container figure.on span {width:5rem;}
+
+
+
+
+
 
 
 
