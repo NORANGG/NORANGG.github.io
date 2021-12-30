@@ -53,7 +53,7 @@
 
 
 /*--메인 비디오----*/
-#main_video {margin:0 0 0 200px; background:#f00; height:800px; width:90%; position:relative;}
+#main_video {margin:0 0 0 200px; background:#000; height:800px; width:90%; position:relative;}
 #main_video .container {padding:0 15px; margin:0 auto; width:1200px; color:#555; cursor:pointer;}
 #main_video .container i.xi-play {position:absolute; font-size:28px; top:730px; left:540px; background:#ffffffbe; border-radius:50%; padding:5px;}
 #main_video .container i.xi-pause {position:absolute; font-size:28px; top:730px; left:590px; background:#ffffffbe; border-radius:50%; padding:5px;}
@@ -63,19 +63,52 @@
 
 
 /*--섹션 01 - 신라뉴스----*/
-#content_01 {margin:90px 0 200px 200px; text-align:center;}
+#content_01 {padding:90px 0 100px 200px; text-align:center; position:relative; border-bottom:1px dashed#008638;}
 #content_01 h2 {font-size:32px; font-weight:700; margin-bottom:40px; font-family: 'Noto Serif KR', serif;}
-#content_01 h2:after {content:""; display:inline-block; width:450px; height:2px; background:#000; vertical-align:middle; margin:20px; }
+#content_01 h2:after {content:""; display:inline-block; width:450px; height:2px; background:#000; vertical-align:middle; margin:20px;}
 #content_01 h2:before {content:""; display:inline-block; width:450px; height:2px; background:#000; vertical-align:middle; margin:20px;}
 
-#content_01 .container {display:flex; width:1200px; padding:0 15px 100px; margin:0 auto; border-bottom:1px solid#ddd;}
-#content_01 .container>div {flex:1; flex-wrap:row wrap;}
-#content_01 .container span {display:block; font-size:16px; font-weight:500; color:#008638; }
-#content_01 .container figure {padding:20px 10px;}
+#content_01 .container {width:1200px; padding:0 20px 0px 10px; margin:0 auto; }
+#content_01 .container span {display:block; font-size:15px; font-weight:400; color:#008638; }
+#content_01 .container figure {padding:20px 0; }
 #content_01 .container figure img {width:100%;}
 
-#content_01 .container h3 {font-size:16px; font-weight:500; text-align:center; margin-bottom:20px;}
-#content_01 .container strong {display:block; font-size:14px; font-weight:300; text-align:left; color:#444;}
+#content_01 .container h3 {font-size:17px; font-weight:500; text-align:center; margin-bottom:20px; line-height:1.2;}
+#content_01 .container a:hover h3 {text-decoration:underline; color:#EF6725;}
+#content_01 .container strong {display:block; font-size:14px; font-weight:300; text-align:center; color:#333; line-height:1.5;}
+
+#content_01 .container .con01_slide div {margin:0 5px;}
+
+#content_01 .btn {position:absolute; top:45%; left:81%; cursor:pointer;}
+#content_01 .btn i {color:#c9c9c9; padding:10px; font-size:70px;}
+#content_01 .btn i.xi-angle-left-thin {margin-left:-1250px;}
+#content_01 .btn i.xi-angle-right-thin {margin-left:1250px;}
+
+
+
+/*--섹션 02 - sns----*/
+#content_02 {padding:0px 0 100px 200px; text-align:center; background:#fff}
+
+#content_02 .sns {}
+#content_02 .sns i {font-size:36px; padding:30px 15px}
+#content_02 .sns i:hover {color:#EF6725;}
+
+#content_02 .container {}
+#content_02 .con02_slide figure {flex:1; position:relative;}
+#content_02 img {width:100%;}
+
+#content_02 .con02_slide figure:after {opacity:0; content:""; display:block; bottom:0%; left:0%; height:0%; width:100%; position:absolute; background:#000000cb; transition:0.3s;}
+#content_02 .con02_slide figure:hover:after {opacity:1; height:80%;}
+
+#content_02 .con02_slide figure i {opacity:0; font-size:30px; color:#fff; position:absolute; top:50%; left:45%; z-index:100;}
+#content_02 .con02_slide figure:hover i {opacity:1;}
+#content_02 .con02_slide figure:hover i:hover {color:#f00;}
+
+
+
+
+
+
 
 
 
