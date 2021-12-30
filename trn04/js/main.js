@@ -33,7 +33,7 @@ $('.pr_slider').slick({
     slidesToShow:3,
     pauseOnHover:false,
     pauseOnFocus:false,
-    dots:true,
+    dots:false,
 });
 
 $('.pr_slider figure').eq(0).addClass('on');
