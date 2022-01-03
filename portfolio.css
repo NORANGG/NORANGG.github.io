@@ -1,0 +1,64 @@
+:root {
+    --mc:#FFEA75;
+    --sc:#FA766B;
+    --lc:#f4f4f4;
+    --dc:#444444;
+}
+
+html {font-size:20px;}
+body {font-size:0.8rem; color: var(--dc);}
+
+#wrap {min-width:95rem;}
+
+#header h1 {position:fixed; top:3rem; left:3rem; z-index:999;}
+#header nav {position:fixed; top:50%; right:3rem; transform:translateY(-50%); z-index:999;}
+#header .cover_btn {position:fixed; top:3rem; right:3rem; z-index:999;}
+#header .cover_btn i {font-size:1.5rem; padding:0.5rem; background: var(--lc);}
+
+
+.section {text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer .top {position:fixed; bottom:3rem; right:3rem; z-index:999;}
+#footer .top i {font-size:1.5rem; padding:0.5rem; background: var(--lc);}
+#footer address {position:fixed; bottom:3rem; left:3rem; z-index:999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
