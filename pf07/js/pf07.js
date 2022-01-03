@@ -69,10 +69,10 @@ $('#content_01 .btn i.xi-angle-right-thin').on('click', function(){
 
 $('.con02_slide').slick({
     arrows:false,
-    autoplay:true,
+    //autoplay:true,
     autoplaySpeed:4000,
     centerMode:true,
-    centerPadding: '60px',
+    centerPadding: '40px',
     pauseOnHover:false,
     slidesToShow: 6,
     responsive: [
@@ -103,7 +103,51 @@ $('.con02_slide').slick({
 
 
 
+function getDate(date) { // 날짜 변환 함수 (년, 월, 일을 반환)
+    return date.toLocaleDateString().replace(/\./g, "").split(" ");
+  }
+  
+  const pad = (str) => str > 10 ? str : '0' + str;   // pad 함수 ( 10 이하는 앞에 0붙이기 )
+  
+  window.onload = function() {
+    const ToDay = new Date();  // date 객체
     
+    const nowMonth = ToDay.getMonth();  // 현재 월
+    
+    const [y, m] = getDate(new Date(ToDay.setMonth(nowMonth)));   // 현재의 년과 월구하기 (이 코드로 다음달, 이전달로 이동 가능)
+  
+    const lastDay = getDate(new Date(y, m, 0)).pop() * 1;  // 해당 달의 마지막 일 구하기
+    
+    const day = new Date([y, m, 1].join("-")).getDay() * 1;  // 해당 달의 첫 요일 구하기
+    
+    const maxDay = Math.ceil((day + lastDay) / 7) * 7;  // 마지막 날과 시작 일을 더해 7의 배수를 만들어 줍니다.
+  
+    let html = '';
+  
+    for (let i = 1; i <= maxDay; i++) {    // 요일과 마지막 일을 합친 수만큼 반복문을 돌려줍니다.
+      const diff = i - day;
+      const d = diff <= lastDay && i > day ? diff : '';
+      const tmpClass = !d ? 'background' : '';
+  
+    // 해당 요일을 구하는 수식은 [ i - 첫 요일 ] 입니다.  
+
+    // 첫 요일보다 작은 수는 이전달의 일이라는 뜻이며
+    // 해당 달의 마지막 일보다 크면 다음 달이라는 뜻으로 넘기면 됩니다.
+
+
+      html += `<div class="dateSel ${tmpClass}">${d}</div>`;
+    }
+  
+    document.querySelector('.dateSel').innerHTML = html;   // 만든 날짜 정보를 넣어준다. 
+    document.querySelector('.date_text').innerText = `${y}년 ${pad(m)}월`;
+  }
+      
+
+
+
+
+
+
 
 
 
