@@ -38,16 +38,16 @@ $('.con01_slide').slick({
         {
           breakpoint: 769,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll : 2,
+            slidesToShow: 1,
+            slidesToScroll : 1,
           }
         },
 
         {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll : 2,
+              slidesToShow: 1,
+              slidesToScroll : 1,
             }
           },
 
@@ -79,8 +79,8 @@ $('.con02_slide').slick({
         {
           breakpoint: 769,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll : 2,
+            slidesToShow: 4,
+            slidesToScroll : 4,
           }
         },
 
@@ -100,8 +100,39 @@ $('.con02_slide').slick({
 
 
 
-
-
+const dayContent =[
+  '<br><br>신정 <br> <i class="xi-radiobox-checked">', 
+  '<br><br>입학식 <br> <i class="xi-radiobox-checked">',
+  '',
+  '<br><br>성적 이의신청<br> 및 정정 <br> <i class="xi-radiobox-checked">',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '<br><br>동계 계절학기 <br><br>전과 신청 <br> <i class="xi-radiobox-checked">',
+  '',
+  '<br><br>성적표 발송 <br> <i class="xi-radiobox-checked">',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '<br><br>재입학 신청 <br> <i class="xi-radiobox-checked">',
+  '',
+  '',
+  '',
+  '',
+  '<br><br>예비수강신청 <br> <i class="xi-radiobox-checked">',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '<br><br>설 연휴 <br> <i class="xi-radiobox-checked">',
+]
 
 function getDate(date) { // 날짜 변환 함수 (년, 월, 일을 반환)
     return date.toLocaleDateString().replace(/\./g, "").split(" ");
@@ -127,7 +158,7 @@ function getDate(date) { // 날짜 변환 함수 (년, 월, 일을 반환)
     for (let i = 1; i <= maxDay; i++) {    // 요일과 마지막 일을 합친 수만큼 반복문을 돌려줍니다.
       const diff = i - day;
       const d = diff <= lastDay && i > day ? diff : '';
-      const tmpClass = !d ? 'background' : '';
+      const tmpClass = !d ? 'background' : 'doc';
   
     // 해당 요일을 구하는 수식은 [ i - 첫 요일 ] 입니다.  
 
@@ -139,19 +170,16 @@ function getDate(date) { // 날짜 변환 함수 (년, 월, 일을 반환)
     }
   
     document.querySelector('.dateSel').innerHTML = html;   // 만든 날짜 정보를 넣어준다. 
-    document.querySelector('.date_text').innerText = `${y}년 ${pad(m)}월`;
+    //document.querySelector('.date_text').innerText = `${y}년 ${pad(m)}월`;
+    const content = document.querySelectorAll('.doc');
+     content.forEach((e,i)=>{
+      e.innerHTML += `<span>${dayContent[i]} </span>`
+    })
+  
   }
       
 
-
-
-
-
-
-
-
-
-
+  
     $(window).on('resize', function(){
         if($(window).width() > 768) {               /*만약 윈도우가 768보다 크면*/
             $('#header').removeClass('on');         /*#헤더의 on 클래스를 떼고*/
@@ -164,6 +192,8 @@ function getDate(date) { // 날짜 변환 함수 (년, 월, 일을 반환)
 $('.mopen').on('click', function(){
     $('#header').toggleClass('on');
 });
+
+
 
 
 
