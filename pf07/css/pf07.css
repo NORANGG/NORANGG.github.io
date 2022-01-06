@@ -329,8 +329,8 @@
 
     #content_01 .btn {position:absolute; top:50%; left:75%; cursor:pointer;}
     #content_01 .btn i {color:#c9c9c9; padding:5px; font-size:10vw; font-weight:700;}
-    #content_01 .btn i.xi-angle-left-thin {margin-left:-270px;}
-    #content_01 .btn i.xi-angle-right-thin {margin-left:270px;}
+    #content_01 .btn i.xi-angle-left-thin {margin-left:-250px;}
+    #content_01 .btn i.xi-angle-right-thin {margin-left:250px;}
 
 
 
