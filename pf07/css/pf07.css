@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
-* {outline:1px solid#f00;} 
+* {outline:1px solid#f00--;} 
 
 #wrap {min-width:1900px;}
 .br {display:none;}
@@ -218,11 +218,11 @@
 
 
 @media (max-width:768px) {
-    * {outline:1px solid#f00;} 
+    * {outline:1px solid#f00--;} 
 
     #wrap {min-width:auto;}
     .container {display:flex; flex-direction:column; width:auto; margin:0 auto;}                         
-    .container>* {padding:0 15px;}
+    .container>* {padding:0 0px;}
     .br {display:none;}
 
 
@@ -283,7 +283,7 @@
 
 
     /*--메인 비디오----*/
-    #main_video {margin:15.9vw 0 0 0px; background:#000; height:80vh; width:auto; position:relative;}
+    #main_video {margin:13vw 0 0 0px; background:#000; height:80vh; width:auto; position:relative;}
     #main_video .container {padding:0 0px; margin:0 auto; width:auto; color:#555; cursor:pointer;}
     #main_video .container i.xi-play {position:absolute; font-size:6vw; top:470px; left:150px; background:#ffffffbe; border-radius:50%; padding:5px;}
     #main_video .container i.xi-pause {position:absolute; font-size:6vw; top:470px; left:200px; background:#ffffffbe; border-radius:50%; padding:5px;}
@@ -323,7 +323,7 @@
     #content_02 .sns i {font-size:8vw; padding:10px 15px 10px 15px;}
     #content_02 .sns i:hover {color:#EF6725;}
 
-    #content_02 .container {}
+    #content_02 .container {padding:0;}
     #content_02 .con02_slide figure {position:relative;}
     #content_02 img {width:100%;}
 
