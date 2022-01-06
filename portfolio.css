@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 :root {
     --mc:#FFEA75;
     --sc:#FA766B;
     --lc:#f4f4f4;
     --dc:#444444;
+    --dd:#dddddd;
 }
 
 html {font-size:20px;}
@@ -10,6 +12,12 @@ body {font-size:0.8rem; color: var(--dc);}
 
 #wrap {min-width:95rem;}
 
+.section {background:url(./lib/base/petten.png);}
+.section img {max-width:100%;}
+
+
+
+/*--헤더----*/
 #header h1 {position:fixed; top:3rem; left:3rem; z-index:999;}
 #header nav {position:fixed; top:50%; right:3rem; transform:translateY(-50%); z-index:999;}
 #header nav li a {position:relative; display:block; width:3rem; height:1rem; text-indent:-999rem;}
@@ -20,11 +28,15 @@ body {font-size:0.8rem; color: var(--dc);}
 #header .cover_btn i {font-size:1.5rem; padding:0.5rem; background: var(--lc);}
 
 
-.section {background:url(./lib/base/backpatten02.png);}
-.container {position:relative; display:grid; grid-template-columns:repeat(2,1fr); gap:15rem; align-items:center; width:70rem; margin:0 auto;}
 
-.intro figure {position:relative; border-radius:0%; border-radius:35% 65% 60% 40% / 47% 30% 70% 53%; overflow:hidden; animation:int_movie 1.5s infinite;}
-.intro .container::after {content:""; position:absolute; top:-1rem; right:3rem; display:block; width:5rem; height:5rem; background: var(--sc); border-radius:50%; opacity:0.5;}
+/*--메인----*/
+#main .slogan h2 {font-family: 'Itim', cursive; letter-spacing:0.2rem; line-height:1.2; font-size:3.2rem;}
+
+
+
+/*--인트로 - 커버---*/
+.intro figure {position:relative; border-radius:0%; border-radius:62% 38% 15% 85% / 63% 30% 70% 37%; overflow:hidden; animation:int_movie 1.5s infinite;}
+.intro .container::after {content:""; position:absolute; top:-1rem; right:3rem; display:block; width:5rem; height:5rem; background: var(--mc); border-radius:50%; opacity:0.8;}
 .intro figure:hover {border-radius:56% 44% 76% 24% / 25% 41% 59% 75%;}
 .intro figure img {width:80%;}
 
@@ -33,17 +45,55 @@ body {font-size:0.8rem; color: var(--dc);}
 .intro .slogan strong {display:block; font-size:1rem; font-weight:500;}
 
 @keyframes int_movie {
-    0% {border-radius:35% 65% 60% 40% / 47% 30% 70% 53%;}
-    50% {border-radius:56% 44% 76% 24% / 25% 41% 59% 75%;}
-    100% {border-radius:35% 65% 60% 40% / 47% 30% 70% 53%;}
+    0% {border-radius:62% 38% 15% 85% / 63% 30% 70% 37% ;}
+    50% {border-radius:36% 64% 83% 17% / 17% 67% 33% 83% }
+    100% {border-radius:62% 38% 15% 85% / 63% 30% 70% 37% ;}
+}
+
+
+.intro .wheel {position:absolute; bottom:3rem; left:50%; transform:translateX(-50%); width:1.5rem; height:2.4rem; border:2px solid#777; font-size:0; border-radius:0.7rem;}
+.intro .wheel span {position:absolute; top:0.3rem; left:50%; transform:translateX(-50%); width:0.17rem; height:0.5rem; background:#444; border-radius:0.05rem; animation:wheel 1s infinite;}
+
+@keyframes wheel {
+    to {top:0.6rem}
 }
 
 
 
+/*--포폴 01----*/
+.container {position:relative; display:grid; grid-template-columns:repeat(2,1fr); gap:2rem; align-items:center; width:70rem; margin:0 auto;}
+
+.section .mockup {background:url(./lib/base/mock.png) no-repeat center top/100%; padding:10% 14% 15% 14%;}
+.section .mockup figure {position:relative; padding-bottom:52%; overflow:hidden; border-radius:1rem;}
+.section .mockup figure img {position:absolute; top:0; left:0; width:100%; transition:1s; cursor:pointer; }
+.section .mockup figure img:hover {transform:translateY(-100%); top:100%;}
+
+.section .description h3 {font-size:2.5rem; font-weight:100; margin-bottom:1rem; font-family: 'Itim', cursive;}
+.section .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem;}
+.section .description dl {display:inline-flex; line-height:1.5rem; border-bottom:1px solid var(--dd);}
+.section .description dl dt {width:6rem;}
+.section .description dl dd {min-width:10rem;}
+.section .description dl dt::before {content:"＊"; margin-right:0.5rem;}
+.section .description dl:last-of-type{margin-bottom:2rem;}
+.section .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
+.section .description dd strong {vertical-align:middle; margin-right:1rem;}
+.section .description dd span:nth-child(1) {background:#789602;}
+.section .description dd span:nth-child(2) {background:#007ec3;}
+.section .description dd span:nth-child(3) {background:#f2f4e7;}
+
+.section .description ul {display:flex; gap:0.5rem;}
+.section .description ul a {display:block; background: var(--sc); color: var(--lc); line-height:3rem; padding:0 2rem; font-size:0.85rem; font-weight:100; border-radius:2rem}
 
 
 
 
+
+
+
+
+
+
+/*--푸터----*/
 #footer .top {position:fixed; bottom:3rem; right:3rem; z-index:999;}
 #footer .top i {font-size:1.5rem; padding:0.5rem; background: var(--lc);}
 #footer address {position:fixed; bottom:3rem; left:3rem; z-index:999;}
