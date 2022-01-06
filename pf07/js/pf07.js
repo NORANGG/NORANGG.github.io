@@ -28,6 +28,18 @@ $('nav>ul>li>a').on('click', function (){
 
 
 
+$(function(){
+  $('nav>ul>li').on('click', function(){   /*nav .depth01>li 를 클릭 했을때*/
+      if($('#header').hasClass('on')) {   /*만약 nav에 on이 붙었으면*/
+          $(this).addClass('on').siblings().removeClass('on');
+          $(this).siblings().find('.sub_menu').stop().slideUp();
+      };
+  });
+});
+
+
+
+
 $('.con01_slide').slick({
     arrows:false,
     autoplay:true,
@@ -189,9 +201,13 @@ function getDate(date) { // 날짜 변환 함수 (년, 월, 일을 반환)
 
 
 
-$('.mopen').on('click', function(){
-    $('#header').toggleClass('on');
-});
+    $('.mopen').on('click', function(){
+      $(this).toggleClass('on');
+      $('#header').toggleClass('on');
+      $('.mopen .xi-bars').toggleClass('on');
+      $('.mopen .xi-close').toggleClass('on');
+  });
+
 
 
 
