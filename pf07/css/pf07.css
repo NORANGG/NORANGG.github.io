@@ -48,7 +48,7 @@
 /*--오른쪽 배너----*/
 #right_banner {position:fixed; top:40px; right:-15px; transition:0.5s; text-align:center; z-index:99; }
 
-#right_banner span {display:block; padding:25px 0; background:#EF6725; color:#fff; font-size:18px;}
+#right_banner span {display:inline-block; padding:20px 26px; background:#EF6725; color:#fff; font-size:18px;}
 
 #right_banner ul {width:130px; height:400px; padding:0 15px;}
 #right_banner ul>li {line-height:20px; background:#f4f4f4; color:#444; padding:15px 0; font-size:15px;}
@@ -143,7 +143,7 @@
 
 #content_03 .background {background:#f7f7f7;}
 
-#content_03 span {color:#008638; font-size:14px; font-weight:400;}    /*<-달력 밑에 일정 제어하려면 이렇게! js에서 span이 dayContent 라고 정해놨기때문에*/
+#content_03 span {display:block; color:#008638; font-size:14px; font-weight:400; padding-top:15px;}    /*<-달력 밑에 일정 제어하려면 이렇게! js에서 span이 dayContent 라고 정해놨기때문에*/
 #content_03 i {display:none;}
 
 
@@ -228,8 +228,8 @@
 
     /*--탑----*/
     #top {padding:0px 0 0px 0px; background:#008638; color:#fff; position:relative; z-index:999;}
-    #top .container {display:flex; justify-content:center; width:auto; margin:0 auto; line-height:3; font-size:3.8vw;}
-    #top .container ul {display:flex; padding-left:19px;}
+    #top .container {display:flex; justify-content:center; width:auto; margin:0 auto; line-height:3; font-size:3.6vw;}
+    #top .container ul {display:flex; margin-left:25px;}
     #top .container ul li {padding:0 3vw;}
     #top .container ul li:hover {color:#EF6725;}
 
@@ -268,21 +268,22 @@
 
     
     /*--오른쪽 배너----*/
-    #right_banner {position:absolute; top:43px; left:0px; transition:0.5s; text-align:center; z-index:99;}
+    #right_banner {position:absolute; top:40px; left:0; right:0; display:flex; transition:0.5s; text-align:center; z-index:99; }
 
-    #right_banner span {display:block; padding:15px; background:#EF6725; color:#fff; font-size:4.5vw;}
+    #right_banner span {display:block; padding:15px; background:#EF6725; color:#fff; font-size:4vw;}
 
-    #right_banner ul {display:flex; width:auto; overflow:hidden; height:auto; padding:0px;}
-    #right_banner ul>li {line-height:0px; background:#f4f4f4; color:#444; padding:9vw 4.5vw 0 4.5vw; font-size:4vw; font-weight:500;}
-    #right_banner ul>li~li {border-top:1px solid#ddd;}
+    #right_banner ul {flex:1; display:flex; justify-content:space-between; width:auto; height:auto; padding:15px 30px; background: #f4f4f4;;}
+    #right_banner ul>li {line-height:0px; background:#f4f4f4; color:#444; padding:none; font-size:4vw; font-weight:500;}
+    #right_banner ul>li {}
     #right_banner ul>li:hover {background:#008638; color:#fff; transition:0.5s;}
 
     #right_banner ul>li i {display:none; font-size:24px; margin-bottom:7px;}
+    
 
 
 
     /*--메인 비디오----*/
-    #main_video {margin:16.7vw 0 0 0px; background:#000; height:80vh; width:auto; position:relative;}
+    #main_video {margin:15.9vw 0 0 0px; background:#000; height:80vh; width:auto; position:relative;}
     #main_video .container {padding:0 0px; margin:0 auto; width:auto; color:#555; cursor:pointer;}
     #main_video .container i.xi-play {position:absolute; font-size:6vw; top:470px; left:150px; background:#ffffffbe; border-radius:50%; padding:5px;}
     #main_video .container i.xi-pause {position:absolute; font-size:6vw; top:470px; left:200px; background:#ffffffbe; border-radius:50%; padding:5px;}
@@ -299,19 +300,19 @@
 
     #content_01 .container {width:auto; padding:0 0px 0px 0px; margin:0 auto;}
     #content_01 .container span {display:block; font-size:15px; font-weight:400; color:#008638; }
-    #content_01 .container figure {padding:20px 0; }
-    #content_01 .container figure img {width:100%;}
+    #content_01 .container figure {padding:20px 0;}
+    #content_01 .container figure img {width:90%; padding-left:20px;}
 
-    #content_01 .container h3 {font-size:17px; font-weight:500; text-align:center; margin-bottom:20px; line-height:1.2;}
+    #content_01 .container h3 {font-size:4.5vw; font-weight:500; text-align:center; margin-bottom:20px; line-height:1.2;}
     #content_01 .container a:hover h3 {text-decoration:underline; color:#EF6725;}
-    #content_01 .container strong {display:block; font-size:14px; font-weight:300; text-align:center; color:#333; line-height:1.5;}
+    #content_01 .container strong {display:none; font-size:14px; font-weight:300; text-align:center; color:#333; line-height:1.5;}
 
-    #content_01 .container .con01_slide div {margin:0 5px;}
+    #content_01 .container .con01_slide div {margin:0 10px 0 5px;}
 
-    #content_01 .btn {position:absolute; top:90%; left:50%; cursor:pointer;}
-    #content_01 .btn i {color:#c9c9c9; padding:10px; font-size:70px;}
-    #content_01 .btn i.xi-angle-left-thin {margin-left:-100px;}
-    #content_01 .btn i.xi-angle-right-thin {margin-left:100px;}
+    #content_01 .btn {position:absolute; top:47%; left:69.5%; cursor:pointer;}
+    #content_01 .btn i {color:#c9c9c9; padding:5px; font-size:10vw; font-weight:700;}
+    #content_01 .btn i.xi-angle-left-thin {margin-left:-255px;}
+    #content_01 .btn i.xi-angle-right-thin {margin-left:255px;}
 
 
 
@@ -326,22 +327,22 @@
     #content_02 .con02_slide figure {position:relative;}
     #content_02 img {width:100%;}
 
-    #content_02 .con02_slide figure:after {opacity:0; content:""; display:block; bottom:0%; left:0%; height:0%; width:100%; position:absolute; background:#000000d0; transition:0.25s;}
-    #content_02 .con02_slide figure:hover:after {opacity:1; height:80%;}
+    #content_02 .con02_slide figure:after {display:none; opacity:0; content:""; display:block; bottom:0%; left:0%; height:0%; width:100%; position:absolute; background:#000000d0; transition:0.25s;}
+    #content_02 .con02_slide figure:hover:after {display:none;  opacity:1; height:80%;}
 
-    #content_02 .con02_slide figure span {opacity:0; font-size:18px; line-height:1.3; font-weight:500; color:#fff; position:absolute; text-align:center; top:40%; left:50%; transform:translate(-50%,-50%); transition:0.6s; z-index:100; text-overflow:ellipsis; overflow:hidden; white-space: nowrap; width:230px;}
-    #content_02 .con02_slide figure:hover span {opacity:1;}
+    #content_02 .con02_slide figure span {display:none;  opacity:0; font-size:18px; line-height:1.3; font-weight:500; color:#fff; position:absolute; text-align:center; top:40%; left:50%; transform:translate(-50%,-50%); transition:0.6s; z-index:100; text-overflow:ellipsis; overflow:hidden; white-space: nowrap; width:230px;}
+    #content_02 .con02_slide figure:hover span {display:none;  opacity:1;}
 
-    #content_02 .con02_slide figure strong {opacity:0; font-size:15px; line-height:1.5; font-weight:400; color:#fff; position:absolute; text-align:center; top:65%; left:50%; transform:translate(-50%,-50%); transition:0.6s; z-index:100; text-overflow:ellipsis; overflow:hidden; white-space: nowrap; width:230px;}
-    #content_02 .con02_slide figure:hover strong {opacity:1;}
+    #content_02 .con02_slide figure strong {display:none;  opacity:0; font-size:15px; line-height:1.5; font-weight:400; color:#fff; position:absolute; text-align:center; top:65%; left:50%; transform:translate(-50%,-50%); transition:0.6s; z-index:100; text-overflow:ellipsis; overflow:hidden; white-space: nowrap; width:230px;}
+    #content_02 .con02_slide figure:hover strong {display:none;  opacity:1;}
 
 
-    #content_02 .bar {background:#eee1b6 url(../img/bar.png) no-repeat;}
-    #content_02 .bar a {display:block; display:flex; padding-left:0px;}
-    #content_02 .bar img {width:58%;}
-    #content_02 .bar figure {margin-left:450px;}
-    #content_02 .bar span {font-size:33px; color:#444; line-height:1.15; padding:50px 0 0 0px; font-family: 'Jua', sans-serif;}
-    #content_02 .bar strong {font-size:17px; color:#777; margin:135px 0 20px -300px; background:#f7f7f7; padding:7px 20px 4px 20px; border-radius:20px; font-family: 'Jua', sans-serif;}
+    #content_02 .bar {background:#eee1b6 url(../img/bar.png) no-repeat/cover;}
+    #content_02 .bar a {display:block; display:block; padding-left:0px;}
+    #content_02 .bar img {display:none; width:50%;}
+    #content_02 .bar figure {margin-left:0px;}
+    #content_02 .bar span {display:block; font-size:6vw; color:#444; line-height:1.15; padding:50px 0 10px 0px; font-family: 'Jua', sans-serif;}
+    #content_02 .bar strong {display:inline-block; font-size:4vw; color:#777; margin:0 0 20px 0; background:#f7f7f7; padding:7px 20px 4px 20px; border-radius:20px; font-family: 'Jua', sans-serif;}
 
 
 
@@ -364,6 +365,18 @@
 
     #content_03  .dateSel div {font-weight:bold; color:#333; min-height:10px; padding:10px; border-radius:0; border:1px solid #ef682546;}
     #content_03  .dateSel div:hover {background:#f1f1f1; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(7) {background:#f1f1f1;color:#EF6725;}
+    #content_03  .dateSel div:nth-child(8) {background:#f1f1f1; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(10) {background:#f1f1f1; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(17) {background:#f1f1f1; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(19) {background:#f1f1f1; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(25) {background:#f1f1f1; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(30) {background:#f1f1f1; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(37) {background:#f1f1f1; color:#EF6725;}
+
+
+
+
 
     #content_03 .background {background:#f7f7f7;}
 
