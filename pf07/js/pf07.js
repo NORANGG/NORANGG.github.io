@@ -28,17 +28,6 @@ $('nav>ul>li>a').on('click', function (){
 
 
 
-$(function(){
-  $('nav>ul>li').on('click', function(){   /*nav .depth01>li 를 클릭 했을때*/
-      if($('#header').hasClass('on')) {   /*만약 nav에 on이 붙었으면*/
-          $(this).addClass('on').siblings().removeClass('on');
-          $(this).siblings().find('.sub_menu').stop().slideUp();
-      };
-  });
-});
-
-
-
 
 $('.con01_slide').slick({
     arrows:false,

@@ -227,7 +227,7 @@
 
 
 @media (max-width:768px) {
-    * {outline:1px solid#f00;} 
+    * {outline:1px solid#f00--;} 
 
     #wrap {min-width:auto;}
     .container {display:flex; flex-direction:column; width:auto; margin:0 auto;}                         
@@ -327,7 +327,7 @@
 
     #content_01 .container .con01_slide div {margin:0 10px 0 5px;}
 
-    #content_01 .btn {position:absolute; top:50%; left:70%; cursor:pointer;}
+    #content_01 .btn {position:absolute; top:50%; left:75%; cursor:pointer;}
     #content_01 .btn i {color:#c9c9c9; padding:5px; font-size:10vw; font-weight:700;}
     #content_01 .btn i.xi-angle-left-thin {margin-left:-270px;}
     #content_01 .btn i.xi-angle-right-thin {margin-left:270px;}
