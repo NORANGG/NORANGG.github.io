@@ -8,7 +8,7 @@
     <meta name="description" content="2022 HYEJIN'S PORTFOLIO">
     <link rel="shortcut icon" href="./lib/base/favcion_norang.png">
 
-    <title>2022 HYEJIN'S PORTFOLIO</title>
+    <title>HYEJIN'S PORTFOLIO</title>
 
     <link rel="stylesheet" href="./lib/css/common.css">
     <link rel="stylesheet" href="./lib/css/slick.css">
@@ -25,7 +25,9 @@
 <div class="wrap">
     <header id="header">
         <h1>
-            <a href="#intro">2022 HYEJIN'S PORTFOLIO</a>
+            <a href="#intro">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.47 133.47"><defs></defs><circle class="cls-1" cx="66.73" cy="66.73" r="66.73"/></svg>
+            </a>
         </h1>
         <nav>
             <ul>
@@ -72,6 +74,8 @@
                 </div>
 
                 <div class="description">
+                    <div class="gooey"><span>0</span><span>1</span></div>
+
                     <h3>PORTFOLIO 01 - artbox</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
                         Enim vitae officiis ducimus fuga facilis.
@@ -90,7 +94,7 @@
                     </dl>
                     <dl>
                         <dt>process</dt>
-                        <dd>jquery , slick slide </dd>
+                        <dd>jquery , slick slide</dd>
                     </dl>
                     <ul>
                         <li><a href="NORANGG.github.io/pf04/" target="_blank">link github</a></li>
@@ -100,7 +104,14 @@
             </div>
         </section>
         
-        <section class="section portfolio_02">02</section>
+        <section class="section portfolio_02">
+           <div class="svg_mask">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328.56 313.46"><defs>
+                <style>.cls-1{fill:#ffff;}</style></defs>
+                <path class="cls-2" d="M207.34,47.28l31.94,98.32a10,10,0,0,0,9.49,6.89H352.14a10,10,0,0,1,5.86,18l-83.63,60.76a10,10,0,0,0-3.62,11.15l31.94,98.31a10,10,0,0,1-15.35,11.15l-83.63-60.76a10,10,0,0,0-11.72,0L108.36,351.9A10,10,0,0,1,93,340.75L125,242.44a10,10,0,0,0-3.63-11.15L37.7,170.53a10,10,0,0,1,5.86-18H146.94a10,10,0,0,0,9.48-6.89l32-98.32A10,10,0,0,1,207.34,47.28Z" transform="translate(-33.57 -40.39)"/></svg>
+           </div>
+        </section>
+
         <section class="section portfolio_03">03</section>
         <section class="section portfolio_04">04</section>
         <section class="section portfolio_05">05</section>
@@ -117,6 +128,17 @@
             &copy; 2022 noh.
         </address>
     </footer>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="bbq">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -5" result="bbq" />
+                <feBlend in="SourceGraphic" in="bbq" />
+            </filter>
+        </defs>
+    </svg>
+    
 </div>
 </body>
 </html>

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 :root {
-    --mc:#FFEA75;
-    --sc:#FA766B;
+    --mc:#FA766B;
+    --sc:#FFEA75;
     --lc:#f4f4f4;
     --dc:#444444;
     --dd:#dddddd;
@@ -17,11 +17,34 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 
+
+/*--SVG - 화면 왼쪽상단에 있는거---*/
+.cls-1{animation:colorChange 2s infinite;}
+
+
+@keyframes colorChange {
+    0% {fill:#c8a8cf;}
+    50% {fill:#FA766B;}
+    100% {fill:#c8a8cf;}
+}
+
+
+@keyframes pathChange {
+    0% {d:path("M141.73,75c0,36.86-30.63,73.57-66.73,66.73C23.37,132,26.37,110.61,8.27,75-8.43,42.14,47.57-2.39,73.63,23.67,105.22,55.27,141.73,38.14,141.73,75Z")}
+    50% {d:path("M141.73,75c23.59,28.32-29.4,51-66.73,66.73C26.56,162.1-2,113.62,8.27,75,18,38.12,37.05,28.12,73.63,23.67,128,17.06,113.06,40.57,141.73,75Z")}
+    100% {d:path("M141.73,75c0,36.86-30.63,73.57-66.73,66.73C23.37,132,26.37,110.61,8.27,75-8.43,42.14,47.57-2.39,73.63,23.67,105.22,55.27,141.73,38.14,141.73,75Z")}
+}
+
+
+
 /*--헤더----*/
 #header h1 {position:fixed; top:3rem; left:3rem; z-index:999;}
+
+#header h1 a {display:block; width:15rem;}
+
 #header nav {position:fixed; top:50%; right:3rem; transform:translateY(-50%); z-index:999;}
 #header nav li a {position:relative; display:block; width:3rem; height:1rem; text-indent:-999rem;}
-#header nav li a::after {content:""; position:absolute; top:0.35rem; right:0; display:block; width:10%; height:0.3rem; background:var(--sc); border-radius:0.3rem}
+#header nav li a::after {content:""; position:absolute; top:0.35rem; right:0; display:block; width:10%; height:0.3rem; background:var(--mc); border-radius:0.3rem}
 #header nav li.on a::after {width:100%; transition:0.3s;}
 
 #header .cover_btn {position:fixed; top:3rem; right:3rem; z-index:999;}
@@ -30,13 +53,16 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 /*--메인----*/
-#main .slogan h2 {font-family: 'Itim', cursive; letter-spacing:0.2rem; line-height:1.2; font-size:3.2rem;}
+#main .slogan h2 {letter-spacing:0.1rem; line-height:1.3; font-size:3.3rem; font-weight:600; font-family: 'Mali', cursive;}
+
+
+
 
 
 
 /*--인트로 - 커버---*/
 .intro figure {position:relative; border-radius:0%; border-radius:62% 38% 15% 85% / 63% 30% 70% 37%; overflow:hidden; animation:int_movie 1.5s infinite;}
-.intro .container::after {content:""; position:absolute; top:-1rem; right:3rem; display:block; width:5rem; height:5rem; background: var(--mc); border-radius:50%; opacity:0.8;}
+.intro .container::after {content:""; position:absolute; top:-1rem; right:3rem; display:block; width:5rem; height:5rem; background: var(--sc); border-radius:50%; opacity:0.8;}
 .intro figure:hover {border-radius:56% 44% 76% 24% / 25% 41% 59% 75%;}
 .intro figure img {width:80%;}
 
@@ -46,7 +72,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 @keyframes int_movie {
     0% {border-radius:62% 38% 15% 85% / 63% 30% 70% 37% ;}
-    50% {border-radius:36% 64% 83% 17% / 17% 67% 33% 83% }
+    50% {border-radius:36% 64% 83% 17% / 17% 67% 10% 83% }
     100% {border-radius:62% 38% 15% 85% / 63% 30% 70% 37% ;}
 }
 
@@ -61,19 +87,19 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 /*--포폴 01----*/
-.container {position:relative; display:grid; grid-template-columns:repeat(2,1fr); gap:2rem; align-items:center; width:70rem; margin:0 auto;}
+.container {position:relative; display:grid; grid-template-columns:repeat(2,1fr); gap:4rem; align-items:center; width:70rem; margin:0 auto;}
 
 .section .mockup {background:url(./lib/base/mock.png) no-repeat center top/100%; padding:10% 14% 15% 14%;}
 .section .mockup figure {position:relative; padding-bottom:52%; overflow:hidden; border-radius:1rem;}
-.section .mockup figure img {position:absolute; top:0; left:0; width:100%; transition:1s; cursor:pointer; }
+.section .mockup figure img {position:absolute; top:0; left:0; width:100%; transition:2s; cursor:pointer;}
 .section .mockup figure img:hover {transform:translateY(-100%); top:100%;}
 
-.section .description h3 {font-size:2.5rem; font-weight:100; margin-bottom:1rem; font-family: 'Itim', cursive;}
+.section .description h3 {font-size:2.4rem; font-weight:200; margin-bottom:1rem; font-family: 'Mali', cursive;}
 .section .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem;}
 .section .description dl {display:inline-flex; line-height:1.5rem; border-bottom:1px solid var(--dd);}
-.section .description dl dt {width:6rem;}
-.section .description dl dd {min-width:10rem;}
-.section .description dl dt::before {content:"＊"; margin-right:0.5rem;}
+.section .description dl dt {width:6rem;}   /*<-dt뒤에 볼더라인 잡는용도*/   
+.section .description dl dd {min-width:9rem;}   /*<-dd뒤에 볼더라인 잡는용도*/
+.section .description dl dt::before {content:"\ea10"; font-family: xeicon!important; margin-right:0.5rem; color:var(--mc);}
 .section .description dl:last-of-type{margin-bottom:2rem;}
 .section .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
 .section .description dd strong {vertical-align:middle; margin-right:1rem;}
@@ -82,12 +108,30 @@ body {font-size:0.8rem; color: var(--dc);}
 .section .description dd span:nth-of-type(3) {background:#f2f4e7;}
 
 .section .description ul {display:flex; gap:0.5rem;}
-.section .description ul a {display:block; background: var(--sc); color: var(--lc); line-height:3rem; padding:0 2rem; font-size:0.85rem; font-weight:100; border-radius:2rem}
+.section .description ul a {display:block; background: var(--mc); color: var(--lc); line-height:3rem; padding:0 2rem; font-size:0.85rem; font-weight:100; border-radius:2rem}
+.section .description ul a:hover {color: var(--sc);}
+
+
+.gooey {filter:url('#bbq'); position:relative; height:4rem;}
+.gooey span {position:absolute; top:0rem; left:0; display:block; width:1.5rem; height:1.5rem; background: var(--mc); border-radius:50%; text-align:center; line-height:1.5rem; color: var(--lc);}
+.gooey span:nth-child(2) {animation:txtAni 3s infinite;}
+
+@keyframes txtAni {
+    0% {left:0rem;}
+    50% {left:3rem;}
+    100% {left:0rem;}
+}
 
 
 
 
+/*--포폴 02----*/
+.svg_mask {width:10rem;}
+.cls-2 {}
 
+@keyframes maskAni {
+    0% {}
+}
 
 
 
