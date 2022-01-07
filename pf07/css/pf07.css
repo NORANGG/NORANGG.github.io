@@ -251,15 +251,15 @@
     #header h1 img {max-width:15%;}
 
     #header nav {}
-    #header nav>ul>li {position:relative; border-bottom:1px solid#ddd; text-align:left; font-size:4.5vw;}
+    #header nav>ul>li {position:relative; border-bottom:1px solid#dddddd79; text-align:left; font-size:4.5vw; width:30%;}
     #header nav>ul>li:hover {font-weight:700; color:#EF6725;}
     #header nav>ul>li a {display:block; line-height:50px;}
 
-    #header nav>ul>li .sub_menu {display:none; position:absolute; top:0; left:170px; width:130%; background:#008638; color:#fff;}
+    #header nav>ul>li .sub_menu {display:none; position:fixed; top:100px; left:130px; width:60%; background:#008638; color:#fff; }
     #header nav>ul>li .sub_menu li~li {}
     #header nav>ul>li .sub_menu a {padding-left:20px; text-align:left; font-size:15px; font-weight:300;}
     #header nav>ul>li .sub_menu a:hover {font-weight:500;}
-    #header nav>ul>li:hover .sub_menu {display:block;}
+    #header nav>ul>li:hover .sub_menu {display:none;}
 
     #header .search {display:flex; margin:50px 0 20px 0;}
     #header .search form input[type="text"] {border:none; border-bottom:2px solid#ddd; outline:none; background:transparent; width:100%;}
@@ -290,7 +290,7 @@
 
     #right_banner span {display:block; padding:15px; background:#EF6725; color:#fff; font-size:4vw;}
 
-    #right_banner ul {flex:1; display:flex; justify-content:space-between; width:auto; height:auto; padding:15px 30px; background: #f4f4f4;;}
+    #right_banner ul {flex:1; display:flex; justify-content:space-between; width:auto; height:auto; padding:15px 30px; background: #f4f4f4;}
     #right_banner ul>li {line-height:0px; background:#f4f4f4; color:#444; padding:none; font-size:4vw; font-weight:500;}
     #right_banner ul>li~li {border-top:1px solid #f4f4f400; }
     #right_banner ul>li:hover {background:#00863800; color:#008638; transition:0.5s;}

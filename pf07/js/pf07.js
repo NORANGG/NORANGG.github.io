@@ -19,11 +19,11 @@ $('#main_video i.xi-play').on('click', function(){
 
 
 
-$('nav>ul>li>a').on('click', function (){
-    if($('#header').hasClass('on')) {                           /*만약 #헤더가 클래스로 on을 갖고있으면*/
-        $(this).next().slideToggle();                           /*this는 nav>ul>li>a에서 메뉴01,즉 하나를 지정하는것.this는 02,03도 됨 next(다음것.즉 서브메뉴)를 슬라이드토글한다*/
-        $(this).parent().siblings().find('.submenu').slideUp(); /*지정한this의 부모parent의 siblings자식을 find숨긴다(섭메뉴) 슬라이드업해서.*/
-    }
+$('nav>ul>li>a').on('click', function(){
+  if($('#header').hasClass('on')) {
+      $(this).next().stop().slideToggle();
+      $(this).parent().siblings().find('.sub_menu').slideUp();  
+  }
 });
 
 
