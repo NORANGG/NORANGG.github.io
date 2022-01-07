@@ -238,7 +238,7 @@
     /*--탑----*/
     #top {padding:0px 0 0px 0px; background:#008638; color:#fff; position:fixed; top:0; left:0; width:100%; z-index:999;}
     #top .container {display:flex; justify-content:center; width:auto; margin:0 auto; line-height:3; font-size:3.6vw;}
-    #top .container ul {display:flex; margin-left:10px;}
+    #top .container ul {display:flex; margin-left:30px;}
     #top .container ul li {padding:0 10px 2px 10px;}
     #top .container ul li:hover {color:#EF6725;}
 
@@ -251,11 +251,11 @@
     #header h1 img {max-width:15%;}
 
     #header nav {}
-    #header nav>ul>li {position:relative; border-bottom:0px solid#dddddd79; text-align:left; font-size:4.5vw; width:30%;}
+    #header nav>ul>li {position:static; border-bottom:0px solid#dddddd79; text-align:left; font-size:4.5vw; width:30%;}
     #header nav>ul>li:hover {font-weight:700; color:#EF6725;}
     #header nav>ul>li a {display:block; line-height:50px;}
 
-    #header nav>ul>li .sub_menu {display:none; position:fixed; top:100px; left:130px; width:220%; background:#008638; color:#fff;}
+    #header nav>ul>li .sub_menu {display:none; position:absolute; top:100px; left:130px; width:50%; background:#008638; color:#fff;}
     #header nav>ul>li .sub_menu li~li {}
     #header nav>ul>li .sub_menu a {padding-left:20px; text-align:left; font-size:15px; font-weight:400;}
     #header nav>ul>li .sub_menu a:hover {font-weight:500;}
@@ -267,7 +267,7 @@
     #header .search form input[type="text"]::placeholder {color:#666; font-size:4vw; text-align:left;}
     #header .search form button {font-size:6vw; margin-top:-52px; margin-left:200px; color:#666;}
 
-    #header .nav_02 {display:grid; grid-template-columns:repeat(2,2fr); text-align:left; line-height:2.5; font-size:4vw; font-weight:300;}
+    #header .nav_02 {display:grid; grid-template-columns:repeat(2,2fr); text-align:center; line-height:2.5; font-size:4vw; font-weight:300;}
     #header .nav_02>li>a:hover {font-weight:500; color:#EF6725;}
 
     #header nav>ul>li:hover .sub_menu {display:none;}   /*호버했을때 서브메뉴가 보이면 안되니까 none*/
@@ -380,7 +380,7 @@
     #content_03 .day div {background:#008638; color:#fff; text-align:center;}
     
     #content_03 .date_form {display:grid; grid-template-columns:repeat(7, 1fr); grid-gap:7px;} 
-    #content_03 .date_form div {width:auto; padding:10px 10px; font-size:5vw; cursor:pointer;}
+    #content_03 .date_form div {width:auto; padding:10px 10px; font-size:4vw; cursor:pointer;}
 
     #content_03  .dateSel div {font-weight:bold; color:#333; min-height:10px; padding:10px; border-radius:0; border:1px solid #ef682546;}
     #content_03  .dateSel div:hover {background:#f1f1f1; color:#EF6725;}
