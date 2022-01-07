@@ -255,7 +255,7 @@
     #header nav>ul>li:hover {font-weight:700; color:#EF6725;}
     #header nav>ul>li a {display:block; line-height:50px;}
 
-    #header nav>ul>li .sub_menu {display:none; position:absolute; top:100px; left:130px; width:50%; background:#008638; color:#fff;}
+    #header nav>ul>li .sub_menu {display:none; position:absolute; top:100px; left:130px; width:60%; background:#008638; color:#fff;}
     #header nav>ul>li .sub_menu li~li {}
     #header nav>ul>li .sub_menu a {padding-left:20px; text-align:left; font-size:15px; font-weight:400;}
     #header nav>ul>li .sub_menu a:hover {font-weight:500;}
