@@ -319,7 +319,7 @@
     #content_01 .container {width:90%; padding:0 0px 0px 0px; margin:0 auto;}
     #content_01 .container span {display:block; font-size:15px; font-weight:400; color:#008638; }
     #content_01 .container figure {padding:20px 0;}
-    #content_01 .container figure img {width:90%; padding-left:20px;}
+    #content_01 .container figure img {width:90%; padding-left:30px;}
 
     #content_01 .container h3 {font-size:4.5vw; font-weight:500; text-align:center; margin-bottom:20px; line-height:1.2;}
     #content_01 .container a:hover h3 {text-decoration:underline; color:#EF6725;}
@@ -327,7 +327,7 @@
 
     #content_01 .container .con01_slide div {margin:0 10px 0 5px;}
 
-    #content_01 .btn {position:absolute; top:50%; left:75%; cursor:pointer;}
+    #content_01 .btn {display:none; position:absolute; top:50%; left:75%; cursor:pointer;}
     #content_01 .btn i {color:#c9c9c9; padding:5px; font-size:10vw; font-weight:700;}
     #content_01 .btn i.xi-angle-left-thin {margin-left:-250px;}
     #content_01 .btn i.xi-angle-right-thin {margin-left:250px;}
