@@ -28,7 +28,6 @@ $('nav>ul>li>a').on('click', function(){
 
 
 
-
 $('.con01_slide').slick({
     arrows:false,
     autoplay:true,
@@ -196,10 +195,6 @@ function getDate(date) { // 날짜 변환 함수 (년, 월, 일을 반환)
       $('.mopen .xi-bars').toggleClass('on');
       $('.mopen .xi-close').toggleClass('on');
   });
-
-
-
-
 
 
 
