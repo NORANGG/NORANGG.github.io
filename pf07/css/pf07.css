@@ -286,7 +286,7 @@
 
     
     /*--오른쪽 배너----*/
-    #right_banner {position:absolute; top:42px; left:0; right:0; display:flex; transition:0.5s; text-align:center; z-index:99; }
+    #right_banner {position:absolute; top:44px; left:0; right:0; display:flex; transition:0.5s; text-align:center; z-index:99; }
 
     #right_banner span {display:block; padding:15px; background:#EF6725; color:#fff; font-size:4vw;}
 
@@ -319,7 +319,7 @@
     #content_01 .container {width:90%; padding:0 0px 0px 0px; margin:0 auto;}
     #content_01 .container span {display:block; font-size:15px; font-weight:400; color:#008638; }
     #content_01 .container figure {padding:20px 0;}
-    #content_01 .container figure img {width:90%; padding-left:30px;}
+    #content_01 .container figure img {width:100%; padding-left:0px;}
 
     #content_01 .container h3 {font-size:4.5vw; font-weight:500; text-align:center; margin-bottom:20px; line-height:1.4;}
     #content_01 .container a:hover h3 {text-decoration:underline; color:#EF6725;}
@@ -360,7 +360,7 @@
     #content_02 .bar img {display:none; width:50%;}
     #content_02 .bar figure {margin-left:0px;}
     #content_02 .bar span {display:block; font-size:6vw; color:#444; line-height:1.15; padding:50px 0 10px 0px; font-family: 'Jua', sans-serif;}
-    #content_02 .bar strong {display:inline-block; font-size:4vw; color:#777; margin:0 0 20px 0; background:#f7f7f7; padding:7px 20px 4px 20px; border-radius:20px; font-family: 'Jua', sans-serif;}
+    #content_02 .bar strong {display:inline-block; font-size:4vw; color:#777; margin:0 0 15px 0; background:#f7f7f7; padding:7px 20px 4px 20px; border-radius:20px; font-family: 'Jua', sans-serif;}
 
 
 
@@ -383,14 +383,14 @@
 
     #content_03  .dateSel div {font-weight:bold; color:#333; min-height:10px; padding:10px; border-radius:0; border:1px solid #ef682546;}
     #content_03  .dateSel div:hover {background:#f1f1f1; color:#EF6725;}
-    #content_03  .dateSel div:nth-child(7) {background:#f1f1f1;color:#EF6725;}
-    #content_03  .dateSel div:nth-child(8) {background:#f1f1f1; color:#EF6725;}
-    #content_03  .dateSel div:nth-child(10) {background:#f1f1f1; color:#EF6725;}
-    #content_03  .dateSel div:nth-child(17) {background:#f1f1f1; color:#EF6725;}
-    #content_03  .dateSel div:nth-child(19) {background:#f1f1f1; color:#EF6725;}
-    #content_03  .dateSel div:nth-child(25) {background:#f1f1f1; color:#EF6725;}
-    #content_03  .dateSel div:nth-child(30) {background:#f1f1f1; color:#EF6725;}
-    #content_03  .dateSel div:nth-child(37) {background:#f1f1f1; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(7) {background:#eee1b66c;color:#EF6725;}
+    #content_03  .dateSel div:nth-child(8) {background:#eee1b66c; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(10) {background:#eee1b66c; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(17) {background:#eee1b66c; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(19) {background:#eee1b66c; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(25) {background:#eee1b66c; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(30) {background:#eee1b66c; color:#EF6725;}
+    #content_03  .dateSel div:nth-child(37) {background:#eee1b66c; color:#EF6725;}
 
 
 
@@ -407,14 +407,14 @@
     #content_04 .etc {width:auto; margin:0 auto; display:block;}
 
     #content_04 .txt {padding:0px 0 0 0px;}
-    #content_04 .txt strong {display:block; font-size:3.2vw; font-weight:400; margin-bottom:10px;}
+    #content_04 .txt strong {display:block; font-size:3.2vw; font-weight:400; margin-bottom:10px; color:#777;}
     #content_04 .txt h2 {font-size:7vw; font-weight:500; margin-bottom:10px; }
     #content_04 .txt span {display:block; font-size:3.8vw; font-weight:300; line-height:1.5; color:#777; margin-bottom:20px;}
 
     #content_04 .container {padding:0 0 0 0px;}
     #content_04 .container .menu {}
     #content_04 .container .menu ul {display:grid; grid-template-columns:repeat(2,4fr); line-height:2; border:1px solid#ddd;}
-    #content_04 .container .menu ul li {padding:5px 20px; border:1px solid#ddd; font-size:4.5vw; font-weight:400; transition:0.3s;} 
+    #content_04 .container .menu ul li {padding:5px 20px; border:1px solid#ddd; font-size:4.2vw; font-weight:400; transition:0.3s;} 
     #content_04 .container .menu ul li:hover {background:#008638; color:#fff;}
 
     #content_04 .container .menu ul li i {font-size:5vw; color:#008638; transition:0.3s;}
