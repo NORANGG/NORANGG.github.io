@@ -312,7 +312,7 @@
 
     /*--섹션 01 - 신라뉴스----*/
     #content_01 {padding:50px 0 50px 0px; text-align:center; position:relative; border-bottom:1px dashed#008638;}
-    #content_01 h2 {font-size:7vw; font-weight:700; margin-bottom:40px; font-family: 'Noto Serif KR', serif;}
+    #content_01 h2 {font-size:6.5vw; font-weight:700; margin-bottom:40px; font-family: 'Noto Serif KR', serif;}
     #content_01 h2:after {content:""; display:inline-block; width:60px; height:2px; background:#000; vertical-align:middle; margin:0px 15px 7px 15px;}
     #content_01 h2:before {content:""; display:inline-block; width:60px; height:2px; background:#000; vertical-align:middle; margin:0px 15px 7px 15px;}
 
@@ -359,18 +359,18 @@
     #content_02 .bar a {display:block; display:block; padding-left:0px;}
     #content_02 .bar img {display:none; width:50%;}
     #content_02 .bar figure {margin-left:0px;}
-    #content_02 .bar span {display:block; font-size:6vw; color:#444; line-height:1.15; padding:50px 0 10px 0px; font-family: 'Jua', sans-serif;}
-    #content_02 .bar strong {display:inline-block; font-size:4vw; color:#777; margin:0 0 15px 0; background:#f7f7f7; padding:7px 20px 4px 20px; border-radius:20px; font-family: 'Jua', sans-serif;}
+    #content_02 .bar span {display:block; font-size:5.5vw; color:#444; line-height:1.15; padding:50px 0 10px 0px; font-family: 'Jua', sans-serif;}
+    #content_02 .bar strong {display:inline-block; font-size:3.5vw; color:#777; margin:0 0 15px 0; background:#f7f7f7; padding:7px 20px 4px 20px; border-radius:20px; font-family: 'Jua', sans-serif;}
 
 
 
     /*--섹션 03 - 캘린더----*/
     #content_03 {padding:0px 0 50px 0px; text-align:center; position:relative;}
-    #content_03 h2 {font-size:7vw; font-weight:700; margin-bottom:25px; font-family: 'Noto Serif KR', serif;}
+    #content_03 h2 {font-size:6.5vw; font-weight:700; margin-bottom:25px; font-family: 'Noto Serif KR', serif;}
     #content_03 h2:after {content:""; display:inline-block; width:80px; height:2px; background:#000; vertical-align:middle; margin:0px 15px 7px 15px;}
     #content_03 h2:before {content:""; display:inline-block; width:80px; height:2px; background:#000; vertical-align:middle; margin:0px 15px 7px 15px;}
 
-    #content_03 h3 {font-size:6vw; font-weight:500; color:#EF6725; margin-bottom:15px;}
+    #content_03 h3 {font-size:5.5vw; font-weight:500; color:#EF6725; margin-bottom:15px;}
 
     #content_03 .container {width:auto;}
     #content_03 .calendar {max-width:auto; width:auto; padding:0 10px 0 10px;}
@@ -408,7 +408,7 @@
 
     #content_04 .txt {padding:0px 0 0 0px;}
     #content_04 .txt strong {display:block; font-size:3.2vw; font-weight:400; margin-bottom:10px; color:#777;}
-    #content_04 .txt h2 {font-size:7vw; font-weight:500; margin-bottom:10px; }
+    #content_04 .txt h2 {font-size:6.5vw; font-weight:500; margin-bottom:10px; }
     #content_04 .txt span {display:block; font-size:3.8vw; font-weight:300; line-height:1.5; color:#777; margin-bottom:20px;}
 
     #content_04 .container {padding:0 0 0 0px;}
