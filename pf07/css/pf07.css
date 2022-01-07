@@ -236,10 +236,10 @@
 
 
     /*--탑----*/
-    #top {padding:0px 0 0px 0px; background:#008638; color:#fff; position:relative; z-index:99;}
+    #top {padding:0px 0 0px 0px; background:#008638; color:#fff; position:fixed; top:0; left:0; width:100%; z-index:999;}
     #top .container {display:flex; justify-content:center; width:auto; margin:0 auto; line-height:3; font-size:3.6vw;}
     #top .container ul {display:flex; margin-left:10px;}
-    #top .container ul li {padding:0 3vw;}
+    #top .container ul li {padding:0 10px 2px 10px;}
     #top .container ul li:hover {color:#EF6725;}
 
 
@@ -292,8 +292,8 @@
 
     #right_banner ul {flex:1; display:flex; justify-content:space-between; width:auto; height:auto; padding:15px 30px; background: #f4f4f4;;}
     #right_banner ul>li {line-height:0px; background:#f4f4f4; color:#444; padding:none; font-size:4vw; font-weight:500;}
-    #right_banner ul>li~li {border-top:1px solid #f4f4f400;}
-    #right_banner ul>li:hover {background:#008638; color:#fff; transition:0.5s;}
+    #right_banner ul>li~li {border-top:1px solid #f4f4f400; }
+    #right_banner ul>li:hover {background:#00863800; color:#008638; transition:0.5s;}
 
     #right_banner ul>li i {display:none; font-size:24px; margin-bottom:7px;}
     
