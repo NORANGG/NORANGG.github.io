@@ -26,13 +26,24 @@
 #header nav>ul>li:hover {font-weight:700; color:#EF6725;}
 #header nav>ul>li a {display:block; line-height:50px;}
 
-#header nav>ul>li .sub_menu {display:none; position:absolute; top:0; left:170px; width:130%; background:#008638; color:#fff;}
-#header nav>ul>li .sub_menu li~li {}
-#header nav>ul>li .sub_menu a {padding-left:20px; text-align:left; font-size:15px; font-weight:300;}
+#header nav>ul>li .sub_menu {display:none; position:absolute; top:0; left:170px; width:120%; background:#008638; color:#fff;}
+#header nav>ul>li .sub_menu li {position:relative;}   /*<-relative로서드메뉴의 기준이 되어줌. static하면 서드메뉴가 다 똑같은 위치에 위치됨*/
+#header nav>ul>li .sub_menu a {padding-left:0px; text-align:center; font-size:15px; font-weight:300;}
 #header nav>ul>li .sub_menu a:hover {font-weight:500;}
-#header nav>ul>li:hover .sub_menu {display:block;}
+
+#header nav>ul>li:hover .sub_menu ul {display:block; width:150%; top:0%;}
+
+
+#header .sub_menu .third_menu {display:none; position:absolute; top:0; left:100%; width:120%; background:#fff; color:#000;}
+#header .sub_menu .third_menu a {padding-left:20px; text-align:left; font-size:15px; font-weight:300;}
+#header .sub_menu .third_menu a:hover {font-weight:500;}
+#header .sub_menu li:hover .third_menu {display:block;}
+
+
+
 
 #header nav>ul>li .sub_menu i {display:none; font-size:18px; color:#EF6725; }
+
 
 
 

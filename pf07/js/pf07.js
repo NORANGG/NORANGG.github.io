@@ -26,6 +26,12 @@ $('nav>ul>li>a').on('click', function(){
   }
 });
 
+$('.sub_menu>ul>li').on('click', function(){
+  if($('nav').hasClass('on')) {
+      $('.third_menu').stop().slideUp();
+      $(this).find('.third_menu').stop().slideToggle();
+  }
+});
 
 
 $('.con01_slide').slick({
