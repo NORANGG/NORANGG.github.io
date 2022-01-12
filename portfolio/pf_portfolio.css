@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+:root {
+    --mc:#FA766B;
+    --sc:#FFEA75;
+    --lc:#f4f4f4;
+    --dc:#444444;
+    --dd:#dddddd;
+}
+
+html {font-size:20px;}
+body {font-size:0.8rem; color: var(--dc);}
+
+#wrap {min-width:95rem;}
+
+.section {background:url(../lib/base/pf_patten.png);}
+.section img {max-width:100%;}
+
+
+
+/*--헤더----*/
+#header h1 {position:fixed; top:2rem; left:2rem; z-index:999;}
+#header h1 a {display:block; width:15rem;}
+#header h1 a img {max-width:30%; animation:norang 1s infinite linear alternate;}
+
+@keyframes norang {
+    0% {transform: rotate(-10deg);}
+    50% {transform: rotate(0deg);}
+    100% {transform: rotate(10deg);}
+}
+
+
+#header nav {position:fixed; top:50%; right:3rem; transform:translateY(-50%); z-index:99;}
+#header nav li a {position:relative; display:block; width:3rem; height:1rem; text-indent:-999rem;}
+#header nav li a::after {content:""; position:absolute; top:0.35rem; right:0; display:block; width:10%; height:0.3rem; background:var(--sc); border-radius:0.3rem}
+#header nav li.on a::after {width:100%; transition:0.3s;}
+
+#header .cover_btn {position:fixed; top:3rem; right:3rem; z-index:999; cursor: pointer;}
+#header .cover_btn i {font-size:1.5rem; padding:0.5rem;}
+
+
+
+/*--메인 인트로 ----*/
+.intro {background:#d2efff url(../lib/base/pf_cloud.png) no-repeat center center/cover;}
+
+.intro figure {position:relative;}
+.intro .container::after {content:""; position:absolute; top:-1rem; right:3rem; display:block; width:5rem; height:5rem; background: var(--sc); border-radius:50%; opacity:0;}
+
+.intro .slogan h2 {letter-spacing:0.1rem; line-height:1.3; font-size:4rem; margin:0 auto; font-family: 'Russo One', sans-serif;}
+.intro .slogan p {font-size:0.75rem; font-weight:300; margin-bottom:1rem;}
+
+.intro .wheel {position:absolute; bottom:3rem; left:50%; transform:translateX(-50%); width:1.5rem; height:2.4rem; border:2px solid#777; font-size:0; border-radius:0.7rem;}
+.intro .wheel span {position:absolute; top:0.3rem; left:50%; transform:translateX(-50%); width:0.17rem; height:0.5rem; background:#444; border-radius:0.05rem; animation:wheel 1s infinite;}
+
+@keyframes wheel {
+    to {top:0.6rem}
+}
+
+
+
+/*--포폴 01----  전체 다 먹음 */
+.container {position:relative; display:grid; grid-template-columns:repeat(2,1fr); gap:4rem; align-items:center; width:70rem; margin:0 auto; z-index:9;}
+
+.section .mockup {box-shadow:0 0 15px#adadad; border-radius:1rem; overflow:hidden;}
+.section .mockup figure {position:relative; padding-bottom:52%;  }
+.section .mockup figure img {position:absolute; top:0; left:0; width:100%; transition:3s; cursor:pointer;}
+.section .mockup figure img:hover {transform:translateY(-100%); top:100%; }
+
+.section .description h3 {font-size:2rem; font-weight:200; margin-bottom:1rem; }
+.section .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem;}
+.section .description dl {display:inline-flex; line-height:1.5rem; border-bottom:1px solid var(--dd);}
+.section .description dl dt {width:6rem;}   /*<-dt뒤에 볼더라인 잡는용도*/   
+.section .description dl dd {min-width:9rem;}   /*<-dd뒤에 볼더라인 잡는용도*/
+.section .description dl dt::before {content:"\ea10"; font-family: xeicon!important; margin-right:0.5rem; color:var(--mc);}
+.section .description dl:last-of-type{margin-bottom:2rem;}
+.section .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
+.section .description dd strong {vertical-align:middle; margin-right:1rem;}
+
+.section .description dd span:nth-of-type(1) {background:#789602;}
+.section .description dd span:nth-of-type(2) {background:#007ec3;}
+.section .description dd span:nth-of-type(3) {background:#f2f4e7;}
+
+.section .description ul {display:flex; gap:0.5rem;}
+.section .description ul a {display:block; background: var(--mc); color: var(--lc); line-height:3rem; padding:0 2rem; font-size:0.85rem; font-weight:100; border-radius:2rem}
+.section .description ul a:hover {color: var(--sc);}
+
+
+
+
+/*--포폴 02----*/
+.portfolio_02 .description h3 {font-size:2.4rem; font-weight:200; margin-bottom:1rem; font-family: 'Mali', cursive;}
+.portfolio_02 .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem;}
+.portfolio_02 .description dl {display:inline-flex; line-height:1.5rem; border-bottom:1px solid var(--dd);}
+.portfolio_02 .description dl dt {width:6rem;}   /*<-dt뒤에 볼더라인 잡는용도*/   
+.portfolio_02 .description dl dd {min-width:9rem;}   /*<-dd뒤에 볼더라인 잡는용도*/
+.portfolio_02 .description dl dt::before {content:"\ea10"; font-family: xeicon!important; margin-right:0.5rem; color:var(--mc);}
+.portfolio_02 .description dl:last-of-type{margin-bottom:2rem;}
+.portfolio_02 .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
+.portfolio_02 .description dd strong {vertical-align:middle; margin-right:1rem;}
+
+
+
+
+.portfolio_02 .description dd span:nth-of-type(1) {background:#f1f1f1;}
+.portfolio_02 .description dd span:nth-of-type(2) {background:#268507;}
+.portfolio_02 .description dd span:nth-of-type(3) {background:#89a980;}
+
+
+
+
+
+
+/*--포폴 04----*/
+.portfolio_04 {overflow:hidden;}
+.portfolio_04 .svg {overflow:hidden;  filter:url('#bbq'); position:absolute; top:0%; left:0%; width:100%; height:100vh; font-size:0;}
+.portfolio_04 .svg::before {content:""; display:block; width:40rem; height:40rem; background: var(--sc); border-radius:50%; position:absolute; top:30%; left:0%;}
+.portfolio_04 .svg::after {content:""; display:block; width:10rem; height:10rem; background: var(--sc); border-radius:50%; position:absolute; top:50%; left:25%; animation:circle_move 8s infinite;}
+
+@keyframes circle_move {
+    0% {top:50%; left:25%; opacity:1;}
+    100% {top:0%; left:70%; opacity:0;}
+}
+
+
+
+
+
+
+/*--프로필----*/
+.spec {font-size:1.25rem;}
+.spec i {padding:0.5rem; background:var(--lc); color: var(--mc); margin:0 0.25rem; border-radius:50%;}
+
+.profile .inner {position:relative; width:20rem; height:20rem; padding:1rem; border:1px solid #FFEA75; border-radius:50%;}
+.profile .inner strong {display:block; width:18rem; height:18rem; border-radius:50%; overflow:hidden;}
+.profile .inner span {position:absolute; top:0; left:calc(50% - 0.5rem); width:1rem; height:10rem; font-size:0;  animation:circle_me 8s infinite linear; transform-origin:bottom;}
+.profile .inner span::after {content:""; display:block; width:1rem; height:1rem; background:var(--mc); border-radius:50%; margin-top:-0.5rem;}
+
+@keyframes circle_me {
+    0% {transform:rotate(0);}
+    100% {transform:rotate(1turn);}
+}
+
+
+
+/*--푸터----*/
+#footer .top {position:fixed; bottom:3rem; right:3rem; z-index:99;}
+#footer .top i {font-size:1.5rem; padding:0.5rem; background: var(--lc);}
+#footer address {position:fixed; bottom:2rem; left:2rem; font-size:0.7rem; color:#777; z-index:999;}
+
+
+
+
+
+/*--맨 밑 커버----*/
+#cover {display:none; position:fixed; top:0; left:0; background:#161616c7; width:100%; height:100vh; z-index:99;}
+#cover ul {position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:1.5rem; font-weight:300; line-height:1.5; text-align:center; color:var(--lc);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
