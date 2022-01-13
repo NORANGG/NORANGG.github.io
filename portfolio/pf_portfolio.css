@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 :root {
-    --mc:#FA766B;
+    --mc:#BDE3F8;
     --sc:#FFEA75;
+    --tc:#FA766B;
     --lc:#f4f4f4;
     --dc:#444444;
     --dd:#dddddd;
@@ -12,8 +13,12 @@ body {font-size:0.8rem; color: var(--dc);}
 
 #wrap {min-width:95rem;}
 
-.section {background:url(../lib/base/pf_patten.png);}
-.section img {max-width:100%;}
+.container {position:relative; display:grid; grid-template-columns:repeat(2,1fr); gap:4rem; align-items:center; width:80rem; margin:0 auto; z-index:9;}
+
+.section .mockup {box-shadow:0 0 15px#adadad; border-radius:1rem; overflow:hidden;}
+.section .mockup figure {position:relative; padding-bottom:52%;}
+.section .mockup figure img {position:absolute; top:0; left:0; width:100%; transition:3s; cursor:pointer;}
+.section .mockup figure img:hover {transform:translateY(-100%); top:100%; }
 
 
 
@@ -40,12 +45,12 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 /*--메인 인트로 ----*/
-.intro {background:#d2efff url(../lib/base/pf_cloud.png) no-repeat center center/cover;}
+.intro {background:#d2efff url(../lib/base/pf_cloud.png) no-repeat center center/cover; }
 
 .intro figure {position:relative;}
 .intro .container::after {content:""; position:absolute; top:-1rem; right:3rem; display:block; width:5rem; height:5rem; background: var(--sc); border-radius:50%; opacity:0;}
 
-.intro .slogan h2 {letter-spacing:0.1rem; line-height:1.3; font-size:4rem; margin:0 auto; font-family: 'Russo One', sans-serif;}
+.intro .slogan h2 {letter-spacing:0.1rem; line-height:1.3; font-size:4rem; font-family: 'Russo One', sans-serif;}
 .intro .slogan p {font-size:0.75rem; font-weight:300; margin-bottom:1rem;}
 
 .intro .wheel {position:absolute; bottom:3rem; left:50%; transform:translateX(-50%); width:1.5rem; height:2.4rem; border:2px solid#777; font-size:0; border-radius:0.7rem;}
@@ -58,53 +63,111 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 /*--포폴 01----  전체 다 먹음 */
-.container {position:relative; display:grid; grid-template-columns:repeat(2,1fr); gap:4rem; align-items:center; width:70rem; margin:0 auto; z-index:9;}
+.portfolio_01 {position:relative; background:url(../lib/base/pf_cloud_left.png) no-repeat;}
+.portfolio_01 .cloud {position:absolute; top:-12rem; left:64rem; width:100%; height:100%;  animation:cloud 2s infinite linear alternate; opacity:0.7; z-index:0;}
+.portfolio_01 .cloud_02 {position:absolute; top:-7rem; left:-7rem; width:100%; height:100%; animation:cloud_02 1.7s infinite linear alternate; opacity:0.7; z-index:-1;}
+.portfolio_01 img {max-width:100%;}
 
-.section .mockup {box-shadow:0 0 15px#adadad; border-radius:1rem; overflow:hidden;}
-.section .mockup figure {position:relative; padding-bottom:52%;  }
-.section .mockup figure img {position:absolute; top:0; left:0; width:100%; transition:3s; cursor:pointer;}
-.section .mockup figure img:hover {transform:translateY(-100%); top:100%; }
+@keyframes cloud {
+    0% {top:-12rem;}
+    50% {top: -13rem;}
+    100% {top:-14rem;}
+}
 
-.section .description h3 {font-size:2rem; font-weight:200; margin-bottom:1rem; }
-.section .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem;}
-.section .description dl {display:inline-flex; line-height:1.5rem; border-bottom:1px solid var(--dd);}
-.section .description dl dt {width:6rem;}   /*<-dt뒤에 볼더라인 잡는용도*/   
-.section .description dl dd {min-width:9rem;}   /*<-dd뒤에 볼더라인 잡는용도*/
-.section .description dl dt::before {content:"\ea10"; font-family: xeicon!important; margin-right:0.5rem; color:var(--mc);}
-.section .description dl:last-of-type{margin-bottom:2rem;}
-.section .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
-.section .description dd strong {vertical-align:middle; margin-right:1rem;}
+@keyframes cloud_02 {
+    0% {top:-7rem;}
+    50% {top:-8rem;}
+    100% {top:-9rem;}
+}
 
-.section .description dd span:nth-of-type(1) {background:#789602;}
-.section .description dd span:nth-of-type(2) {background:#007ec3;}
-.section .description dd span:nth-of-type(3) {background:#f2f4e7;}
 
-.section .description ul {display:flex; gap:0.5rem;}
-.section .description ul a {display:block; background: var(--mc); color: var(--lc); line-height:3rem; padding:0 2rem; font-size:0.85rem; font-weight:100; border-radius:2rem}
-.section .description ul a:hover {color: var(--sc);}
+.portfolio_01 .mockup {opacity:0; transform:translateX(-500px);}
+.portfolio_01 .description {opacity:0; transform:translateX(300px);}
+
+.portfolio_01.on .mockup {opacity:1; transform:translateX(0); transition:0.7s;}
+.portfolio_01.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
+
+
+
+.portfolio_01 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#34681E;}
+.portfolio_01 .description b {display:block; font-size:0.9rem; font-weight:400; margin-bottom:1.5rem; color:#777; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
+
+.portfolio_01 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
+.portfolio_01 .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem; line-height:1.3;}
+
+/*부터 폰트,컬러,프로세스*/
+.portfolio_01 .description dl {display:flex; line-height:1.2;}
+.portfolio_01 .description dl dt {width:6rem; font-size:0.9rem; font-weight:700; margin-bottom:0.5rem;}   /*<-dt뒤에 볼더라인 잡는용도*/   
+.portfolio_01 .description dl dd {min-width:12rem; font-weight:300;}   /*<-dd뒤에 볼더라인 잡는용도*/
+
+.portfolio_01 .description dl:last-of-type {margin-bottom:1rem;}
+.portfolio_01 .description dd span {display:inline-block; width:0.8rem; height:0.8rem; border-radius:50%; vertical-align:middle;}
+.portfolio_01 .description dd strong {vertical-align:middle; margin-right:1rem; font-size:0.8rem; font-weight:300;}
+
+.portfolio_01 .description dd span:nth-of-type(1) {background:#789602;}
+.portfolio_01 .description dd span:nth-of-type(2) {background:#007ec3;}
+.portfolio_01 .description dd span:nth-of-type(3) {background:#f2f4e7;}
+/*까지 폰트,컬러,프로세스*/
+
+
+.portfolio_01 .description ul {display:flex; position:absolute; top:4.5rem; right:8rem;}
+.portfolio_01 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem;}
+.portfolio_01 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.7rem 2.2rem;}
 
 
 
 
 /*--포폴 02----*/
-.portfolio_02 .description h3 {font-size:2.4rem; font-weight:200; margin-bottom:1rem; font-family: 'Mali', cursive;}
-.portfolio_02 .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem;}
-.portfolio_02 .description dl {display:inline-flex; line-height:1.5rem; border-bottom:1px solid var(--dd);}
-.portfolio_02 .description dl dt {width:6rem;}   /*<-dt뒤에 볼더라인 잡는용도*/   
-.portfolio_02 .description dl dd {min-width:9rem;}   /*<-dd뒤에 볼더라인 잡는용도*/
-.portfolio_02 .description dl dt::before {content:"\ea10"; font-family: xeicon!important; margin-right:0.5rem; color:var(--mc);}
-.portfolio_02 .description dl:last-of-type{margin-bottom:2rem;}
-.portfolio_02 .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
-.portfolio_02 .description dd strong {vertical-align:middle; margin-right:1rem;}
+.portfolio_02 {position:relative; background:url(../lib/base/pf_cloud_right.png) no-repeat; text-align:right;}
+.portfolio_02 .cloud {position:absolute; top:3rem; left:-70rem; width:100%; height:100%;  animation:cloud_2 2s infinite linear alternate; opacity:0.7; z-index:0;}
+.portfolio_02 .cloud_02 {position:absolute; top:12rem; left:-30rem; width:100%; height:100%; animation:cloud_2_02 1.7s infinite linear alternate; opacity:0.7; z-index:-1;}
+.portfolio_02 img {max-width:100%;}
+
+@keyframes cloud_2 {
+    0% {top:-10rem;}
+    50% {top:-11rem;}
+    100% {top:-12rem;}
+}
+
+@keyframes cloud_2_02 {
+    0% {top:12rem;}
+    50% {top:13rem;}
+    100% {top:14rem;}
+}
+
+
+.portfolio_02 .mockup {opacity:0; transform:translateX(-500px);}
+.portfolio_02 .description {opacity:0; transform:translateX(300px);}
+
+.portfolio_02.on .mockup {opacity:1; transform:translateX(0); transition:0.7s;}
+.portfolio_02.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
 
+.portfolio_02 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#34681E; }
+.portfolio_02 .description b {display:block; font-size:0.9rem; font-weight:400; margin-bottom:1.5rem; color:#777; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
 
-.portfolio_02 .description dd span:nth-of-type(1) {background:#f1f1f1;}
-.portfolio_02 .description dd span:nth-of-type(2) {background:#268507;}
-.portfolio_02 .description dd span:nth-of-type(3) {background:#89a980;}
+.portfolio_02 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
+.portfolio_02 .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem; line-height:1.3;}
+
+/*부터 폰트,컬러,프로세스*/
+.portfolio_02 .description dl {display:flex; line-height:1.2;}
+.portfolio_02 .description dl dt {width:6rem; font-size:0.9rem; font-weight:700; margin-bottom:0.5rem;}   /*<-dt뒤에 볼더라인 잡는용도*/   
+.portfolio_02 .description dl dd {min-width:12rem; font-weight:300;}   /*<-dd뒤에 볼더라인 잡는용도*/
+
+.portfolio_02 .description dl:last-of-type {margin-bottom:1rem;}
+.portfolio_02 .description dd span {display:inline-block; width:0.8rem; height:0.8rem; border-radius:50%; vertical-align:middle;}
+.portfolio_02 .description dd strong {vertical-align:middle; margin-right:1rem; font-size:0.8rem; font-weight:300;}
+
+.portfolio_02 .description dd span:nth-of-type(1) {background:#789602;}
+.portfolio_02 .description dd span:nth-of-type(2) {background:#007ec3;}
+.portfolio_02 .description dd span:nth-of-type(3) {background:#f2f4e7;}
+/*까지 폰트,컬러,프로세스*/
 
 
+.portfolio_02 .description ul {display:flex; position:absolute; top:4.5rem; right:8rem;}
+.portfolio_02 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem;}
+.portfolio_02 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.7rem 2.2rem;}
 
 
 
