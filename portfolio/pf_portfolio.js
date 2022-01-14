@@ -38,6 +38,10 @@ $('#cover').on('scroll wheel touchmove', function(){
 
 
 
+$('.cover_btn i').on('click', function(){
+    $('.cover_btn i').toggleClass('on');
+});
+
 
 //-----------------------------------------------------------------
 });
