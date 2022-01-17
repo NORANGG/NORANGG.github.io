@@ -1,6 +1,5 @@
 $(function(){
 //-----------------------------------------------------------------
-
 let sc=$('.section');
 let sideBar=$('nav li');   /*<-옆에 네비바(사이드바) on붙였다 떼는거때문에 이름지어줌 nav li는 sideBar이다!*/
 $('#main').fullpage({
@@ -13,7 +12,10 @@ $('#main').fullpage({
     },
 
 });
-    
+
+
+
+
 new Typed('.slogan_type',{
     strings: ['brand new design and publishing portfolio by noh hyejin'],
     typeSpeed:50,
@@ -25,10 +27,8 @@ $('.cover_btn').on('click',function(){
     $('#cover').slideToggle(); /*fadeToggle하면 슈우웅나타남*/
 });  
 
-$('.cover a').on('click',function(){
-    $('#cover').slideUp();
-});  
-    
+
+
 let cloneMenu = $('nav>ul').clone();
 $('#cover').append(cloneMenu);  
 
@@ -38,10 +38,17 @@ $('#cover').on('scroll wheel touchmove', function(){
 
 
 
-$('.cover_btn i').on('click', function(){
-    $('.cover_btn i').toggleClass('on');
+$('#header .cover_btn i').on('click', function(){
+    $('#header .cover_btn i').toggleClass('on');
+    $('#header').toggleClass('on');
 });
 
 
+
+$('#cover ul').on('click', function(){
+    $('#header .cover_btn i').toggleClass('on');
+    $('#header').toggleClass('on');
+    $('#cover').slideUp('on');
+});
 //-----------------------------------------------------------------
 });
