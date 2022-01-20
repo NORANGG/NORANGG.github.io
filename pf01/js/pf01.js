@@ -65,16 +65,16 @@ $(function(){
 
     
 
-    $('nav>ul>li').on('click', function(){
+    $('nav>ul>li>a').on('click', function(){
         if($('nav').hasClass('on')) {
-            $('.sub_menu').stop().slideUp();
-            $(this).find('.sub_menu').stop().slideToggle();  
+            $(this).next().stop().slideToggle();
+            $(this).parent().siblings().find('.sub_menu').slideUp();  
         }
     });
 
     $(window).on('resize', function(){
         $('.sub_menu').removeAttr('style');
-        $('#top').removeAttr('style');
+        $('#top_banner').removeAttr('style');
     });
 
 //------------------------------------------------------------------
