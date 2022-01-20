@@ -63,7 +63,19 @@ $(function(){
         $('.mopen .xi-bars').toggleClass('on');
     });
 
+    
 
+    $('nav>ul>li').on('click', function(){
+        if($('nav').hasClass('on')) {
+            $('.sub_menu').stop().slideUp();
+            $(this).find('.sub_menu').stop().slideToggle();  
+        }
+    });
+
+    $(window).on('resize', function(){
+        $('.sub_menu').removeAttr('style');
+        $('#top').removeAttr('style');
+    });
 
 //------------------------------------------------------------------
 });
