@@ -159,11 +159,14 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 
-.portfolio_01 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#34681E;}
-.portfolio_01 .description b {display:block; font-size:0.9rem; font-weight:400; margin-bottom:1.5rem; margin-left:0.2rem; color:#777; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
+.portfolio_01 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#AD9F97;}
+.portfolio_01 .description b {display:block; font-size:0.9rem; font-weight:400; margin-bottom:1.5rem; margin-left:0.25rem; color:#AD9F97; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
 
 .portfolio_01 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
-.portfolio_01 .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem; line-height:1.3;}
+.portfolio_01 .description p {font-size:0.75rem; font-weight:300; margin-bottom:1rem; line-height:1.3;}
+
+.portfolio_01 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem;}
+
 
 /*부터 폰트,컬러,프로세스*/
 .portfolio_01 .description dl {display:flex; line-height:1.2;}
@@ -174,9 +177,9 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_01 .description dd span {display:inline-block; width:0.8rem; height:0.8rem; border-radius:50%; vertical-align:middle;}
 .portfolio_01 .description dd strong {vertical-align:middle; margin-right:1rem; font-size:0.8rem; font-weight:300;}
 
-.portfolio_01 .description dd span:nth-of-type(1) {background:#789602;}
-.portfolio_01 .description dd span:nth-of-type(2) {background:#007ec3;}
-.portfolio_01 .description dd span:nth-of-type(3) {background:#f2f4e7;}
+.portfolio_01 .description dd span:nth-of-type(1) {background:#AD9F97;}
+.portfolio_01 .description dd span:nth-of-type(2) {background:#be9e46f6;}
+.portfolio_01 .description dd span:nth-of-type(3) {background:#a1a09d33;}
 /*까지 폰트,컬러,프로세스*/
 
 
@@ -217,8 +220,8 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_02.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
-.portfolio_02 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#34681E; }
-.portfolio_02 .description b {display:block; margin-left:auto; font-size:0.9rem; font-weight:400; margin-bottom:1.5rem; color:#777; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
+.portfolio_02 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.01em; margin-bottom:0.5rem; color:#89AA81;}
+.portfolio_02 .description b {display:block; margin-left:auto; font-size:0.9rem; font-weight:400; margin-bottom:1.5rem; color:#89AA81; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
 
 .portfolio_02 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
 .portfolio_02 .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem; line-height:1.3;}
