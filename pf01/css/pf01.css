@@ -227,7 +227,7 @@
     #top_banner .container {display:flex; position:relative; width:auto; margin:0 auto; height:60px; font-size:3vw; padding:15px 0 0px 0;}
     #top_banner .container h2 {text-align:left; line-height:1.5;}
     #top_banner .container p {display:none;}
-    #top_banner .container i {position:absolute; top:22px; right:15px; font-size:18px;}
+    #top_banner .container i {position:absolute; top:22px; right:0px; font-size:18px;}
     
     #top_banner .container i:hover {color:#777;}
     
@@ -249,7 +249,7 @@
 
     #header nav>ul>li>a {display:block; padding:0px; line-height:2.5;}
     #header nav>ul>li {position:relative;}
-    #header nav>ul ul {display:none; position:absolute; top:0px; width:auto; height:auto; overflow:hidden; transition:none; z-index:999;}
+    #header nav>ul ul {display:none; position:static; top:0px; width:auto; height:auto; overflow:hidden; transition:none; z-index:999;}
     #header nav>ul ul>li>a {display:none; line-height:0px; position:relative; color:#333; font-size:0px; font-weight:000;}
     #header nav>ul>li:hover>ul {display:block;}
     #header nav>ul ul>li>a:hover {color:#a14901; font-weight:600;}
