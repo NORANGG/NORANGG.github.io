@@ -57,7 +57,6 @@ $(function(){
     
 
 
-
     $('.mopen').on('click', function(){
         $('nav').toggleClass('on');
         $('.mopen .xi-bars').toggleClass('on');
