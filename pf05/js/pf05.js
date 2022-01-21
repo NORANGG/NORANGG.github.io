@@ -17,7 +17,7 @@ $(function(){
 });
 
 
- var mS=$('.main_slider').slick({
+  var mS=$('.main_slider').slick({
     arrows:false,
     autoplay:true,
     pauseOnHover:false,
