@@ -112,7 +112,7 @@
 #content_03 .customer_01 {display:flex; flex-wrap:wrap; width:1200px; margin:0 auto; padding:0 15px;}
 #content_03 .customer_01 .text {position:relative; width:50%; text-align:left;}
 #content_03 .customer_01 .text h3 {font-size:23px; font-weight:500; margin:200px 0 30px 200px; position:relative;}
-#content_03 .customer_01 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-20px -25px; position:absolute;}
+#content_03 .customer_01 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-4% -25px; position:absolute;}
 #content_03 .customer_01 .text p {display:block; font-size:15px; font-weight:300; line-height:22px;  margin:0 0 50px 200px;}
 #content_03 .customer_01 .text span {display:block; font-size:12px; font-weight:300;  margin-left:200px; color:#838383;}
 #content_03 .customer_01 .text span a {padding:5px;}
@@ -127,7 +127,7 @@
 #content_03 .customer_02 {display:flex; flex-wrap:wrap; width:1200px; margin:0 auto; padding:0 15px;}
 #content_03 .customer_02 .text {position:relative; width:50%; text-align:left; padding:0 50px; background:#f2f4e8;}
 #content_03 .customer_02 .text h3 {font-size:23px; font-weight:500; margin:200px 0 30px 47px; line-height:30px;}
-#content_03 .customer_02 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-20px -25px; position:absolute;}
+#content_03 .customer_02 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-2.5% -25px; position:absolute;}
 #content_03 .customer_02 .text p {display:block; font-size:15px; font-weight:300; line-height:22px;  margin:0 0 50px 47px;}
 #content_03 .customer_02 .text span {display:block; font-size:12px; font-weight:300;  margin-left:45px; color:#838383;}
 #content_03 .customer_02 .text span a {padding:5px;}
@@ -139,7 +139,7 @@
 #content_03 .customer_03 {display:flex; flex-wrap:wrap; width:1200px; margin:0 auto; padding:0 15px;}
 #content_03 .customer_03 .text {position:relative; width:50%; text-align:left;}
 #content_03 .customer_03 .text h3 {font-size:23px; font-weight:500; margin:200px 0 30px 200px; line-height:30px;}
-#content_03 .customer_03 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-20px -25px; position:absolute;}
+#content_03 .customer_03 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-2.5% -25px; position:absolute;}
 #content_03 .customer_03 .text p {display:block; font-size:15px; font-weight:300; line-height:22px;  margin:0 0 50px 200px;}
 #content_03 .customer_03 .text span {display:block; font-size:12px; font-weight:300;  margin-left:200px; color:#838383;}
 #content_03 .customer_03 .text span a {padding:5px;}
@@ -481,7 +481,7 @@
     #content_03 .customer_01 {display:flex; flex-wrap:wrap; width:auto; margin:0 auto; padding:30px 15px 0;}
     #content_03 .customer_01 .text {width:100%; text-align:left; }
     #content_03 .customer_01 .text h3 {font-size:4.7vw; font-weight:500; margin:70px 0 30px 70px; line-height:40px; position:relative;}
-    #content_03 .customer_01 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-20px -25px; position:absolute;}
+    #content_03 .customer_01 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-5% -25px; position:absolute;}
     #content_03 .customer_01 .text p {display:block; font-size:3.4vw; font-weight:400; line-height:5vw; margin:0 0 30px 70px;}
     #content_03 .customer_01 .text span {display:block; font-size:2.3vw; font-weight:500;  margin-left:65px; margin-bottom:40px; color:#838383; }
     #content_03 .customer_01 .text span a {position:relative;  padding:5px;}
@@ -496,7 +496,7 @@
     #content_03 .customer_02 {display:flex; flex-wrap:wrap; width:auto; margin:0 auto; padding:0 15px;}
     #content_03 .customer_02 .text {position:relative; width:100%; text-align:left; background:#f2f4e8; }
     #content_03 .customer_02 .text h3 {font-size:4.7vw; font-weight:500; margin:70px 0 30px 20px; line-height:25px; position:relative;}
-    #content_03 .customer_02 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-20px -25px; position:absolute;}
+    #content_03 .customer_02 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-8% -25px; position:absolute;}
     #content_03 .customer_02 .text p {display:block; font-size:3.4vw; font-weight:400; line-height:5vw; margin:0 0 30px 20px;}
     #content_03 .customer_02 .text span {display:block; font-size:2.3vw; font-weight:500;  margin-left:15px; margin-bottom:50px; color:#838383;}
     #content_03 .customer_02 .text span a {padding:5px; }
@@ -508,7 +508,7 @@
     #content_03 .customer_03 {display:flex; flex-wrap:wrap; width:auto; margin:0 auto; padding:50px 15px 0;}
     #content_03 .customer_03 .text {width:100%; text-align:left; }
     #content_03 .customer_03 .text h3 {font-size:4.7vw; font-weight:500; margin:70px 0 30px 70px; line-height:25px; position:relative;}
-    #content_03 .customer_03 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-20px -25px; position:absolute;}
+    #content_03 .customer_03 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-7% -25px; position:absolute;}
     #content_03 .customer_03 .text p {display:block; font-size:3.4vw; font-weight:400; line-height:5vw; margin:0 0 30px 70px;}
     #content_03 .customer_03 .text span {display:block; font-size:2.3vw; font-weight:500;  margin-left:65px; margin-bottom:40px; color:#838383;}
     #content_03 .customer_03 .text span a {position:relative;  padding:5px;}
@@ -523,7 +523,7 @@
     #content_03 .customer_04 {display:flex; flex-wrap:wrap; width:auto; margin:0 auto; padding:0 15px;}
     #content_03 .customer_04 .text {position:relative; width:100%; text-align:left; background:#f2f4e8; }
     #content_03 .customer_04 .text h3 {font-size:5vw; font-weight:500;  margin:70px 0 30px 20px; position:relative;}
-    #content_03 .customer_04 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-20px -25px; position:absolute;}
+    #content_03 .customer_04 .text h3::before {content:""; display:block; width:10px; height:40px; background:#435405; margin:-9% -25px; position:absolute;}
     #content_03 .customer_04 .text p {display:block; font-size:3.4vw; font-weight:400; line-height:5vw; margin:0 0 30px 20px;}
     #content_03 .customer_04 .text span {display:block; font-size:2.3vw; font-weight:500;  margin-left:15px; margin-bottom:50px; color:#838383;}
     #content_03 .customer_04 .text span a {padding:5px; }
