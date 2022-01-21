@@ -2,9 +2,9 @@
 * {outline:1px solid #f00--;} 
 
 #wrap {min-width:1900px;}
+.br {display:none;}
 
 
- 
 
 #header {position:absolute; top:0; left:0; line-height:100px; width:100%; z-index:1000; color:#333;}
 #header:hover {background:#ffffff; color:#333; padding-bottom:0px; transition:0.4s;}
@@ -241,7 +241,7 @@
 
 
 /*-----반응형 메뉴버튼-----*/
-.mopen {display:none; position:fixed; top:3.5rem; right:0.6rem; font-size:2.2rem; z-index:999;}
+.mopen {display:none; position:fixed; top:1.7rem; right:0rem; font-size:2rem; z-index:999;}
 .mopen i {padding:0.25rem;}
 
 .mopen .xi-garden {display:none; }
@@ -273,32 +273,32 @@
     #wrap {min-width:auto;}
     .container {display:flex; flex-direction:column; width:auto; margin:0 auto;}                         
     .container>* {padding:0 15px;}
+    .br {display:block;}
 
- 
 
     #header {position:static; top:0; left:0; line-height:100px; width:auto; z-index:1000; color:#333;}
     #header:hover {background:#ffffff; color:#333; padding-bottom:0px; transition:0.4s;}
     #header {display:flex; justify-content:center; line-height:50px;}
-    #header .container {text-align:center;padding:30px 0;}
+    #header .container {text-align:center; padding:0px 0;}
     #header .container h1 img { width:10rem; padding:20px 0 10px 0;}
     #header .container nav>ul {display:flex;}
-    #header .container nav>ul>li>a {display:block; position:relative; padding:15px 35px 0 35px; font-size:16px;}
+    #header .container nav>ul>li>a {display:block; position:relative; padding:15px 35px 0 35px; font-size:3.8vw;}
     #header .container .meun>li>a:hover {color:#268506; font-weight:500;}
     
 
     /*다단 서브메뉴*/
-    #header nav {position:fixed; top:0; left:-100%; width:calc(100% - 100px); height:100vh; background:#fff; border-right:1px solid#c7c7c7; transition:0.5s; z-index:9999999;}
-    #header nav>ul {display:flex; flex-direction:column; line-height:2rem; padding:10rem 1.5rem 0 1.5rem; }
+    #header nav {position:fixed; top:0; left:-100%; width:calc(100% - 120px); height:100vh; background:#fff; border-right:1px solid#c7c7c7; transition:0.5s; z-index:9999999;}
+    #header nav>ul {display:flex; flex-direction:column; line-height:2rem; padding:8rem 1.5rem 0 1.5rem; }
     #header nav.on {left:0;}
     #header nav>ul>li {position:relative;}
-    #header nav>ul ul {display:none;position:static; top:70px; width:auto; height:auto; overflow:hidden;transition:none; z-index:999;}
+    #header nav>ul ul {display:none;position:static; top:70px; width:auto; height:auto; overflow:hidden; transition:none; z-index:999;}
     #header nav:hover>ul ul {display:none;height:auto;}
-    #header nav:after {content:""; display:block; width:100%; height:0px; background:#fff; position:static;top:180px; left:0; transition:0.4s; z-index:888;}
+    #header nav:after {content:""; display:block; width:100%; height:0px; background:#fff; position:static; top:180px; left:0; transition:0.4s; z-index:888;}
     #header nav:hover:after {height:140px;}
     #header nav>ul ul a {display:block; line-height:30px; text-align:center; margin-right:4px; font-size:13px; color:#636363;}
     #header .sub_menu>li>a:hover {font-size:15px; font-weight:500; color:#93c582;}
     
-    #header nav>ul>li>ul>li>a {position:static; top:0.5rem; left:0; width:100%; text-align:center; line-height:0.01rem; background:#f4f4f4; padding:1.1rem 0; z-index:9999999;}
+    #header nav>ul>li>ul>li>a {position:static; top:0.5rem; left:0; width:100%; text-align:center; line-height:0.01rem; background:#f4f4f4; padding:1.2rem 0; z-index:9999999;}
     
     
 
@@ -309,7 +309,7 @@
     #main_visual {position:relative;}
     #main_visual figure {height:calc(100vh - 10rem)}
     #main_visual .itm01 {background:url(../img/main_visual_01.jpg) no-repeat -400px center/cover;}
-    #main_visual .itm02 {background:url(../img/main_visual_02.jpg) no-repeat -350px center/cover;}
+    #main_visual .itm02 {background:url(../img/main_visual_02.jpg) no-repeat -200px center/cover;}
     #main_visual .itm03 {background:url(../img/main_visual_03.jpg) no-repeat center center/cover;}
     
     
@@ -377,17 +377,17 @@
     
     
     /*-----섹션 02-----*/
-    #customer_02 {padding:100px 30px; text-align:center;}
+    #customer_02 {padding:100px 30px 50px 0; text-align:center;}
     #customer_02 .container {display:flex; width:auto; margin:0 auto;}
     #customer_02 img {width:100%; border-radius:50%; margin-bottom:40px;}
     #customer_02 figure {flex:1; padding:15px;}
     
     #customer_02 h2 {padding:0 15px; font-size:4.5vw; font-weight:500; margin-bottom:20px;} 
-    #customer_02 p {padding:0 15px; font-size:2.6vw; font-weight:300; margin-bottom:40px; line-height:18px;}
+    #customer_02 p {padding:0 15px; font-size:3vw; font-weight:300; margin-bottom:40px; line-height:18px;}
     
     #customer_02 .container figure strong {font-size:2.7vw; font-weight:300; color:#888;}
-    #customer_02 .container figure h3 {font-size:3.5vw; font-weight:300; letter-spacing:-1.25px; padding:13px 0;}
-    #customer_02 .container figure em {font-size:2.7vw; font-weight:500; color:#3aa117;}
+    #customer_02 .container figure h3 {font-size:4vw; font-weight:300; letter-spacing:-1.25px; padding:13px 0;}
+    #customer_02 .container figure em {font-size:3vw; font-weight:500; color:#3aa117;}
     
     #customer_02 .heart {opacity:1; font-size:26px; color:#999; transition:1s; }
     #customer_02 .heart i {padding:22px;}
@@ -396,15 +396,15 @@
     #customer_02 .container figure:hover {filter:brightness(115%);}
     
     
-    #customer_02 .btn i {position:static; top:50%; left:50%; transform:translate(0%,50%); font-size:22px; padding:10px; color:#8f8f8f; cursor: pointer;}
-    #customer_02 .btn i.xi-arrow-left {margin-left:0px; left:10px;}
-    #customer_02 .btn i.xi-arrow-right {margin-left:0px; left:auto; right:10px;}
+    #customer_02 .btn i {position:absolute; top:47%; left:50%; transform:translate(0%,0%); font-size:6vw; padding:0px 0px; color:#8f8f8f; cursor: pointer;}
+    #customer_02 .btn i.xi-arrow-left {margin-left:0px; left:1px;}
+    #customer_02 .btn i.xi-arrow-right {margin-left:0px; left:auto; right:30px;}
     #customer_02 .btn i:hover {color:#f75a5a; font-weight:700;}
 
 
     
     /*-----섹션 03-----*/
-    #customer_03 {display:flex; justify-content:space-between; padding:100px 0; text-align:center; background:#f1f1f1; }
+    #customer_03 {display:flex; justify-content:space-between; padding:100px 0 100px 0; text-align:center; background:#f1f1f1; }
     
     #customer_03 .container {display:flex; flex-wrap:wrap; width:auto; margin:0 auto; padding:0 15px;}
     #customer_03 img {max-width:auto; border-radius:5%; margin-top:40px;}
