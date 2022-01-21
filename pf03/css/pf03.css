@@ -377,7 +377,7 @@
     
     
     /*-----섹션 02-----*/
-    #customer_02 {padding:100px 30px 50px 0; text-align:center;}
+    #customer_02 {padding:100px 0px 50px 0; text-align:center;}
     #customer_02 .container {display:flex; width:auto; margin:0 auto;}
     #customer_02 img {width:100%; border-radius:50%; margin-bottom:40px;}
     #customer_02 figure {flex:1; padding:15px;}
@@ -396,7 +396,7 @@
     #customer_02 .container figure:hover {filter:brightness(115%);}
     
     
-    #customer_02 .btn i {position:absolute; top:47%; left:50%; transform:translate(0%,0%); font-size:6vw; padding:0px 0px; color:#8f8f8f; cursor: pointer;}
+    #customer_02 .btn i {display:none; position:absolute; top:47%; left:50%; transform:translate(0%,0%); font-size:6vw; padding:0px 0px; color:#8f8f8f; cursor: pointer;}
     #customer_02 .btn i.xi-arrow-left {margin-left:0px; left:1px;}
     #customer_02 .btn i.xi-arrow-right {margin-left:0px; left:auto; right:30px;}
     #customer_02 .btn i:hover {color:#f75a5a; font-weight:700;}
