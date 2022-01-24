@@ -531,24 +531,26 @@
 #content_05 {width:1900px; border-bottom:1px solid#ddd; padding:20px 0; margin:0 auto;}
 #content_05 .container {width:1200px; margin:0 auto; display:flex;}
 
-#content_05 .container .map {padding-right:15px; flex:4;}
+#content_05 .container .map {padding-right:15px; flex:3;}
 
 #content_05 .container .time {display:flex; position:relative; flex:6} 
-#content_05 .container .time h3 {font-size:30px; position:relative; font-weight:500; padding:20px 0;}
-#content_05 .container .time h3::after {content:""; display:block; width:600px; height:1px; background:#ddd; position:absolute; top:50px; left:0; margin:20px 0px;}
+#content_05 .container .time h3 {font-size:30px; position:relative; font-weight:500; padding:0px 0;}
+#content_05 .container .time h3::after {content:""; display:block; width:800px; height:1px; background:#ddd; position:absolute; top:30px; left:0; margin:20px 0px;}
 
-#content_05 .container .time ul {margin:0 auto; font-size:23px; color:#fd671a; padding:90px 0px 15px}
-#content_05 .container .time ul span {font-size:18px; color:#999;}
+#content_05 .container .time ul {margin:0 auto; font-size:20px; color:#fd671a; padding:0px 0px 0px; }
+#content_05 .container .time ul span {font-size:16px; color:#999;}
 #content_05 .container .time ul li {display:flex; font-size:16px; color:#424242; padding-top:20px;}
 #content_05 .container .time ul li p {padding:0 40px;}
 #content_05 .container .time ul li b {margin-left:auto;}
 
-#content_05 .container .time ul::after {content:""; display:block; width:1px; height:260px; background:#eeeeee; position:absolute; top:26%; left:56%; margin:0px 20px;}
+#content_05 .container .out::after {content:""; display:block; width:1px; height:260px; background:#eee; position:absolute; top:0%; right:-17%; margin:0px 20px;}
 
+#content_05 .container .out {position:absolute; top:65px; right:55%;}
 #content_05 .container .out li {padding-left:10px;}
-#content_05 .container .out li>b {padding-left:50px;}
+#content_05 .container .out li>b {padding-left:60px;}
 
-#content_05 .container .den li {padding-left:55px;}
+#content_05 .container .den {position:absolute; top:65px; right:0%;}
+#content_05 .container .den li {padding-left:50px;}
 
 @media (max-width:768px) {
         @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700&display=swap');
