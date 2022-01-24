@@ -37,7 +37,7 @@
 
 
 /*-----반응형 메뉴버튼-----*/
-.mopen {display:none; position:fixed; top:65px; right:-5px; font-size:34px; z-index:999;}
+.mopen {display:none; position:absolute; top:65px; right:-5px; font-size:34px; z-index:999;}
 .mopen i {padding:0.25rem; color:#000; background:#dddddd8c; transition:0.5s; }
 
 .mopen .xi-close {display:none; }
@@ -580,10 +580,12 @@
         #content_05 .container .time ul li b {margin-left:auto;}
 
         #content_05 .container .time ul::after {content:""; display:block; width:70vw; height:1px; background:#eeeeee; position:absolute; top:54%; left:10%; margin:0px 20px;}
-
+        
+        #content_05 .container .out {position:static; top:65px; right:55%;}
         #content_05 .container .out li {padding-left:0px;}
         #content_05 .container .out li>b {padding-left:0px;}
 
+        #content_05 .container .den {position:static; top:65px; right:0%;}
         #content_05 .container .den li {padding-left:0px;}
 }
 
