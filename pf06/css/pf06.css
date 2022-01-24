@@ -37,7 +37,7 @@
 
 
 /*-----반응형 메뉴버튼-----*/
-.mopen {display:none; position:absolute; top:65px; right:-5px; font-size:34px; z-index:999;}
+.mopen {display:none; position:absolute; top:65px; right:5px; font-size:34px; z-index:999;}
 .mopen i {padding:0.25rem; color:#000; background:#dddddd8c; transition:0.5s; }
 
 .mopen .xi-close {display:none; }
@@ -555,7 +555,7 @@
 @media (max-width:768px) {
         @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700&display=swap');
 
-        * {outline:1px solid#f00--;} 
+        * {outline:1px solid#f00;} 
         
         #wrap {min-width:auto;}
         .container {display:flex; flex-direction:column; width:auto; margin:0 auto;}                         
