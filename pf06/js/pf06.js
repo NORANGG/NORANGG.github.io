@@ -9,10 +9,10 @@ $(function(){
         fade:true,
     });
 
-    $('#main_visual .main_slider figure').eq(0).addClass('on');
-    $('#main_visual .main_slider').on('afterChange', function(e,s,c){
-        $('#main_visual .main_slider figure').eq(c).addClass('on').siblings().removeClass('on');
-    });
+    // $('#main_visual .main_slider figure').eq(0).addClass('on');
+    // $('#main_visual .main_slider').on('afterChange', function(e,s,c){
+    //     $('#main_visual .main_slider figure').eq(c).addClass('on').siblings().removeClass('on');
+    // });
 
 
 
