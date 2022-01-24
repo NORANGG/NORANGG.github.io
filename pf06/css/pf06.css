@@ -527,7 +527,7 @@
 
 /*-----섹션05 - 콘텐츠05-----*/
 #content_05 .wrap_controllers{display:none;}
-#content_05 {width:1900px; border-bottom:1px solid#ddd; padding:20px 0; margin:0 auto;}
+#content_05 {width:1900px; border-bottom:1px solid#ddd; padding:70px 0; margin:0 auto;}
 #content_05 .container {width:1200px; margin:0 auto; display:flex;}
 
 #content_05 .container .map {padding-right:15px; flex:3;}
