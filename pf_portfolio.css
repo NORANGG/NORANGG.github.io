@@ -1028,7 +1028,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .profile .me p {font-size:4vw; font-weight:400; color:var(--dc); font-family: 'Noto Sans KR';}
 
 
-    /*부터 오른쪽 스펙부분 - display:none처리됨*/
+    /*부터 오른쪽 스펙부분 - display:none처리되어있음*/
     .profile .spec {display:none; grid-template-columns:repeat(3,1fr); margin-right:0rem; width:50%; line-height:1.5;}
     .profile .spec>div {padding:0 0rem 0rem 0rem;}
     .profile .spec dt {font-size:1.5rem; font-weight:500; margin-bottom:1rem; border-bottom:1px dashed var(--mc); width:60%; color:var(--tc); font-family: 'Russo One', sans-serif;}
