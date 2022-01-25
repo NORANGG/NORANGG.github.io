@@ -646,19 +646,19 @@ body {font-size:0.8rem; color: var(--dc);}
     /*--메인 인트로 ----*/
     .intro {background:#d2efff; position:relative; overflow:hidden;}
 
-    .intro .back_01 {transform:translateY(10%); position:absolute; top:72%; left:0rem; opacity:0; z-index:4;}
+    .intro .back_01 {transform:translateY(0%); position:absolute; top:72%; left:0rem; opacity:0; z-index:4;}
     .intro .back_01 img {width:100%;}
     .intro.on .back_01 {transform:translateY(3%); transition:0.7s; opacity:1;}
 
-    .intro .back_02 {transform:translateY(10%); position:absolute; top:70%; left:0rem; opacity:0; z-index:3;}
+    .intro .back_02 {transform:translateY(0%); position:absolute; top:72%; left:0rem; opacity:0; z-index:3;}
     .intro .back_02 img {max-width:100%;}
     .intro.on .back_02 {transform:translateY(1%); transition:0.7s 0.5s; opacity:1;}
 
-    .intro .back_03 {transform:translateY(10%); position:absolute; top:70%; left:0rem; opacity:0; z-index:2;}
+    .intro .back_03 {transform:translateY(0%); position:absolute; top:72%; left:0rem; opacity:0; z-index:2;}
     .intro .back_03 img {max-width:100%;}
     .intro.on .back_03 {transform:translateY(2%); transition:0.7s 1.3s; opacity:1;}
 
-    .intro .back_04 {transform:translateY(10%); position:absolute; top:70%; left:0rem; opacity:0; z-index:1;}
+    .intro .back_04 {transform:translateY(0%); position:absolute; top:72%; left:0rem; opacity:0; z-index:1;}
     .intro .back_04 img {max-width:100%;}
     .intro.on .back_04 {transform:translateY(2%); transition:0.7s 1.9s; opacity:1;}
 
@@ -700,21 +700,21 @@ body {font-size:0.8rem; color: var(--dc);}
     }
 
 
-    .portfolio_01 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:2rem;}
-    .portfolio_01 .description {opacity:0; transform:translateX(300px); padding:0 15px;}
+    .portfolio_01 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:1rem; margin-top:1rem;}
+    .portfolio_01 .description {opacity:0; transform:translateX(300px); padding:0 25px;}
 
     .portfolio_01.on .mockup {opacity:1; transform:translateX(0); transition:0.7s;}
     .portfolio_01.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
 
-    .portfolio_01 .description h3 {font-size:7vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#AD9F97;}
-    .portfolio_01 .description b {display:block; font-size:3.8vw; font-weight:400; margin-bottom:1.5rem; margin-left:0rem; color:#AD9F97; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:100%;}
+    .portfolio_01 .description h3 {font-size:6vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#AD9F97;}
+    .portfolio_01 .description b {display:block; font-size:3.3vw; font-weight:400; margin-bottom:1rem; margin-left:0rem; color:#AD9F97; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:100%;}
 
     .portfolio_01 .description em {display:block; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}
-    .portfolio_01 .description p {font-size:3.5vw; font-weight:300; margin-bottom:1rem; line-height:1.3;}
+    .portfolio_01 .description p {font-size:3vw; font-weight:400; margin-bottom:1rem; line-height:1.3;}
 
-    .portfolio_01 .description i {display:block; font-size:2vw; font-weight:100; margin-bottom:1.5rem;}
+    .portfolio_01 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem;}
 
 
     /*부터 폰트,컬러,프로세스*/
@@ -762,20 +762,20 @@ body {font-size:0.8rem; color: var(--dc);}
     }
 
 
-    .portfolio_02 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:2rem; order:-1;}
-    .portfolio_02 .description {opacity:0; transform:translateX(300px); padding:0 15px;}
+    .portfolio_02 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:1rem; margin-top:1rem; order:-1;}
+    .portfolio_02 .description {opacity:0; transform:translateX(300px); padding:0 25px;}
 
     .portfolio_02.on .mockup {opacity:1; transform:translateX(0); transition:0.7s;}
     .portfolio_02.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
-    .portfolio_02 .description h3 {font-size:7vw; font-weight:700; letter-spacing:-0.01em; margin-bottom:0.5rem; color:#34681E;}
-    .portfolio_02 .description b {display:block; margin-left:auto; font-size:3.8vw; font-weight:400; margin-bottom:1.5rem; color:#34681E; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:100%;}
+    .portfolio_02 .description h3 {font-size:6vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#34681E;}
+    .portfolio_02 .description b {display:block; margin-left:auto; font-size:3.3vw; font-weight:400; margin-bottom:1rem; color:#34681E; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:100%;}
 
     .portfolio_02 .description em {display:block; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}
-    .portfolio_02 .description p {font-size:3.5vw; font-weight:300; margin-bottom:1rem; line-height:1.3;}
+    .portfolio_02 .description p {font-size:3vw; font-weight:400; margin-bottom:1rem; line-height:1.3;}
 
-    .portfolio_02 .description i {display:block; font-size:0.7vw; font-weight:100; margin-bottom:1.5rem;}
+    .portfolio_02 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem;}
 
 
     /*부터 폰트,컬러,프로세스*/
@@ -822,21 +822,21 @@ body {font-size:0.8rem; color: var(--dc);}
     }
 
 
-    .portfolio_03 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:2rem;}
-    .portfolio_03 .description {opacity:0; transform:translateX(300px); padding:0 15px;}
+    .portfolio_03 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:1rem; margin-top:1rem;}
+    .portfolio_03 .description {opacity:0; transform:translateX(300px); padding:0 25px;}
 
     .portfolio_03.on .mockup {opacity:1; transform:translateX(0); transition:0.7s;}
     .portfolio_03.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
 
-    .portfolio_03 .description h3 {font-size:7vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#dd3d1b;}
-    .portfolio_03 .description b {display:block; font-size:3.8vw; font-weight:400; margin-bottom:1.5rem; margin-left:0rem; color:#dd3d1b; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:100%;}
+    .portfolio_03 .description h3 {font-size:6vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#dd3d1b;}
+    .portfolio_03 .description b {display:block; font-size:3.3vw; font-weight:400; margin-bottom:1rem; margin-left:0rem; color:#dd3d1b; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:100%;}
 
     .portfolio_03 .description em {display:block; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}
-    .portfolio_03 .description p {font-size:3.5vw; font-weight:300; margin-bottom:1rem; line-height:1.3;}
+    .portfolio_03 .description p {font-size:3vw; font-weight:400; margin-bottom:1rem; line-height:1.3;}
 
-    .portfolio_03 .description i {display:block; font-size:0.7vw; font-weight:100; margin-bottom:1.5rem;}
+    .portfolio_03 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem;}
 
     /*부터 폰트,컬러,프로세스*/
     .portfolio_03 .description dl {display:flex; line-height:1.2;}
@@ -887,20 +887,20 @@ body {font-size:0.8rem; color: var(--dc);}
     }
 
 
-    .portfolio_04 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:2rem; order:-1;}
-    .portfolio_04 .description {opacity:0; transform:translateX(300px); padding:0 15px;}
+    .portfolio_04 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:1rem; margin-top:1rem; order:-1;}
+    .portfolio_04 .description {opacity:0; transform:translateX(300px); padding:0 25px;}
 
     .portfolio_04.on .mockup {opacity:1; transform:translateX(0); transition:0.7s;}
     .portfolio_04.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
-    .portfolio_04 .description h3 {font-size:7vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#268506b0;}
-    .portfolio_04 .description b {display:block; margin-left:auto; font-size:3.8vw; font-weight:400; margin-bottom:1.5rem;  color:#268506b0; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:100%;}
+    .portfolio_04 .description h3 {font-size:6vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#268506b0;}
+    .portfolio_04 .description b {display:block; margin-left:auto; font-size:3.3vw; font-weight:400; margin-bottom:1rem;  color:#268506b0; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:100%;}
 
     .portfolio_04 .description em {display:block; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}
-    .portfolio_04 .description p {font-size:0.75rem; font-weight:300; margin-bottom:1rem; line-height:1.3;}
+    .portfolio_04 .description p {font-size:3vw; font-weight:400; margin-bottom:1rem; line-height:1.3;}
 
-    .portfolio_04 .description i {display:block; font-size:0.7vw; font-weight:100; margin-bottom:1.5rem;}
+    .portfolio_04 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem;}
 
     /*부터 폰트,컬러,프로세스*/
     .portfolio_04 .description dl {display:flex; line-height:1.2;}
@@ -908,7 +908,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .portfolio_04 .description dl dd {min-width:80%; font-weight:300; font-size:3.5vw;}   /*<-dd뒤에 볼더라인 잡는용도*/
 
     .portfolio_04 .description dl:last-of-type {margin-bottom:1rem;}
-    .portfolio_04 .description dd span {display:inline-block; width:0.5rem; height:0.5rem; border-radius:50%; vertical-align:middle; margin-left:1rem;}
+    .portfolio_04 .description dd span {display:inline-block; width:0.5rem; height:0.5rem; border-radius:50%; vertical-align:middle; margin-left:0.2rem;}
     .portfolio_04 .description dd strong {vertical-align:middle; margin-left:0rem; font-size:3.5vw; font-weight:300;}
 
     .portfolio_04 .description dd span:nth-of-type(1) {background:#136102d8;}
@@ -946,26 +946,26 @@ body {font-size:0.8rem; color: var(--dc);}
     }
 
 
-    .portfolio_05 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:2rem;}
-    .portfolio_05 .description {opacity:0; transform:translateX(300px); padding:0 15px;}
+    .portfolio_05 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:1rem; margin-top:1rem;}
+    .portfolio_05 .description {opacity:0; transform:translateX(300px); padding:0px 25px;}
 
     .portfolio_05.on .mockup {opacity:1; transform:translateX(0); transition:0.7s;}
     .portfolio_05.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
 
-    .portfolio_05 .description h3 {font-size:7vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#0D4993;}
-    .portfolio_05 .description b {display:block; font-size:3.8vw; font-weight:400; margin-bottom:1.5rem; margin-left:0.2rem; color:#0D4993; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:100%;}
+    .portfolio_05 .description h3 {font-size:6vw; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#0D4993;}
+    .portfolio_05 .description b {display:block; font-size:3.3vw; font-weight:400; margin-bottom:1rem; margin-left:0rem; color:#0D4993; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:100%;}
 
     .portfolio_05 .description em {display:block; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}
-    .portfolio_05 .description p {font-size:3.5vw; font-weight:300; margin-bottom:2rem; line-height:1.3;}
+    .portfolio_05 .description p {font-size:3vw; font-weight:400; margin-bottom:1rem; line-height:1.3;}
 
-    .portfolio_05 .description i {display:block; font-size:0.7vw; font-weight:100; margin-bottom:1.5rem;}
+    .portfolio_05 .description i {display:block; font-size:2.5vw; font-weight:300; margin-bottom:1rem;}
 
     /*부터 폰트,컬러,프로세스*/
     .portfolio_05 .description dl {display:flex; line-height:1.2;}
     .portfolio_05 .description dl dt {width:6rem; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}   /*<-dt뒤에 볼더라인 잡는용도*/   
-    .portfolio_05 .description dl dd {min-width:75%; font-weight:300; font-size:3.5vw;}   /*<-dd뒤에 볼더라인 잡는용도*/
+    .portfolio_05 .description dl dd {min-width:80%; font-weight:300; font-size:3.5vw;}   /*<-dd뒤에 볼더라인 잡는용도*/
 
     .portfolio_05 .description dl:last-of-type {margin-bottom:1rem;}
     .portfolio_05 .description dd span {display:inline-block; width:0.5rem; height:0.5rem; border-radius:50%; vertical-align:middle;}
@@ -1060,7 +1060,7 @@ body {font-size:0.8rem; color: var(--dc);}
     #cover ul {position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); text-align:center; width:100%;}
 
     #cover ul li {margin-bottom:1rem; font-size:0.9rem; font-weight:500; color:var(--lc);}
-    #cover ul li:hover {color:var(--tc);}
+    #cover ul li:hover {color:var(--lc);}
 
     #cover ul li:nth-child(1) {letter-spacing:0.7rem; margin:0 0 1rem 1rem; font-weight:700; color:var(--mc); }
     #cover ul li:nth-child(1):hover {color:var(--tc);}
