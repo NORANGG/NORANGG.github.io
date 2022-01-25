@@ -20,15 +20,15 @@
 #header .container {display:flex; justify-content:space-between;}
 #header h1 img {max-width:80%;}
 #header nav>ul {display:flex;}
-#header nav>ul>li {position:relative; }
+#header nav>ul>li {position:relative;}
 #header nav>ul>li>a {display:block; padding:30px 40px;  font-size:20px;}
 #header nav>ul>li::after {content:""; display:block; width:0px; height:3px; background:#fd671a; transition:0.5s; margin:0 auto; }
 #header nav>ul>li:hover::after {width:100%;}
         /*서브메뉴*/        
 #header nav>ul>li {position: relative;}
-#header nav>ul ul {position:absolute; top:120%; width:100%; height:0; overflow:hidden; transition:0.5s; z-index:999; }
+#header nav>ul ul{position:absolute; top:120%; width:100%; height:0; overflow:hidden; transition:0.5s; z-index:999;}
 #header nav:hover>ul ul {height:350px;}
-#header nav:after {content:""; display:block; width:100%; height:0px; background:#fff url(../img/nav.png) no-repeat left center/25%; position:absolute; top:137px; left:0; transition:0.5s; z-index:888;}
+#header nav:after {content:""; display:block; width:100%; height:0px; background:#fff url(../img/nav.png) no-repeat left center/30%; position:absolute; top:137px; left:0; transition:0.5s; z-index:888;}
 #header nav:hover:after {height:350px;}
 #header nav>ul ul a {display:block; line-height:35px; text-align:center; font-size:16px; color:#636363;}
 #header .sub_menu>li>a:hover {color:#fff; background:#fd671a;}
@@ -216,7 +216,7 @@
 #content_02 .btn i.xi-angle-left {margin-left:-1350px;}
 #content_02 .btn i.xi-angle-right {margin-left:1350px; }
 
-#content_02 span {font-size:18px; font-weight:100; background:#fd671a; color:#fff; padding:5px 30px;}
+#content_02 span {font-size:16px; font-weight:400; border:1px solid#fd671a; color:#444; padding:5px 30px;}
 #content_02 span:hover {background:#fd661a79;}
 
 @media (max-width:768px) {
@@ -255,7 +255,7 @@
         #content_02 .btn i.xi-angle-left {margin-left:-160%;}
         #content_02 .btn i.xi-angle-right {margin-left:160%;}
 
-        #content_02 span {font-size:4vw; font-weight:100; background:#fd671a; color:#fff; padding:5px 20px; margin:0 auto;}
+        #content_02 span {font-size:3.5vw; font-weight:400; border:1px solid#fd671a; color:#444; padding:5px 20px; margin:0 auto;}
         #content_02 span:hover {background:#fd661a79;}
 }
 
