@@ -543,13 +543,15 @@ body {font-size:0.8rem; color: var(--dc);}
 
 #cover ul {position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); text-align:center;}
 
-#cover ul li {margin-bottom:1.5rem; font-size:1.3rem; font-weight:500; color:var(--lc);}
+#cover ul li {margin-bottom:1.2rem; font-size:1.3rem; font-weight:500; color:var(--lc);}
 #cover ul li:hover {color:var(--tc);}
 
-#cover ul li:nth-child(1) {letter-spacing:0.7rem; margin:0 0 2rem 1rem; font-weight:700; color:var(--mc); }
+#cover ul li:nth-child(1) {letter-spacing:0.7rem; margin:0 0 2rem 1.5rem; font-weight:700; color:var(--mc); }
 #cover ul li:nth-child(1):hover {color:var(--tc);}
-#cover ul li:nth-child(7) {letter-spacing:0.7rem; margin:2.5rem 0 0 1.7rem; font-weight:700; color:var(--mc);}
+#cover ul li:nth-child(7) {letter-spacing:0.7rem; margin:1.5rem 0 0 1.5rem; font-weight:700; color:var(--b4);}
 #cover ul li:nth-child(7):hover {color:var(--tc);}
+#cover ul li:nth-child(8) {letter-spacing:0.7rem; margin:1.5rem 0 0 1.5rem; font-weight:700; color:var(--mc);}
+#cover ul li:nth-child(8):hover {color:var(--tc);}
 
 #cover ul li span {font-size:2rem; font-style:italic; font-weight:900; color:var(--dc); text-shadow:0.06rem 0.06rem var(--mc), -0.06rem -0.06rem var(--mc); transition:0.5s;}
 #cover ul li:hover span {color:var(--sc); text-shadow:none; }
@@ -561,7 +563,7 @@ body {font-size:0.8rem; color: var(--dc);}
 #cover .star_02 {position:absolute; top:21%; left:43%; animation:cloud_star 1.5s infinite linear alternate;}
 #cover .star_03 {position:absolute; top:45%; left:60%; animation:cloud_star 1s infinite linear alternate;}
 #cover .star_04 {position:absolute; top:40%; left:37%; animation:cloud_star 1.5s infinite linear alternate;}
-#cover .star_05 {position:absolute; top:61%; left:40%; animation:cloud_star 0.5s infinite linear alternate;}
+#cover .star_05 {position:absolute; top:72%; left:40%; animation:cloud_star 0.5s infinite linear alternate;}
 #cover .star_06 {position:absolute; top:69%; left:56%; animation:cloud_star 1s infinite linear alternate;}
 
 @keyframes cloud_star {
@@ -1126,26 +1128,31 @@ body {font-size:0.8rem; color: var(--dc);}
 
     #cover ul {position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); text-align:center; width:100%;}
 
-    #cover ul li {margin-bottom:1rem; font-size:0.9rem; font-weight:500; color:var(--lc);}
+    #cover ul li {margin-bottom:1rem; font-size:0.8rem; font-weight:500; color:var(--lc);}
     #cover ul li:hover {color:var(--lc);}
 
-    #cover ul li:nth-child(1) {letter-spacing:0.7rem; margin:0 0 1rem 1rem; font-weight:700; color:var(--mc); }
+    #cover ul li:nth-child(1) {letter-spacing:0.5rem; margin:0 0 1rem 1.5rem; font-weight:700; color:var(--mc); }
     #cover ul li:nth-child(1):hover {color:var(--tc);}
-    #cover ul li:nth-child(7) {letter-spacing:0.7rem; margin:1.5rem 0 0 1.7rem; font-weight:700; color:var(--mc);}
+    #cover ul li:nth-child(7) {letter-spacing:0.5rem; margin:1.5rem 0 0 1.7rem; font-weight:700; color:var(--b4);}
     #cover ul li:nth-child(7):hover {color:var(--tc);}
+    #cover ul li:nth-child(8) {letter-spacing:0.5rem; margin:1rem 0 0 1.5rem; font-weight:700; color:var(--mc);}
+    #cover ul li:nth-child(8):hover {color:var(--tc);}
 
     #cover ul li span {font-size:1.5rem; font-style:italic; font-weight:900; color:var(--dc); text-shadow:0.06rem 0.06rem var(--mc), -0.06rem -0.06rem var(--mc); transition:0.5s;}
-    #cover ul li:hover span {color:var(--sc); text-shadow:none; }
+    #cover ul li:hover span {color:var(--sc); text-shadow:none;}
+
+
+
 
 
 
     #cover .cover_star img {width:20%;}
     #cover .star_01 {position:absolute; top:22%; left:28%; animation:cloud_star 0.5s infinite linear alternate;}
     #cover .star_02 {position:absolute; top:17%; left:68%; animation:cloud_star 1.5s infinite linear alternate;}
-    #cover .star_03 {position:absolute; top:45%; left:60%; animation:cloud_star 1s infinite linear alternate;}
+    #cover .star_03 {position:absolute; top:45%; left:75%; animation:cloud_star 1s infinite linear alternate;}
     #cover .star_04 {position:absolute; top:50%; left:16%; animation:cloud_star 1.5s infinite linear alternate;}
-    #cover .star_05 {position:absolute; top:58%; left:74%; animation:cloud_star 0.5s infinite linear alternate;}
-    #cover .star_06 {position:absolute; top:78%; left:42%; animation:cloud_star 1s infinite linear alternate;}
+    #cover .star_05 {position:absolute; top:55%; left:74%; animation:cloud_star 0.5s infinite linear alternate;}
+    #cover .star_06 {position:absolute; top:80%; left:42%; animation:cloud_star 1s infinite linear alternate;}
 
     @keyframes cloud_star {
         0% {opacity:0.3;}
