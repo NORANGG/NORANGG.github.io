@@ -159,7 +159,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 
-.portfolio_01 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#AD9F97;}
+.portfolio_01 .description h3 {font-size:3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#AD9F97;}
 .portfolio_01 .description b {display:block; font-size:0.8rem; font-weight:400; margin-bottom:1.5rem; margin-left:0.25rem; color:#AD9F97; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
 
 .portfolio_01 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
@@ -183,7 +183,7 @@ body {font-size:0.8rem; color: var(--dc);}
 /*까지 폰트,컬러,프로세스*/
 
 
-.portfolio_01 .description ul {display:flex; position:absolute; top:4.5rem; right:8rem;}
+.portfolio_01 .description ul {display:flex; position:absolute; top:4rem; right:8rem;}
 .portfolio_01 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem;}
 .portfolio_01 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.7rem 2.2rem;}
 
@@ -220,7 +220,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_02.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
-.portfolio_02 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.01em; margin-bottom:0.5rem; color:#34681E;}
+.portfolio_02 .description h3 {font-size:3rem; font-weight:700; letter-spacing:-0.01em; margin-bottom:0.5rem; color:#34681E;}
 .portfolio_02 .description b {display:block; margin-left:auto; font-size:0.8rem; font-weight:400; margin-bottom:1.5rem; color:#34681E; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
 
 .portfolio_02 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
@@ -244,7 +244,7 @@ body {font-size:0.8rem; color: var(--dc);}
 /*까지 폰트,컬러,프로세스*/
 
 
-.portfolio_02 .description ul {display:flex; position:absolute; top:4.5rem; left:8rem;}
+.portfolio_02 .description ul {display:flex; position:absolute; top:4rem; left:8rem;}
 .portfolio_02 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem;}
 .portfolio_02 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.7rem 2.2rem;}
 
@@ -281,7 +281,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 
-.portfolio_03 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#dd3d1b;}
+.portfolio_03 .description h3 {font-size:3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#dd3d1b;}
 .portfolio_03 .description b {display:block; font-size:0.8rem; font-weight:400; margin-bottom:1.5rem; margin-left:0.2rem; color:#dd3d1b; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
 
 .portfolio_03 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
@@ -304,7 +304,7 @@ body {font-size:0.8rem; color: var(--dc);}
 /*까지 폰트,컬러,프로세스*/
 
 
-.portfolio_03 .description ul {display:flex; position:absolute; top:4.5rem; right:8rem;}
+.portfolio_03 .description ul {display:flex; position:absolute; top:4rem; right:8rem;}
 .portfolio_03 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem;}
 .portfolio_03 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.7rem 2.2rem;}
 
@@ -345,7 +345,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_04.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
-.portfolio_04 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#268506b0; }
+.portfolio_04 .description h3 {font-size:3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#268506b0; }
 .portfolio_04 .description b {display:block; margin-left:auto; font-size:0.8rem; font-weight:400; margin-bottom:1.5rem;  color:#268506b0; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
 
 .portfolio_04 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
@@ -368,7 +368,7 @@ body {font-size:0.8rem; color: var(--dc);}
 /*까지 폰트,컬러,프로세스*/
 
 
-.portfolio_04 .description ul {display:flex; position:absolute; top:4.5rem; left:8rem;}
+.portfolio_04 .description ul {display:flex; position:absolute; top:4rem; left:8rem;}
 .portfolio_04 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem;}
 .portfolio_04 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.7rem 2.2rem;}
 
@@ -405,7 +405,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 
-.portfolio_05 .description h3 {font-size:3.3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#0D4993;}
+.portfolio_05 .description h3 {font-size:3rem; font-weight:700; letter-spacing:-0.05em; margin-bottom:0.5rem; color:#0D4993;}
 .portfolio_05 .description b {display:block; font-size:0.8rem; font-weight:400; margin-bottom:1.5rem; margin-left:0.2rem; color:#0D4993; border-bottom:1px dashed var(--mc); padding-bottom:1rem; width:90%;}
 
 .portfolio_05 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
@@ -428,7 +428,7 @@ body {font-size:0.8rem; color: var(--dc);}
 /*까지 폰트,컬러,프로세스*/
 
 
-.portfolio_05 .description ul {display:flex; position:absolute; top:4.5rem; right:8rem;}
+.portfolio_05 .description ul {display:flex; position:absolute; top:4rem; right:8rem;}
 .portfolio_05 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem;}
 .portfolio_05 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.7rem 2.2rem;}
 
@@ -439,14 +439,35 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 /*--트레이닝----*/
+.training {position:relative;}
+.training .container {padding:0rem 7rem;}
 
+.training .cloud {position:absolute; top:-3rem; left:66rem; width:100%; height:100%;  animation:cloud_trn 2s infinite linear alternate; opacity:0.7; z-index:0;}
+.training .cloud_02 {position:absolute; top:7rem; left:-5rem; width:100%; height:100%; animation:cloud_trn_02 1.7s infinite linear alternate; opacity:0.7; z-index:-1;}
+.training img {max-width:100%;}
 
+@keyframes cloud_trn {
+    0% {top:-3rem;}
+    50% {top:-4rem;}
+    100% {top:-5rem;}
+}
 
+@keyframes cloud_trn_02 {
+    0% {top:7rem;}
+    50% {top:8rem;}
+    100% {top:9rem;}
+}
 
+.training h3 {font-size:2.5rem; font-weight:700; text-align:center; margin-bottom:3rem; color:var(--tc);}
 
+.training .mockup {margin:0 auto; box-shadow:0 0 15px#adadad; border-radius:1rem; width:80%; overflow:hidden;}
+.training .mockup figure {position:relative; padding-bottom:50%;}
+.training .mockup figure img {position:absolute; top:0; left:0; width:100%; transition:3s; cursor:pointer;}
+.training .mockup figure img:hover {transform:translateY(-100%); top:100%;}
 
-
-
+.training .text {text-align:center; margin-top:1.5rem;}
+.training .text b {display:block; font-size:0.8rem; margin-bottom:0.5rem;}
+.training .text i {display:block; font-size:0.6rem; font-weight:100;}
 
 
 
@@ -996,6 +1017,40 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .portfolio_05 .nember {display:none; position:absolute; bottom:-10rem; right:0rem; z-index:-1;}
     .portfolio_05 .nember span {font-size:20rem; font-style:italic; font-weight:600; color:#ffffff; text-shadow:0.3rem 0.3rem #bde3f8ab, -0.3rem -0.3rem #bde3f8ab;}
+
+
+
+    /*--트레이닝----*/
+    .training {position:relative;}
+    .training .container {padding:0rem 3rem;}
+
+    .training .cloud {position:absolute; top:-3rem; left:66rem; width:100%; height:100%;  animation:cloud_trn 2s infinite linear alternate; opacity:0.7; z-index:0;}
+    .training .cloud_02 {position:absolute; top:7rem; left:-5rem; width:100%; height:100%; animation:cloud_trn_02 1.7s infinite linear alternate; opacity:0.7; z-index:-1;}
+    .training img {max-width:100%;}
+
+    @keyframes cloud_trn {
+        0% {top:-3rem;}
+        50% {top:-4rem;}
+        100% {top:-5rem;}
+    }
+
+    @keyframes cloud_trn_02 {
+        0% {top:7rem;}
+        50% {top:8rem;}
+        100% {top:9rem;}
+    }
+
+    .training h3 {font-size:6vw; font-weight:700; text-align:center; margin-bottom:1.5rem; padding-top:2rem; color:var(--tc);}
+
+    .training .mockup {margin:0 auto; box-shadow:0 0 15px#adadad; border-radius:1rem; width:90%; overflow:hidden;}
+    .training .mockup figure {position:relative; padding-bottom:50%;}
+    .training .mockup figure img {position:absolute; top:0; left:0; width:100%; transition:3s; cursor:pointer;}
+    .training .mockup figure img:hover {transform:translateY(-100%); top:100%;}
+
+    .training .text {text-align:center; margin-top:1rem;}
+    .training .text b {display:none; font-size:4vw; margin-bottom:0.5rem;}
+    .training .text i {display:none; font-size:2.5vw; font-weight:300; margin-bottom:2rem;}
+
 
 
 
