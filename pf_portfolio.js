@@ -54,6 +54,13 @@ $('#cover ul').on('click', function(){
 
 
 
+$('.profile .add i.xi-kakaotalk').on('click', function(){
+    $('.profile .add figure').show('on');
+});
 
+
+$('.profile .add i.xi-close').on('click', function(){
+    $('.profile .add figure').hide('on');
+});
 //-----------------------------------------------------------------
 });

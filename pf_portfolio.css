@@ -458,7 +458,7 @@ body {font-size:0.8rem; color: var(--dc);}
     100% {top:9rem;}
 }
 
-.training h3 {font-size:2.5rem; font-weight:700; text-align:center; margin-bottom:3rem; color:var(--tc);}
+.training h3 {font-size:2rem; font-weight:700; text-align:center; margin-bottom:3rem; color:var(--tc);}
 
 .training .mockup {margin:0 auto; box-shadow:0 0 15px#adadad; border-radius:1rem; width:80%; overflow:hidden;}
 .training .mockup figure {position:relative; padding-bottom:50%;}
@@ -466,7 +466,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .training .mockup figure img:hover {transform:translateY(-100%); top:100%;}
 
 .training .text {text-align:center; margin-top:1.5rem;}
-.training .text b {display:block; font-size:0.8rem; margin-bottom:0.5rem;}
+.training .text b {display:block; font-size:0.8rem; margin-bottom:0.5rem; color:var(--dc);}
 .training .text i {display:block; font-size:0.6rem; font-weight:100;}
 
 
@@ -525,8 +525,24 @@ body {font-size:0.8rem; color: var(--dc);}
 .profile .spec .skills dd i {font-size:1.5rem; padding:0.7rem; background:var(--lc); border-radius:50%;}
 
 
-.profile .spec .add dl>div {display:flex;}
 /*까지 오른쪽 스펙부분*/
+
+
+.profile .add {}
+.profile .add figure {display:none; width:30%;}
+.profile .add figure span {position:absolute; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
+.profile .add i.xi-close {font-size:1.5rem;}
+
+
+.profile .add i {font-size:2.3rem; padding-right:1rem; cursor:pointer; transition:0.3s; }
+
+
+.profile .add i.xi-kakaotalk:hover {color:var(--sc);}
+.profile .add i.xi-github:hover {color:var(--b4);}
+
+
+.profile .kakao figure {position:absolute; width:40%; top:50%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:50px 40px; z-index:1;}
+
 
 
 
