@@ -18,7 +18,7 @@ hr.mhr:after {content:"\e935"; font-family: xeicon!important; background:#ddd; p
 
 
 /*메인 네비부분 (오른쪽)*/
-.navbar {position:fixed; top:50%; right:3rem; transform:translateY(-50%);}
+.navbar {position:fixed; top:50%; right:3rem; transform:translateY(-50%); color:#999;}
 .navbar>li a {display:block; width:0.75rem; height:0.75rem;font-size:0; margin:0.3rem auto; text-align:center; position:relative;}
 .navbar>li a:after {content:"＊"; font-family: xeicon!important; font-size:0.5rem; display:inline-block; border-radius:50%; text-align:center; margin:auto; transition:0.5s;}
 .navbar>li.on a:after {transform:scale(2.5) rotate(360deg); color:#f00;}
