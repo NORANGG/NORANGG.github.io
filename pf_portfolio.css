@@ -1024,20 +1024,20 @@ body {font-size:0.8rem; color: var(--dc);}
     .training {position:relative;}
     .training .container {padding:0rem 3rem;}
 
-    .training .cloud {position:absolute; top:-3rem; left:66rem; width:100%; height:100%;  animation:cloud_trn 2s infinite linear alternate; opacity:0.7; z-index:0;}
-    .training .cloud_02 {position:absolute; top:7rem; left:-5rem; width:100%; height:100%; animation:cloud_trn_02 1.7s infinite linear alternate; opacity:0.7; z-index:-1;}
+    .training .cloud {position:absolute; top:40%; left:65%; width:100%; height:100%;  animation:cloud_trn_mo 2s infinite linear alternate; opacity:0.7; width:50%; z-index:0;}
+    .training .cloud_02 {position:absolute; top:0%; left:0%; width:100%; height:100%; animation:cloud_trn_02_mo 1.7s infinite linear alternate; opacity:0.7; width:50%; z-index:-1;}
     .training img {max-width:100%;}
 
-    @keyframes cloud_trn {
-        0% {top:-3rem;}
-        50% {top:-4rem;}
-        100% {top:-5rem;}
+    @keyframes cloud_trn_mo {
+        0% {top:40%;}
+        50% {top:41%;}
+        100% {top:42%;}
     }
 
-    @keyframes cloud_trn_02 {
-        0% {top:7rem;}
-        50% {top:8rem;}
-        100% {top:9rem;}
+    @keyframes cloud_trn_02_mo {
+        0% {top:0%;}
+        50% {top:1%;}
+        100% {top:2%;}
     }
 
     .training h3 {font-size:6vw; font-weight:700; text-align:center; margin-bottom:1.5rem; padding-top:2rem; color:var(--tc);}
