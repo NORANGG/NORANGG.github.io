@@ -525,23 +525,22 @@ body {font-size:0.8rem; color: var(--dc);}
 .profile .spec .skills dd i {font-size:1.5rem; padding:0.7rem; background:var(--lc); border-radius:50%;}
 
 
-/*까지 오른쪽 스펙부분*/
 
 
 .profile .add {}
 .profile .add figure {display:none; width:30%;}
-.profile .add figure span {position:absolute; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
-.profile .add i.xi-close {font-size:1.5rem;}
 
-
-.profile .add i {font-size:2.3rem; padding-right:1rem; cursor:pointer; transition:0.3s; }
-
-
+.profile .add i {font-size:2.3rem; cursor:pointer; transition:0.3s; }
 .profile .add i.xi-kakaotalk:hover {color:var(--sc);}
-.profile .add i.xi-github:hover {color:var(--b4);}
-
 
 .profile .kakao figure {position:absolute; width:40%; top:50%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:50px 40px; z-index:1;}
+
+.profile .add figure span {position:absolute; top:1.5%; right:1%; color:var(--tc); cursor:pointer;}
+.profile .add i.xi-close {font-size:1.5rem;}
+.profile .add i.xi-close:hover {color:var(--b4);}
+/*까지 오른쪽 스펙부분*/
+
+
 
 
 
@@ -1126,7 +1125,17 @@ body {font-size:0.8rem; color: var(--dc);}
     .profile .spec .skills dd i {font-size:1.5rem; padding:0.7rem; background:var(--lc); border-radius:50%;}
 
 
-    .profile .spec .add dl>div {display:flex;}
+    .profile .add {}
+    .profile .add figure {display:none; width:30%;}
+    .profile .add figure span {position:absolute; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
+    .profile .add i.xi-close {font-size:1.5rem;}
+
+
+    .profile .add i {font-size:2.3rem; padding-right:1rem; cursor:pointer; transition:0.3s; }
+    .profile .add i.xi-kakaotalk:hover {color:var(--sc);}
+
+
+    .profile .kakao figure {position:absolute; width:40%; top:50%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:50px 40px; z-index:1;}
     /*까지 오른쪽 스펙부분*/
 
 
