@@ -1124,11 +1124,11 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
     /*--메뉴 커버----*/
-    #cover {display:none; position:fixed; top:0; left:0; background:#222222ef; width:100%; height:100%; z-index:99;}
+    #cover {display:none; position:fixed; top:0; left:0; background:#222222f5; width:100%; height:100%; z-index:99;}
 
     #cover ul {position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); text-align:center; width:100%;}
 
-    #cover ul li {margin-bottom:1rem; font-size:0.8rem; font-weight:500; color:var(--lc);}
+    #cover ul li {margin-bottom:1rem; font-size:1rem; font-weight:500; color:var(--lc);}
     #cover ul li:hover {color:var(--lc);}
 
     #cover ul li:nth-child(1) {letter-spacing:0.5rem; margin:0 0 1rem 1.5rem; font-weight:700; color:var(--mc); }
