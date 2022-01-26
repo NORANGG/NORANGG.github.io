@@ -505,10 +505,10 @@ body {font-size:0.8rem; color: var(--dc);}
     100% {transform:rotate(1turn);}
 }
 
-.profile .me {padding-top:1rem;}
+.profile .me {padding-top:2rem;}
 .profile .me dl {}
 .profile .me dt {font-size:1.5rem; font-weight:500; line-height:2; margin-bottom:1rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Russo One', sans-serif;}
-.profile .me dd {line-height:2; margin-bottom:0.6rem; font-size:0.7rem; color:var(--b4); font-family: 'Russo One', sans-serif;}
+.profile .me dd {line-height:1.5; margin-bottom:1rem; font-size:0.7rem; color:var(--b4); font-family: 'Russo One', sans-serif;}
 .profile .me p {font-size:0.75rem; font-weight:400; color:var(--dc); font-family: 'Noto Sans KR';}
 
 
@@ -1082,7 +1082,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .profile .picture {position:relative; width:10rem; height:10rem; padding:0.5rem; border:1px solid var(--dd); border-radius:50%;}
     .profile .picture strong {display:block; border-radius:50%; overflow:hidden;}
     .profile .picture strong img {width:100%;}
-    .profile .picture span {position:absolute; top:0; left:calc(50% - 0.5rem); width:1rem; height:5rem; font-size:0; animation:circle_me 15s infinite linear; transform-origin:bottom;}
+    .profile .picture span {position:absolute; top:0; left:calc(50% - 0.5rem); width:1rem; height:5rem; font-size:0; animation:circle_me 17s infinite linear; transform-origin:bottom;}
     .profile .picture span::after {content:""; display:block; width:0.5rem; height:0.5rem; background:var(--sc); border-radius:50%; margin-top:-0.25rem; filter:blur(2.5px);}
 
     @keyframes circle_me {
