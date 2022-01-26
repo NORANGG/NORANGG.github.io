@@ -55,7 +55,11 @@ $('#cover ul').on('click', function(){
 
 
 $('.profile .add i.xi-kakaotalk').on('click', function(){
-    $('.profile .add figure').show('on');
+    $('.profile .add .kakao figure').show('on');
+});
+
+$('.profile .add i.xi-github').on('click', function(){
+    $('.profile .add .git figure').show('on');
 });
 
 

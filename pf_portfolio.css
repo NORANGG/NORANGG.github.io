@@ -509,8 +509,9 @@ body {font-size:0.8rem; color: var(--dc);}
 .profile .me dl {}
 .profile .me dt {font-size:1.5rem; font-weight:500; line-height:2; margin-bottom:1rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Russo One', sans-serif;}
 .profile .me dd {line-height:1.5; margin-bottom:1rem; font-size:0.7rem; color:var(--b4); font-family: 'Russo One', sans-serif;}
-.profile .me p {font-size:0.75rem; font-weight:400; color:var(--dc); font-family: 'Noto Sans KR';}
+.profile .me p {font-size:0.75rem; font-weight:400; color:var(--dc); transition:0.3s; font-family: 'Noto Sans KR';}
 
+.profile .me p:hover {color:var(--tc);}
 
 /*부터 오른쪽 스펙부분*/
 .profile .spec {display:grid; grid-template-columns:repeat(2,1fr); margin-right:15rem; width:100%; line-height:2;}
@@ -522,20 +523,24 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .profile .spec .skills dl>div {display:flex;}
 .profile .spec .skills dd {padding-right:1rem;}
-.profile .spec .skills dd i {font-size:1.5rem; padding:0.7rem; background:var(--lc); border-radius:50%;}
+.profile .spec .skills dd i {font-size:1.5rem; padding:0.5rem; background:var(--lc); border-radius:50%;}
 
 
 
 
-.profile .add {}
+.profile .add dl>div {display:flex;}
 .profile .add figure {display:none; width:30%;}
 
 .profile .add i {font-size:2.3rem; cursor:pointer; transition:0.3s; }
 .profile .add i.xi-kakaotalk:hover {color:var(--sc);}
+.profile .add i.xi-github:hover {color:var(--b4);}
 
 .profile .kakao figure {position:absolute; width:40%; top:50%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:50px 40px; z-index:1;}
 
-.profile .add figure span {position:absolute; top:1.5%; right:1%; color:var(--tc); cursor:pointer;}
+.profile .git figure {position:absolute; width:40%; top:50%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:50px 40px; z-index:1;}
+
+
+.profile .add figure span {position:absolute; top:1.5%; right:1.5%; color:var(--tc); cursor:pointer;}
 .profile .add i.xi-close {font-size:1.5rem;}
 .profile .add i.xi-close:hover {color:var(--b4);}
 /*까지 오른쪽 스펙부분*/
