@@ -749,7 +749,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .portfolio_01 .description em {display:block; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}
     .portfolio_01 .description p {font-size:3vw; font-weight:400; margin-bottom:1rem; line-height:1.3;}
 
-    .portfolio_01 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem;}
+    .portfolio_01 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem; color:#999;}
 
 
     /*부터 폰트,컬러,프로세스*/
@@ -810,7 +810,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .portfolio_02 .description em {display:block; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}
     .portfolio_02 .description p {font-size:3vw; font-weight:400; margin-bottom:1rem; line-height:1.3;}
 
-    .portfolio_02 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem;}
+    .portfolio_02 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem; color:#999;}
 
 
     /*부터 폰트,컬러,프로세스*/
@@ -871,7 +871,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .portfolio_03 .description em {display:block; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}
     .portfolio_03 .description p {font-size:3vw; font-weight:400; margin-bottom:1rem; line-height:1.3;}
 
-    .portfolio_03 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem;}
+    .portfolio_03 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem; color:#999;}
 
     /*부터 폰트,컬러,프로세스*/
     .portfolio_03 .description dl {display:flex; line-height:1.2;}
@@ -935,7 +935,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .portfolio_04 .description em {display:block; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}
     .portfolio_04 .description p {font-size:3vw; font-weight:400; margin-bottom:1rem; line-height:1.3;}
 
-    .portfolio_04 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem;}
+    .portfolio_04 .description i {display:block; font-size:2.5vw; font-weight:400; margin-bottom:1rem; color:#999;}
 
     /*부터 폰트,컬러,프로세스*/
     .portfolio_04 .description dl {display:flex; line-height:1.2;}
@@ -995,7 +995,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .portfolio_05 .description em {display:block; font-size:3.5vw; font-weight:700; margin-bottom:0.5rem;}
     .portfolio_05 .description p {font-size:3vw; font-weight:400; margin-bottom:1rem; line-height:1.3;}
 
-    .portfolio_05 .description i {display:block; font-size:2.5vw; font-weight:300; margin-bottom:1rem;}
+    .portfolio_05 .description i {display:block; font-size:2.5vw; font-weight:300; margin-bottom:1rem; color:#999;}
 
     /*부터 폰트,컬러,프로세스*/
     .portfolio_05 .description dl {display:flex; line-height:1.2;}
