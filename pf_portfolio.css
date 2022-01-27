@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 
 * {outline:1px solid#f00--;}
 
@@ -120,8 +120,9 @@ body {font-size:0.8rem; color: var(--dc);}
 .intro .case::after {content:""; position:absolute; top:-1rem; right:3rem; display:block; width:5rem; height:5rem; background: var(--sc); border-radius:50%; opacity:0;}
 
 .intro .slogan {margin-bottom:4rem;}
-.intro .slogan h2 {letter-spacing:0.1rem; font-size:4rem; text-align:center; margin-bottom:1rem; font-family: 'Russo One', sans-serif;}
-.intro .slogan span {display:block; font-size:0.75rem; font-weight:300; text-align:center;}
+.intro .slogan p {letter-spacing:0.4rem; font-size:0.85rem; text-align:center; margin-bottom:1rem; color:var(--tc);}
+.intro .slogan h2 {letter-spacing:0.1rem; font-size:4.5rem; text-align:center; margin-bottom:0.5rem; font-family: 'Lalezar', cursive;}
+.intro .slogan span {display:block; font-size:0.75rem; font-weight:300; text-align:center; color:var(--);}
 
 .intro .wheel {position:absolute; bottom:2rem; left:50%; transform:translateX(-50%); width:1.5rem; height:2.4rem; border:2px solid#777; font-size:0; border-radius:0.7rem; z-index:5;}
 .intro .wheel span {position:absolute; top:0.3rem; left:50%; transform:translateX(-50%); width:0.17rem; height:0.5rem; background:#444; border-radius:0.05rem; animation:wheel 1s infinite;}
@@ -507,8 +508,8 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .profile .me {padding-top:2rem;}
 .profile .me dl {}
-.profile .me dt {font-size:1.5rem; font-weight:500; line-height:2; margin-bottom:1rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Russo One', sans-serif;}
-.profile .me dd {line-height:1.5; margin-bottom:1rem; font-size:0.7rem; color:var(--b4); font-family: 'Russo One', sans-serif;}
+.profile .me dt {font-size:1.5rem; font-weight:500; line-height:2; margin-bottom:1rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Lalezar', cursive;}
+.profile .me dd {line-height:1.5; margin-bottom:1rem; font-size:0.7rem; color:var(--b4); font-family: 'Lalezar', cursive;}
 .profile .me p {font-size:0.75rem; font-weight:400; color:var(--dc); transition:0.3s; font-family: 'Noto Sans KR';}
 
 .profile .me p:hover {color:var(--tc);}
@@ -516,7 +517,7 @@ body {font-size:0.8rem; color: var(--dc);}
 /*부터 오른쪽 스펙부분*/
 .profile .spec {display:grid; grid-template-columns:repeat(2,1fr); margin-right:15rem; width:100%; line-height:2;}
 .profile .spec>div {padding:0 0rem 2rem 2rem;}
-.profile .spec dt {font-size:1.5rem; font-weight:500; margin-bottom:1rem; border-bottom:1px dashed var(--mc); width:60%; color:var(--tc); font-family: 'Russo One', sans-serif;}
+.profile .spec dt {font-size:1.5rem; font-weight:500; margin-bottom:1rem; border-bottom:1px dashed var(--mc); width:60%; color:var(--tc); font-family: 'Lalezar', cursive;}
 .profile .spec dd {font-size:0.75rem;}
 .profile .spec p {float:right; font-size:0.65rem; font-weight:300; color:var(--b4);}
 
@@ -724,7 +725,8 @@ body {font-size:0.8rem; color: var(--dc);}
     .intro .case::after {content:""; position:absolute; top:-1rem; right:3rem; display:block; width:5rem; height:5rem; background: var(--sc); border-radius:50%; opacity:0;}
 
     .intro .slogan {margin-bottom:4rem;}
-    .intro .slogan h2 {letter-spacing:0.1rem; font-size:12vw; text-align:center; margin-bottom:1rem; font-family: 'Russo One', sans-serif;}
+    .intro .slogan p {letter-spacing:0.2rem; font-size:3vw; text-align:center; margin-bottom:0.5rem; color:var(--tc);}
+    .intro .slogan h2 {letter-spacing:0.05rem; font-size:12vw; text-align:center; margin-bottom:0.3rem; font-family: 'Lalezar', cursive;}
     .intro .slogan span {display:block; font-size:3vw; font-weight:300; text-align:center;}
 
     .intro .wheel {display:none; position:absolute; bottom:1rem; left:50%; transform:translateX(-50%); width:1.5rem; height:2.2rem; border:2px solid#777; font-size:0; border-radius:0.7rem; z-index:5;}
@@ -1112,15 +1114,15 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .profile .me {padding-top:1.5rem;}
     .profile .me dl {}
-    .profile .me dt {font-size:5vw; font-weight:500; line-height:2; margin-bottom:0.5rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Russo One', sans-serif;}
-    .profile .me dd {line-height:1.5; margin-bottom:0.5rem; font-size:3.3vw; color:var(--b4); font-family: 'Russo One', sans-serif;}
+    .profile .me dt {font-size:5vw; font-weight:500; line-height:2; margin-bottom:0.5rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Lalezar', cursive;}
+    .profile .me dd {line-height:1.5; margin-bottom:0.5rem; font-size:3.3vw; color:var(--b4); font-family: 'Lalezar', cursive;}
     .profile .me p {font-size:4vw; font-weight:400; color:var(--dc); font-family: 'Noto Sans KR';}
 
 
     /*부터 오른쪽 스펙부분 - display:none처리되어있음*/
     .profile .spec {display:none; grid-template-columns:repeat(3,1fr); margin-right:0rem; width:50%; line-height:1.5;}
     .profile .spec>div {padding:0 0rem 0rem 0rem;}
-    .profile .spec dt {font-size:1.5rem; font-weight:500; margin-bottom:1rem; border-bottom:1px dashed var(--mc); width:60%; color:var(--tc); font-family: 'Russo One', sans-serif;}
+    .profile .spec dt {font-size:1.5rem; font-weight:500; margin-bottom:1rem; border-bottom:1px dashed var(--mc); width:60%; color:var(--tc); font-family: 'Lalezar', cursive;}
     .profile .spec dd {font-size:0.75rem;}
     .profile .spec p {float:right; font-size:0.65rem; font-weight:300; color:var(--b4);}
 
