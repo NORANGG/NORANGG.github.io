@@ -529,14 +529,14 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 .profile .add dl>div {display:flex;}
+.profile .add dl dd {padding-right:1rem;}
 .profile .add figure {display:none; width:30%;}
 
-.profile .add i {font-size:2.3rem; cursor:pointer; transition:0.3s; }
+.profile .add i {font-size:2.3rem; cursor:pointer; transition:0.3s;}
 .profile .add i.xi-kakaotalk:hover {color:var(--sc);}
 .profile .add i.xi-github:hover {color:var(--b4);}
 
 .profile .kakao figure {position:absolute; width:40%; top:50%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:50px 40px; z-index:1;}
-
 .profile .git figure {position:absolute; width:40%; top:50%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:50px 40px; z-index:1;}
 
 
