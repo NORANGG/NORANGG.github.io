@@ -16,7 +16,6 @@ $('#main').fullpage({
 
 
 
-
 new Typed('.slogan_type',{
     strings: ['brand new design and publishing portfolio by noh hyejin'],
     typeSpeed:50,
