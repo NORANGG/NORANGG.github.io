@@ -15,9 +15,9 @@ $('#main').fullpage({
 
 
 $('.portfolio_01 .guide i').click(function(){
-    $('body').addClass('scrollDisable').on('scroll touchmove mousewheel', function(event) {
-    event.preventDefault();
-    event.stopPropagation();
+    $('body').addClass('scrollDisable').on('scroll touchmove mousewheel', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
     return false;
     });
     });
