@@ -98,19 +98,19 @@ body {font-size:0.8rem; color: var(--dc);}
 /*--메인 인트로 ----*/
 .intro {background:#d2efff; position:relative; overflow:hidden;}
 
-.intro .back_01 {transform:translateY(10%); position:absolute; top:0; left:0rem; opacity:0;  z-index:4;}
+.intro .back_01 {transform:translateY(10%); position:absolute; top:0; left:0; opacity:0;  z-index:4;}
 .intro .back_01 img {width:100%;}
 .intro.on .back_01 {transform:translateY(3%); transition:0.7s; opacity:1;}
 
-.intro .back_02 {transform:translateY(10%); position:absolute; top:0; left:0rem; opacity:0; z-index:3;}
+.intro .back_02 {transform:translateY(10%); position:absolute; top:1%; left:0; opacity:0; z-index:3;}
 .intro .back_02 img {max-width:100%;}
 .intro.on .back_02 {transform:translateY(1%); transition:0.7s 0.5s; opacity:1;}
 
-.intro .back_03 {transform:translateY(10%); position:absolute; top:0; left:0rem; opacity:0; z-index:2;}
+.intro .back_03 {transform:translateY(10%); position:absolute; top:0; left:-1%; opacity:0; z-index:2;}
 .intro .back_03 img {max-width:100%;}
 .intro.on .back_03 {transform:translateY(2%); transition:0.7s 1.3s; opacity:1;}
 
-.intro .back_04 {transform:translateY(10%); position:absolute; top:0; left:0rem; opacity:0; z-index:1;}
+.intro .back_04 {transform:translateY(10%); position:absolute; top:0; left:0%; opacity:0; z-index:1;}
 .intro .back_04 img {max-width:100%;}
 .intro.on .back_04 {transform:translateY(2%); transition:0.7s 1.9s; opacity:1;}
 
