@@ -4,7 +4,6 @@ let sc=$('.section');
 let sideBar=$('nav li');   /*<-옆에 네비바(사이드바) on붙였다 떼는거때문에 이름지어줌 nav li는 sideBar이다!*/
 $('#main').fullpage({
     anchors:['intro','portfolio_01','portfolio_02','portfolio_03','portfolio_04','portfolio_05','training','profile',],              /*풀페이지에서 페이지 번호 정해주기*/
-
     afterLoad:function(origin, destination, direction){
         let idx=destination.index;                                 /*<-afterLoad가 실행될때 이름을 붙이는거라 안쪽에 넣고 섹션은 매번 해야하니까 바깥쪽에!*/
         sc.eq(idx).addClass("on").siblings().removeClass('on');  /*<-섹션에 on붙였다 떼기*/
@@ -14,6 +13,18 @@ $('#main').fullpage({
 
 });
 
+
+$('.portfolio_01 .guide i').click(function(){
+    $('body').on('scroll touchmove mousewheel', function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    return false;
+    });
+    });
+
+    $('.portfolio_01 .guide i.xi-close').click(function(){
+    $('body').off('scroll touchmove mousewheel');
+});
 
 
 new Typed('.slogan_type',{
@@ -61,9 +72,18 @@ $('.profile .add i.xi-github').on('click', function(){
     $('.profile .add .git figure').show('on');
 });
 
-
 $('.profile .add i.xi-close').on('click', function(){
     $('.profile .add figure').hide('on');
+});
+
+
+
+$('.portfolio_01 .guide i').on('click', function(){
+    $('.portfolio_01 .guide figure').show('on');
+});
+
+$('.portfolio_01 .guide i.xi-close').on('click', function(){
+    $('.portfolio_01 .guide figure').hide('on');
 });
 //-----------------------------------------------------------------
 });

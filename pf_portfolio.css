@@ -215,6 +215,18 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_01 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.7rem 2.2rem;}
 
 
+.portfolio_01 .guide figure {display:none;}
+
+.portfolio_01 .guide i {position:absolute; top:4rem; right:1rem; display:block; cursor:pointer; width:14%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
+.portfolio_01 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:18%;}
+
+.portfolio_01 .guide figure {position:absolute; width:120%; height:130%; top:40%; left:0%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); overflow-y:scroll; z-index:1;}
+.portfolio_01 .guide figure span {position:absolute; top:-10%; right:1%; color:var(--tc); cursor:pointer;}
+.portfolio_01 .guide i.xi-close {font-size:2rem; border:none; color:var(--tc);}
+.portfolio_01 .guide i.xi-close:hover {color:var(--b4); background:none;}
+
+
+
 .portfolio_01 .nember {position:absolute; bottom:-10rem; right:0rem; z-index:-1;}
 .portfolio_01 .nember span {font-size:20rem; font-style:italic; font-weight:600; color:#ffffff; text-shadow:0.3rem 0.3rem #bde3f8ab, -0.3rem -0.3rem #bde3f8ab;}
 
@@ -842,9 +854,21 @@ body {font-size:0.8rem; color: var(--dc);}
     /*까지 폰트,컬러,프로세스*/
 
 
-    .portfolio_01 .description ul {display:flex; position:absolute; top:14%; right:10%;}
+    .portfolio_01 .description ul {display:flex; position:absolute; top:14%; right:35%;}
     .portfolio_01 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.5rem 1.2rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem;}
     .portfolio_01 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.5rem 1.4rem;}
+
+
+    .portfolio_01 .guide figure {display:none;}
+
+    .portfolio_01 .guide i {position:absolute; top:14%; right:5%; display:block; cursor:pointer; width:23%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.55rem 0rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
+    .portfolio_01 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:25%;}
+
+    .portfolio_01 .guide figure {position:absolute; width:100%; height:150%; top:25%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); overflow-y:scroll; overflow-x:hidden; z-index:1;}
+    .portfolio_01 .guide figure span {position:absolute; top:0%; right:10%; color:var(--tc); cursor:pointer;}
+    .portfolio_01 .guide i.xi-close {font-size:6vw; border:none; color:var(--tc);}
+    .portfolio_01 .guide i.xi-close:hover {color:var(--b4); background:none;}
+
 
 
     .portfolio_01 .nember {display:none; position:absolute; bottom:-10rem; right:0rem; z-index:-1;}
