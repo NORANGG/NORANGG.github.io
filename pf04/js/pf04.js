@@ -125,14 +125,14 @@ $(function(){
         });
         
 
-        $('.slider').on("mousemove", moMove);    
-        function moMove(e){
-            if(e.pageX < $(this).width() / 2){
-                $('.slider').slick("slickPrev")
-            }else{
-                $('.slider').slick("slickNext")
-            } 
-        }
+        // $('.slider').on("mousemove", moMove);    
+        // function moMove(e){
+        //     if(e.pageX < $(this).width() / 2){
+        //         $('.slider').slick("slickPrev")
+        //     }else{
+        //         $('.slider').slick("slickNext")
+        //     } 
+        // }
 
 
 
