@@ -15,7 +15,7 @@ $('#main').fullpage({
 
 
 $('.portfolio_01 .guide i').click(function(){
-    $('body').on('scroll touchmove mousewheel', function(event) {
+    $('body').addClass('scrollDisable').on('scroll touchmove mousewheel', function(event) {
     event.preventDefault();
     event.stopPropagation();
     return false;
@@ -23,7 +23,7 @@ $('.portfolio_01 .guide i').click(function(){
     });
 
     $('.portfolio_01 .guide i.xi-close').click(function(){
-    $('body').off('scroll touchmove mousewheel');
+    $('body').removeClass('scrollDisable').off('scroll touchmove mousewheel');
 });
 
 
