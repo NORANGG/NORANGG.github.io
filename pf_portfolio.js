@@ -14,8 +14,15 @@ $('#main').fullpage({
 });
 
 
+function scrollDisable(){
+    $('html, body').addClass('hidden');
+}
+function scrollAble(){
+    $('html, body').removeClass('hidden');
+}
+
 $('.portfolio_01 .guide i').click(function(){
-    $('body').bind('scrollDisable').on('scroll touchmove mousewheel', function(e) {
+    $('body').addClass('scrollDisable').on('scroll touchmove mousewheel', function(e) {
     e.preventDefault();
     e.stopPropagation();
     return false;
@@ -23,7 +30,7 @@ $('.portfolio_01 .guide i').click(function(){
     });
 
     $('.portfolio_01 .guide i.xi-close').click(function(){
-    $('body').unbind('scrollDisable').off('scroll touchmove mousewheel');
+    $('body').removeClass('scrollDisable').off('scroll touchmove mousewheel');
 });
 
 
