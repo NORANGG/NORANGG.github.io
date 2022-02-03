@@ -28,7 +28,7 @@ $('#main').fullpage({
 // });
 
 
-$('.guide figure').on('scroll wheel', function(e){
+$('.guide figure').on('scroll mousewheel touchmove', function(e){
     e.stopPropagation();
 })
 
