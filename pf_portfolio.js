@@ -14,12 +14,6 @@ $('#main').fullpage({
 });
 
 
-function scrollDisable(){
-    $('html, body').addClass('hidden');
-}
-function scrollAble(){
-    $('html, body').removeClass('hidden');
-}
 
 $('.portfolio_01 .guide i').click(function(){
     $('body').addClass('scrollDisable').on('scroll touchmove mousewheel', function(e) {

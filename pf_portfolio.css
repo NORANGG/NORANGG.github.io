@@ -866,7 +866,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .portfolio_01 .guide i {position:absolute; top:14%; right:5%; display:block; cursor:pointer; width:23%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.55rem 0rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
     .portfolio_01 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:25%;}
 
-    .portfolio_01 .guide figure {position:absolute; width:90%; height:150%; top:25%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); overflow-y:scroll; overflow-x:hidden;  box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); z-index:1;}
+    .portfolio_01 .guide figure {position:absolute; width:90%; height:160%; top:25%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); overflow-y:scroll;  box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); z-index:1;}
     .portfolio_01 .guide figure span {position:absolute; top:0%; right:10%; color:var(--tc); cursor:pointer;}
     .portfolio_01 .guide i.xi-close {font-size:6vw; border:none; color:var(--tc);}
     .portfolio_01 .guide i.xi-close:hover {color:var(--b4); background:none;}
