@@ -375,7 +375,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .portfolio_04 {position:relative; background:url(./portfolio/pf_sauce_img/pf_cloud_right.png) no-repeat; text-align:right;}
 .portfolio_04 .cloud {position:absolute; top:-1rem; left:-76rem; width:100%; height:100%;  animation:cloud_04 2s infinite linear alternate; opacity:0.7; z-index:0;}
-.portfolio_04 .cloud_02 {position:absolute; top:12rem; left:-50rem; width:100%; height:100%; animation:cloud_04_02 1.7s infinite linear alternate; opacity:0.7; z-index:-1;}
+.portfolio_04 .cloud_02 {position:absolute; top:12rem; left:-50rem; width:100%; height:100%; animation:cloud_04_02 1.7s infinite linear alternate; opacity:0.7; z-index:-2;}
 .portfolio_04 img {max-width:100%;}
 
 @keyframes cloud_04 {
@@ -394,7 +394,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_04 .mockup {opacity:0; transform:translateX(-500px);}
 .portfolio_04 .description {opacity:0; transform:translateX(300px);}
 
-.portfolio_04.on .mockup {opacity:1; transform:translateX(0); transition:0.7s;}
+.portfolio_04.on .mockup {opacity:1; transform:translateX(0); transition:0.7s; z-index:-1;}
 .portfolio_04.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
@@ -424,6 +424,18 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_04 .description ul {display:flex; position:absolute; top:4rem; left:8rem;}
 .portfolio_04 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem;}
 .portfolio_04 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.7rem 2.2rem;}
+
+
+.portfolio_04 .guide figure {display:none;}
+
+.portfolio_04 .guide i {position:absolute; top:4rem; left:1rem; display:block; cursor:pointer; width:14%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
+.portfolio_04 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:18%;}
+
+.portfolio_04 .guide figure {position:absolute; width:120%; height:130%; top:40%; left:100%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y:scroll; overflow-x:hidden;}
+
+.portfolio_04 .guide figure span {position:absolute; top:-12%; right:12%; color:var(--tc); cursor:pointer;}
+.portfolio_04 .guide i.xi-close {font-size:2rem; border:none; color:var(--tc);}
+.portfolio_04 .guide i.xi-close:hover {color:var(--b4); background:none;}
 
 
 .portfolio_04 .nember {position:absolute; bottom:-10rem; left:-5rem; z-index:-1;}
@@ -1033,7 +1045,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .portfolio_04 {position:relative; background:url(./portfolio/pf_sauce_img/pf_cloud_right.png) 80% no-repeat; text-align:right;}
     .portfolio_04 .cloud {display:none; position:absolute; top:-1rem; left:-76rem; width:100%; height:100%;  animation:cloud_04 2s infinite linear alternate; opacity:0.7; z-index:0;}
-    .portfolio_04 .cloud_02 {display:block; position:absolute; top:10%; left:-10%; width:100%; height:100%; animation:cloud_04_02_mo 1.7s infinite linear alternate; opacity:1; width:50%; z-index:-1;}
+    .portfolio_04 .cloud_02 {display:block; position:absolute; top:10%; left:-10%; width:100%; height:100%; animation:cloud_04_02_mo 1.7s infinite linear alternate; opacity:1; width:50%; z-index:-2;}
     .portfolio_04 img {max-width:100%;}
 
     @keyframes cloud_04 {
@@ -1052,7 +1064,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .portfolio_04 .mockup {opacity:0; transform:translateX(-500px); margin-bottom:1rem; margin-top:1rem; order:-1;}
     .portfolio_04 .description {opacity:0; transform:translateX(300px); padding:0 25px;}
 
-    .portfolio_04.on .mockup {opacity:1; transform:translateX(0); transition:0.7s;}
+    .portfolio_04.on .mockup {opacity:1; transform:translateX(0); transition:0.7s; z-index:-1;}
     .portfolio_04.on .description {opacity:1; transform:translateX(0); transition:0.7s 0.4s;}
 
 
@@ -1079,9 +1091,21 @@ body {font-size:0.8rem; color: var(--dc);}
     /*까지 폰트,컬러,프로세스*/
 
 
-    .portfolio_04 .description ul {display:flex; position:absolute; top:14%; left:10%;}
+    .portfolio_04 .description ul {display:flex; position:absolute; top:14%; left:35%;}
     .portfolio_04 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.5rem 1.2rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem;}
     .portfolio_04 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.5rem 1.4rem;}
+
+
+    .portfolio_04 .guide figure {display:none;}
+
+    .portfolio_04 .guide i {position:absolute; top:14%; right:5%; display:block; cursor:pointer; width:23%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.55rem 0rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
+    .portfolio_04 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:25%;}
+
+    .portfolio_04 .guide figure {position:absolute; width:90%; height:160%; top:25%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); overflow-y:scroll; overflow-x:hidden; -webkit-overflow-scrolling:touch; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); z-index:1;}
+    .portfolio_04 .guide figure span {position:absolute; top:0%; right:15%; color:var(--tc); cursor:pointer;}
+    .portfolio_04 .guide i.xi-close {font-size:6vw; border:none; color:var(--tc);}
+    .portfolio_04 .guide i.xi-close:hover {color:var(--b4); background:none;}
+
 
 
     .portfolio_04 .nember {display:none; position:absolute; bottom:-10rem; left:-5rem; z-index:-1;}
