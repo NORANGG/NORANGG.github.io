@@ -569,18 +569,20 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .profile .add dl>div {display:flex;}
 .profile .add dl dd {padding-right:1rem;}
-.profile .add figure {display:none; width:30%;}
+.profile .add figure {display:none; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
+.profile .add figure img {width:90%; padding-left:1.5rem;}
+.profile .add figure b {display:block; font-size:0.65rem; color:var(--b4); text-align:center; padding-top:2rem;}
 
 .profile .add i {font-size:2.3rem; cursor:pointer; transition:0.3s;}
 .profile .add i.xi-kakaotalk:hover {color:var(--sc);}
 .profile .add i.xi-github:hover {color:var(--b4);}
 
-.profile .kakao figure {position:absolute; width:40%; top:50%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:50px 40px; z-index:1;}
-.profile .git figure {position:absolute; width:40%; top:50%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:50px 40px; z-index:1;}
+.profile .kakao figure {position:absolute; width:45%; top:50%; left:50%; transform:translate(-50%,-50%); border:7px solid var(--mc); background:#fff; padding:50px; z-index:1;}
+.profile .git figure {position:absolute; width:45%; top:50%; left:50%; transform:translate(-50%,-50%); border:7px solid var(--mc); background:#fff; padding:50px; z-index:1;}
 
 
-.profile .add figure span {position:absolute; top:1.5%; right:1.5%; color:var(--tc); cursor:pointer;}
-.profile .add i.xi-close {font-size:1.5rem;}
+.profile .add figure span {position:absolute; top:3%; right:3%; color:var(--tc); cursor:pointer;}
+.profile .add i.xi-close {font-size:1.7rem;}
 .profile .add i.xi-close:hover {color:var(--b4);}
 /*까지 오른쪽 스펙부분*/
 
