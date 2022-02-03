@@ -91,5 +91,13 @@ $('.portfolio_01 .guide i').on('click', function(){
 $('.portfolio_01 .guide i.xi-close').on('click', function(){
     $('.portfolio_01 .guide figure').hide('on');
 });
+
+$('.portfolio_02 .guide i').on('click', function(){
+    $('.portfolio_02 .guide figure').show('on');
+});
+
+$('.portfolio_02 .guide i.xi-close').on('click', function(){
+    $('.portfolio_02 .guide figure').hide('on');
+});
 //-----------------------------------------------------------------
 });
