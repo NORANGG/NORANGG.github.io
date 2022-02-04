@@ -37,7 +37,7 @@ body {font-size:0.8rem; color: var(--dc);}
 #header h1 .h1_sun {animation:h1 9s infinite linear;}
 #header h1 .h1_cl img {position:absolute; width:3rem; top:0rem; left:-0.4rem; z-index:-1;}
 #header h1 .h1_cl_02 img {position:absolute; width:3rem; top:2rem; left:3rem;}
-#header h1 .h1_name img {position:absolute; width:6rem; top:-3rem; left:4rem;}
+#header h1 .h1_name img {position:absolute; width:6rem; top:-3rem; left:3.2rem;}
 #header .moon {display:none;}
 
 #header h1:hover .h1_sun {animation-play-state:paused;}
@@ -46,7 +46,7 @@ body {font-size:0.8rem; color: var(--dc);}
 #header.on h1 .h1_moon {position:absolute; width:3rem; top:0rem; left:0rem;}
 #header.on h1 .h1_st img {position:absolute; width:1.5rem; top:0rem; left:-0.5rem; z-index:-1; animation:h1_st 0.5s infinite linear alternate;}
 #header.on h1 .h1_st_02 img {position:absolute; width:1.3rem; top:3.5rem; left:4rem; animation:h1_st 0.7s infinite linear alternate;}
-#header.on h1 .h1_name_w img {position:absolute; width:6rem; top:-3rem; left:4rem;}
+#header.on h1 .h1_name_w img {position:absolute; width:6rem; top:-3rem; left:3.2rem;}
 #header.on .moon {display:block;}
 #header.on .sun {display:none;}
 
@@ -144,7 +144,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .intro .slogan h2 span:nth-child(6){animation-delay:.25s;}
 .intro .slogan h2 span:nth-child(7){animation-delay:.3s;}
 .intro .slogan h2 span:nth-child(8){animation-delay:.35s;}
-.intro .slogan h2 span:nth-child(10){font-family: 'Noto Sans KR', sans-serif; color:var(--b4); animation:none; text-shadow:none; font-size:2rem; font-weight:700;}
+.intro .slogan h2 span:nth-child(10){font-family: 'Noto Sans KR', sans-serif; color:var(--b4); animation:none; text-shadow:none; font-size:2rem; font-weight:300;}
 
 
 
@@ -818,7 +818,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .intro .slogan h2 span:nth-child(6){animation-delay:0.25s;}
     .intro .slogan h2 span:nth-child(7){animation-delay:0.3s;}
     .intro .slogan h2 span:nth-child(8){animation-delay:0.35s;}
-    .intro .slogan h2 span:nth-child(10){font-family: 'Noto Sans KR', sans-serif; color:var(--b4); animation:none; text-shadow:none; font-size:7vw; font-weight:700; margin-bottom:0.6rem;}
+    .intro .slogan h2 span:nth-child(10){font-family: 'Noto Sans KR', sans-serif; color:var(--b4); animation:none; text-shadow:none; font-size:7vw; font-weight:300; margin-bottom:0.6rem;}
 
 
 
