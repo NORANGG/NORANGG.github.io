@@ -548,7 +548,7 @@
 #content_05 .container .out li {padding-left:10px;}
 #content_05 .container .out li>b {padding-left:60px;}
 
-#content_05 .container .den {position:absolute; top:65px; right:0%;}
+#content_05 .container .den {position:absolute; top:65px; right:3%;}
 #content_05 .container .den li {padding-left:50px;}
 
 @media (max-width:768px) {
