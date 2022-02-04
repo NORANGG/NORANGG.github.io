@@ -15,24 +15,6 @@ $('#main').fullpage({
 
 
 
-// $('.portfolio_01 .guide i').click(function(){
-//     $('body').addClass('scrollDisable').on('scroll touchmove mousewheel', function(e) {
-//     e.preventDefault();
-//     e.stopPropagation();
-//     return false;
-//     });
-//     });
-
-//     $('.portfolio_01 .guide i.xi-close').click(function(){
-//     $('body').removeClass('scrollDisable').off('scroll touchmove mousewheel');
-// });
-
-
-$('.guide figure').on('scroll mousewheel touchmove', function(e){
-    e.stopPropagation();
-})
-
-
 new Typed('.slogan_type',{
     strings: ['brand new design and publishing portfolio by noh hyejin'],
     typeSpeed:50,
@@ -107,5 +89,22 @@ $('.portfolio_04 .guide i').on('click', function(){
 $('.portfolio_04 .guide i.xi-close').on('click', function(){
     $('.portfolio_04 .guide figure').hide('on');
 });
+
+// $('.portfolio_01 .guide i').click(function(){
+//     $('body').addClass('scrollDisable').on('scroll touchmove mousewheel', function(e) {
+//     e.preventDefault();
+//     e.stopPropagation();
+//     return false;
+//     });
+//     });
+
+//     $('.portfolio_01 .guide i.xi-close').click(function(){
+//     $('body').removeClass('scrollDisable').off('scroll touchmove mousewheel');
+// });
+
+
+$('.guide figure').on('scroll mousewheel touchmove', function(e){
+    e.stopPropagation();
+})
 //-----------------------------------------------------------------
 });
