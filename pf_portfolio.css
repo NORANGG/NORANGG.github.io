@@ -1257,8 +1257,8 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .profile .me dl .kakao {display:block; margin-top:-10%; padding-right:10%; padding-left:23%;}
     .profile .me dl .kakao i.xi-kakaotalk {font-size:1.8rem; color:var(--dc);}
-    .profile .me dl .kakao figure {display:block; width:140%; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
-    .profile .me dl .kakao figure span {position:static; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
+    .profile .me dl .kakao figure {display:none; width:140%; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
+    .profile .me dl .kakao figure strong {position:static; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
     .profile .me dl .kakao i.xi-close {font-size:6vw; margin-top:1rem;}
     .profile .me dl .kakao figure b {display:block; font-size:3.3vw; color:var(--b4); text-align:center; margin-top:1rem;}
 
@@ -1267,8 +1267,8 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .profile .me dl .git {display:block; margin-top:0.5%;}
     .profile .me dl .git i.xi-github {font-size:1.8rem; color:var(--dc);}
-    .profile .me dl .git figure {display:block; width:140%; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
-    .profile .me dl .git figure span {position:static; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
+    .profile .me dl .git figure {display:none; width:140%; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
+    .profile .me dl .git figure strong {position:static; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
     .profile .me dl .git i.xi-close {font-size:6vw; margin-top:1rem;}
     .profile .me dl .git figure b {display:block; font-size:3.3vw; color:var(--b4); text-align:center; margin-top:1rem;}
 
