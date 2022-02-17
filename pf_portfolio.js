@@ -65,6 +65,24 @@ $('.profile .add i.xi-close').on('click', function(){
 });
 
 
+/*부터 반응형 add*/
+$('.profile .me dl .kakao i.xi-kakaotalk').on('click', function(){
+    $('.profile .me dl .kakao figure').show('on');
+});
+
+$('.profile .me dl .kakao i.xi-close').on('click', function(){
+    $('.profile .me dl .kakao figure').hide('on');
+});
+
+$('.profile .me dl .git i.xi-github').on('click', function(){
+    $('.profile .me dl .git figure').show('on');
+});
+
+$('.profile .me dl .git i.xi-close').on('click', function(){
+    $('.profile .me dl .git figure').hide('on');
+});
+/*까지 반응형 add*/
+
 
 $('.portfolio_01 .guide i').on('click', function(){
     $('.portfolio_01 .guide figure').show('on');

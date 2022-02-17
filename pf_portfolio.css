@@ -579,6 +579,10 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .profile .me p:hover {color:var(--tc);}
 
+.profile .me dl .kakao {display:none;}
+.profile .me dl .git {display:none;}
+
+
 /*부터 오른쪽 스펙부분*/
 .profile .spec {display:grid; grid-template-columns:repeat(2,1fr); margin-right:15rem; width:100%; line-height:2;}
 .profile .spec>div {padding:0 0rem 2rem 2rem;}
@@ -1247,6 +1251,28 @@ body {font-size:0.8rem; color: var(--dc);}
     .profile .me dt {font-size:5vw; font-weight:500; line-height:2; margin-bottom:0.5rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Lalezar', cursive;}
     .profile .me dd {line-height:1.5; margin-bottom:0.5rem; font-size:3.3vw; color:var(--b4); font-family: 'Lalezar', cursive;}
     .profile .me p {font-size:4vw; font-weight:400; color:var(--dc); font-family: 'Noto Sans KR';}
+
+
+    .profile .me dl .media_add {display:flex;}
+
+    .profile .me dl .kakao {display:block; margin-top:-10%; padding-right:10%; padding-left:23%;}
+    .profile .me dl .kakao i.xi-kakaotalk {font-size:1.8rem; color:var(--dc);}
+    .profile .me dl .kakao figure {display:block; width:140%; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
+    .profile .me dl .kakao figure span {position:static; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
+    .profile .me dl .kakao i.xi-close {font-size:6vw; margin-top:1rem;}
+    .profile .me dl .kakao figure b {display:block; font-size:3.3vw; color:var(--b4); text-align:center; margin-top:1rem;}
+
+    .profile .me dl .kakao figure {position:absolute; top:95%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:20px; z-index:1;}
+
+
+    .profile .me dl .git {display:block; margin-top:0.5%;}
+    .profile .me dl .git i.xi-github {font-size:1.8rem; color:var(--dc);}
+    .profile .me dl .git figure {display:block; width:140%; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
+    .profile .me dl .git figure span {position:static; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
+    .profile .me dl .git i.xi-close {font-size:6vw; margin-top:1rem;}
+    .profile .me dl .git figure b {display:block; font-size:3.3vw; color:var(--b4); text-align:center; margin-top:1rem;}
+
+    .profile .me dl .git figure {position:absolute; top:95%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:20px; z-index:1;}
 
 
     /*부터 오른쪽 스펙부분 - display:none처리되어있음*/
