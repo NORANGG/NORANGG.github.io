@@ -623,9 +623,9 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 /*--푸터----*/
-#footer .top {position:fixed; bottom:1rem; right:2rem; z-index:99;}
+/* #footer .top {position:fixed; bottom:1rem; right:2rem; z-index:99;}
 #footer .top i {font-size:2rem; padding:0.5rem; transition:0.3s;}
-#footer .top i:hover {color: var(--tc);}
+#footer .top i:hover {color: var(--tc);} */
 
 /* #footer address {position:fixed; bottom:2rem; left:2rem; font-size:0.7rem; color:#777; z-index:999;} */
 
