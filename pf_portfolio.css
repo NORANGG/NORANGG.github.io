@@ -192,7 +192,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_01 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
 .portfolio_01 .description p {font-size:0.75rem; font-weight:300; margin-bottom:1rem; line-height:1.3;}
 
-.portfolio_01 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem;}
+.portfolio_01 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem; line-height:1.5;}
 
 
 /*부터 폰트,컬러,프로세스*/
@@ -217,7 +217,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .portfolio_01 .guide figure {display:none;}
 
-.portfolio_01 .guide i {position:absolute; top:4rem; right:1rem; display:block; cursor:pointer; width:14%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
+.portfolio_01 .guide i {position:absolute; top:4rem; right:1rem; display:block; cursor:pointer; width:14%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.45rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
 .portfolio_01 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:18%;}
 
 .portfolio_01 .guide figure {position:absolute; width:140%; height:130%; top:45%; left:-10%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y:scroll; z-index:1;}
@@ -266,7 +266,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_02 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
 .portfolio_02 .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem; line-height:1.3;}
 
-.portfolio_02 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem;}
+.portfolio_02 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem; line-height:1.7;}
 
 
 /*부터 폰트,컬러,프로세스*/
@@ -291,7 +291,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .portfolio_02 .guide figure {display:none;}
 
-.portfolio_02 .guide i {position:absolute; top:4rem; left:1rem; display:block; cursor:pointer; width:14%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
+.portfolio_02 .guide i {position:absolute; top:4rem; left:1rem; display:block; cursor:pointer; width:14%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.45rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
 .portfolio_02 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:18%;}
 
 .portfolio_02 .guide figure {position:absolute; width:140%; height:130%; top:45%; left:100%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y:scroll; overflow-x:hidden;}
@@ -341,7 +341,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_03 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
 .portfolio_03 .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem; line-height:1.3;}
 
-.portfolio_03 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem;}
+.portfolio_03 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem; line-height:1.5;}
 
 /*부터 폰트,컬러,프로세스*/
 .portfolio_03 .description dl {display:flex; line-height:1.2;}
@@ -405,7 +405,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_04 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
 .portfolio_04 .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem; line-height:1.3;}
 
-.portfolio_04 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem;}
+.portfolio_04 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem; line-height:1.7;}
 
 /*부터 폰트,컬러,프로세스*/
 .portfolio_04 .description dl {display:inline-flex; line-height:1.2; }
@@ -429,7 +429,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .portfolio_04 .guide figure {display:none;}
 
-.portfolio_04 .guide i {position:absolute; top:4rem; left:1rem; display:block; cursor:pointer; width:14%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.7rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
+.portfolio_04 .guide i {position:absolute; top:4rem; left:1rem; display:block; cursor:pointer; width:14%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.45rem 1.5rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
 .portfolio_04 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:18%;}
 
 .portfolio_04 .guide figure {position:absolute; width:140%; height:130%; top:45%; left:100%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y:scroll; overflow-x:hidden;}
@@ -477,7 +477,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .portfolio_05 .description em {display:block; font-size:1rem; font-weight:700; margin-bottom:0.5rem;}
 .portfolio_05 .description p {font-size:0.75rem; font-weight:300; margin-bottom:2rem; line-height:1.3;}
 
-.portfolio_05 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem;}
+.portfolio_05 .description i {display:block; font-size:0.6rem; font-weight:100; margin-bottom:2rem; line-height:1.5;}
 
 /*부터 폰트,컬러,프로세스*/
 .portfolio_05 .description dl {display:flex; line-height:1.2;}
