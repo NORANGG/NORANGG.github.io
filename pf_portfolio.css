@@ -888,14 +888,14 @@ body {font-size:0.8rem; color: var(--dc);}
     /*까지 폰트,컬러,프로세스*/
 
 
-    .portfolio_01 .description ul {display:flex; position:absolute; top:14%; right:35%;}
+    .portfolio_01 .description ul {display:flex; position:absolute; top:13%; right:35%;}
     .portfolio_01 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.5rem 1.2rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem;}
     .portfolio_01 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.5rem 1.4rem;}
 
 
     .portfolio_01 .guide figure {display:none;}
 
-    .portfolio_01 .guide i {position:absolute; top:14%; right:5%; display:block; cursor:pointer; width:23%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.55rem 0rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
+    .portfolio_01 .guide i {position:absolute; top:13%; right:5%; display:block; cursor:pointer; width:23%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.33rem 0rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
     .portfolio_01 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:25%;}
 
     .portfolio_01 .guide figure {position:absolute; width:90%; height:160%; top:25%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); overflow-y:scroll; overflow-x:hidden; -webkit-overflow-scrolling:touch; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); z-index:1;}
@@ -961,14 +961,14 @@ body {font-size:0.8rem; color: var(--dc);}
     /*까지 폰트,컬러,프로세스*/
 
 
-    .portfolio_02 .description ul {display:flex; position:absolute; top:14%; left:35%;}
+    .portfolio_02 .description ul {display:flex; position:absolute; top:13%; left:35%;}
     .portfolio_02 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.5rem 1.2rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem;}
     .portfolio_02 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.5rem 1.4rem;}
 
 
     .portfolio_02 .guide figure {display:none;}
 
-    .portfolio_02 .guide i {position:absolute; top:14%; right:5%; display:block; cursor:pointer; width:23%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.55rem 0rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
+    .portfolio_02 .guide i {position:absolute; top:13%; right:5%; display:block; cursor:pointer; width:23%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.3rem 0rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
     .portfolio_02 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:25%;}
 
     .portfolio_02 .guide figure {position:absolute; width:90%; height:160%; top:25%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); overflow-y:scroll; overflow-x:hidden; -webkit-overflow-scrolling:touch; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); z-index:1;}
@@ -1032,7 +1032,7 @@ body {font-size:0.8rem; color: var(--dc);}
     /*까지 폰트,컬러,프로세스*/
 
 
-    .portfolio_03 .description ul {display:flex; position:absolute; top:14.5%; right:10%;}
+    .portfolio_03 .description ul {display:flex; position:absolute; top:13%; right:10%;}
     .portfolio_03 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.5rem 1.2rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem;}
     .portfolio_03 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.5rem 1.4rem;}
 
@@ -1096,14 +1096,14 @@ body {font-size:0.8rem; color: var(--dc);}
     /*까지 폰트,컬러,프로세스*/
 
 
-    .portfolio_04 .description ul {display:flex; position:absolute; top:14%; left:35%;}
+    .portfolio_04 .description ul {display:flex; position:absolute; top:13%; left:35%;}
     .portfolio_04 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.5rem 1.2rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem;}
     .portfolio_04 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.5rem 1.4rem;}
 
 
     .portfolio_04 .guide figure {display:none;}
 
-    .portfolio_04 .guide i {position:absolute; top:14%; right:5%; display:block; cursor:pointer; width:23%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.55rem 0rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
+    .portfolio_04 .guide i {position:absolute; top:13%; right:5%; display:block; cursor:pointer; width:23%; background:#fff; border:2px solid var(--mc); color:#777; padding:0.3rem 0rem; font-size:3.5vw; font-weight:400; transition:0.3s; border-radius:20rem; text-align:center;}
     .portfolio_04 .guide i:hover {font-weight:500; background: var(--mc); color: var(--tc); width:25%;}
 
     .portfolio_04 .guide figure {position:absolute; width:90%; height:160%; top:25%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); overflow-y:scroll; overflow-x:hidden; -webkit-overflow-scrolling:touch; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); z-index:1;}
@@ -1168,7 +1168,7 @@ body {font-size:0.8rem; color: var(--dc);}
     /*까지 폰트,컬러,프로세스*/
 
 
-    .portfolio_05 .description ul {display:flex; position:absolute; top:14%; right:10%;}
+    .portfolio_05 .description ul {display:flex; position:absolute; top:13%; right:10%;}
     .portfolio_05 .description ul a {display:block; background:#fff; border:2px solid var(--mc); color:#777; padding:0.5rem 1.2rem; font-size:0.8rem; font-weight:400; transition:0.3s; border-radius:20rem;}
     .portfolio_05 .description ul a:hover {font-weight:500; background: var(--mc); color: var(--tc); padding:0.5rem 1.4rem;}
 
