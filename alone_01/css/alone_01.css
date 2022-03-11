@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700&display=swap');
+
+
 * {outline:1px solid#f00--;} 
 
 #wrap {min-width:1900px;}
@@ -8,10 +11,10 @@
 /*--헤더----*/
 #header {width:1200px; margin:0 auto; padding:0 15px;}
 #header .container {display:flex; justify-content:space-between;}
-#header h1 {padding-top:20px; padding-left:60px;}
-#header h1 img {max-width:70%;}
+#header h1 {padding-top:40px; text-align:center; width:15%;}
+#header h1 img {max-width:80%;}
 
-#header nav {padding:15px 0 15px 40px;}
+#header nav {padding:15px 0 15px 0px;}
 #header nav>ul {display:flex;}
 #header nav>ul>li:hover {color:#999;}
 #header nav>ul>li {position:relative;}
@@ -26,33 +29,163 @@
 
 /*--메인슬라이드----*/
 #main_visual {position:relative;}
-#main_visual figure {height:700px;}
+#main_visual figure {height:600px;}
+#main_visual figure::after {content:""; display:block; width:100%; height:600px; background:#00000042; position:absolute; top:0; left:0;}
 #main_visual .itm01 {background:url(../img/main_01.jpg) no-repeat center center/cover;}
 #main_visual .itm02 {background:url(../img/main_02.jpg) no-repeat center center/cover;}
 #main_visual .itm03 {background:url(../img/main_03.jpg) no-repeat center center/cover;}
 
-#main_visual .slogan {position:absolute; top:30%; right:40.5%; width:1200px; padding:0 15px; text-shadow:0px 0px 10px #000; color:#fff; font-size:30px; text-align:center; z-index:999;}
-#main_visual .slogan span {display:block; margin-bottom:65px; font-size:40px; font-weight:300; color:#fd671a; font-family: 'Noto Serif KR', serif; }
-#main_visual .slogan h2 {line-height:60px; margin-bottom:70px; font-size:40px; font-weight:500; }
-#main_visual .slogan p {line-height:26px; font-size:20px; font-weight:300; }
+#main_visual .slogan {position:absolute; top:40%; left:23%; padding:0 15px; text-shadow:0px 0px 50px #000; color:#fff; font-size:30px; text-align:left; z-index:999;}
+#main_visual .slogan h2 {margin-bottom:40px; font-size:50px; font-weight:700; font-family: 'Noto Serif KR', serif;}
+#main_visual .slogan p {margin-bottom:10px; font-size:17px; font-weight:100;}
+#main_visual .slogan em {font-size:30px; font-weight:500;}
+
+/* #main_visual .main_slider .slick-dots {display:flex; list-style-type:none; position:absolute; bottom:50px; left:23%; font-size:30px;} 
+#main_visual .main_slider .slick-dots li {height:50px; margin-right:10px;}
+#main_visual .main_slider .slick-dots li button {background:none; color:#fff; display:block; cursor:pointer;}
+
+#main_visual .main_slider .slick-dots li.slick-active {font-size:40px;} */
 
 
 
 
+/*-----섹션01 - 콘텐츠01---*/
+#content_01 {position:relative; width:1200px; padding:50px 15px; margin:0 auto;}
+#content_01 .container {}
+#content_01 .container::before {content:""; display:block; position:absolute; top:0%; left:-36%; width:150%; height:387px; background:#052a4dfb; z-index:-1;}
+#content_01 .container::after {content:""; display:block; position:absolute; top:0%; right:-34.3%; width:160%; height:670px; background:#f1f1f1; z-index:-2;}
+
+#content_01 .time {display:flex; color:#fff; padding:15px 0 60px 0;}
+#content_01 b {font-size:13px; color:#faa82cb6; padding-left:12px; letter-spacing:5px;}
+
+#content_01 .time h2 {font-size:35px; padding-right:50px; font-weight:700; font-family: 'Noto Serif KR', serif;}
+#content_01 .time span {display:block; font-size:20px; font-weight:600; padding:8px 30px 0 0; color:#faa82c;}
+#content_01 .time em {display:block; font-size:20px; font-weight:400; padding:8px 30px 0 0;}
+#content_01 .time strong {font-size:17px; padding:14px 0 0 130px; color:#d37f00;}
+#content_01 .time strong:hover {color:#fff; font-weight:500;}
+
+#content_01 .picture {display:flex; width:100%;}
+#content_01 .picture figure {flex:1; padding-right:15px; transition:0.5s;}
+#content_01 .picture figure:nth-of-type(4) {padding-right:0px}
+#content_01 .picture figure img {width:100%;}
+
+#content_01 .picture .naeyong {background:#fff; height:200px; padding:0 15px; cursor:pointer;}
+#content_01 .picture p {display:block; padding:10px 0 30px 0; font-size:23px; font-weight:500;}
+#content_01 .picture a {display:block; font-size:17px; line-height:1.5; font-weight:300; color:#555;}
+
+#content_01 .picture figure:hover {transform:translateY(-10%);}
+#content_01 .picture figure:hover .naeyong {background:#5e4b2f;}
+#content_01 .picture figure:hover .naeyong p {color:#fff;}
+#content_01 .picture figure:hover .naeyong a {color:#fff;}
+
+#content_01 .serro b {position:absolute; top:10%; right:-26%; text-decoration:none; writing-mode:tb-rl; line-height:2; font-size:15px; color:#cccccc;}
+
+#content_01 .back {position:absolute; bottom:-30%; left:-35%; filter:opacity(20%);}
+#content_01 .back img {width:80%;}
 
 
 
 
+/*-----섹션02 - 콘텐츠02---*/
+#content_02 {position:relative; width:1200px; padding:100px 15px; margin:0 auto;}
+#content_02 .container {text-align:center;}
+#content_02 b {font-size:15px; color:#faa82cb6; padding-left:12px; letter-spacing:5px; margin-bottom:20px;}
+#content_02 h2 {font-size:35px; font-weight:700; line-height:1.9; margin-bottom:40px; font-family: 'Noto Serif KR', serif;}
+
+#content_02 .tab {display:flex; position:relative;}
+#content_02 .tab img {width:60%; margin-bottom:40px; filter:opacity(80%);}
+#content_02 .tab h3 {font-size:21px; font-weight:500; margin-bottom:40px; color:#666;}
+#content_02 .tab span {display:block; font-size:18px; font-weight:300; border:1px solid #ddd; padding:10px 10px; width:50%; margin:0 auto;}
+#content_02 .tab span:hover {border:none; font-weight:500; color:#d37f00;}
+
+#content_02 .tab>div::before {content:"";display:block; width:1px; height:300px; background:#eee; position:absolute; top:0px; left:35%;}
+#content_02 .tab>div::after {content:"";display:block; width:1px; height:300px; background:#eee; position:absolute; top:0px; left:66%;}
+
+#content_02 .tab .group_03 img {margin-top:50px;}
+
+#content_02 .back {position:absolute; bottom:-15%; right:-34.3%; filter:opacity(15%);}
+#content_02 .back img {width:100%;}
 
 
 
+/*-----섹션03 - 콘텐츠03---*/
+#content_03 {position:relative; width:1900px; padding:50px 15px; margin:0 auto;}
+#content_03 .container {display:flex;}
+
+#content_03 .picture {margin-top:100px;}
+
+#content_03 .anenae {background:#d38715; width:52%;}
+#content_03 .anenae .txt {padding:50px 0 0 70px;}
+#content_03 .anenae b {font-size:19px; color:#ffe5bd; padding-left:15px; letter-spacing:5px; margin-bottom:20px;}
+#content_03 .anenae h2 {font-size:35px; font-weight:700; color:#fff; line-height:1.9; margin-bottom:20px; font-family: 'Noto Serif KR', serif;}
+#content_03 .anenae p {font-size:19px; letter-spacing:-1.5px; color:#105fa8; margin-bottom:20px;}
+
+
+#content_03 .slider {width:50%; padding-left:40px; margin-bottom:50px;}
+#content_03 .itm {display:flex; line-height:30px; color:#fff; }
+#content_03 .itm em {font-size:16px; font-weight:100; margin-left:30px;}
+#content_03 .itm strong {font-size:17px; font-weight:100; margin-left:30px;}
+
+#content_03 .anenae02 {position:relative; text-align:left; font-size:20px; padding-left:110px; color:#fff;}
+#content_03 .anenae02 strong:hover {color:#034380fb; font-weight:700;}
+
+#content_03 .anenae02 span::after {content:""; display:block; width:1.5%; height:70%; border-radius:50%; background:#fff; position:absolute; top:15%; left:7.5%;}
 
 
 
+/*-----섹션04 - 콘텐츠04---*/
+#content_04 {position:relative; width:1900px; padding:50px 15px 100px 0; margin:0 auto; text-align:center;}
+#content_04 .container {width:1200px; margin:0 auto;}
+
+#content_04 b {font-size:15px; color:#faa82cb6; padding-left:12px; letter-spacing:5px; margin-bottom:20px;}
+#content_04 h2 {font-size:35px; font-weight:700; line-height:1.9; margin-bottom:40px; font-family: 'Noto Serif KR', serif;}
+
+#content_04 .notice {display:flex; margin-bottom:70px;}
+#content_04 .notice a {flex:1; padding-right:15px;}
+#content_04 .notice a:nth-of-type(4) {padding-right:0px}
+
+#content_04 .notice em {display:block; font-size:18px; line-height:3; margin-top:20px; color:#82909e;}
+#content_04 .notice h3 {position:relative; font-size:21px; font-weight:500; margin-bottom:60px; line-height:1.3;}
+#content_04 .notice h3::after {content:""; display:block; width:80px; height:1px; border-radius:50%; background:#b3b3b3; position:absolute; bottom:-60%; left:37%;}
+#content_04 .notice p {font-size:16px; line-height:1.5; color:#666; margin-bottom:40px;}
+
+#content_04 .notice .not {background:#f7f7f7; border:1px solid #ddd; transition:0.3s; height:100%;}
+#content_04 .notice .not:hover {background:#fff; border:1px solid #369;}
+
+
+#content_04 .banner {display:flex; text-align:left;}
+
+#content_04 .banner .left {flex:1; position:relative; background:#947450; color:#fff; padding:30px}
+#content_04 .banner .left h3 {font-size:26px; font-weight:500; margin-bottom:20px; font-family: 'Noto Serif KR', serif;}
+#content_04 .banner .left strong {font-size:19px; font-weight:300;}
+#content_04 .banner .left span {display:block; font-size:18px; font-weight:300; position:absolute; top:26px; right:60px; background:#d387157e; border-radius:50%; padding:30px 10px;}
+#content_04 .banner .left span:hover {font-weight:700; background:none;}
+
+#content_04 .banner .right {flex:1; position:relative; background:#002344fb; color:#fff; padding:20px}
+#content_04 .banner .right h3 {font-size:26px; font-weight:500; margin-bottom:20px; margin-top:10px; font-family: 'Noto Serif KR', serif;}
+#content_04 .banner .right strong {font-size:19px; font-weight:300;}
+#content_04 .banner .right span {display:block; font-size:18px; font-weight:300; position:absolute; top:26px; right:60px; background:#105fa875; border-radius:50%; padding:30px 10px;}
+#content_04 .banner .right span:hover {font-weight:700; background:none;}
 
 
 
+/*--푸터--*/
+#footer {padding:70px 0; background:#3c3b3b; color:#fff;}
+#footer .container {display:flex; width:1200px; margin:0 auto; padding:0 15px;  position:relative;}
+#footer .logo {padding-top:25px; padding-right:50px;}
+#footer figure img {width:130px;}
 
+/* #footer .info {}
+#footer .info ul {display:flex; font-size:15px; margin-bottom:30px;}
+#footer .info ul li a {padding-right:17px;}
+#footer .info span {font-weight:500;}
+#footer .info span:hover {color:#adadad;} */
+
+#footer .add {width:150%;}
+#footer .add dd {line-height:1.5; font-size:17px; font-weight:100;}
+
+#footer .search {line-height:50px; color:#000; padding-left:400px; padding-top:20px;}
+#footer select {padding:15px 20px; outline:none; font-size:15px; background:#fff; cursor:pointer;}
 
 
 
