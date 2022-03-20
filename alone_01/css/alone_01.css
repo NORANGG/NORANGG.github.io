@@ -215,7 +215,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700&display=swap');
 
 
-    * {outline:1px solid #f00;} 
+    * {outline:1px solid #f00--;} 
 
     .br {display:block;}
 
@@ -234,7 +234,7 @@
     #header .gnb>ul>li:hover {color:#999;}
     #header .gnb>ul>li>a {position:relative; display:block; padding:15px 20px; font-size:18px;}
     
-    #header .gnb>ul .sub_menu {display:none; position:static; top:105%; left:0; width:100%; line-height:2; background:#ffffffe1; overflow:hidden; z-index:99;}
+    #header .gnb>ul .sub_menu {display:none; position:static; top:0%; left:0; width:100%; line-height:2; background:#ffffffe1; overflow:hidden; z-index:99;}
     #header .gnb>ul>li:hover .sub_menu {display:block; height:auto; width:auto;}
     #header .gnb>ul .sub_menu a {display:block; text-align:center; padding:0 20px; color:#777; background:#f1f1f1;}
     #header .gnb>ul .sub_menu a:hover {color:#d37f00; font-weight:500;}
