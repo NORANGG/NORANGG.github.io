@@ -273,13 +273,13 @@ nav .depth01>li:hover .sub_menu {display:block;}   /*메뉴에 호버하면 섭�
     #content_01 .picture figure:nth-of-type(4) {padding-right:0px}
     #content_01 .picture figure img {width:100%;}
 
-    #content_01 .picture .naeyong {background:#5e4b2f; height:30px; padding:0 15px; cursor:pointer;}
-    #content_01 .picture .naeyong p {display:block; padding:7px 0 0px 0; text-align:center; font-size:4vw; font-weight:500; color:#fff;}
+    #content_01 .picture .naeyong {background:#5e4b2f; height:35px; padding:0 15px; cursor:pointer;}
+    #content_01 .picture .naeyong p {display:block; padding:12px 0 0px 0; text-align:center; font-size:3vw; font-weight:500; color:#fff;}
     #content_01 .picture .naeyong i {display:none; font-size:17px; line-height:1.5; font-weight:300; color:#555;}
 
     #content_01 .picture figure:hover {transform:translateY(-0%);}
-    #content_01 .picture figure:hover .naeyong {background:#fff;}
-    #content_01 .picture figure:hover .naeyong p {color:#052a4dfb;}
+    #content_01 .picture figure:hover .naeyong {background:#052a4dfb;}
+    #content_01 .picture figure:hover .naeyong p {color:#fff;}
     #content_01 .picture figure:hover .naeyong a {color:#000;}
 
     #content_01 .serro b {display:none; position:absolute; top:10%; right:-26%; text-decoration:none; writing-mode:tb-rl; line-height:2; font-size:15px; color:#cccccc;}
@@ -298,7 +298,7 @@ nav .depth01>li:hover .sub_menu {display:block;}   /*메뉴에 호버하면 섭�
 
     #content_02 .tab {display:flex; position:relative;}
     #content_02 .tab img {width:100%; margin-bottom:40px; filter:opacity(80%);}
-    #content_02 .tab h3 {font-size:3.8vw; font-weight:500; margin-bottom:40px; color:#666;}
+    #content_02 .tab h3 {font-size:3.2vw; font-weight:500; margin-bottom:40px; color:#666;}
     #content_02 .tab span {display:block; font-size:3vw; font-weight:300; border:1px solid #ddd; padding:10px 10px; width:auto; margin:0 auto;}
     #content_02 .tab span:hover {border:none; font-weight:500; color:#d37f00;}
 
@@ -330,8 +330,8 @@ nav .depth01>li:hover .sub_menu {display:block;}   /*메뉴에 호버하면 섭�
 
     #content_03 .slider {width:auto; padding-left:0px; margin-bottom:25px;}
     #content_03 .itm {display:flex; line-height:30px; color:#fff; }
-    #content_03 .itm em {font-size:4vw; font-weight:100; margin-left:30px;}
-    #content_03 .itm strong {font-size:4.5vw; font-weight:100; margin-left:30px; text-align: left;}
+    #content_03 .itm em {font-size:3vw; font-weight:100; margin-left:30px;}
+    #content_03 .itm strong {font-size:3.5vw; font-weight:100; margin-left:30px; text-align: left;}
 
     #content_03 .anenae02 {position:relative; text-align:right; font-size:3.5vw; padding-left:0px; color:#fff; margin-bottom:20px;}
     #content_03 .anenae02 strong:hover {color:#034380fb; font-weight:700;}
@@ -351,10 +351,10 @@ nav .depth01>li:hover .sub_menu {display:block;}   /*메뉴에 호버하면 섭�
     #content_04 .notice a {flex:1; padding-right:0px; padding-bottom:15px;}
     #content_04 .notice a:nth-of-type(4) {padding-right:0px; padding-bottom:0px;}
 
-    #content_04 .notice em {display:block; font-size:3.8vw; line-height:3; margin-top:20px; color:#82909e;}
-    #content_04 .notice h3 {position:relative; font-size:4.5vw; font-weight:500; margin-bottom:60px; line-height:1.3;}
+    #content_04 .notice em {display:block; font-size:3.5vw; line-height:3; margin-top:20px; color:#82909e;}
+    #content_04 .notice h3 {position:relative; font-size:4.1vw; font-weight:500; margin-bottom:60px; line-height:1.3;}
     #content_04 .notice h3::after {content:""; display:block; width:80px; height:1px; border-radius:50%; background:#b3b3b3; position:absolute; bottom:-75%; left:37%;}
-    #content_04 .notice p {font-size:4vw; line-height:1.5; color:#666; margin-bottom:40px;}
+    #content_04 .notice p {font-size:3vw; line-height:1.5; color:#666; margin-bottom:40px;}
 
     #content_04 .notice .not {background:#f7f7f7; border:1px solid #ddd; transition:0.3s; height:100%;}
     #content_04 .notice .not:hover {background:#fff; border:1px solid #369;}
@@ -363,15 +363,15 @@ nav .depth01>li:hover .sub_menu {display:block;}   /*메뉴에 호버하면 섭�
     #content_04 .banner {display:flex; text-align:left; flex-flow:column wrap;}
 
     #content_04 .banner .left {flex:1; position:relative; background:#947450; color:#fff; padding:30px}
-    #content_04 .banner .left h3 {font-size:6vw; font-weight:500; margin-bottom:20px; font-family: 'Noto Serif KR', serif;}
-    #content_04 .banner .left strong {font-size:4vw; font-weight:300;}
-    #content_04 .banner .left span {display:block; font-size:3.5vw; font-weight:300; position:absolute; top:26%; right:10%; background:#d387157e; border-radius:50%; padding:25px 10px;}
+    #content_04 .banner .left h3 {font-size:5vw; font-weight:500; margin-bottom:20px; font-family: 'Noto Serif KR', serif;}
+    #content_04 .banner .left strong {font-size:3vw; font-weight:300;}
+    #content_04 .banner .left span {display:block; font-size:3vw; font-weight:300; position:absolute; top:26%; right:10%; background:#d387157e; border-radius:50%; padding:25px 10px;}
     #content_04 .banner .left span:hover {font-weight:700; background:none;}
 
     #content_04 .banner .right {flex:1; position:relative; background:#002344fb; color:#fff; padding:30px}
-    #content_04 .banner .right h3 {font-size:6vw; font-weight:500; margin-bottom:20px; margin-top:0px; font-family: 'Noto Serif KR', serif;}
-    #content_04 .banner .right strong {font-size:4vw; font-weight:300; line-height:1.5;}
-    #content_04 .banner .right span {display:block; font-size:3.5vw; font-weight:300; position:absolute; top:26%; right:10%; background:#105fa875; border-radius:50%; padding:25px 10px;}
+    #content_04 .banner .right h3 {font-size:5vw; font-weight:500; margin-bottom:20px; margin-top:0px; font-family: 'Noto Serif KR', serif;}
+    #content_04 .banner .right strong {font-size:3vw; font-weight:300; line-height:1.5;}
+    #content_04 .banner .right span {display:block; font-size:3vw; font-weight:300; position:absolute; top:26%; right:10%; background:#105fa875; border-radius:50%; padding:25px 10px;}
     #content_04 .banner .right span:hover {font-weight:700; background:none;}
 
 
@@ -389,8 +389,8 @@ nav .depth01>li:hover .sub_menu {display:block;}   /*메뉴에 호버하면 섭�
     #footer .info span:hover {color:#adadad;} */
 
     #footer .add {width:auto;}
-    #footer .add dd {line-height:1.5; font-size:4vw; font-weight:100;}
-    #footer .add dd:nth-of-type(3) {font-size:3vw; margin-top:20px;}
+    #footer .add dd {line-height:1.5; font-size:3vw; font-weight:100;}
+    #footer .add dd:nth-of-type(3) {font-size:2.5vw; margin-top:20px;}
 
     #footer .search {line-height:0px; color:#000; padding-left:0px; padding-top:20px;}
     #footer select {padding:15px 20px; outline:none; font-size:3.5vw; background:#fff; cursor:pointer;}
