@@ -306,7 +306,7 @@ nav .depth01>li:hover .sub_menu {display:block;}   /*메뉴에 호버하면 섭�
     #content_02 .tab>div::after {content:"";display:none; width:1px; height:300px; background:#eee; position:absolute; top:0px; left:66%;}
 
     #content_02 .tab .group {padding-right:10px;}
-    #content_02 .tab .group_01 h3 {margin-bottom:26%;}
+    #content_02 .tab .group_01 h3 {margin-bottom:25%;}
     #content_02 .tab .group_03 img {margin-top:22.5%;}
 
     #content_02 .back {display:none; position:absolute; bottom:-15%; right:-34.3%; filter:opacity(15%);}
