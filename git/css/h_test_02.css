@@ -77,8 +77,6 @@ a { color:#000; text-decoration:none;}
 #wrap nav ul li a:hover {color: white;}
 
 
-
-
 .etc_10 {width: 100%; margin: 0 auto; text-align: center; background: #ff731e;}
 .etc_10_wrap {width: 100%; text-align: center; margin:0 auto; background: url(/img/back.png) no-repeat top center/contain; } /*pc는 850px로 맞추되, 크게 하고싶다면 이미지를 1900px로 바꾸고 width를 100%로*/
 .etc_10_wrap>img {width: 45%; margin: 7% auto 5% auto;}
@@ -191,6 +189,11 @@ a { color:#000; text-decoration:none;}
 #wrap .main img {width:100%;}
 
 
+#wrap nav {width: 100%; margin: 0 auto; text-align: center; justify-content: center; background:linear-gradient(90deg, rgba(207,25,251,1) 0%, rgba(250,231,5,1) 50%, rgba(0,212,255,1) 100%);}
+#wrap nav ul {display: flex;}
+#wrap nav ul li {line-height: 1.5; margin: 0 auto;}
+#wrap nav ul li a {font-size: 28px; font-weight: 700;}
+#wrap nav ul li a:hover {color: white;}
 
 
 .etc_10 {width: 100%; margin: 0 auto; text-align: center; background: #ff731e;}
