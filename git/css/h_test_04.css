@@ -1,0 +1,92 @@
+* {margin:0;padding:0;}
+* {border: 1px solid red--;}
+body {-webkit-text-size-adjust: 100%;}
+img {border:none}
+ul,li {list-style:none;}
+input {text-align:center;}
+a {color:#000; text-decoration:none;}
+
+
+
+
+#main_top figure {position: relative; width: 100%; height: 350px; margin: 0 auto; text-align: center;}
+#main_top .item_01 {background: url(../img/news_text_test.png) no-repeat center center/cover;}
+#main_top h2 {position: absolute; top: 20%; left: 50%; transform: translate(-50%,-50%); width: 100%; text-align: center; color: skyblue; font-size: 40px; z-index: 1;}
+
+
+
+#news_wrap_01 {max-width:850px; min-width:280px; margin:0 auto;}
+
+.contents>p {word-break:break-all;}
+
+/* .news_title {clear:both; margin:0 13px 0px 13px;}
+.news_title a {text-decoration:none; color:#333}
+.news_title p.main_title {font-size:27px; font-weight:bold; margin-top:30px; line-height:150%}
+.news_title p.main_stitle {font-size:14px; color:#0066cc; line-height:150%}
+.news_title span {display:block; margin-top:8px; margin-bottom:15px;}
+.news_title span.reply_icon  {float:left;}
+.news_title span.reply_icon  img {width:52px; height:29px;}
+.news_title span.zoomin_zoomout  { float:right;}
+.news_title span.zoomin_zoomout  img{width:79px; height:29px;} */
+
+.news_text {clear:right; position:relative; padding:10px;}
+.news_text .text {color:#000; font-size:16px; line-height: 1.7; margin: 25px 0 30px 0; font-weight: 500;}
+.news_text img {width:100%;}
+
+
+
+.submit {background-size: 100%; text-align:center; margin: 0 auto;}
+
+.submit .submit_wrap {margin:0 auto; width:100%; background:url('../img/news_text_test.png') no-repeat center center/cover;}
+.submit .submit_wrap input {width:80%;}
+.submit .submit_wrap .submit_title img {width:90%;}
+
+.submit .submit_wrap .name {margin-bottom: 10px;}
+.submit .submit_wrap .tell {margin-bottom: 15px;}
+.submit .submit_wrap .img_submit {width: 80%}
+.submit .submit_wrap .input_text {height: 60px;}
+
+.submit .submit_wrap .agree_form {width: 100%; font-size: 16px;}
+.submit .submit_wrap .red {color:red;}
+.submit .submit_wrap .flex {display: flex;}
+
+.submit .submit_wrap .ag_01 {width: 80%; margin:15px 0 20px 0;}
+.submit .submit_wrap .ag_02 {width: 80%; margin:15px 0 20px 0;}
+
+
+/* .form .request2_wra p{margin:0 auto; width:100%; height:auto; padding-top:40px; background:url('../common/lottolucky_new2.png') no-repeat; background-size:cover;} */
+
+
+.comment_box img {display:block; width:100%; margin:0 auto; margin: 10px 0; overflow:hidden;}
+
+.comment_all {width:100%; margin-bottom: 10px; letter-spacing:-1px;} 
+.comment_all span:nth-child(1) {font-weight: 900; color: red; padding-right: 5px;}
+
+/*** 댓글 시작 ***/
+table {margin:0 auto; overflow:hidden; padding: 10px 0 5px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
+
+.best { display:inline-block; padding: 4px 8px; background:#FF4C4C; color:#fff; text-align:center; font-size:12px;}
+
+.com img {max-width: 100%;}
+.com strong {font-size:17px; color: black; letter-spacing:-1px;}
+
+.com .clock {font-size: 15px; color: #888; font-weight: 500; line-height: 2;}
+.com .clock td {margin-bottom: 20px;}
+
+.com .decgel .d_01 {width:50%;float:left;text-align:left;}
+.com .decgel .d_02 {width:50%;float:left;text-align:right;}
+
+/*** 댓글 끝 ***/
+
+
+
+.next_page {width:100%; float:left; margin:20px 0;}
+.next_page .p_wrap {width:40%; margin:0 auto;}
+.next_page .num01 {width:30px; height:30px; line-height:2.5; text-align:center; border:1px solid #ccc; float:left; margin-right:10px; font-size:13px;}
+.next_page .num02 {width:30px; height:30px; line-height:2.5; text-align:center; border:1px solid #ccc; float:left; margin-right:10px; font-size:13px;}
+.next_page .back {width:100px; height:30px; line-height:2.5; text-align:center; /* border:1px solid #ccc; */ float:left; font-size:13px;}
+
+.next_page .all {width:100px; height:30px; line-height:2.5; text-align: right; font-weight: 600; /* border:1px solid #ccc; */ float:left; font-size:13px;}
+
+
+
