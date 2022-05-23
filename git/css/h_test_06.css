@@ -71,39 +71,24 @@ a { color:#000; text-decoration:none;}
 
 
 
+.etc_04 {width: 100%; overflow:hidden;  background:#02b2e5; position:relative; z-index: 10;}
+.etc_04_wrap {width: 100%; text-align:center; margin:0 auto; overflow:hidden; } /*pc는 850px로 맞추되, 크게 하고싶다면 이미지를 1900px로 바꾸고 width를 100%로*/
+.etc_04_wrap img {width: 100%;}
 
-.etc_10 {width: 100%; margin: 0 auto; text-align: center; background: #ff731e;}
-.etc_10_wrap {width: 100%; text-align: center; margin:0 auto; background: url(../img/back_gun.png) no-repeat top center/contain; } /*pc는 850px로 맞추되, 크게 하고싶다면 이미지를 1900px로 바꾸고 width를 100%로*/
-.etc_10_wrap>img {width: 45%; margin: 7% auto 5% auto;}
+.etc_04_wrap input {border-radius: 40px 40px 40px 40px;}
 
-.etc_10_wrap .sec_02 {position: relative; margin: 0 auto; background: #ff731e; height: auto; padding-bottom: 0px; }
-.etc_10_wrap .sec_02 img {transform: translateY(-5%); width: 50%;}
+.etc_04_wrap .info_02 .flex02 {display: flex; justify-content: center;}
 
-.etc_10_wrap .sec_03 {padding: 40px 0 50px 0; background: #9ae2ff;}
-.etc_10_wrap .sec_03 img {width: 50%;}
+.etc_04_wrap .info_02 {width:100%; padding: 30px 0 70px 0; margin: 0 auto; text-align: center; }
+.etc_04_wrap .info_02 .info_02_01 {width: 100%; margin: 0 auto; border-radius: 10px 10px 10px 10px; padding-bottom: 20px;}
+.etc_04_wrap .info_02 .info_02_02 {width: 100%; margin: 0 auto; border-radius: 10px 10px 10px 10px;}
+.etc_04_wrap .info_02 .info_02_03 {margin-top: 30px; font-size:20px; padding-right: 15px; color: #fff;}
+.etc_04_wrap .info_02 .info_02_04 {margin-top: 30px; font-size:20px; padding-left: 15px; color: #fff; padding-bottom: 55px;}
 
-.etc_10_wrap .sec_03 .lotto_slide {width: 68%; margin:0 auto; padding-top: 30px;}
-.etc_10_wrap .sec_03 .lotto_slide figure {padding-right: 5px; padding-left: 5px;}
-.etc_10_wrap .sec_03 .lotto_slide figure img {width: 100%; margin: 0 auto; border: 2px solid #000;}
+.etc_04_wrap .info_02 .input_text {height:100px; font-size:26px; width: 65%; font-family: 'Jua', sans-serif;}
 
-.etc_10_wrap .sec_04 {padding: 40px 0 0px 0; background: #ff731e;}
-.etc_10_wrap .sec_04 img {width: 40%;}
-
-
-.etc_10 .container {width: 100%; margin: 0 auto; text-align: center; background: #ff731e; padding: 20px 0 30px 0;}
-.etc_10 .info_02 {width: 100%; margin: 0 auto; text-align: center;}
-.etc_10 .info_02 .flex {display: flex; justify-content: center;}
-
-.etc_10 .info_02 .info_02_01 {margin-bottom:30px; margin-right: 10px; font-weight: bolder; border: 2px solid #000; width: 25%;}
-.etc_10 .info_02 .info_02_02 {margin-bottom:30px; margin-left: 10px; font-weight: bolder; border: 2px solid #000; width: 25%;}
-
-.etc_10 .info_02 .input_text {width:100%; height:80px; font-size:18px;}
-
-.etc_10 .info_02 .info5 {width: 350px; background: #ff731e; margin: 0 auto; padding: 13px 0px; border: 6px solid #79d8ff;}
-.etc_10 .info_02 button {color: #fff; font-size: 40px; font-weight: 500; font-family: 'Jua', sans-serif;}
-
-.etc_10 .info_02 .info5:hover button {color: #000;}
-
+.etc_04_wrap .btn {width: 600px; background: #ffee00; margin: 0 auto; padding: 30px 100px; border-radius: 60px 60px 60px 60px;}
+.etc_04_wrap a {color: #006c42; font-size: 42px; font-weight: bolder; font-family: 'Jua', sans-serif;}
 
 
 
@@ -183,37 +168,29 @@ a { color:#000; text-decoration:none;}
 #wrap .main .logo {width:100px; display:block; margin:0 auto;}
 #wrap .main img {width:100%;}
 
-.etc_10 {width: 100%; margin: 0 auto; text-align: center; background: #ff731e;}
-.etc_10_wrap {width: 100%; text-align: center; margin:0 auto; background: url(../img/back_gun_m.png) no-repeat top center/contain; } /*pc는 850px로 맞추되, 크게 하고싶다면 이미지를 1900px로 바꾸고 width를 100%로*/
-.etc_10_wrap>img {width: 100%; margin: 7% auto 5% auto;}
-
-.etc_10_wrap .sec_02 {position: relative; margin: 0 auto; background: #ff731e; height: auto; padding-bottom: 0px; }
-.etc_10_wrap .sec_02 img {transform: translateY(-5%); width: 95%;}
-
-.etc_10_wrap .sec_03 {padding: 40px 0 50px 0; background: #9ae2ff;}
-.etc_10_wrap .sec_03 img {width: 95%;}
-
-.etc_10_wrap .sec_03 .lotto_slide {width: 95%; margin:0 auto; padding-top: 30px;}
-.etc_10_wrap .sec_03 .lotto_slide figure {padding-right: 5px; padding-left: 5px;}
-.etc_10_wrap .sec_03 .lotto_slide figure img {width: 100%; margin: 0 auto; border: 2px solid #000;}
-
-.etc_10_wrap .sec_04 {padding: 40px 0 0px 0; background: #ff731e;}
-.etc_10_wrap .sec_04 img {width: 95%;}
 
 
-.etc_10 .container {width: 100%; margin: 0 auto; text-align: center; background: #ff731e; padding-bottom: 0px;}
-.etc_10 .info_02 {width: 95%; padding: 20px 0 30px 0; margin: 0 auto; text-align: center;}
-.etc_10 .info_02 .flex {display: block; justify-content: center;}
 
-.etc_10 .info_02 .info_02_01 {margin-bottom:10px; margin-right: 0px; font-weight: bolder; border: 2px solid #000; width: 100%;}
-.etc_10 .info_02 .info_02_02 {margin-bottom:25px; margin-left: 0px; font-weight: bolder; border: 2px solid #000; width: 100%;}
+.etc_04 {width: 100%; overflow:hidden; background:#02b2e5; position:relative; z-index: 10;}
+.etc_04_wrap {width: 100%; text-align:center; margin:0 auto; overflow:hidden; } /*pc는 850px로 맞추되, 크게 하고싶다면 이미지를 1900px로 바꾸고 width를 100%로*/
+.etc_04_wrap img {width: 100%;}
 
-.etc_10 .info_02 .input_text {width: 100%; height:60px; font-size:15px;}
+.etc_04_wrap input {border-radius: 40px 40px 40px 40px;}
 
-.etc_10 .info_02 .info5 {width: 250px; background: #ff731e; margin: 0 auto; padding: 10px 0px; border: 4px solid #79d8ff;}
-.etc_10 .info_02 button {color: #fff; font-size: 26px; font-weight: 500; font-family: 'Jua', sans-serif;}
+.etc_04_wrap .info_02 .flex02 {display: flex; justify-content: center;}
 
-.etc_10 .info_02 .info5:hover button {color: #000;}
+.etc_04_wrap .info_02 {width:80%; padding: 15px 0 50px 0; margin: 0 auto; text-align: center;}
+.etc_04_wrap .info_02 .info_02_01 {width: 100%; margin-bottom: 10px;}
+.etc_04_wrap .info_02 .info_02_02 {width: 100%; margin-bottom: 5px;}
+.etc_04_wrap .info_02 .info_02_03 {margin-top: 10px; font-size:12px; padding-right: 15px; color: #fff;}
+.etc_04_wrap .info_02 .info_02_04 {margin-top: 10px; font-size:12px; padding-left: 15px; padding-bottom: 30px; color: #fff;}
+
+.etc_04_wrap .info_02 .input_text {height:50px; font-size:13px; width: 70%; font-family: 'Jua', sans-serif;}
+
+.etc_04_wrap .btn {background: #ffee00; margin: 0 auto; padding: 15px 50px; border-radius: 20px 20px 20px 20px; }
+.etc_04_wrap a {color: #006c42; font-size: 21px; font-weight: bolder; font-family: 'Jua', sans-serif;}
+
+
 
 
 
