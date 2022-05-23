@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 *{margin:0;padding:0;}
 .cp {cursor:pointer;}
 body {-webkit-text-size-adjust: 100%;}
@@ -11,11 +10,9 @@ a { color:#000; text-decoration:none;}
 
 
 /*---------------------- 부터 pc -----------------------*/
-@media all and (min-width: 851px) {
+@media all and (min-width: 1001px) {
 
     /*---------------------- 부터 pc 틀 -----------------------*/
-    .br {display: none;}
-
     * {border: 1px solid red--;}
     .btg1  {background-color: #c3a64e; border:1px solid #c3a64e; color: #fff; }
     .btg1:hover {background-color:#eed486; border-color:#c3a64e; color:#000;}
@@ -50,59 +47,90 @@ a { color:#000; text-decoration:none;}
     input[type=checkbox]:checked + label { background-image: url('../월드로또_원페이지_img/check_b.png'); } */
 
 
-    .input_1 { padding:15px; height:30px; text-align:center; width:430px; font-size:20px; color:#000; border-radius: 7px;}
-    .input_2 { padding:15px; height:30px; text-align:center; width:90%; font-size:20px; color:#000; border-radius: 0px;}
-    .input_3 {padding:15px; height:20px; text-align:left; width:30px; font-size:24px; color:#000; border-radius: 7px;}
+    .input_a { padding:15px; height:30px; text-align:center; width:430px; font-size:20px; color:#000; border-radius: 7px;}
+    .input_b { padding:15px; height:30px; text-align:center; width:90%; font-size:20px; color:#000; border-radius: 0px;}
+    .input_c {padding:15px; height:20px; text-align:left; width:30px; font-size:24px; color:#000; border-radius: 7px;}
 
 
     #floatdiv {position:fixed; _position:absolute; z-index:-1; width:280px;display:inline-block;right:-70px; top:0%; background-color: transparent; margin:0;}
 
-    body {background:url(./연습용이미지_메인800.png); background-position:top; overflow:hidden;}
+    body {background:url(../img/연습용이미지_메인1900.png); background-position:top; overflow:hidden;}
+
+
+
+
 
 
 
     /*---------------------- 까지 pc 틀 -----------------------*/
 
 
-#wrap {width:100%; margin:0 auto; height:auto; overflow:hidden;}
+#wrap {width:100%; margin:0 auto; background: url(); background-repeat: no-repeat; background-position: 50% 0%; height:auto; overflow:hidden; background-color: #efc05b;}
+
 #wrap .main {width:100%; height:auto; overflow:hidden; margin-bottom:0px;}
 #wrap .main .logo {width:100px; display:block; margin:0 auto;}
 #wrap .main img {display:block; margin:0 auto;}
 
 
+.rullet {position:relative;width:150%;min-height:auto;max-height:auto; /* padding: 0 0 10% 0 ; */max-width:750px;min-width:320px;overflow:hidden;margin:0 auto;}
+.rullet > img {width:100%;}
+.rullet .roulette  {position:absolute;top:27%;}
+.rullet .roulette #light {z-index:26;}
 
-.etc_10 {width: 100%; margin: 0 auto; text-align: center; background: #ff731e;}
-.etc_10_wrap {width: 100%; text-align: center; margin:0 auto; background: url(/img/back.png) no-repeat top center/contain; } /*pc는 850px로 맞추되, 크게 하고싶다면 이미지를 1900px로 바꾸고 width를 100%로*/
-.etc_10_wrap>img {width: 45%; margin: 7% auto 5% auto;}
+/* .rullet .roulette_outer {width:90%;height:auto;left:5%;z-index:10;}
+.rullet .roulette_outer > img {width:100%;}  */
 
-.etc_10_wrap .sec_02 {position: relative; margin: 0 auto; background: #ff731e; height: auto; padding-bottom: 0px; }
-.etc_10_wrap .sec_02 img {transform: translateY(-5%); width: 50%;}
+.rullet .roulette_wheel {width:75%;height:auto;left:12.5%;z-index:20;margin-top:7%;}	
+.rullet .roulette_wheel > img {width:100%;}
 
-.etc_10_wrap .sec_03 {padding: 40px 0 50px 0; background: #9ae2ff;}
-.etc_10_wrap .sec_03 img {width: 50%;}
+.rullet .click_btn {width:30%;height:auto;left:35%;z-index:25;margin-top:30%;}	
+.rullet .click_btn img {width:100%;}
 
-.etc_10_wrap .sec_03 .lotto_slide {width: 68%; margin:0 auto; padding-top: 30px;}
-.etc_10_wrap .sec_03 .lotto_slide figure {padding-right: 5px; padding-left: 5px;}
-.etc_10_wrap .sec_03 .lotto_slide figure img {width: 100%; margin: 0 auto; border: 2px solid #000;}
+/* .rullet .click_btn2 {width:20%;height:auto;left:40%;z-index:25;margin-top:35%;}	
+.rullet .click_btn2 img {width:100%;} */
 
-.etc_10_wrap .sec_04 {padding: 40px 0 0px 0; background: #ff731e;}
-.etc_10_wrap .sec_04 img {width: 40%;}
+.rullet .roulette_arrow {width:20%;height:auto;left:40.5%;z-index:30;margin-top:-2%}
+.rullet .roulette_arrow > img {width:95%;}
+
+.rullet .roulette_info {width:100%;text-align:center;z-index:30;margin-top:-80%;}
+.rullet .roulette_info > img {width:100%;text-align:center;}
+
+.rullet .giftbox {width:28%;height:auto;right:2%;z-index:40;margin-top:35%;}
+.rullet .giftbox > img {width:100%;}
 
 
-.etc_10 .container {width: 100%; margin: 0 auto; text-align: center; background: #ff731e; padding: 20px 0 30px 0;}
-.etc_10 .info_02 {width: 100%; margin: 0 auto; text-align: center;}
-.etc_10 .info_02 .flex {display: flex; justify-content: center;}
 
-.etc_10 .info_02 .info_02_01 {margin-bottom:30px; margin-right: 10px; font-weight: bolder; border: 2px solid #000; width: 25%;}
-.etc_10 .info_02 .info_02_02 {margin-bottom:30px; margin-left: 10px; font-weight: bolder; border: 2px solid #000; width: 25%;}
 
-.etc_10 .info_02 .input_text {width:100%; height:80px; font-size:18px;}
+.layer {display: none; position: relative; margin: 0 auto; text-align: center; position:fixed; width:100%; height:100%; background:rgba(0, 0, 0, 0.85); color: #fff; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-top: 270px; font-size: 24px; z-index: 99; overflow: hidden; /*overflow-y: scroll;*/}
 
-.etc_10 .info_02 .info5 {width: 350px; background: #ff731e; margin: 0 auto; padding: 13px 0px; border: 6px solid #79d8ff;}
-.etc_10 .info_02 button {color: #fff; font-size: 40px; font-weight: 500; font-family: 'Jua', sans-serif;}
+/* .layer .img img {width:100%; max-width:100%;}
+.layer .img > img {position:absolute;top:0%;left:0%;}
 
-.etc_10 .info_02 .info5:hover button {color: #000;}
+.layer .info_02 {position:absolute;bottom:-50%;left:0%; width:100%; max-width:900px; height:auto; padding:40px; background-color:#fff; border:1px solid #ccc; box-sizing:border-box; margin:0 auto;}
 
+.layer .info_02:after {display:block;width:0;height:0;visibility:hidden;content:' ';clear:both;} */
+
+
+.layer h2 {font-size: 40px; font-weight: bolder; margin-bottom: 25px;}
+.layer .info_02 input {margin-bottom: 15px;}
+.input_text {font-size: 16px;}
+
+input[type=checkbox] {transform: scale(1.7);}
+input[type=text] {height: 75px;}
+input[type=tel] {height: 75px; width: 600px;}
+
+.layer .input_check {margin-top: 10px;}
+.layer .info_02_03 {font-size: 16px;}
+.layer .info_02_04 {font-size: 16px;}
+
+/* .layer .x {
+    font-size: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+} */
+
+
+/* .layer .back img {position: absolute; top: 0; left: 0%; width: 100%; height: 100%; overflow-y: scroll; filter:hue-rotate(1); z-index: -1;} */
 
 
 
@@ -113,10 +141,8 @@ a { color:#000; text-decoration:none;}
 .footer .f_txt {display:block; font-size:13px; line-height: 1.6; color: #999;}
 .footer .f_txt em {font-style:normal;padding-left:10px; letter-spacing:-1px;}
 
+
 }
-
-
-
 
 /*---------------------- 까지 pc -----------------------*/
 
@@ -128,10 +154,9 @@ a { color:#000; text-decoration:none;}
 
 /*---------------------- 부터 mo -----------------------*/
 
-@media all and (max-width: 850px) {
+@media all and (max-width: 1000px) {
 
     /*---------------------- 부터 mo 틀 -----------------------*/
-    .br {display: block;}
 
     .btg1  {background-color: #c3a64e; border:1px solid #c3a64e; color: #fff;}
     .btg1:hover{border-color:#c3a64e;background-color:#c3a64e;color:#fff;}
@@ -177,42 +202,62 @@ a { color:#000; text-decoration:none;}
     /*---------------------- 까지 mo 틀 -----------------------*/
 
 
-#wrap {width:100%; margin:0 auto; height:auto;overflow:hidden; position: relative;}
-#wrap .main {width:100%; margin:0 auto; height:auto;overflow:hidden; margin-bottom:0px;}
-#wrap .main .logo {width:100px; display:block; margin:0 auto;}
-#wrap .main img {width:100%;}
-
-.etc_10 {width: 100%; margin: 0 auto; text-align: center; background: #ff731e;}
-.etc_10_wrap {width: 100%; text-align: center; margin:0 auto; background: url(/img/back_m.png) no-repeat top center/contain; } /*pc는 850px로 맞추되, 크게 하고싶다면 이미지를 1900px로 바꾸고 width를 100%로*/
-.etc_10_wrap>img {width: 80%; margin: 7% auto 5% auto;}
-
-.etc_10_wrap .sec_02 {position: relative; margin: 0 auto; background: #ff731e; height: auto; padding-bottom: 0px; }
-.etc_10_wrap .sec_02 img {transform: translateY(-5%); width: 95%;}
-
-.etc_10_wrap .sec_03 {padding: 40px 0 50px 0; background: #9ae2ff;}
-.etc_10_wrap .sec_03 img {width: 95%;}
-
-.etc_10_wrap .sec_03 .lotto_slide {width: 95%; margin:0 auto; padding-top: 30px;}
-.etc_10_wrap .sec_03 .lotto_slide figure {padding-right: 5px; padding-left: 5px;}
-.etc_10_wrap .sec_03 .lotto_slide figure img {width: 100%; margin: 0 auto; border: 2px solid #000;}
-
-.etc_10_wrap .sec_04 {padding: 40px 0 0px 0; background: #ff731e;}
-.etc_10_wrap .sec_04 img {width: 95%;}
+#wrap {width:100%; margin:0 auto; background: (); background-repeat: no-repeat;background-position:100% 50%; height:auto;overflow:hidden; background-color: #efc05b;;}
 
 
-.etc_10 .container {width: 100%; margin: 0 auto; text-align: center; background: #ff731e; padding-bottom: 0px;}
-.etc_10 .info_02 {width: 95%; padding: 20px 0 30px 0; margin: 0 auto; text-align: center;}
-.etc_10 .info_02 .flex {display: block; justify-content: center;}
+.rullet {position:relative;width:100%;min-height:auto;max-height:auto; /* padding: 0 0 10% 0 ; */max-width:750px;min-width:320px;overflow:hidden;margin:0 auto;}
+.rullet > img {width:100%;}
+.rullet .roulette  {position:absolute;top:27%;}
+.rullet .roulette#light {z-index:26;}
 
-.etc_10 .info_02 .info_02_01 {margin-bottom:10px; margin-right: 0px; font-weight: bolder; border: 2px solid #000; width: 100%;}
-.etc_10 .info_02 .info_02_02 {margin-bottom:25px; margin-left: 0px; font-weight: bolder; border: 2px solid #000; width: 100%;}
+/* .rullet .roulette_outer {width:90%;height:auto;left:5%;z-index:10;}
+.rullet .roulette_outer > img {width:100%;}  */
 
-.etc_10 .info_02 .input_text {width: 100%; height:60px; font-size:15px;}
+.rullet .roulette_wheel {width:75%;height:auto;left:12.5%;z-index:20;margin-top:7%;}	
+.rullet .roulette_wheel > img {width:100%;}
 
-.etc_10 .info_02 .info5 {width: 250px; background: #ff731e; margin: 0 auto; padding: 10px 0px; border: 4px solid #79d8ff;}
-.etc_10 .info_02 button {color: #fff; font-size: 26px; font-weight: 500; font-family: 'Jua', sans-serif;}
+.rullet .click_btn {width:30%;height:auto;left:35%;z-index:25;margin-top:30%; }	
+.rullet .click_btn img {width:100%; }
 
-.etc_10 .info_02 .info5:hover button {color: #000;}
+/* .rullet .click_btn2 {width:20%;height:auto;left:40%;z-index:25;margin-top:35%;}	
+.rullet .click_btn2 img {width:100%;} */
+
+.rullet .roulette_arrow {width:20%;height:auto;left:40.5%;z-index:30;margin-top:-2%}
+.rullet .roulette_arrow > img {width:95%;}
+
+.rullet .roulette_info {width:100%;text-align:center;z-index:30;margin-top:-80%;}
+.rullet .roulette_info > img {width:100%;text-align:center;}
+
+.rullet .giftbox {width:28%;height:auto;right:2%;z-index:40;margin-top:35%;}
+.rullet .giftbox > img {width:100%;}
+
+
+
+
+.layer {display: none; margin: 0 auto; text-align: center; position:fixed; width:100%; height:100%; background:rgba(0, 0, 0, 0.85); color: #fff; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-top: 50%; font-size: 24px; z-index: 99; }
+
+
+.layer h2 {font-size: 32px; font-weight: bolder; margin-bottom: 25px;}
+.layer .info_02 input {margin-bottom: 15px;}
+.input_text {font-size: 12px;}
+
+input[type=checkbox] {transform: scale(1.2);}
+input[type=text] {height: 75px; width: 100%;}
+input[type=tel] {height: 75px; width: 100%;}
+
+.layer .input_check {margin-top: 10px;}
+.layer .info_02_03 {font-size: 13px;}
+.layer .info_02_04 {font-size: 13px;}
+
+.layer .info_02_05 {width: 50%; margin: 0 auto; padding-top: 20px;}
+.layer .info_02_05 button {font-size: 20px; line-height: 0; overflow: hidden;}
+
+
+/* .layer .x {
+    font-size: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+} */
 
 
 
@@ -223,12 +268,5 @@ a { color:#000; text-decoration:none;}
 .footer .f_txt {display:block; font-size:11px; line-height: 1.4; color: #999;}
 .footer .f_txt em {font-style:normal;padding-left:10px; letter-spacing:-1px;}
 
-
 }
-
 /*---------------------- 까지 mo -----------------------*/
-
-
-
-
-
