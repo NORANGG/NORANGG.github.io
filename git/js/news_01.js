@@ -18,7 +18,7 @@ $(function(){
 
 
         setTimeout(function(){  
-            swal({title:"당첨되셨습니다! \n 30포인트를 받으세요!"},
+            swal({title:"당첨되셨습니다! \n 지금바로 \n 1등 무료번호를 \n 받으세요!"},
             function(){
                 $('.layer').show();
             })   //룰렛돌리고 5.5초후에 이거나옴.
