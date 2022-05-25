@@ -92,9 +92,28 @@
 
 
 
-<script>
-
+        <script>
+            function password(){
+            var count = 0;
+            
+            // 패스워드를 입력받는 상자를 띄워줌
+            var pass = prompt('비밀번호를 입력하세요');
+            
+            while(count <=2 )
+            {
+            if (pass == "6842")
+            { alert('😉웰컴😉');
+            // location.href="https://norangg.github.io/git/h_test_01.html";
+            break;
+            }
+            else count+=1;
+            
+            var pass = prompt('😐다시 입력하세요😐');
+            }
     
-</script>
+        }
+            
+            document.write(password());
+        </script>
 </body>
 </html>
