@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+
+
     <title>혜진 - 로또 연습</title>
     
     <link rel="shortcut icon" href="./img/favcion_norang.png">
@@ -21,35 +25,61 @@
     <ul style="font-size: 20px; color: white;">
 
         <li style="margin-bottom: 10px;">
-            <a href="./h_test_01.html" target="_blank">01</a>
+            <a href="./h_test_01.html" id="h_01">01</a>
+            
         </li>
 
         <li style="margin-bottom: 10px;">
-            <a href="./h_test_02.html" target="_blank">02</a>
+            <a href="./h_test_02.html">02</a>
         </li>
 
         <li style="margin-bottom: 10px;">
-            <a href="./h_test_03.html" target="_blank">03</a>
+            <a href="./h_test_03.html">03</a>
         </li>
 
         <li style="margin-bottom: 10px;">
-            <a href="./h_test_04.html" target="_blank">04</a>
+            <a href="./h_test_04.html">04</a>
         </li>
 
         <li style="margin-bottom: 10px;">
-            <a href="./h_test_05.html" target="_blank">05</a>
+            <a href="./h_test_05.html">05</a>
         </li>
 
         <li style="margin-bottom: 10px;">
-            <a href="./h_test_06.html" target="_blank">06</a>
+            <a href="./h_test_06.html">06</a>
         </li>
 
         <li style="margin-bottom: 10px;">
-            <a href="./news_01.html" target="_blank">n_01</a>
+            <a href="./news_01.html">n_01</a>
         </li>
 
     </ul>
 
 
+
+
+    <script>
+        function password(){
+        var count = 0;
+        
+        // 패스워드를 입력받는 상자를 띄워줌
+        var pass = prompt('비밀번호를 입력하세요');
+        
+        while(count <=2 )
+        {
+        if (pass == "6842")
+        { alert('😉웰컴😉');
+        location.href="https://norangg.github.io/git/";
+        break;
+        }
+        else count+=1;
+        
+        var pass = prompt('당신은 허가된 사용자가 아닙니다. 다시 입력해 주세요.','');
+        }
+
+    }
+        
+        document.write(password());
+    </script>
 </body>
 </html>
