@@ -5,15 +5,16 @@ img {border:none}
 ul,li {list-style:none;}
 input {text-align:center;}
 a {color:#000; text-decoration:none;}
+.br {display: none;}
 
 
-#main_top {width: 100%; max-width:750px; min-width:320px; overflow:hidden; margin:0 auto; text-align: center; position: relative;}
+#main_top {width: 100%; max-width:750px; min-width:300px; overflow:hidden; margin:0 auto; text-align: center; position: relative;}
 #main_top a {padding: 0;}
 #main_top img {width: 100%}
 
 .contents>p {word-break:break-all;}
 
-.rullet {position:relative; width:100%; min-height:auto; max-height:auto; /* padding: 0 0 10% 0 ; */max-width:750px; min-width:320px; overflow:hidden; margin:0 auto; background: #ffe7ec;}
+.rullet {position:relative; width:100%; min-height:auto; max-height:auto; /* padding: 0 0 10% 0 ; */max-width:750px; min-width:300px; overflow:hidden; margin:0 auto; background: #ffe7ec;}
 .rullet img {width: 100%; margin: 0 auto; text-align: center;}
 
 .rullet .roulette_wheel img {width: 100%;}
@@ -24,7 +25,7 @@ a {color:#000; text-decoration:none;}
 .rullet .roulette_aroow {position: absolute; top: 24%; left: 40%; width: 20% ;height:auto; z-index:1;}
 
 
-.time {width: 100%; margin: 0% auto; padding: 40px 0; text-align: center; max-width:750px; min-width:320px; overflow:hidden; background: #eee;}
+.time {width: 100%; margin: 0% auto; padding: 40px 0; text-align: center; max-width:750px; min-width:300px; overflow:hidden; background: #eee;}
 .time h2 {font-size: 48px; font-weight: 400; letter-spacing: -4px; margin-bottom: 30px;}
 
 .time .container {width: 95%; padding: 30px 0; margin: 0 auto; background: #fff; border-radius: 20px 20px 20px 20px;}
@@ -79,7 +80,7 @@ input[type=tel] {height: 75px; width: 600px;} */
 
 
 
-#gif {width:100%; margin: 0% auto; text-align: center; max-width:750px; min-width:320px; overflow:hidden;}
+#gif {width:100%; margin: 0% auto; text-align: center; max-width:750px; min-width:300px; overflow:hidden;}
 #gif .container {width: 100%; background: #70b1e9; padding: 50px 0 40px 0;}
 #gif h2 {font-size: 48px; font-weight: 900; letter-spacing: -4px; line-height: 1.2; color: white;}
 #gif .input_text {width: 90%; height: 60px; margin-top: 30px; background: #70b1e9; font-size: 24px;}
@@ -88,7 +89,7 @@ input[type=tel] {height: 75px; width: 600px;} */
 #gif img {margin-top: 20px; max-width: 100%;}
 
 
-.img {width:100%; margin: 0% auto; text-align: center; max-width:750px; min-width:320px; overflow:hidden;}
+.img {width:100%; margin: 0% auto; text-align: center; max-width:750px; min-width:300px; overflow:hidden;}
 .img img {width: 100%;}
 
 
@@ -117,7 +118,7 @@ input[type=tel] {height: 75px; width: 600px;} */
 /* .form .request2_wra p{margin:0 auto; width:100%; height:auto; padding-top:40px; background:url('../common/lottolucky_new2.png') no-repeat; background-size:cover;} */
 
 
-.comment {width:100%; margin: 0% auto;  max-width:750px; min-width:320px; overflow:hidden;}
+.comment {width:100%; margin: 0% auto;  max-width:750px; min-width:300px; overflow:hidden;}
 
 .comment_box img {display:block; width:100%; margin:0 auto; margin: 10px 0; overflow:hidden;}
 
@@ -154,8 +155,29 @@ table {margin:0 auto; overflow:hidden; padding: 10px 0 5px 0; border-top: 1px so
 
 
 @media all and (max-width: 749px) {
+    .br {display: block;}
 
-    .layer {display: none; position: relative; margin: 0 auto; text-align: center; position:fixed; width:100%; height:100%; background:rgba(0, 0, 0, 0.85); color: #fff; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-top: 450px; font-size: 24px; z-index: 9; overflow: hidden; /*overflow-y: scroll;*/}
+
+    .time {width: 100%; margin: 0% auto; padding: 40px 0; text-align: center; max-width:750px; min-width:300px; overflow:hidden; background: #eee;}
+    .time h2 {font-size: 12vw; font-weight: 500; letter-spacing: -4px; margin-bottom: 30px;}
+
+    .time .container {width: 95%; padding: 20px 0; margin: 0 auto; background: #fff; border-radius: 15px 15px 15px 15px;}
+    .time .slider {padding:0px 15px;}
+
+    .time .itm {display:flex; justify-content:space-between; line-height:1.5; padding: 10px 0; border-top:1px solid#444;}
+    .time .itm:nth-child(1) {border-top: 0;}
+
+    .time .itm em {font-weight:300; margin-left: 0px; font-size: 4.3vw; padding-top: 10px;}
+    .time .itm strong {font-weight:300; font-size: 4.3vw; padding-top: 10px;}
+    .time .itm b {font-size: 3.3vw; font-weight:100; padding-top: 15px;}
+    .time .itm span {width: 25%; background: #298dff; color: white; border-radius: 10px 10px 10px 10px; font-size: 4.5vw; padding-top: 5px;}
+
+    .time .itm .yellow {color: yellow; font-weight: 900;}
+
+
+
+
+    .layer {display: none; position: relative; margin: 0 auto; text-align: center; position:fixed; width:100%; height:100%; background:rgba(0, 0, 0, 0.85); color: #fff; top: 50%; left: 50%; transform: translate(-50%,-50%); padding-top: 50%; font-size: 24px; z-index: 9; overflow: hidden; /*overflow-y: scroll;*/}
 
     /* .layer .img img {width:100%; max-width:100%;}
     .layer .img > img {position:absolute;top:0%;left:0%;}
