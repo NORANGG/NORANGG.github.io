@@ -76,22 +76,22 @@ $(function(){
             pauseOnFocus:false,
             vertical:true,
             slidesToShow: 4,
-            responsive: [
-        {
-                breakpoint: 769,
-                settings: {
-                slidesToShow: 3,
-                }
-            },
+        //     responsive: [
+        // {
+        //         breakpoint: 769,
+        //         settings: {
+        //         slidesToShow: 3,
+        //         }
+        //     },
         
-            {
-                breakpoint: 600,
-                settings: {
-                slidesToShow: 2,
-                }
-            },
+        //     {
+        //         breakpoint: 600,
+        //         settings: {
+        //         slidesToShow: 2,
+        //         }
+        //     },
 
-            ]
+        //     ]
 
     });
     
