@@ -86,8 +86,12 @@ a { color:#000; text-decoration:none;}
 .etc_10_wrap .sec_03 .lotto_slide figure {padding-right: 5px; padding-left: 5px;}
 .etc_10_wrap .sec_03 .lotto_slide figure img {width: 100%; margin: 0 auto; border: 2px solid #000;}
 
-.etc_10_wrap .sec_04 {padding: 40px 0 0px 0; background: #ff731e;}
-.etc_10_wrap .sec_04 img {width: 40%;}
+.etc_10_wrap .sec_04 {width: 100%; padding: 40px 0 0px 0; position: relative;}
+.etc_10_wrap .sec_04>img {width: 40%;}
+
+.etc_10_wrap .sec_04 figure {}
+.etc_10_wrap .sec_04 figure img {position: absolute; top: 50%; left: 0; width: 50%;}
+
 
 
 .etc_10 .container {width: 100%; margin: 0 auto; text-align: center; background: #ff731e; padding: 20px 0 30px 0;}
@@ -197,8 +201,11 @@ a { color:#000; text-decoration:none;}
 .etc_10_wrap .sec_03 .lotto_slide figure {padding-right: 5px; padding-left: 5px;}
 .etc_10_wrap .sec_03 .lotto_slide figure img {width: 100%; margin: 0 auto; border: 2px solid #000;}
 
-.etc_10_wrap .sec_04 {padding: 40px 0 0px 0; background: #ff731e;}
-.etc_10_wrap .sec_04 img {width: 95%;}
+.etc_10_wrap .sec_04 {padding: 40px 0 0px 0; background: #ff731e; position: relative;}
+.etc_10_wrap .sec_04>img {width: 90%;}
+
+.etc_10_wrap .sec_04 figure {}
+.etc_10_wrap .sec_04 figure img {display: none;}
 
 
 .etc_10 .container {width: 100%; margin: 0 auto; text-align: center; background: #ff731e; padding-bottom: 0px;}
