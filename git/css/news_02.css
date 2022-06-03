@@ -94,7 +94,7 @@ p {word-break:break-all; letter-spacing: -1.5px;}
 .comment_all .right span {font-weight: 500; color: red;}
 
 /*** 댓글 시작 ***/
-table {margin:0 auto; overflow:hidden; padding: 10px 0 5px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
+table {margin:0 auto; overflow:hidden; padding: 20px 0 5px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
 
 .person img {width: 6%;}
 
@@ -105,7 +105,7 @@ table {margin:0 auto; overflow:hidden; padding: 10px 0 5px 0; border-top: 1px so
 .com .clock td {transform: translate(8%, -100%);}
 
 .com .text {}
-.com .text a {font-size: 17px; font-weight: 500; }
+.com .text a {font-size: 17px; font-weight: 500;}
 .com .text .best {display:inline-block; padding: 3px 12px; background:red; color:#fff; text-align:center; font-size:16px; font-weight: 500; border-radius: 20px 20px 20px 20px; margin: 0 10px 20px 0;}
 
 .com .decgel .d_01 {width:50%; float:left; text-align:left;}
