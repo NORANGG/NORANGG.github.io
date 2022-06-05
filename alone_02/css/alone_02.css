@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700&display=swap');
+
+
+* {outline:1px solid#f00--;} 
+
+#wrap {max-width:1900px; min-width:300px; overflow:hidden; /*<-이걸로 비율줄여지는거임*/ font-family: 'Noto Serif KR', serif;}
+.br {display:none;}
+
+
+/*----탑----*/
+#top {width: 100%;}
+#top .container {display: flex; width: 100%; margin: 0 auto; text-align: center; justify-content: space-evenly; height: 60px; background: #e6f0e8; line-height: 4; font-size: 14px;}
+#top .container p {color: #ff4944; padding-left: 50px;}
+#top .container h2 {color: #444; font-weight: 500; padding-left: 50px;}
+#top .container h2 span {color: #ff4944;}
+#top .container em {color: #706e6e; padding-right: 50px;}
+
+#top .container i {line-height: 3; font-size: 20px; transition: 0.5s;}
+
+
+
+/*----헤더----*/
+#header {width: 100%; margin:0 auto; padding:0 15px;}
+#header .container {width:1200px; margin:0 auto; display:flex; justify-content:space-between;}
+#header h1 {padding:10px 0;}
+#header h1 img {max-width:40%;}
+
+.m_open {display:none;} 
+
+nav {}
+nav .depth01 {display:flex;}   /*메뉴의 li들을 가로로 세움*/
+nav .depth01>li {position:relative;}   /*밑에서 섭메뉴의 기준이 메뉴의li가 되는거.*/
+nav .depth01>li>a {display:block; padding: 0px 20px; line-height:6; font-size:13px; margin-top: 13px;}
+nav .depth01>li>a:hover {color:#ff4944;}
+
+nav .depth01>li .sub_menu {display:none; position:absolute; top:90px; left:0; background:#ffffff8a; width:100%; height:auto; text-align:center; line-height:30px; font-size: 14px; z-index:1;}   /*섭메뉴가 되기위해 띄움*/
+nav .depth01>li:hover .sub_menu {display:block;}   /*메뉴에 호버하면 섭메뉴가 나오게끔*/
+nav .sub_menu>li>a:hover {color: #ff4944;}
+
+
+
+/*----메인슬라이드----*/
+#main_visual {position:relative;}
+#main_visual figure {height:750px;}
+
+#main_visual .slogan {position:absolute; top:45%; left:20%; padding:0 15px; color:#000; font-size:34px; text-align:left; z-index:9;}
+#main_visual .slogan h2 {font-weight:400; margin-bottom: 13px;}
+#main_visual .slogan p {font-weight:400; padding-left: 100px;}
+
+#main_visual .itm01 {background:url(../img/main_01.png) no-repeat center center/cover;}
+#main_visual .itm02 {background:url(../img/main_02.png) no-repeat center center/cover;}
+#main_visual .itm03 {background:url(../img/main_03.png) no-repeat center center/cover;}
+
+#main_visual .slick-dots {display:flex; justify-content:center;}
+#main_visual .slick-dots li {width:10px; height:10px; margin:-40px 8px; background:#fff; border-radius:50%; transition:0.4s; z-index: 1;}
+#main_visual .slick-dots li.slick-active {background:#ff4944; transform:scale(1.5);}
+#main_visual .slick-dots li button {display:none;}
+
+
+
+/*----섹션_01----*/
+#content_01 {width: 100%; padding:50px 15px 100px 15px; margin:0 auto; text-align: center; }
+#content_01 .container {width:1200px;  margin:0 auto;}
+#content_01 .container figure img {max-width: 40%;}
+
+#content_01 h3 {font-size: 34px; padding-bottom: 30px; }
+#content_01 span {font-size: 16px; color: #444; line-height: 1.3;}
+
+
+
+/*----섹션_02----*/
+#content_02 {width:100%; padding:50px 15px 100px 15px; margin:0 auto; text-align: center; background: #fffcf6;}
+#content_02 h3 {color: #555;}
+
+#content_02 .container {width: 1200px; padding: 50px 15px 0 15px; margin: 0 auto; text-align: center; position: relative;}
+#content_02 .container img {width: 100%;}
+#content_02 .container span {color: white;}
+
+/*부터 드레스 첫줄*/
+#content_02 .container .d_1 {display: flex;}
+#content_02 .container .d_1 strong {width: 490px;}
+
+
+#content_02 .container .d_1 figure {margin-left: auto;}
+#content_02 .container .d_1 figure:nth-of-type(1) {margin: 0 10px;}
+
+#content_02 .container .d_1 figure:nth-of-type(1) span {position: absolute; top: 18.5%; left: 50%; transform: translate(-50%,-50%); opacity: 0;}
+
+#content_02 .container .d_1 figure:nth-of-type(1):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_02 .container .d_1 figure:nth-of-type(1):hover span {opacity: 1; transition:0.3s;}
+
+#content_02 .container .d_1 figure:nth-of-type(2) span {position: absolute; top: 18.5%; left: 82.555%; transform: translate(-50%,-50%); opacity: 0;}
+#content_02 .container .d_1 figure:nth-of-type(2):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_02 .container .d_1 figure:nth-of-type(2):hover span {opacity: 1; transition:0.3s;}
+/*까지 드레스 첫줄*/
+
+/*부터 드레스 둘째줄*/
+#content_02 .container .d_2 {display: flex; padding-top: 20px;}
+#content_02 .container .d_2 strong {width: 490px; margin: 0 10px;}
+
+#content_02 .container .d_2 figure:nth-of-type(1) span {position: absolute; top: 51%; left: 16.5%; transform: translate(-50%,-50%); opacity: 0;}
+#content_02 .container .d_2 figure:nth-of-type(1):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_02 .container .d_2 figure:nth-of-type(1):hover span {opacity: 1; transition:0.3s;}
+
+#content_02 .container .d_2 figure:nth-of-type(2) span {position: absolute; top: 51%; left: 82.7%; transform: translate(-50%,-50%); opacity: 0;}
+#content_02 .container .d_2 figure:nth-of-type(2):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_02 .container .d_2 figure:nth-of-type(2):hover span {opacity: 1; transition:0.3s;}
+/*까지 드레스 둘째줄*/
+
+/*부터 드레스 셋째줄*/
+#content_02 .container .d_3 {display: flex; padding-top: 20px;}
+#content_02 .container .d_3 strong {width: 490px;}
+
+#content_02 .container .d_3 figure {margin: 0 10px;}
+
+#content_02 .container .d_3 figure span {position: absolute; top: 84.333333%; left: 50%; transform: translate(-50%,-50%); opacity: 0;}
+#content_02 .container .d_3 figure:hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_02 .container .d_3 figure:hover span {opacity: 1; transition:0.3s;}
+/*까지 드레스 셋째줄*/
+
+
+
+/*----섹션_03----*/
+#content_03 {width:100%; padding:50px 15px 100px 15px; margin:0 auto; text-align: center; background: #fffcf6;}
+
+#content_03 .container {width: 1200px; padding: 50px 15px 0 15px; margin: 0 auto; text-align: center; position: relative;}
+#content_03 .container img {width: 100%;}
+
+/*부터 악세사리 첫째줄*/
+#content_03 .container .a_1 {display: flex;}
+#content_03 .container .a_1 figure:nth-of-type(2) {margin: 0 10px;}
+
+#content_03 .container .a_1 figure:nth-of-type(1) span {position: absolute; top: 20%; left: 17%; color: white; transform: translate(-50%,-50%); opacity: 0;}
+#content_03 .container .a_1 figure:nth-of-type(1):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_03 .container .a_1 figure:nth-of-type(1):hover span {opacity: 1; transition: 0.3s;} 
+
+#content_03 .container .a_1 figure:nth-of-type(2) span {position: absolute; top: 20%; left: 50%; color: white; transform: translate(-50%,-50%); opacity: 0;}
+#content_03 .container .a_1 figure:nth-of-type(2):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_03 .container .a_1 figure:nth-of-type(2):hover span {opacity: 1; transition: 0.3s;} 
+
+#content_03 .container .a_1 figure:nth-of-type(3) span {position: absolute; top: 20%; left: 82%; color: white; transform: translate(-50%,-50%); opacity: 0;}
+#content_03 .container .a_1 figure:nth-of-type(3):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_03 .container .a_1 figure:nth-of-type(3):hover span {opacity: 1; transition: 0.3s;} 
+/*까지 악세사리 첫째줄*/
+
+/*부터 악세사리 둘째줄*/
+#content_03 .container .a_2 {display: flex; margin-top: 10px;}
+#content_03 .container .a_2 strong {margin: 0 10px; width: 400px; margin-top: 185px; font-size: 16px;}
+
+#content_03 .container .a_2 figure:nth-of-type(1) span {position: absolute; top: 52.5%; left: 17.5%; color: white; transform: translate(-50%,-50%); opacity: 0;}
+#content_03 .container .a_2 figure:nth-of-type(1):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_03 .container .a_2 figure:nth-of-type(1):hover span {opacity: 1; transition: 0.3s;} 
+
+#content_03 .container .a_2 figure:nth-of-type(2) span {position: absolute; top: 52.5%; left: 82.5%; color: white; transform: translate(-50%,-50%); opacity: 0;}
+#content_03 .container .a_2 figure:nth-of-type(2):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_03 .container .a_2 figure:nth-of-type(2):hover span {opacity: 1; transition: 0.3s;}
+/*까지 악세사리 둘째줄*/
+
+/*부터 악세사리 셋째줄*/
+#content_03 .container .a_3 {display: flex; margin-top: 10px;}
+#content_03 .container .a_3 figure:nth-of-type(2) {margin: 0 10px;}
+
+#content_03 .container .a_3 figure:nth-of-type(1) span {position: absolute; top: 84.5%; left: 16.5%; color: white; transform: translate(-50%,-50%); opacity: 0;}
+#content_03 .container .a_3 figure:nth-of-type(1):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_03 .container .a_3 figure:nth-of-type(1):hover span {opacity: 1; transition: 0.3s;} 
+
+#content_03 .container .a_3 figure:nth-of-type(2) span {position: absolute; top: 83.5%; left: 47.5%; color: white; transform: transl3te(-50%,-50%); opacity: 0;}
+#content_03 .container .a_3 figure:nth-of-type(2):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_03 .container .a_3 figure:nth-of-type(2):hover span {opacity: 1; transition: 0.3s;} 
+
+#content_03 .container .a_3 figure:nth-of-type(3) span {position: absolute; top: 85%; left: 82.5%; color: white; transform: translate(-50%,-50%); opacity: 0;}
+#content_03 .container .a_3 figure:nth-of-type(3):hover img {filter: brightness(55%); transition: 0.3s;} 
+#content_03 .container .a_3 figure:nth-of-type(3):hover span {opacity: 1; transition: 0.3s;} 
+/*까지 악세사리 셋째줄*/
+
+
+
