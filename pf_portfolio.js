@@ -133,7 +133,7 @@ $('.guide figure').on('scroll mousewheel touchmove', function(e){
 
 
 
-var count = 0;
+let count = 0;
         
     var password = prompt('😊다시 준비중입니다. 비밀번호를 입력하시거나 개인번호로 연락주세요😊');
     

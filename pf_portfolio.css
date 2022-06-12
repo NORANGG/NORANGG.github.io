@@ -702,6 +702,80 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 
+
+@media (max-width:1300px) {
+        /*--메인 인트로 ----*/
+        .intro {background:#d2efff; position:relative; overflow:hidden;}
+
+        .intro .back_01 {transform:translateY(0%); position:absolute; top:30%; left:0rem; opacity:0; z-index:4;}
+        .intro .back_01 img {width:100%;}
+        .intro.on .back_01 {transform:translateY(3%); transition:0.7s; opacity:1;}
+    
+        .intro .back_02 {transform:translateY(0%); position:absolute; top:30%; left:0rem; opacity:0; z-index:3;}
+        .intro .back_02 img {max-width:100%;}
+        .intro.on .back_02 {transform:translateY(1%); transition:0.7s 0.5s; opacity:1;}
+    
+        .intro .back_03 {transform:translateY(0%); position:absolute; top:30%; left:0rem; opacity:0; z-index:2;}
+        .intro .back_03 img {max-width:100%;}
+        .intro.on .back_03 {transform:translateY(2%); transition:0.7s 1.3s; opacity:1;}
+    
+        .intro .back_04 {transform:translateY(0%); position:absolute; top:30%; left:0rem; opacity:0; z-index:1;}
+        .intro .back_04 img {max-width:100%;}
+        .intro.on .back_04 {transform:translateY(2%); transition:0.7s 1.9s; opacity:1;}
+    
+    
+        .intro .case {width:auto; margin:0 auto; padding:0 0rem;}
+    
+        .intro figure {position:relative;}
+        .intro .case::after {content:""; position:absolute; top:-1rem; right:3rem; display:block; width:5rem; height:5rem; background: var(--sc); border-radius:50%; opacity:0;}
+    
+        .intro .slogan {margin-bottom:4rem;}
+        .intro .slogan p {letter-spacing:0.15rem; font-size:2vw; font-weight:500; text-align:center; margin-bottom:1rem; color:var(--tc);}
+        .intro .slogan h2 {letter-spacing:0.05rem; font-size:5vw; text-align:center; margin-bottom:0.5rem; color:var(--dc); font-family: 'Lalezar', cursive;}
+        .intro .slogan h2>span {display:inline-block; font-size:6vw; animation:h2 1.3s infinite ease-in-out; margin-bottom:0.2rem;}
+        .intro .slogan span {display:block; font-size:1.7vw; font-weight:300; text-align:center;}
+}
+
+
+
+
+@media (max-width:1000px) {
+    /*--메인 인트로 ----*/
+    .intro {background:#d2efff; position:relative; overflow:hidden;}
+
+    .intro .back_01 {transform:translateY(0%); position:absolute; top:45%; left:0rem; opacity:0; z-index:4;}
+    .intro .back_01 img {width:100%;}
+    .intro.on .back_01 {transform:translateY(3%); transition:0.7s; opacity:1;}
+
+    .intro .back_02 {transform:translateY(0%); position:absolute; top:45%; left:0rem; opacity:0; z-index:3;}
+    .intro .back_02 img {max-width:100%;}
+    .intro.on .back_02 {transform:translateY(1%); transition:0.7s 0.5s; opacity:1;}
+
+    .intro .back_03 {transform:translateY(0%); position:absolute; top:45%; left:0rem; opacity:0; z-index:2;}
+    .intro .back_03 img {max-width:100%;}
+    .intro.on .back_03 {transform:translateY(2%); transition:0.7s 1.3s; opacity:1;}
+
+    .intro .back_04 {transform:translateY(0%); position:absolute; top:45%; left:0rem; opacity:0; z-index:1;}
+    .intro .back_04 img {max-width:100%;}
+    .intro.on .back_04 {transform:translateY(2%); transition:0.7s 1.9s; opacity:1;}
+
+
+    .intro .case {width:auto; margin:0 auto; padding:0 0rem;}
+
+    .intro figure {position:relative;}
+    .intro .case::after {content:""; position:absolute; top:-1rem; right:3rem; display:block; width:5rem; height:5rem; background: var(--sc); border-radius:50%; opacity:0;}
+
+    .intro .slogan {margin-bottom:4rem;}
+    .intro .slogan p {letter-spacing:0.15rem; font-size:2vw; font-weight:500; text-align:center; margin-bottom:1rem; color:var(--tc);}
+    .intro .slogan h2 {letter-spacing:0.05rem; font-size:5vw; text-align:center; margin-bottom:0.5rem; color:var(--dc); font-family: 'Lalezar', cursive;}
+    .intro .slogan h2>span {display:inline-block; font-size:6vw; animation:h2 1.3s infinite ease-in-out; margin-bottom:0.2rem;}
+    .intro .slogan span {display:block; font-size:1.7vw; font-weight:300; text-align:center;}
+}
+
+
+
+
+
 /*--반응형----*/
 @media (max-width:768px) {
 	#wrap {min-width:auto;}
