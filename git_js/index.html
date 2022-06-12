@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>생활코딩 - 자바스크립트</title>
+
+    <style>
+        strong {font-weight: bolder; font-size: 17.5px; color: blue;}
+        span {color: red; font-weight: bolder;}
+        .line {height: 3px; background-color: black; margin-top: 20px;}
+        img {border: 1px solid black; margin: 10px 0 5px 0;}
+    
+        @media (max-width:850px) {
+            body {width: auto;}
+            img {max-width: 100%;}
+        }
+    </style>  
+
+</head>
+<body>
+    <h2>연산자</h2>
+    a = 1 에서 <span>=</span> 는 대입연산자 이다. 1을 a라고 대입하는것!
+
+    <div class="line"></div>
+
+    <h3>비교연산자</h3>
+    참과 거짓은 논리식의 결과값으로 주로 사용된다. 예를 들어, 숫자를 비교할 때 결과값으로 불값이 나온다.
+        <br>ex) 5 < 3; => false / 5 > 3; => ture
+    <hr>
+    <span>==</span> 동등연산자. =가 하나있는 대입연산자와 다르다. == 동등연산자는 true와 false를 만들어 낼 수 있다. 
+
+    <div class="line"></div>
+
+    <h3>일치연산자</h3>
+    <span>===</span> 일치연산자. 좌항과 우항이 '정확' 하게 같을 때 true, 다르면 false가 된다. (정보,데이터 타입등)
+    <br><img src="./img/01.PNG" /><br>
+    이렇듯 == 는 정보와 데이터타입 중 하나만 맞아도 true 이고<br>
+    이렇듯 === 는 정보와 데이터타입 둘 다 같으면 true 고 / 하나라도 다르면 false 이다.<br>
+    그렇기에 === 사용을 하여 정확하게 가르는걸 권한다.
+
+    <div class="line"></div>
+
+    <h3>등호</h3>
+    <span>!=</span> 는 부정을 의미한다. 같다 의 부정은 같지 않다 이다. ==와 정반대의 결과를 보여준다.
+    <br><img src="./img/02.PNG" /><br>
+    <hr>
+    이 외에도 >, <, >=, <= 가 있다.
+
+    <div class="line"></div>
+
+    <h2>조건문</h2>
+    <h3>if</h3> <span>조건문은 if 로 시작한다.</span> if 뒤에 괄호가 오고, 조건이 될 수 있는 값은 true,flase 이다.
+    <br><img src="./img/03.PNG" /><br>
+    <br><img src="./img/04.PNG" /> 이처럼 true는 {} 안에 있는 것들도 실행시키고 false는 {} 안에 있는건 실행시키지 않는다.<br>
+
+    <hr>
+
+    <h3>else / else if</h3> <span>else와 else if</span> 는 좀 더 복잡하다.
+    <br><img src="./img/05.PNG" /><br>
+    <br><img src="./img/06.PNG" />if문 처음이 false니까 1은 실행안됨. 그다음 else if가 true니까 2가 실행되고 앞에서 2가 실행 되었으니 그 다음 3, 4는 실행 안됨<br>
+    <br><img src="./img/07.PNG" /><br>
+    
+    <hr>
+
+    <h3>변수와 비교연산자</h3>
+    <img src="./img/08.PNG" /><br>
+    <img src="./img/09.PNG" /><br>
+
+    <hr>
+
+    <h3>논리연산자</h3>
+    <span>&&</span> 는 and 의 뜻을 가진다.
+    <br><img src="./img/10.PNG" /><br>
+
+    <hr>
+
+    <span>||</span> 는 좌우항 중 하나라도 true라면 true가 되는 논리연산자이다.
+    <br><img src="./img/11.PNG" /><br>
+    <img src="./img/12.PNG" /><br>
+    <img src="./img/13.PNG" /><br>
+
+    <hr>
+
+    <span>!</span> 는 부정의 의미로 블린값을 역전시킨다.  true -> flase / flase -> true 
+    <br><img src="./img/14.PNG" /><br>
+
+    <script>
+        // var id = prompt ('아이디를 입력하세요');
+        // var pw = prompt ('비밀번호를 입력하세요');
+
+        // if((id === 'gpwls' || id === '헤진' || id === 'tktp') && pw === '8745'){  // id 셋 중 하나라도 맞고 , pw 값이 8745가 맞으면
+        //     alert('맞았습니다');  // 맞았습니다 true 실행
+        // } else {  // 셋 다 안맞으면
+        //     alert('틀렸습니다');  // 틀렸습니다 false 실행
+        // }
+    </script>
+</body>
+</html>
