@@ -245,9 +245,9 @@ a { color:#000; text-decoration:none;}
 
 
 
-.etc_10_wrap .sec_04 {padding-top: 50px; background: #ff7818;}
+.etc_10_wrap .sec_04 {padding-top: 0px; background: #ff7818;}
 .etc_10_wrap .sec_04 img {width: 100%;}
-.etc_10_wrap .sec_03 .pc {display: none;}
+.etc_10_wrap .sec_04 .pc {display: none;}
 
 
 
@@ -257,7 +257,7 @@ a { color:#000; text-decoration:none;}
 
 
 
-.etc_10_wrap .sec_05 {margin: 0 auto; padding: 50px 0;}
+.etc_10_wrap .sec_05 {margin: 0 auto; padding: 30px 0;}
 .etc_10_wrap .sec_05 img {}
 
 .etc_10_wrap .sec_05 .info {width: 100%; margin: 0 auto; padding: 30px 0; text-align: center; background: #242322;}
@@ -265,8 +265,8 @@ a { color:#000; text-decoration:none;}
 
 .etc_10_wrap .sec_05 .info .info_01 {font-weight: bolder; border: 2px solid #000; width: 90%;  margin: 0 auto 10px auto;}
 .etc_10_wrap .sec_05 .info .info_02 {font-weight: bolder; border: 2px solid #000; width: 90%;  margin: 0 auto 30px auto;}
-.etc_10_wrap .sec_05 .info .info_03 {margin-bottom:30px; width: 40%; color: #fff; font-size: 14px;}
-.etc_10_wrap .sec_05 .info .info_04 {margin-bottom:30px; width: 40%; color: #fff; font-size: 14px;}
+.etc_10_wrap .sec_05 .info .info_03 {margin-bottom:30px; width: 40%; color: #fff; font-size: 12px;}
+.etc_10_wrap .sec_05 .info .info_04 {margin-bottom:30px; width: 40%; color: #fff; font-size: 12px;}
 
 .etc_10_wrap .sec_05 .info .input_text {width: 100%; height: 60px; font-size: 16px; font-weight: normal;}
 
@@ -290,8 +290,8 @@ a { color:#000; text-decoration:none;}
 
 .etc_10_wrap .sec_07 .info .info_01 {font-weight: bolder; border: 2px solid #000; width: 90%; margin: 0 auto 10px auto;}
 .etc_10_wrap .sec_07 .info .info_02 {font-weight: bolder; border: 2px solid #000; width: 90%; margin: 0 auto 30px auto;}
-.etc_10_wrap .sec_07 .info .info_03 {margin-bottom:30px; width: 40%; color: #fff; font-size: 14px;}
-.etc_10_wrap .sec_07 .info .info_04 {margin-bottom:30px; width: 40%; color: #fff; font-size: 14px;}
+.etc_10_wrap .sec_07 .info .info_03 {margin-bottom:30px; width: 40%; color: #fff; font-size: 12px;}
+.etc_10_wrap .sec_07 .info .info_04 {margin-bottom:30px; width: 40%; color: #fff; font-size: 12px;}
 
 .etc_10_wrap .sec_07 .info .input_text {width: 100%; height: 60px; font-size: 16px; font-weight: normal;}
 
