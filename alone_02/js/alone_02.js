@@ -18,14 +18,13 @@ $(function(){
     
 
 
-    $('#content_03 .slider>div').slick({
+    let Big = $('#content_04 .container').slick({
         arrows:false,
         autoplay:true,
         autoplaySpeed:4000,
         pauseOnHover:false,
         pauseOnFocus:false,
-        vertical:true,
-        slidesToShow: 1,
+        slidesToShow: 3,
         responsive: [
           {
             breakpoint: 769,
@@ -35,21 +34,30 @@ $(function(){
           },
     
           {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 1,
-              }
-            },
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+            }
+          },
+        ]     
+      });
+
+      $('#content_04 .btn .left').on('click', function(){
+        $('#content_04 .container').slick('slickPrev')
+      });
     
-    
-    
-        ]
-      
+      $('#content_04 .btn .right').on('click', function(){
+          $('#content_04 .container').slick('slickNext')
+      });
+
+      Big.on('afterChange', function(e,s,c){
+        $('#content_04 figure').eq(c+4).addClass('on').siblings().removeClass('on');
       });
 
 
 
 
+    
     $(function(){
       $('nav .depth01>li').on('click', function(){   /*nav .depth01>li 를 클릭 했을때*/
           if($('nav').hasClass('on')) {   /*만약 nav에 on이 붙었으면*/
