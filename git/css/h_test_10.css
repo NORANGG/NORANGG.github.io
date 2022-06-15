@@ -220,7 +220,7 @@ a { color:#000; text-decoration:none;}
 
     .etc_10 {width: 100%; margin: 0 auto; overflow: hidden; text-align: center; background: #fff8d6;}
     .etc_10_wrap {width: 100%; text-align: center; margin:0 auto; background: url(../img/own_10_main_m.png) no-repeat top center/contain;} /*pc는 850px로 맞추되, 크게 하고싶다면 이미지를 1900px로 바꾸고 width를 100%로*/
-    .etc_10_wrap>img {width: 95%; margin: 5% auto 0% auto;}
+    .etc_10_wrap>img {width: 95%; margin: 5% auto 5% auto;}
 
 
 
