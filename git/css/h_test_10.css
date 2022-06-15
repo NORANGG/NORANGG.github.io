@@ -164,7 +164,7 @@ a { color:#000; text-decoration:none;}
 @media all and (max-width: 1000px) {
 
     /*---------------------- 부터 mo 틀 -----------------------*/
-    * {border: 1px solid red;}
+    * {border: 1px solid red--;}
     br {display: none;}
 
     .btg1  {background-color: #c3a64e; border:1px solid #c3a64e; color: #fff;}
