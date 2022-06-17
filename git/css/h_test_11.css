@@ -1,0 +1,276 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+*{margin:0;padding:0;}
+.cp {cursor:pointer;}
+body {-webkit-text-size-adjust: 100%;}
+img {border:none}
+ul,li{ list-style:none;}
+input{text-align:center;}
+a { color:#000; text-decoration:none;}
+
+
+
+/*---------------------- 부터 pc -----------------------*/
+@media all and (min-width: 851px) {
+
+    /*---------------------- 부터 pc 틀 -----------------------*/
+    br {display: block;}
+
+    * {border: 1px solid red--;}
+    .btg1  {background-color: #c3a64e; border:1px solid #c3a64e; color: #fff; }
+    .btg1:hover {background-color:#eed486; border-color:#c3a64e; color:#000;}
+    .btg2  {background-color: #fe7e00; border:1px solid #fe7e00; color: #ffffff;}
+    .btg2:hover{background-color:#288cf0; border-color:#288cf0; color:#fff;}
+
+
+    .btn1_1{width:100%; padding:15px; margin-top:10px; box-sizing: border-box; font-size:1.50em;  text-align: center; display:inline-block; vertical-align: top;cursor:pointer;}
+    .btn1_2{width:100%; padding:15px; margin-top:10px; box-sizing: border-box; font-size:1.50em;  text-align: center; display:inline-block; vertical-align: top;}
+    .btn1_3{width:100%; padding:5px; margin-top:2px; box-sizing: border-box; font-size:0.8em;  text-align: center; display:inline-block; vertical-align: top;}
+    .btn1_4{width:49%; padding:15px; margin-top:10px; box-sizing: border-box; font-size:1.50em;  text-align: center; display:inline-block; vertical-align: top;cursor:pointer;}
+    .btn1_5{width:250px; height:64px; font-size:23px; letter-spacing:-1px; line-height:2.5; padding:1px; padding-left:14px; padding-right:14px; margin-bottom:20px; box-sizing: border-box; text-align: center; display:inline-block; vertical-align: top;cursor:pointer;border-radius: 0px;}
+    .btn1_6{width:100%; padding:11px; box-sizing: border-box; font-size:1.50em;  text-align: center; display:inline-block; vertical-align: top;cursor:pointer;}
+    .btn1_7{float:left;  width:120px; height:25px; border-radius:2px; line-height:22px;margin:5px; margin-bottom:5px;}
+    .btn1_8{width:50%; height:25px; border-radius:2px; line-height:22px;margin:5px; margin-bottom:5px; text-align: center; display:inline-block; vertical-align: top;cursor:pointer;}
+    .btn1_9{width:230px; height:64px; font-size:23px; line-height:2.5; padding:1px; box-sizing: border-box; text-align: center; display:inline-block; vertical-align: top; cursor:pointer; border-radius: 7px; margin-top:15px;}
+
+
+
+    /* input[type="checkbox"] {display: none;}   체크박스 커스텀
+
+    input[type="checkbox"] + label{
+        margin-top:2px;
+        display: inline-block; 
+        cursor: pointer; 
+        line-height: 28px; 
+        padding-left: 35px; 
+        background: url('../월드로또_원페이지_img/check_base.png') no-repeat;
+        background-size:28px;
+    }
+
+    input[type=checkbox]:checked + label { background-image: url('../월드로또_원페이지_img/check_b.png'); } */
+
+
+    .input_1 { padding:15px; height:30px; text-align:center; width:430px; font-size:20px; color:#000; border-radius: 7px;}
+    .input_2 { padding:15px; height:30px; text-align:center; width:90%; font-size:20px; color:#000; border-radius: 0px;}
+    .input_3 {padding:15px; height:20px; text-align:left; width:30px; font-size:24px; color:#000; border-radius: 7px;}
+
+
+    #floatdiv {position:fixed; _position:absolute; z-index:-1; width:280px;display:inline-block;right:-70px; top:0%; background-color: transparent; margin:0;}
+
+    body {background:url(./연습용이미지_메인800.png); background-position:top; overflow:hidden;}
+
+
+
+    /*---------------------- 까지 pc 틀 -----------------------*/
+
+
+#wrap {width:100%; margin:0 auto; height:auto; overflow:hidden;}
+#wrap .main {width:100%; height:auto; overflow:hidden; margin-bottom:0px;}
+#wrap .main .logo {width:100px; display:block; margin:0 auto;}
+#wrap .main img {display:block; margin:0 auto;}
+
+
+
+.etc_10 {width: 100%; margin: 0 auto; overflow: hidden; text-align: center; background: #fc5e48;}
+.etc_10_wrap {width: 100%; text-align: center; margin:0 auto; background: url(../img/own_11_main.png) no-repeat top center/contain;} /*pc는 850px로 맞추되, 크게 하고싶다면 이미지를 1900px로 바꾸고 width를 100%로*/
+.etc_10_wrap>img {width: 50%; margin: 3% auto 0% auto;}
+
+
+
+.etc_10_wrap .sec_01 {padding-top: 20px; background: #fc5e48;}
+.etc_10_wrap .sec_01 h2 img {width: 50%;}
+
+
+
+.etc_10_wrap .sec_02 {position: relative; width: 100%; padding: 50px 0 40px 0; margin: 0 auto; background: #fc5e48;  overflow: hidden;}
+.etc_10_wrap .sec_02 figure {padding: 20px 0;}
+.etc_10_wrap .sec_02 figure img {width: 30%;}
+
+.etc_10_wrap .sec_02 .lotto_slide {width: 60%; margin: 0 auto; position: relative;}
+.etc_10_wrap .sec_02 .lotto_slide figure {padding-right: 5px; padding-left: 5px;}
+.etc_10_wrap .sec_02 .lotto_slide figure img {width: 100%; margin: 0 auto; border: 4px solid #000;}
+
+
+
+.etc_10_wrap .sec_03 {width: 100%; text-align: center; overflow: hidden; padding: 30px 0; margin: 0 auto; background: url(../img/own_11_sec03back.png) no-repeat top center/cover;}
+.etc_10_wrap .sec_03 h2>img {width: 50%;}
+
+.etc_10_wrap .sec_03 .container {margin: 0 auto; padding: 20px 0 20px 0; width: 100%;}
+.etc_10_wrap .sec_03 .info {width: 100%; margin: 0 auto; text-align: center;}
+
+.etc_10_wrap .sec_03 .info .info_01 {border: 3px solid #000; width: 45%; margin: 0 auto 10px auto;}
+.etc_10_wrap .sec_03 .info .info_02 {border: 3px solid #000; width: 45%; margin: 0 auto;}
+.etc_10_wrap .sec_03 .info .info_03 {margin: 25px auto 25px auto; width: 100%; text-align: center; color: #fff; font-size: 18px;}
+.etc_10_wrap .sec_03 .info .info_04 {margin: 25px auto 25px auto; width: 100%; text-align: center; color: #fff; font-size: 18px;}
+
+.etc_10_wrap .sec_03 .info .input_text {width: 100%; height: 80px; font-size: 1vw; font-weight: normal;}
+
+.etc_10_wrap .sec_03 .info .info_05 {width: 100%;}
+.etc_10_wrap .sec_03 .info .input_button {color: #000; font-size: 34px; padding: 10px 60px; font-weight: 700; background: #8bffb1; border: 4px solid #000; cursor: pointer;}
+
+.etc_10_wrap .sec_03 .info .chec {display: inline-flex; width: 30%;}
+
+
+
+.footer {width:100%; margin:0 auto; text-align:center; background:#000; overflow:hidden;/* border-top:1px solid #e6e6e5;border-footer:1px solid #ededea; */padding:18px 0 18px 0;}
+.footer span {display:block;}
+
+.footer .f_txt {display:block; font-size:13px; line-height: 1.6; color: #999;}
+.footer .f_txt em {font-style:normal;padding-left:10px; letter-spacing:-1px;}
+
+}
+
+
+
+
+/*---------------------- 까지 pc -----------------------*/
+
+
+
+
+
+
+
+/*---------------------- 부터 mo -----------------------*/
+
+@media all and (max-width: 1000px) {
+
+    /*---------------------- 부터 mo 틀 -----------------------*/
+    * {border: 1px solid red--;}
+    br {display: none;}
+
+    .btg1  {background-color: #c3a64e; border:1px solid #c3a64e; color: #fff;}
+    .btg1:hover{border-color:#c3a64e;background-color:#c3a64e;color:#fff;}
+    .btg2  {background-color: #fe7e00; border:1px solid #fe7e00; color: #ffffff;}
+    .btg2:hover{border-color:#288cf0;background-color:#288cf0;color:#fff;}
+
+
+    .btn1_1{width:100%; padding:15px; margin-top:10px; box-sizing: border-box; font-size:1.50em;  text-align: center; display:inline-block; vertical-align: top;cursor:pointer;}
+    .btn1_2{width:100%; padding:15px; margin-top:10px; box-sizing: border-box; font-size:1.50em;  text-align: center; display:inline-block; vertical-align: top;}
+    .btn1_3{width:100%; padding:5px; margin-top:2px; box-sizing: border-box; font-size:0.8em;  text-align: center; display:inline-block; vertical-align: top;}
+    .btn1_4{width:49%; padding:15px; margin-top:10px; box-sizing: border-box; font-size:1.50em;  text-align: center; display:inline-block; vertical-align: top;cursor:pointer;}
+    .btn1_5{width:90%; height:45px; font-size:13px; line-height:2.8; padding:1px; box-sizing: border-box; text-align: center; display:inline-block; vertical-align: top;cursor:pointer;border-radius: 0px;}
+    .btn1_6{width:100%; padding:11px; box-sizing: border-box; font-size:1.50em;  text-align: center; display:inline-block; vertical-align: top;cursor:pointer;}
+    .btn1_7{float:left;  width:120px; height:25px; border-radius:2px; line-height:22px;margin:5px; margin-bottom:5px;}
+    .btn1_8{width:50%; height:25px; border-radius:2px; line-height:22px;margin:5px; margin-bottom:5px; text-align: center; display:inline-block; vertical-align: top;cursor:pointer;}
+    .btn1_9{width:78%; height:45px; font-size:13px; line-height:2.8; padding:1px; box-sizing: border-box; text-align: center; display:inline-block; vertical-align: top;cursor:pointer;border-radius: 7px;}
+
+
+    /*input[type="checkbox"]{display: none;}   체크박스 커스텀
+
+    input[type="checkbox"] + label{
+        margin-top:2px;
+        display: inline-block; 
+        cursor: pointer; 
+        line-height: 28px; 
+        padding-left: 35px; 
+        background: url('../월드로또_원페이지_img/check_base.png') no-repeat;
+        background-size:28px;
+    }
+
+    input[type=checkbox]:checked + label { background-image: url('../월드로또_원페이지_img/check_b.png'); }
+
+
+    .input_a { padding:15px; height:17px; text-align:center; width:70%; font-size:14px; color:#000; border-radius: 7px;}
+    .input_b { padding:15px; height:17px; text-align:center; width:80%; font-size:14px; color:#000; border-radius: 0px;}
+    .input_c {padding:15px; height:20px; text-align:left; width:30px; font-size:24px; color:#000; border-radius: 7px;}*/
+
+
+    #floatdiv {display:none;}
+
+    body {background:url(./연습용이미지_메인1900.png); background-position:top; overflow:hidden;}
+
+    /*---------------------- 까지 mo 틀 -----------------------*/
+
+
+    #wrap {width:100%; margin:0 auto; height:auto; overflow:hidden;}
+    #wrap .main {width:100%; height:auto; overflow:hidden; margin-bottom:0px;}
+    #wrap .main .logo {width:100px; display:block; margin:0 auto;}
+    #wrap .main img {display:block; margin:0 auto;}
+
+
+
+    .etc_10 {width: 100%; margin: 0 auto; overflow: hidden; text-align: center; background: #fff8d6;}
+    .etc_10_wrap {width: 100%; text-align: center; margin:0 auto; background: url(../img/own_10_main_m.png) no-repeat top center/contain;} /*pc는 850px로 맞추되, 크게 하고싶다면 이미지를 1900px로 바꾸고 width를 100%로*/
+    .etc_10_wrap>img {width: 95%; margin: 5% auto 5% auto;}
+
+
+
+    .etc_10_wrap .sec_01 {padding-top: 0px;}
+    .etc_10_wrap .sec_01 .container {margin: 0 auto; padding: 20px 0 20px 0; background: #ecfe5c; width: 100%; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.459);}
+    .etc_10_wrap .sec_01 img {}
+
+    .etc_10_wrap .sec_01 .info {width: 100%; margin: 0 auto; text-align: center;}
+    .etc_10_wrap .sec_01 .info .flex {display: block; justify-content: center;}
+
+    .etc_10_wrap .sec_01 .info .info_01 {border: 1px solid #000; width: 90%; margin: 0 auto 10px auto;}
+    .etc_10_wrap .sec_01 .info .info_02 {border: 1px solid #000; width: 90%; margin: 0 auto; }
+    .etc_10_wrap .sec_01 .info .info_03 {margin: 20px 0 10px 0; width: 100%; text-align: left;}
+    .etc_10_wrap .sec_01 .info .info_04 {margin: 20px 0 10px 0; width: 100%; text-align: left;}
+    .etc_10_wrap .sec_01 .info .info_06 {margin: 20px 0 10px 0; width: 100%; text-align: left;}
+
+    .etc_10_wrap .sec_01 .info .input_text {width: 100%; height: 60px; font-size: 2.5vw; font-weight: normal;}
+
+    .etc_10_wrap .sec_01 .info .info_05 {width: 100%; margin-top: 3%;}
+    .etc_10_wrap .sec_01 .info button {color: #fff; font-size: 3.5vw; padding: 10px 30%; font-weight: 700; background: #ff4f42; border-radius: 0%;}
+    .etc_10_wrap .sec_01 .info button span {color: #e37425;}
+
+    .etc_10_wrap .sec_01 .info .user {flex: 0; margin-right: auto;}
+    .etc_10_wrap .sec_01 .info .chec {display: flex; flex: 0; padding-left: 50px; border-left: 0px dotted #438fd7; font-size: 2.5vw; line-height: 1.3;}
+
+
+
+    .etc_10_wrap .sec_02 {position: relative; padding-bottom: 10%; margin: 4% auto 0% auto; background: url(../img/own_10_sec01_back.png) no-repeat bottom center/cover; width: 100%; overflow: hidden;}
+    .etc_10_wrap .sec_02 .lotto_slide {width: 95%; margin: 0 auto; position: relative;}
+    .etc_10_wrap .sec_02 .lotto_slide figure {padding-right: 5px; padding-left: 5px;}
+    .etc_10_wrap .sec_02 .lotto_slide figure img {width: 100%; margin: 0 auto; border: 2px solid #000;}
+    .etc_10_wrap .sec_02 .btn {cursor: pointer; display: none;}
+    .etc_10_wrap .sec_02 .left {position: absolute; top: 30%; left: 15%; font-size: 3vw; font-weight: 700; color: #444444;}
+    .etc_10_wrap .sec_02 .right {position: absolute; top: 30%; right: 15%; font-size: 3vw; font-weight: 700; color: #444444;}
+
+
+
+    .etc_10_wrap .sec_03 {width: 100%; padding: 10% 0 0% 0; text-align: center; margin: -10% auto 0% auto; background: url(../img/own_10_sec03_back.png) no-repeat fixed center center/cover;}
+    .etc_10_wrap .sec_03 img {width: 100%;}
+
+
+
+    .etc_10_wrap .sec_04 {margin: 0 auto; background: #1c85eb; box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.459);}
+    .etc_10_wrap .sec_04 .container {margin: 0 auto; padding: 40px 0 30px 0; width: 100%;}
+    .etc_10_wrap .sec_04 img {}
+
+    .etc_10_wrap .sec_04 .info {width: 100%; margin: 0 auto; text-align: center;}
+    .etc_10_wrap .sec_04 .info .flex {display: block; justify-content: center;}
+
+    .etc_10_wrap .sec_04 .info .info_01 {border: 1px solid #000; width: 90%; margin: 0 auto 10px auto;}
+    .etc_10_wrap .sec_04 .info .info_02 {border: 1px solid #000; width: 90%; margin: 0 auto; }
+    .etc_10_wrap .sec_04 .info .info_03 {margin: 20px 0 10px 0; width: 100%; text-align: left;}
+    .etc_10_wrap .sec_04 .info .info_04 {margin: 20px 0 10px 0; width: 100%; text-align: left;}
+    .etc_10_wrap .sec_04 .info .info_06 {margin: 20px 0 10px 0; width: 100%; text-align: left;}
+
+    .etc_10_wrap .sec_04 .info .input_text {width: 100%; height: 60px; font-size: 2.5vw; font-weight: normal;}
+
+    .etc_10_wrap .sec_04 .info .info_05 {width: 100%; margin-top: 3%;}
+    .etc_10_wrap .sec_04 .info button {color: #fff; font-size: 3.5vw; padding: 10px 30%; font-weight: 700; background: #ff4f42; border-radius: 0%;}
+    .etc_10_wrap .sec_04 .info button span {color: #e37425;}
+
+    .etc_10_wrap .sec_04 .info .user {flex: 0; margin-right: auto;}
+    .etc_10_wrap .sec_04 .info .chec {display: flex; flex: 0; padding-left: 50px; border-left: 0px dotted #438fd7; font-size: 2.5vw; line-height: 1.3; color: #fff;}
+
+
+
+    .footer {width:100%; margin:0 auto; text-align:center; background:#000; overflow:hidden;/* border-top:1px solid #e6e6e5;border-footer:1px solid #ededea; */padding:18px 0 18px 0;}
+    .footer span {display:block;}
+
+    .footer .f_txt {display:block; font-size:13px; line-height: 1.6; color: #999;}
+    .footer .f_txt em {font-style:normal;padding-left:10px; letter-spacing:-1px;}
+
+
+}
+
+/*---------------------- 까지 mo -----------------------*/
+
+
+
+
+
