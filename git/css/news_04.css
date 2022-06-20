@@ -149,9 +149,23 @@ table tr:nth-of-type(1) img {width: 7%;}
     #n_main .text figure img {padding-bottom: 10px; width: 100%;}
 
 
-
+    #banner2 {width: 100%; margin: 0 auto; background-color: #2d2c2c; padding-bottom: 20px;}
+    #banner2 img {width: 100%;}
+    #banner2 .dbform {text-align: center; overflow: hidden; padding: 2% 0 0 0; margin: 0 auto; background: #fff; width: 95%;}
+    #banner2 .dbform .container {margin: 0 auto; padding: 20px 0 20px 0; width: 100%;}
+    #banner2 .dbform .info {width: 100%; margin: 0 auto; text-align: center;}
+    
+    #banner2 .dbform .info .info_01 {border: 3px solid #f00; width: 75%; margin: 0 auto 10px auto;}
+    #banner2 .dbform .info .info_02 select {width: 25%; display: inline-block; font-size: 30px; border: 3px solid #f00; height: 60px; text-align-last: center; -webkit-appearance:none;  -moz-appearance:none;  appearance:none;}
+    #banner2 .dbform .info .info_02 input:nth-of-type(1) {width: 24%; display: inline-block; font-size: 30px; border: 3px solid #f00;}
+    #banner2 .dbform .info .info_02 input:nth-of-type(2) {width: 24%; display: inline-block; font-size: 30px; border: 3px solid #f00;}
+    #banner2 .dbform .info .info_03 {margin: 20px auto; width: 100%; text-align: center; color: #999; font-size: 14px;}
+    #banner2 .dbform .info .info_04 {margin: 20px auto; width: 100%; text-align: center; color: #999; font-size: 14px;}
+    
+    #banner2 .dbform .info .input_text {width: 100%; height: 60px; font-weight: normal;}
+    
     #banner2 .dbform .info .info_05 {width: 100%;}
     #banner2 .dbform .info .input_button {color: #fff; font-size: 24px; padding: 10px 40px; font-weight: 700; background: linear-gradient(0deg, rgba(251,38,37,1) 0%, rgba(252,153,143,1) 100%); border: 4px solid #f00; cursor: pointer;}
 
-
+    #banner2 .dbform .info .chec {display: inline-flex; width: 100%;}
 }   
