@@ -16,7 +16,7 @@ a { color:#000; text-decoration:none;}
     /*---------------------- 부터 pc 틀 -----------------------*/
     br {display: block;}
 
-    * {border: 1px solid red;}
+    * {border: 1px solid red--;}
     .btg1  {background-color: #c3a64e; border:1px solid #c3a64e; color: #fff; }
     .btg1:hover {background-color:#eed486; border-color:#c3a64e; color:#000;}
     .btg2  {background-color: #fe7e00; border:1px solid #fe7e00; color: #ffffff;}
