@@ -51,7 +51,8 @@
     <div class="line"></div>
 
     <h2>조건문</h2>
-    <h3>if</h3> <span>조건문은 if 로 시작한다.</span> if 뒤에 괄호가 오고, 조건이 될 수 있는 값은 true,flase 이다.
+    <h3>if</h3>
+    <span>조건문은 if 로 시작한다.</span> if 뒤에 괄호가 오고, 조건이 될 수 있는 값은 true,flase 이다.
     <br><img src="./img/03.PNG" /><br>
     <br><img src="./img/04.PNG" /> 이처럼 true는 {} 안에 있는 것들도 실행시키고 false는 {} 안에 있는건 실행시키지 않는다.<br>
 
@@ -81,10 +82,123 @@
     <img src="./img/12.PNG" /><br>
     <img src="./img/13.PNG" /><br>
 
+    <div class="line"></div>
+
+    <h2>반복문</h2>
+    <h3>while</h3>
+    <span>반복문은 while과 for 로 시작한다.</span> while 뒤에 괄호가 오고, 조건이 될 수 있는 값은 true,flase(boolean값) 이다.<br>
+    <img src="./img/15.PNG" /><br>
+    <img src="./img/16.PNG" /><br>
+
+    <hr>
+    <h3>for</h3>
+    <img src="./img/17.PNG" /><br>
+    i = 1 + 1; 와 i++; 는 같은 의미이다. 
+
+    <hr>
+    <h3>반복문의 제어</h3>
+    break<br><img src="./img/18.PNG" /><br>
+    continue<br><img src="./img/19.PNG" /><br>
+
+    <hr>
+    <h3>중첩반복문</h3>
+    <img src="./img/20.PNG" /><br>
+
+    <div class="line"></div>
+
+    <h2>함수 function</h2>
+    <img src="./img/21.PNG" /><br>
+    <img src="./img/22.PNG" /><br>
+
     <hr>
 
-    <span>!</span> 는 부정의 의미로 블린값을 역전시킨다.  true -> flase / flase -> true 
-    <br><img src="./img/14.PNG" /><br>
+    <h3>출력 - 리턴</h3>
+    <img src="./img/23.PNG" /><br>
+
+    <hr>
+
+    <h3>입력 - 매개변수,인자</h3>
+    <img src="./img/24.PNG" /><br>
+    <img src="./img/25.PNG" /><br>
+
+    <div class="line"></div>
+
+    <h2>배열</h2>
+    여러개의 값을 출력할 때 특히 유용함
+    <br><img src="./img/26.PNG" /><br>
+
+    <hr>
+
+    <h3>배열의 사용</h3>
+    <img src="./img/27.PNG" /><br>
+    <img src="./img/28.PNG" /><br>
+
+    <hr>
+
+    <h3>배열의 제어</h3>
+    <span>push</span> - 추가(단수)
+    <br><img src="./img/29.PNG" /><br>
+
+    <span>concat</span> - 추가(복수)
+    <br><img src="./img/30.PNG" /><br>
+
+    <span>unshift</span> - 추가(배열의 시작점에)
+    <br><img src="./img/31.PNG" /><br>
+
+    <span>splice</span> - 추가(배열의 특정 구간에)
+    <br><img src="./img/32.PNG" /> 특정 구간에 삭제 없이 추가
+    <br><img src="./img/33.PNG" /> 특정 구간에 삭제 후 추가
+
+    <hr>
+
+    <h3>배열의 제거</h3>
+    <span>shift</span> - 제거(배열의 앞에부터)
+    <br><img src="./img/34.PNG" /><br>
+
+    <span>pop</span> - 제거(배열의 끝에부터)
+    <br><img src="./img/35.PNG" /><br>
+
+    <hr>
+
+    <h3>배열의 정렬</h3>
+    <span>sort</span> - 정렬(순서대로)
+    <br><img src="./img/36.PNG" /><br>
+
+    <span>reverse</span> - 정렬(역순)
+    <br><img src="./img/37.PNG" /><br>
+
+
+    
+    <script>
+        // var member = ['a','b','c']
+
+        // console.log(member[0]); //값을 꺼내올 수 있음
+        // console.log(member[1]);
+        // console.log(member[2]);
+
+
+        // function member(){
+        //     return ['a','b','c','d','etc'];
+        // }
+
+        // eng_member = member();
+
+        // for(var i = 0; i < eng_member.length; i++){ //i < 3(eng_member.lenght)은 배열의 인덱스값(원소의갯수)으로 사용할 수 있음
+        //     console.log(eng_member[i].toUpperCase());
+        // }
+
+
+        var li = ['01','02','03'];
+    
+
+    </script>
+
+
+
+
+
+
+
 
     <script>
         // var id = prompt ('아이디를 입력하세요');
@@ -95,6 +209,58 @@
         // } else {  // 셋 다 안맞으면
         //     alert('틀렸습니다');  // 틀렸습니다 false 실행
         // }
+
+
+        // var i = 0;  //i 값이 0부터 시작해서(1) - 초기화
+        // while(i < 10){  //i가 10보다 작으면(2) - 반복조건
+        //     document.write('hello' + i + '<br>');    //(3) - 반복실행
+        //     i = i + 1;  //i 값은 1씩 증가함(4)
+        // }
+
+        
+        // for(var i = 0; i < 10; i = i + 1){  //얘가 1번 실행될 때 안으로 들어와서
+        //     for(var j = 0; j < 10; j++){    //얘가 10번 실행됨. 10번 실행이 끝나면 다시 위로 올라가서 실행되길 10번(설정값)반복
+        //         document.write('hello' + i + j + '<br>');
+        //     }
+        // }
+
+
+
+        // for(var i = 0; i < 10; i++){
+        //     if(i === 5){
+        //         continue;  // i가 5가돼면 continue를 만나 중지되고 다시 반복문(for)이 시도됨
+        //     }
+        //     document.write('hello' +i+ '<br>');
+        // }
+
+
+
+                // function name(){    //i가 0부터 10보다 작을때 1씩 증가하면서 실행됨.
+        //     i = 0;
+        //     while(i < 20){  
+        //         console.log(i); 
+        //         i += 1; 
+        //     }
+        // }
+        // name();
+
+        // function get01(){
+        //     return 'hello'; //리턴:함수종료, 뒤에 값을 함수의 출력값으로 반환함 
+        //                     //-> 즉 hello 만 실행되고 그 이후의 값은 실행 안됨
+        //     return 'hello2'; 
+        //     return 'hello3'; 
+        //     return 'hello4'; 
+        // }
+
+        // alert(get01());
+
+
+        // function get(arg,arg2){  
+        //     return arg + arg2
+        // }   
+
+        // console.log(get(1,2));
+        // console.log(get(10,20));
     </script>
 </body>
 </html>
