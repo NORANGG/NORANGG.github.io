@@ -111,6 +111,24 @@ $('.portfolio_04 .guide i.xi-close').on('click', function(){
     $('.portfolio_04 .guide figure').hide('on');
 });
 
+
+$('.Project .pro_03 .mockup').on('click', function(){
+    $('.Project .pro_03 .guide figure').show('on');
+});
+
+$('.Project .pro_03 .guide i.xi-close').on('click', function(){
+    $('.Project .pro_03 .guide figure').hide('on');
+});
+
+
+
+
+
+
+
+
+
+
 // $('.portfolio_01 .guide i').click(function(){
 //     $('body').addClass('scrollDisable').on('scroll touchmove mousewheel', function(e) {
 //     e.preventDefault();
