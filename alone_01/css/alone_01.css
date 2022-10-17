@@ -74,7 +74,7 @@ nav .depth01>li:hover .sub_menu {display:block;}
 #content_01 .picture figure:nth-of-type(4) {padding-right:0px}
 #content_01 .picture figure img {width:100%;}
 
-#content_01 .picture .naeyong {background:#fff; height:200px; padding:0 15px; cursor:pointer;}
+#content_01 .picture .naeyong {background:#fff; height:200px; padding:10px 15px 0; cursor:pointer;}
 #content_01 .picture p {display:block; padding:10px 0 30px 0; font-size:23px; font-weight:500;}
 #content_01 .picture i {display:block; font-size:17px; line-height:1.5; font-weight:300; color:#555;}
 
