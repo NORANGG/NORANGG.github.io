@@ -3,7 +3,7 @@ $(function(){
 let sc=$('.section');
 let sideBar=$('nav li');   /*<-옆에 네비바(사이드바) on붙였다 떼는거때문에 이름지어줌 nav li는 sideBar이다!*/
 $('#main').fullpage({
-    anchors:['intro','portfolio_01','portfolio_02','portfolio_03','portfolio_04','portfolio_05','training', 'alone','profile',],              /*풀페이지에서 페이지 번호 정해주기*/
+    anchors:['intro','portfolio_01','portfolio_02','portfolio_03','portfolio_04','portfolio_05','training', 'Project','profile',],              /*풀페이지에서 페이지 번호 정해주기*/
     afterLoad:function(origin, destination, direction){
         let idx=destination.index;                                 /*<-afterLoad가 실행될때 이름을 붙이는거라 안쪽에 넣고 섹션은 매번 해야하니까 바깥쪽에!*/
         sc.eq(idx).addClass("on").siblings().removeClass('on');  /*<-섹션에 on붙였다 떼기*/
@@ -133,18 +133,18 @@ $('.guide figure').on('scroll mousewheel touchmove', function(e){
 
 
 
-let count = 0;
+// let count = 0;
         
-    var password = prompt('😊다시 준비중입니다. 비밀번호를 입력하시거나 개인번호로 연락주세요😊');
+//     var password = prompt('😊다시 준비중입니다. 비밀번호를 입력하시거나 개인번호로 연락주세요😊');
     
-    while(count < 1)
-    {
-        if (password == "헤진")
-            { alert('😉반갑습니다😉');
-    break;
-            }
+//     while(count < 1)
+//     {
+//         if (password == "헤진")
+//             { alert('😉반갑습니다😉');
+//     break;
+//             }
     
-    var password = prompt('😐다시 입력하세요😐');
-    }
+//     var password = prompt('😐다시 입력하세요😐');
+//     }
 //-----------------------------------------------------------------
 });
