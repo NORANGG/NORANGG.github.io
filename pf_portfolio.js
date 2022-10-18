@@ -112,18 +112,77 @@ $('.portfolio_04 .guide i.xi-close').on('click', function(){
 });
 
 
-$('.Project .pro_03 .mockup').on('click', function(){
-    $('.Project .pro_03 .guide figure').show('on');
+$('.Project .btn_detail .detail_box_01').on('click', function(){
+    $('.Project #btn_big .guide').show('on');
 });
 
-$('.Project .pro_03 .guide i.xi-close').on('click', function(){
-    $('.Project .pro_03 .guide figure').hide('on');
+$('.Project #btn_big .guide i.xi-close').on('click', function(){
+    $('.Project #btn_big .guide').hide('on');
 });
 
 
 
 
+// $('.Project .btn_list .btn_list_01').on('click', function(){
+//     $('.Project .btn_list .btn_list_01 img:last-child').toggleClass('on');
+//     $('.Project .btn_list .btn_list_01 img:first-child').toggleClass('on');
+// });
 
+// $('.Project .btn_list .btn_list_02').on('click', function(){
+//     $('.Project .btn_list .btn_list_02 img:last-child').toggleClass('on');
+//     $('.Project .btn_list .btn_list_02 img:first-child').toggleClass('on');
+// });
+
+// $('.Project .btn_list .btn_list_03').on('click', function(){
+//     $('.Project .btn_list .btn_list_03 img:last-child').toggleClass('on');
+//     $('.Project .btn_list .btn_list_03 img:first-child').toggleClass('on');
+// });
+
+// $('.Project .btn_list .btn_list_04').on('click', function(){
+//     $('.Project .btn_list .btn_list_04 img:last-child').toggleClass('on');
+//     $('.Project .btn_list .btn_list_04 img:first-child').toggleClass('on');
+// });
+
+
+
+
+$('.Project .btn_list .btn_list_01').on('click', function(){
+    $('.Project .btn_detail .detail_box_01').show('on');
+});
+
+$('.Project .btn_list .btn_list_01').on('click', function(){
+    $('.Project .btn_detail .detail_box_02,.Project .btn_detail .detail_box_03,.Project .btn_detail .detail_box_04').hide('on');
+});
+
+
+
+$('.Project .btn_list .btn_list_02').on('click', function(){
+    $('.Project .btn_detail .detail_box_02').show('on');
+});
+
+$('.Project .btn_list .btn_list_02').on('click', function(){
+    $('.Project .btn_detail .detail_box_01,.Project .btn_detail .detail_box_03,.Project .btn_detail .detail_box_04').hide('on');
+});
+
+
+
+$('.Project .btn_list .btn_list_03').on('click', function(){
+    $('.Project .btn_detail .detail_box_03').show('on');
+});
+
+$('.Project .btn_list .btn_list_03').on('click', function(){
+    $('.Project .btn_detail .detail_box_01,.Project .btn_detail .detail_box_02,.Project .btn_detail .detail_box_04').hide('on');
+});
+
+
+
+$('.Project .btn_list .btn_list_04').on('click', function(){
+    $('.Project .btn_detail .detail_box_04').show('on');
+});
+
+$('.Project .btn_list .btn_list_04').on('click', function(){
+    $('.Project .btn_detail .detail_box_01,.Project .btn_detail .detail_box_02,.Project .btn_detail .detail_box_03').hide('on');
+});
 
 
 
