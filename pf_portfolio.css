@@ -238,7 +238,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .portfolio_01 .guide figure::-webkit-scrollbar {width: 15px;}
 .portfolio_01 .guide figure::-webkit-scrollbar-thumb {height: 10%; background: var(--tc); border-radius: 10px;}
-.portfolio_01 .guide figure::-webkit-scrollbar-track {background: var(--mc);}
+.portfolio_01 .guide figure::-webkit-scrollbar-track {background: #fff;}
 
 
 
@@ -316,7 +316,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .portfolio_02 .guide figure::-webkit-scrollbar {width: 15px;}
 .portfolio_02 .guide figure::-webkit-scrollbar-thumb {height: 10%; background: var(--tc); border-radius: 10px;}
-.portfolio_02 .guide figure::-webkit-scrollbar-track {background: var(--mc);}
+.portfolio_02 .guide figure::-webkit-scrollbar-track {background: #fff;}
 
 
 
@@ -458,7 +458,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .portfolio_04 .guide figure::-webkit-scrollbar {width: 15px;}
 .portfolio_04 .guide figure::-webkit-scrollbar-thumb {height: 10%; background: var(--tc); border-radius: 10px;}
-.portfolio_04 .guide figure::-webkit-scrollbar-track {background: var(--mc);}
+.portfolio_04 .guide figure::-webkit-scrollbar-track {background: #fff;}
 
 
 .portfolio_04 .nember {position:absolute; bottom:-15rem; left:-5rem; z-index:-1; font-family: 'Lalezar', cursive;}
@@ -560,9 +560,12 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 
+
+
+
 /*--프로젝트----*/
 .Project {position:relative;}
-.Project .container {padding:0rem 7rem; display: flex; justify-content: space-between;}
+.Project .container {padding:0rem 7rem;}
 
 .Project .cloud {position:absolute; top:-3rem; left:66rem; width:100%; height:100%;  animation:cloud_trn 2s infinite linear alternate; opacity:0.7; z-index:0;}
 .Project .cloud_02 {position:absolute; top:7rem; left:-5rem; width:100%; height:100%; animation:cloud_trn_02 1.7s infinite linear alternate; opacity:0.7; z-index:-1;}
@@ -580,41 +583,27 @@ body {font-size:0.8rem; color: var(--dc);}
     100% {top:9rem;}
 }
 
-.Project h3 {font-size:2.5rem; font-weight:500; text-align:center; margin-bottom:3rem; color:var(--tc); font-family: 'Lalezar', cursive;}
+.Project h3 {font-size:2.5rem; font-weight:500; text-align:center; margin-bottom:3rem; color:var(--tc); padding-top: 3rem; font-family: 'Lalezar', cursive;}
 
+.Project .mockup {margin:0 auto; box-shadow:0 0 15px#adadad; border-radius:1rem; width:80%; overflow:hidden;}
+.Project .mockup figure {position:relative; padding-bottom:50%;}
+.Project .mockup figure img {position:absolute; top:0; left:0; width:100%; transition:3s; cursor:pointer;}
+.Project .mockup figure img:hover {transform:translateY(-100%); top:100%;}
 
+.Project .text {text-align:center; margin-top:1.5rem;}
+.Project .text b {display:block; font-size:0.8rem; margin-bottom:0.5rem; color:var(--dc); cursor: pointer;}
 
-.Project .btn_list {display: flex;}
-.Project .btn_list li {padding: 0 20px; cursor: pointer;}
-.Project .btn_list li img:first-child {display: block;}
-.Project .btn_list li img:first-child.on {display: none;}
-.Project .btn_list li img:last-child {display: none;}
-.Project .btn_list li img:last-child.on {display: block;}
-
-
-
-
-.Project .btn_detail {margin:0 auto; box-shadow:0 0 15px#adadad; border-radius:1rem; overflow: hidden;}
-.Project .btn_detail .detail_box {position: relative; background: #8adbf8; width: 600px; height: 600px; border-radius:1rem; display: block;}
-.Project .btn_detail .detail_box figure {position:relative; padding-bottom:100%;}
-.Project .btn_detail .detail_box figure img {width: 100%; position: absolute; top: 0px; left: 0px; transition:1.5s; cursor:pointer;}
-.Project .btn_detail .detail_box figure img:hover {transform:translateY(-100%); top:100%;}
-
-.Project .btn_detail .detail_box_01 {}
-.Project .btn_detail .detail_box_01 strong {display: block; font-size: 30px; border: 1px solid red;}
-.Project .btn_detail .detail_box_02 {display: none;}
-.Project .btn_detail .detail_box_03 {display: none;}
-.Project .btn_detail .detail_box_04 {display: none;}
-
+.Project .pro_01 {}
 
 
 
 
 /*로또배너 크게 시작*/
 
+.Project #btn_big {}
 .Project #btn_big .guide {display:none; z-index: 999;}
 
-.Project #btn_big .guide figure {position:absolute; width:80%; height:120%; top:45%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y:scroll; overflow-x:hidden; }
+.Project #btn_big .guide figure {position:absolute; width:80%; height:100%; top:40%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y:scroll; overflow-x:hidden;}
 
 .Project #btn_big .guide figure span {position:absolute; top:1%; right:1%; color:var(--tc); cursor:pointer;}
 .Project #btn_big .guide i.xi-close {font-size:2rem; border:none; color:var(--tc);}
@@ -626,7 +615,27 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .Project #btn_big .guide figure::-webkit-scrollbar {width: 15px;}
 .Project #btn_big .guide figure::-webkit-scrollbar-thumb {height: 10%; background: var(--tc); border-radius: 10px;}
-.Project #btn_big .guide figure::-webkit-scrollbar-track {background: var(--mc);}
+.Project #btn_big .guide figure::-webkit-scrollbar-track {background: #fff;}
+
+
+
+.Project #btn_big .guide_02 {}
+.Project #btn_big .guide_02 .text {background: #fff; height: 100px; text-align: center; margin: 0 auto;}
+.Project #btn_big .guide_02 .text strong {display: block; font-size: 40px; color: var(--tc); padding: 20px 0 0 0; font-family: 'Lalezar', cursive;}
+.Project #btn_big .guide_02 .text p {font-size: 16px; color: var(--dc); letter-spacing: -1px; font-weight: 500;}
+
+.Project #btn_big .guide_02 .text .autocliean_text {position: absolute; top: 37%; left: 14%; border: 1px solid red; color: #fff; line-height: 1.5; font-size: 26px; opacity: 0;}
+.Project #btn_big .guide_02 .text .jumia_text {position: absolute; top: 37%; right: 13%; border: 1px solid red; color: #fff; line-height: 1.5; font-size: 26px; opacity: 0;}
+
+.Project #btn_big .guide_02 .banner_img img:first-of-type:hover {filter: brightness(0.5) grayscale(1);}
+.Project #btn_big .guide_02 .banner_img img:last-of-type:hover {filter: brightness(0.5) grayscale(1);}
+
+
+.Project #btn_big .guide_03 {}
+.Project #btn_big .guide_03 .text {background: #fff; height: 100px; text-align: center; margin: 0 auto;}
+.Project #btn_big .guide_03 .text strong {display: block; font-size: 40px; color: var(--tc); padding: 20px 0 0 0; font-family: 'Lalezar', cursive;}
+.Project #btn_big .guide_03 .text p {font-size: 16px; color: var(--dc); letter-spacing: -1px; font-weight: 500;}
+
 
 /*로또배너 크게 끝*/
 
@@ -1114,7 +1123,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .portfolio_01 .guide figure::-webkit-scrollbar {width: 10px;}
     .portfolio_01 .guide figure::-webkit-scrollbar-thumb {height: 10%; background: var(--tc); border-radius: 10px;}
-    .portfolio_01 .guide figure::-webkit-scrollbar-track {background: var(--mc);}
+    .portfolio_01 .guide figure::-webkit-scrollbar-track {background: #fff;}
 
 
 
@@ -1194,7 +1203,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .portfolio_02 .guide figure::-webkit-scrollbar {width: 10px;}
     .portfolio_02 .guide figure::-webkit-scrollbar-thumb {height: 10%; background: var(--tc); border-radius: 10px;}
-    .portfolio_02 .guide figure::-webkit-scrollbar-track {background: var(--mc);}
+    .portfolio_02 .guide figure::-webkit-scrollbar-track {background: #fff;}
 
 
 
@@ -1335,7 +1344,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .portfolio_04 .guide figure::-webkit-scrollbar {width: 10px;}
     .portfolio_04 .guide figure::-webkit-scrollbar-thumb {height: 10%; background: var(--tc); border-radius: 10px;}
-    .portfolio_04 .guide figure::-webkit-scrollbar-track {background: var(--mc);}
+    .portfolio_04 .guide figure::-webkit-scrollbar-track {background: #fff;}
 
 
 
@@ -1456,7 +1465,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
     /*--프로젝트----*/
     .Project {position:relative;}
-    .Project .container {padding:0rem 1rem;}
+    .Project .container {padding:0rem 3rem;}
 
     .Project .cloud {position:absolute; top:40%; left:65%; width:100%; height:100%;  animation:cloud_trn_mo 2s infinite linear alternate; opacity:0.7; width:50%; z-index:-1;}
     .Project .cloud_02 {position:absolute; top:0%; left:-20%; width:100%; height:100%; animation:cloud_trn_02_mo 1.7s infinite linear alternate; opacity:0.7; width:50%; z-index:-1;}
@@ -1476,29 +1485,13 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .Project h3 {font-size:10vw; font-weight:700; text-align:center; margin-bottom:1.5rem; padding-top:1.5rem; color:var(--tc); letter-spacing: 1px;}
 
+    .Project .mockup {margin:0 auto; box-shadow:0 0 15px#adadad; border-radius:1rem; width:85%;; overflow:hidden;}
+    .Project .mockup figure {position:relative; padding-bottom:50%;}
+    .Project .mockup figure img {position:absolute; top:0; left:0; width:100%; transition:3s; cursor:pointer;}
+    .Project .mockup figure img:hover {transform:translateY(-100%); top:100%;}
 
-
-    .Project .btn_list {display: flex;}
-    .Project .btn_list li {padding: 0 0px; cursor: pointer;}
-    .Project .btn_list li img:first-child {display: block;}
-    .Project .btn_list li img:first-child.on {display: none;}
-    .Project .btn_list li img:last-child {display: none;}
-    .Project .btn_list li img:last-child.on {display: block;}
-
-
-
-
-    .Project .btn_detail {margin:0 auto; box-shadow:0 0 15px#adadad; border-radius:1rem; overflow: hidden; display: none;}
-    .Project .btn_detail .detail_box {position: relative; background: #8adbf8; width: 600px; height: 600px; border-radius:1rem; display: block;}
-    .Project .btn_detail .detail_box figure {position:relative; padding-bottom:100%;}
-    .Project .btn_detail .detail_box figure img {width: 100%; position: absolute; top: 0px; left: 0px; transition:1.5s; cursor:pointer;}
-    .Project .btn_detail .detail_box figure img:hover {transform:translateY(-100%); top:100%;}
-
-    .Project .btn_detail .detail_box_02 {display: none;}
-    .Project .btn_detail .detail_box_03 {display: none;}
-    .Project .btn_detail .detail_box_04 {display: none;}
-
-
+    .Project .text {text-align:center; margin-top:1rem;}
+    .Project .text b {display:none; font-size:4vw; margin-bottom:0.5rem;}
 
 
 
@@ -1506,7 +1499,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .Project #btn_big .guide {display:none; z-index: 999;}
 
-    .Project #btn_big .guide figure {position:absolute; width:95%; height:170%; top:45%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y:scroll; overflow-x:hidden; }
+    .Project #btn_big .guide figure {position:absolute; width:95%; height:150%; top:45%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y:scroll; overflow-x:hidden; }
 
     .Project #btn_big .guide figure span {position:absolute; top:1%; right:1%; color:var(--tc); cursor:pointer;}
     .Project #btn_big .guide i.xi-close {font-size:2rem; border:none; color:var(--tc);}
@@ -1518,7 +1511,15 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .Project #btn_big .guide figure::-webkit-scrollbar {width: 10px;}
     .Project #btn_big .guide figure::-webkit-scrollbar-thumb {height: 10%; background: var(--tc); border-radius: 10px;}
-    .Project #btn_big .guide figure::-webkit-scrollbar-track {background: var(--mc);}
+    .Project #btn_big .guide figure::-webkit-scrollbar-track {background: #fff;}
+
+
+
+
+    .Project #btn_big .guide_03 {}
+    .Project #btn_big .guide_03 .text {background: #fff; height: 65px; text-align: center; margin: 0 auto;}
+    .Project #btn_big .guide_03 .text strong {display: block; font-size: 24px; color: var(--tc); padding: 15px 0 0 0; font-family: 'Lalezar', cursive;}
+    .Project #btn_big .guide_03 .text p {font-size: 13px; color: var(--dc); letter-spacing: -1px; font-weight: 500;}
 
     /*로또배너 크게 끝*/
 

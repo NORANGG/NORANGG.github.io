@@ -85,6 +85,8 @@ $('.profile .me dl .git i.xi-close').on('click', function(){
 /*까지 반응형 add*/
 
 
+
+
 $('.portfolio_01 .guide i').on('click', function(){
     $('.portfolio_01 .guide figure').show('on');
 });
@@ -112,8 +114,11 @@ $('.portfolio_04 .guide i.xi-close').on('click', function(){
 });
 
 
+
+
+
 /*프로젝트*/
-$('.Project .btn_detail .detail_box_01').on('click', function(){
+$('.Project .pro_01').on('click', function(){
     $('.Project #btn_big .guide_01').show('on');
 });
 
@@ -122,7 +127,7 @@ $('.Project #btn_big .guide i.xi-close').on('click', function(){
 });
 
 
-$('.Project .btn_detail .detail_box_02').on('click', function(){
+$('.Project .pro_02').on('click', function(){
     $('.Project #btn_big .guide_02').show('on');
 });
 
@@ -131,7 +136,7 @@ $('.Project #btn_big .guide i.xi-close').on('click', function(){
 });
 
 
-$('.Project .btn_detail .detail_box_03').on('click', function(){
+$('.Project .pro_03').on('click', function(){
     $('.Project #btn_big .guide_03').show('on');
 });
 
@@ -140,7 +145,7 @@ $('.Project #btn_big .guide i.xi-close').on('click', function(){
 });
 
 
-$('.Project .btn_detail .detail_box_04').on('click', function(){
+$('.Project .pro_04').on('click', function(){
     $('.Project #btn_big .guide_04').show('on');
 });
 
@@ -154,100 +159,8 @@ $('.Project #btn_big .guide i.xi-close').on('click', function(){
 
 
 
-/*프로젝트 디테일*/
-$('.Project .btn_list .btn_list_01').on('click', function(){
-    $('.Project .btn_detail .detail_box_01').show('on');
-});
-
-$('.Project .btn_list .btn_list_01').on('click', function(){
-    $('.Project .btn_detail .detail_box_02,.Project .btn_detail .detail_box_03,.Project .btn_detail .detail_box_04').hide('on');
-});
 
 
-
-$('.Project .btn_list .btn_list_02').on('click', function(){
-    $('.Project .btn_detail .detail_box_02').show('on');
-});
-
-$('.Project .btn_list .btn_list_02').on('click', function(){
-    $('.Project .btn_detail .detail_box_01,.Project .btn_detail .detail_box_03,.Project .btn_detail .detail_box_04').hide('on');
-});
-
-
-
-$('.Project .btn_list .btn_list_03').on('click', function(){
-    $('.Project .btn_detail .detail_box_03').show('on');
-});
-
-$('.Project .btn_list .btn_list_03').on('click', function(){
-    $('.Project .btn_detail .detail_box_01,.Project .btn_detail .detail_box_02,.Project .btn_detail .detail_box_04').hide('on');
-});
-
-
-
-$('.Project .btn_list .btn_list_04').on('click', function(){
-    $('.Project .btn_detail .detail_box_04').show('on');
-});
-
-$('.Project .btn_list .btn_list_04').on('click', function(){
-    $('.Project .btn_detail .detail_box_01,.Project .btn_detail .detail_box_02,.Project .btn_detail .detail_box_03').hide('on');
-});
-/*프로젝트 디테일*/
-
-
-
-
-
-
-/*프로젝트 디테일_모바일*/
-$(window).on("resize", function (e) {
-    mobileScrren();
-    mobileScrren2();
-    mobileScrren3();
-    mobileScrren4();
-});
-
-mobileScrren();
-mobileScrren2();
-mobileScrren3();
-mobileScrren4();
-
-function mobileScrren(){
-    let M_width = $(window).width();
-    if (M_width < 768) {
-        $('.Project .btn_list .btn_list_01').on('click', function(){
-            $('.Project #btn_big .guide_01').show('on');
-        });
-    }
-}
-
-function mobileScrren2(){
-    let M_width = $(window).width();
-    if (M_width < 768) {
-        $('.Project .btn_list .btn_list_02').on('click', function(){
-            $('.Project #btn_big .guide_02').show('on');
-        });
-    }
-}
-
-function mobileScrren3(){
-    let M_width = $(window).width();
-    if (M_width < 768) {
-        $('.Project .btn_list .btn_list_03').on('click', function(){
-            $('.Project #btn_big .guide_03').show('on');
-        });
-    }
-}
-
-function mobileScrren4(){
-    let M_width = $(window).width();
-    if (M_width < 768) {
-        $('.Project .btn_list .btn_list_04').on('click', function(){
-            $('.Project #btn_big .guide_04').show('on');
-        });
-    }
-}
-/*프로젝트 디테일_모바일*/
 
 
 
