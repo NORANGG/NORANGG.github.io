@@ -112,40 +112,49 @@ $('.portfolio_04 .guide i.xi-close').on('click', function(){
 });
 
 
+/*프로젝트*/
 $('.Project .btn_detail .detail_box_01').on('click', function(){
-    $('.Project #btn_big .guide').show('on');
+    $('.Project #btn_big .guide_01').show('on');
 });
 
 $('.Project #btn_big .guide i.xi-close').on('click', function(){
-    $('.Project #btn_big .guide').hide('on');
+    $('.Project #btn_big .guide_01').hide('on');
 });
 
 
+$('.Project .btn_detail .detail_box_02').on('click', function(){
+    $('.Project #btn_big .guide_02').show('on');
+});
+
+$('.Project #btn_big .guide i.xi-close').on('click', function(){
+    $('.Project #btn_big .guide_02').hide('on');
+});
 
 
-// $('.Project .btn_list .btn_list_01').on('click', function(){
-//     $('.Project .btn_list .btn_list_01 img:last-child').toggleClass('on');
-//     $('.Project .btn_list .btn_list_01 img:first-child').toggleClass('on');
-// });
+$('.Project .btn_detail .detail_box_03').on('click', function(){
+    $('.Project #btn_big .guide_03').show('on');
+});
 
-// $('.Project .btn_list .btn_list_02').on('click', function(){
-//     $('.Project .btn_list .btn_list_02 img:last-child').toggleClass('on');
-//     $('.Project .btn_list .btn_list_02 img:first-child').toggleClass('on');
-// });
+$('.Project #btn_big .guide i.xi-close').on('click', function(){
+    $('.Project #btn_big .guide_03').hide('on');
+});
 
-// $('.Project .btn_list .btn_list_03').on('click', function(){
-//     $('.Project .btn_list .btn_list_03 img:last-child').toggleClass('on');
-//     $('.Project .btn_list .btn_list_03 img:first-child').toggleClass('on');
-// });
 
-// $('.Project .btn_list .btn_list_04').on('click', function(){
-//     $('.Project .btn_list .btn_list_04 img:last-child').toggleClass('on');
-//     $('.Project .btn_list .btn_list_04 img:first-child').toggleClass('on');
-// });
+$('.Project .btn_detail .detail_box_04').on('click', function(){
+    $('.Project #btn_big .guide_04').show('on');
+});
+
+$('.Project #btn_big .guide i.xi-close').on('click', function(){
+    $('.Project #btn_big .guide_04').hide('on');
+});
+/*까지 프로젝트*/
 
 
 
 
+
+
+/*프로젝트 디테일*/
 $('.Project .btn_list .btn_list_01').on('click', function(){
     $('.Project .btn_detail .detail_box_01').show('on');
 });
@@ -183,7 +192,62 @@ $('.Project .btn_list .btn_list_04').on('click', function(){
 $('.Project .btn_list .btn_list_04').on('click', function(){
     $('.Project .btn_detail .detail_box_01,.Project .btn_detail .detail_box_02,.Project .btn_detail .detail_box_03').hide('on');
 });
+/*프로젝트 디테일*/
 
+
+
+
+
+
+/*프로젝트 디테일_모바일*/
+$(window).on("resize", function (e) {
+    mobileScrren();
+    mobileScrren2();
+    mobileScrren3();
+    mobileScrren4();
+});
+
+mobileScrren();
+mobileScrren2();
+mobileScrren3();
+mobileScrren4();
+
+function mobileScrren(){
+    let M_width = $(window).width();
+    if (M_width < 768) {
+        $('.Project .btn_list .btn_list_01').on('click', function(){
+            $('.Project #btn_big .guide_01').show('on');
+        });
+    }
+}
+
+function mobileScrren2(){
+    let M_width = $(window).width();
+    if (M_width < 768) {
+        $('.Project .btn_list .btn_list_02').on('click', function(){
+            $('.Project #btn_big .guide_02').show('on');
+        });
+    }
+}
+
+function mobileScrren3(){
+    let M_width = $(window).width();
+    if (M_width < 768) {
+        $('.Project .btn_list .btn_list_03').on('click', function(){
+            $('.Project #btn_big .guide_03').show('on');
+        });
+    }
+}
+
+function mobileScrren4(){
+    let M_width = $(window).width();
+    if (M_width < 768) {
+        $('.Project .btn_list .btn_list_04').on('click', function(){
+            $('.Project #btn_big .guide_04').show('on');
+        });
+    }
+}
+/*프로젝트 디테일_모바일*/
 
 
 
