@@ -730,9 +730,9 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .profile .me p:hover {color: #ffa63d;}
 
-.profile .me dl .kakao {display:none;}
-.profile .me dl .git {display:none;}
-.profile .me dl b {display:none;}
+.profile .me .kakao {display:none;}
+.profile .me .git {display:none;}
+.profile .me b {display:none;}
 
 /*부터 오른쪽 스펙부분*/
 .profile .spec {display:grid; grid-template-columns:repeat(2,1fr); margin-right:15rem; width:100%; line-height:2;}
@@ -742,8 +742,9 @@ body {font-size:0.8rem; color: var(--dc);}
 .profile .spec p {float:right; font-size:0.65rem; font-weight:300; color:var(--b4);}
 
 
-.profile .spec .skills dl>div {display:flex;}
+.profile .spec .skills div {}
 .profile .spec .skills dd {margin-right:1rem; position: relative;}
+.profile .spec .skills_icon {display: flex;}
 .profile .spec .skills dd i {font-size:1.5rem; padding:0.5rem; background:var(--lc); border-radius:50%;}
 .profile .spec .skills dd i:hover {background: #ffa63d; color: #fff; cursor: pointer;}
 
@@ -766,8 +767,9 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 
-.profile .add dl>div {display:flex;}
-.profile .add dl dd {padding-right:1rem;}
+.profile .add div {}
+.profile .add dd {padding-right:1rem;}
+.profile .add .add_icon {display: flex;}
 .profile .add figure {display:none; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
 .profile .add figure img {width:90%; padding-left:1.5rem;}
 .profile .add figure b {display:block; font-size:0.65rem; color:var(--b4); text-align:center; padding-top:2rem;}
@@ -1676,27 +1678,27 @@ body {font-size:0.8rem; color: var(--dc);}
     .profile .me dd {line-height:1.5; margin-bottom:0.5rem; font-size:3.3vw; color:var(--b4); font-family: 'Lalezar', cursive;}
     .profile .me p {font-size:4vw; font-weight:400; color:var(--dc); font-family: 'Noto Sans KR';}
 
-    .profile .me dl b {display:block; font-size:3.3vw;}
-    .profile .me dl .media_add {display:flex;}
+    .profile .me b {display:block; font-size:3.3vw;}
+    .profile .me .media_add {display:flex; align-items: flex-end;}
 
-    .profile .me dl .kakao {display:block; margin-top:-10%; padding-right:10%; padding-left:23%;}
-    .profile .me dl .kakao i.xi-kakaotalk {font-size:1.8rem; color:var(--dc);}
-    .profile .me dl .kakao figure {display:none; width:140%; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
-    .profile .me dl .kakao figure strong {position:static; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
-    .profile .me dl .kakao i.xi-close {font-size:6vw; margin-top:1rem;}
-    .profile .me dl .kakao figure b {display:block; font-size:3.3vw; color:var(--b4); text-align:center; margin-top:1rem;}
+    .profile .me .kakao {display:block; margin-top:-10%; padding-right:10%; padding-left:23%;}
+    .profile .me .kakao i.xi-kakaotalk {font-size:1.8rem; color:var(--dc);}
+    .profile .me .kakao figure {display:none; width:140%; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
+    .profile .me .kakao figure strong {position:static; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
+    .profile .me .kakao i.xi-close {font-size:6vw; margin-top:1rem;}
+    .profile .me .kakao figure b {display:block; font-size:3.3vw; color:var(--b4); text-align:center; margin-top:1rem;}
 
-    .profile .me dl .kakao figure {position:absolute; top:95%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:20px; z-index:1;}
+    .profile .me .kakao figure {position:absolute; top:95%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:20px; z-index:1;}
 
 
-    .profile .me dl .git {display:block; margin-top:0.5%;}
-    .profile .me dl .git i.xi-github {font-size:1.8rem; color:var(--dc);}
-    .profile .me dl .git figure {display:none; width:140%; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
-    .profile .me dl .git figure strong {position:static; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
-    .profile .me dl .git i.xi-close {font-size:6vw; margin-top:1rem;}
-    .profile .me dl .git figure b {display:block; font-size:3.3vw; color:var(--b4); text-align:center; margin-top:1rem;}
+    .profile .me .git {display:block; margin-top:0.5%;}
+    .profile .me .git i.xi-github {font-size:1.8rem; color:var(--dc);}
+    .profile .me .git figure {display:none; width:140%; box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4);}
+    .profile .me .git figure strong {position:static; top:1.5%; right:-4%; color:var(--tc); cursor:pointer;}
+    .profile .me .git i.xi-close {font-size:6vw; margin-top:1rem;}
+    .profile .me .git figure b {display:block; font-size:3.3vw; color:var(--b4); text-align:center; margin-top:1rem;}
 
-    .profile .me dl .git figure {position:absolute; top:95%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:20px; z-index:1;}
+    .profile .me .git figure {position:absolute; top:95%; left:50%; transform:translate(-50%,-50%); border:10px solid var(--mc); background:#fff; padding:20px; z-index:1;}
 
 
     /*부터 오른쪽 스펙부분 - display:none처리되어있음*/
@@ -1707,7 +1709,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .profile .spec p {float:right; font-size:0.65rem; font-weight:300; color:var(--b4);}
 
 
-    .profile .spec .skills dl>div {display:flex;}
+    .profile .spec .skills div {display:flex;}
     .profile .spec .skills dd {padding-right:1rem;}
     .profile .spec .skills dd i {font-size:1.5rem; padding:0.7rem; background:var(--lc); border-radius:50%;}
 
