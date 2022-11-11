@@ -715,7 +715,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .profile .picture strong {display:block; border-radius:50%; overflow:hidden;}
 .profile .picture strong img {width:100%;}
 .profile .picture span {position:absolute; top:0; left:calc(50% - 0.5rem); width:1rem; height:6rem; font-size:0; animation:circle_me 15s infinite linear; transform-origin:bottom;}
-.profile .picture span::after {content:""; display:block; width:0.6rem; height:0.6rem; background:var(--sc); border-radius:50%; margin-top:-0.3rem; filter:blur(2.5px);}
+.profile .picture span::after {content:""; display:block; width:0.6rem; height:0.6rem; background: #ffa63d; border-radius:50%; margin-top:-0.3rem; filter:blur(2.5px);}
 
 @keyframes circle_me {
     0% {transform:rotate(0);}
@@ -728,7 +728,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .profile .me dd {line-height:1.5; margin-bottom:1.1rem; font-size:0.7rem; color:var(--b4); font-family: 'Lalezar', cursive;}
 .profile .me p {font-size:0.75rem; font-weight:400; color:var(--dc); transition:0.3s; font-family: 'Noto Sans KR';}
 
-.profile .me p:hover {color:var(--tc);}
+.profile .me p:hover {color: #ffa63d;}
 
 .profile .me dl .kakao {display:none;}
 .profile .me dl .git {display:none;}
@@ -773,8 +773,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .profile .add figure b {display:block; font-size:0.65rem; color:var(--b4); text-align:center; padding-top:2rem;}
 
 .profile .add i {font-size:2.3rem; cursor:pointer; transition:0.3s;}
-.profile .add i.xi-kakaotalk:hover {color:var(--sc);}
-.profile .add i.xi-github:hover {color:var(--b4);}
+.profile .add i:hover {color: #ffa63d;}
 
 .profile .kakao figure {position:absolute; width:45%; top:50%; left:50%; transform:translate(-50%,-50%); border:7px solid var(--mc); background:#fff; padding:50px; z-index:1;}
 .profile .git figure {position:absolute; width:45%; top:50%; left:50%; transform:translate(-50%,-50%); border:7px solid var(--mc); background:#fff; padding:50px; z-index:1;}
@@ -782,7 +781,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .profile .add figure span {position:absolute; top:3%; right:3%; color:var(--tc); cursor:pointer;}
 .profile .add i.xi-close {font-size:1.7rem;}
-.profile .add i.xi-close:hover {color:var(--b4);}
+.profile .add i.xi-close:hover {color: var(--b4);}
 /*까지 오른쪽 스펙부분*/
 
 .profile em {display:block; font-size:0.55rem; color:var(--b4); line-height:1.2; text-align:center; position:absolute; bottom:-13.5%; left:40%;}
@@ -1550,11 +1549,18 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 
-    /*로또배너 크게 시작*/
+    /*회사 프로젝트 시작*/
 
     .Project #btn_big .guide {display:none; z-index: 999;}
 
     .Project #btn_big .guide figure {position:absolute; width:95%; height:100%; top:45%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y:scroll; overflow-x:hidden; }
+
+
+    .Project #btn_big .guide .text {background: #fff; height: auto; text-align: center; margin: 0 auto 3%;}
+    .Project #btn_big .guide .text strong {display: block; font-size: 22px; color: var(--tc); padding: 15px 0 0 0; font-family: 'Lalezar', cursive;}
+    .Project #btn_big .guide .text p {font-size: 12px; color: var(--dc); letter-spacing: -1px; font-weight: 500; line-height: 1.3;}
+
+
 
     .Project #btn_big .guide figure span {position:absolute; top:1%; right:1%; color:var(--tc); cursor:pointer;}
     .Project #btn_big .guide i.xi-close {font-size:2rem; border:none; color:var(--tc);}
@@ -1572,11 +1578,36 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 
+    .Project #btn_big .guide_01 .banner_img {background: #fff; height: 100%;}
+    .Project #btn_big .guide_01 .banner_img a {margin: 0 auto;}
+    .Project #btn_big .guide_01 .banner_img a img {width: 100%;}
+    
+    .Project #btn_big .guide_01 .company_guide {width: 100%;}
+    .Project #btn_big .guide_01 .company_guide .page_list {background: #fff; width: auto; height: 100%; display: flex; justify-content: center; align-items: flex-start;}
+    .Project #btn_big .guide_01 .company_guide ul {text-align: center;}
+    .Project #btn_big .guide_01 .company_guide ul li {line-height: 2.3; cursor: pointer; font-size: 14px;}
+    .Project #btn_big .guide_01 .company_guide ul li:nth-child(4) {margin-bottom: 20px;}
+    .Project #btn_big .guide_01 .company_guide ul li a {display: block;}
+    .Project #btn_big .guide_01 .company_guide ul li.on {color: var(--tc);}
+    .Project #btn_big .guide_01 .company_guide ul li:hover {color: var(--tc);}
+    
+    .Project #btn_big .guide_01 .company_guide .page_name {flex: 0.7; position: sticky; position: -webkit-sticky; top: 0; left: 0;}
+    .Project #btn_big .guide_01 .company_guide .page_name li {position: relative;}
+    .Project #btn_big .guide_01 .company_guide .page_name li.on::before {content: ""; display: block; width: 10px; height: 10px; background: var(--tc); border-radius: 24px; position: absolute; top: 50%; left: 17%; transform: translate(-50%, -50%);}
+    
+    .Project #btn_big .guide_01 .company_guide .page_img {flex: 1;}
+    .Project #btn_big .guide_01 .company_guide .page_img li {display: none;}
+    .Project #btn_big .guide_01 .company_guide .page_img li.on {display: block;}
+    
+    .Project #btn_big .guide_01 .company_guide .page_img li a {display: block; height: 50px;}
+    .Project #btn_big .guide_01 .company_guide .page_img li img {width: 100%; }
+    
+
+
+
+
 
     .Project #btn_big .guide_02 {}
-    .Project #btn_big .guide_02 .text {background: #fff; height: 65px; text-align: center; margin: 0 auto;}
-    .Project #btn_big .guide_02 .text strong {display: block; font-size: 24px; color: var(--tc); padding: 15px 0 0 0; font-family: 'Lalezar', cursive;}
-    .Project #btn_big .guide_02 .text p {font-size: 13px; color: var(--dc); letter-spacing: -1px; font-weight: 500; line-height: 1.3;}
     
     .Project #btn_big .guide_02 .banner_img a img {width: 100%;}
     .Project #btn_big .guide_02 .banner_img a img:first-of-type {filter: none;}
@@ -1590,18 +1621,11 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
     .Project #btn_big .guide_03 {}
-    .Project #btn_big .guide_03 .text {background: #fff; height: 65px; text-align: center; margin: 0 auto;}
-    .Project #btn_big .guide_03 .text strong {display: block; font-size: 24px; color: var(--tc); padding: 15px 0 0 0; font-family: 'Lalezar', cursive;}
-    .Project #btn_big .guide_03 .text p {font-size: 13px; color: var(--dc); letter-spacing: -1px; font-weight: 500;}
-
-
-
 
     
     .Project #btn_big .guide_04 {}
-    .Project #btn_big .guide_04 figure {height: auto;}
 
-    /*로또배너 크게 끝*/
+    /*회사 프로젝트 끝*/
 
 
 
