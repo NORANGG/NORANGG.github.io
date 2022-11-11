@@ -1593,7 +1593,7 @@ body {font-size:0.8rem; color: var(--dc);}
     
     .Project #btn_big .guide_01 .company_guide .page_name {flex: 0.7; position: sticky; position: -webkit-sticky; top: 0; left: 0;}
     .Project #btn_big .guide_01 .company_guide .page_name li {position: relative;}
-    .Project #btn_big .guide_01 .company_guide .page_name li.on::before {content: ""; display: block; width: 10px; height: 10px; background: var(--tc); border-radius: 24px; position: absolute; top: 50%; left: 17%; transform: translate(-50%, -50%);}
+    .Project #btn_big .guide_01 .company_guide .page_name li.on::before {content: ""; display: none; width: 10px; height: 10px; background: var(--tc); border-radius: 24px; position: absolute; top: 50%; left: 17%; transform: translate(-50%, -50%);}
     
     .Project #btn_big .guide_01 .company_guide .page_img {flex: 1;}
     .Project #btn_big .guide_01 .company_guide .page_img li {display: none;}
