@@ -152,6 +152,34 @@ $('.Project .pro_04').on('click', function(){
 $('.Project #btn_big .guide i.xi-close').on('click', function(){
     $('.Project #btn_big .guide_04').hide('on');
 });
+
+
+
+
+
+
+
+
+
+
+
+
+$('.Project #btn_big .guide_01 .company_guide .page_name li').on('click', function(){
+    let $list= $(this);
+    let Img= $(this).index(); 
+
+    $('.Project #btn_big .guide_01 .company_guide .page_img li').eq(Img).addClass('on').siblings().removeClass('on');
+    $list.addClass('on').siblings().removeClass('on');
+});
+
+
+// $('.Project #btn_big .guide_01 .company_guide .page_name li').on('click', function(){
+//     let $list_02= $(this);
+//     let Img_02= $(this).index(); 
+
+//     $('.Project #btn_big .guide_01 .company_guide .page_img li').eq(Img_02).addClass('on').siblings().removeClass('on');
+//     $list_02.addClass('on').siblings().removeClass('on');
+// });
 /*까지 프로젝트*/
 
 
