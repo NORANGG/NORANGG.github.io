@@ -724,7 +724,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
 .profile .me {padding-top:2rem;}
 .profile .me dl {}
-.profile .me dt {font-size:1.5rem; font-weight:500; line-height:2; margin-bottom:1rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Lalezar', cursive;}
+.profile .me h3 {font-size:1.5rem; font-weight:500; line-height:2; margin-bottom:1rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Lalezar', cursive;}
 .profile .me dd {line-height:1.5; margin-bottom:1.1rem; font-size:0.7rem; color:var(--b4); font-family: 'Lalezar', cursive;}
 .profile .me p {font-size:0.75rem; font-weight:400; color:var(--dc); transition:0.3s; font-family: 'Noto Sans KR';}
 
@@ -737,7 +737,7 @@ body {font-size:0.8rem; color: var(--dc);}
 /*부터 오른쪽 스펙부분*/
 .profile .spec {display:grid; grid-template-columns:repeat(2,1fr); margin-right:15rem; width:100%; line-height:2;}
 .profile .spec>div {padding:0 0rem 2rem 2rem;}
-.profile .spec dt {font-size:1.5rem; font-weight:500; margin-bottom:1rem; border-bottom:1px dashed var(--mc); width:60%; color:var(--tc); font-family: 'Lalezar', cursive;}
+.profile .spec h3 {font-size:1.5rem; font-weight:500; margin-bottom:1rem; border-bottom:1px dashed var(--mc); width:60%; color:var(--tc); font-family: 'Lalezar', cursive;}
 .profile .spec dd {font-size:0.75rem;}
 .profile .spec p {float:right; font-size:0.65rem; font-weight:300; color:var(--b4);}
 
@@ -1674,7 +1674,7 @@ body {font-size:0.8rem; color: var(--dc);}
 
     .profile .me {padding-top:1.5rem;}
     .profile .me dl {}
-    .profile .me dt {font-size:5vw; font-weight:500; line-height:2; margin-bottom:0.5rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Lalezar', cursive;}
+    .profile .me h3 {font-size:5vw; font-weight:500; line-height:2; margin-bottom:0.5rem; border-bottom:1px dashed var(--mc); color:var(--tc); font-family: 'Lalezar', cursive;}
     .profile .me dd {line-height:1.5; margin-bottom:0.5rem; font-size:3.3vw; color:var(--b4); font-family: 'Lalezar', cursive;}
     .profile .me p {font-size:4vw; font-weight:400; color:var(--dc); font-family: 'Noto Sans KR';}
 
