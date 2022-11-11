@@ -29,32 +29,32 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
 /*--헤더----*/
-#header h1 {position:fixed; top:1rem; left:1rem; transition:0.3s; z-index:999;}
+#header .logo {position:fixed; top:1rem; left:1rem; transition:0.3s; z-index:999;}
 
 /* #header h1 a {display:block; width:12rem; height:6rem; background:url(../lib/base/pf_h1_sun.png) no-repeat center center/12rem; animation:moon 3s infinite linear alternate;}
 #header.on h1 a {height:6rem; background:url(../lib/base/pf_h1_moon.png) no-repeat center center/12rem;} */
 
-#header h1 img {width:5rem; position:relative;}
-#header h1 .h1_sun {animation:h1 9s infinite linear;}
-#header h1 .h1_cl img {position:absolute; width:3rem; top:0rem; left:-0.4rem; z-index:-1;}
-#header h1 .h1_cl_02 img {position:absolute; width:3rem; top:2rem; left:3rem;}
-#header h1 .h1_name img {position:absolute; width:6rem; top:-3rem; left:3.2rem;}
+#header .logo img {width:5rem; position:relative;}
+#header .logo .h1_sun {animation:logo 9s infinite linear;}
+#header .logo .h1_cl img {position:absolute; width:3rem; top:0rem; left:-0.4rem; z-index:-1;}
+#header .logo .h1_cl_02 img {position:absolute; width:3rem; top:2rem; left:3rem;}
+#header .logo .h1_name img {position:absolute; width:6rem; top:-3rem; left:3.2rem;}
 #header .moon {display:none;}
 
-#header h1:hover .h1_sun {animation-play-state:paused;}
+#header .logo:hover .h1_sun {animation-play-state:paused;}
 
-#header.on h1 img {width:5rem; position:relative;}
-#header.on h1 .h1_moon {position:absolute; width:3rem; top:0rem; left:0rem;}
-#header.on h1 .h1_st img {position:absolute; width:1.5rem; top:0rem; left:-0.5rem; z-index:-1; animation:h1_st 0.5s infinite linear alternate;}
-#header.on h1 .h1_st_02 img {position:absolute; width:1.3rem; top:3.5rem; left:4rem; animation:h1_st 0.7s infinite linear alternate;}
-#header.on h1 .h1_name_w img {position:absolute; width:6rem; top:-3rem; left:3.2rem;}
+#header.on .logo img {width:5rem; position:relative;}
+#header.on .logo .h1_moon {position:absolute; width:3rem; top:0rem; left:0rem;}
+#header.on .logo .h1_st img {position:absolute; width:1.5rem; top:0rem; left:-0.5rem; z-index:-1; animation:h1_st 0.5s infinite linear alternate;}
+#header.on .logo .h1_st_02 img {position:absolute; width:1.3rem; top:3.5rem; left:4rem; animation:h1_st 0.7s infinite linear alternate;}
+#header.on .logo .h1_name_w img {position:absolute; width:6rem; top:-3rem; left:3.2rem;}
 #header.on .moon {display:block;}
 #header.on .sun {display:none;}
 
-#header h1:hover .h1_st img {animation-play-state:paused;}
-#header h1:hover .h1_st_02 img  {animation-play-state:paused;}
+#header .logo:hover .h1_st img {animation-play-state:paused;}
+#header .logo:hover .h1_st_02 img  {animation-play-state:paused;}
 
-@keyframes h1 {
+@keyframes logo {
     to {transform:rotate(360deg);}
 }
 
@@ -970,32 +970,32 @@ body {font-size:0.8rem; color: var(--dc);}
 
 
     /*--헤더----*/
-    #header h1 {position:fixed; top:0.5rem; left:1rem; transition:0.3s; z-index:999;}
+    #header .logo {position:fixed; top:0.5rem; left:1rem; transition:0.3s; z-index:999;}
 
-    /* #header h1 a {display:block; width:12rem; height:6rem; background:url(../lib/base/pf_h1_sun.png) no-repeat center center/12rem; animation:moon 3s infinite linear alternate;}
+    /* #header .logo a {display:block; width:12rem; height:6rem; background:url(../lib/base/pf_h1_sun.png) no-repeat center center/12rem; animation:moon 3s infinite linear alternate;}
     #header.on h1 a {height:6rem; background:url(../lib/base/pf_h1_moon.png) no-repeat center center/12rem;} */
 
-    #header h1 img {width:3rem; position:relative;}
-    #header h1 .h1_sun {animation:h1 9s infinite linear;}
-    #header h1 .h1_cl img {position:absolute; width:1.5rem; top:5%; left:-10%; z-index:-1;}
-    #header h1 .h1_cl_02 img {position:absolute; width:2rem; top:30%; left:50%;}
-    #header h1 .h1_name img {display:none; position:absolute; width:4rem; top:-70%; left:70%;}
+    #header .logo img {width:3rem; position:relative;}
+    #header .logo .h1_sun {animation:logo 9s infinite linear;}
+    #header .logo .h1_cl img {position:absolute; width:1.5rem; top:5%; left:-10%; z-index:-1;}
+    #header .logo .h1_cl_02 img {position:absolute; width:2rem; top:30%; left:50%;}
+    #header .logo .h1_name img {display:none; position:absolute; width:4rem; top:-70%; left:70%;}
     #header .moon {display:none;}
 
-    #header h1:hover .h1_sun {animation-play-state:paused;}
+    #header .logo:hover .h1_sun {animation-play-state:paused;}
 
-    #header.on h1 img {width:3rem; position:relative;}
-    #header.on h1 .h1_moon {position:absolute; width:0rem; top:0rem; left:0%;}
-    #header.on h1 .h1_st img {display:none; position:absolute; width:1rem; top:10%; left:0%; z-index:-1; animation:h1_st 0.5s infinite linear alternate;}
-    #header.on h1 .h1_st_02 img {display:none; position:absolute; width:1.5rem; top:10%; left:4rem; animation:h1_st 0.7s infinite linear alternate;}
-    #header.on h1 .h1_name_w {display:none; position:absolute; width:6rem; top:-3rem; left:4rem;}
+    #header.on .logo img {width:3rem; position:relative;}
+    #header.on .logo .h1_moon {position:absolute; width:0rem; top:0rem; left:0%;}
+    #header.on .logo .h1_st img {display:none; position:absolute; width:1rem; top:10%; left:0%; z-index:-1; animation:h1_st 0.5s infinite linear alternate;}
+    #header.on .logo .h1_st_02 img {display:none; position:absolute; width:1.5rem; top:10%; left:4rem; animation:h1_st 0.7s infinite linear alternate;}
+    #header.on .logo .h1_name_w {display:none; position:absolute; width:6rem; top:-3rem; left:4rem;}
     #header.on .moon {display:block;}
     #header.on .sun {display:none;}
 
-    #header h1:hover .h1_st img {animation-play-state:paused;}
-    #header h1:hover .h1_st_02 img  {animation-play-state:paused;}
+    #header .logo:hover .h1_st img {animation-play-state:paused;}
+    #header .logo:hover .h1_st_02 img  {animation-play-state:paused;}
 
-    @keyframes h1 {
+    @keyframes logo {
         to {transform:rotate(360deg);}
     }
 
