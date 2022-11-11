@@ -603,7 +603,7 @@ body {font-size:0.8rem; color: var(--dc);}
 .Project #btn_big {}
 .Project #btn_big .guide {display:none; z-index: 999;}
 
-.Project #btn_big .guide figure {position:absolute; width:auto; height:100%; top:40%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); background: #fff; overflow-y:scroll; overflow-x:hidden;}
+.Project #btn_big .guide figure {position:absolute; width:auto; height:100%; top:40%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); background: #fff; overflow-y:scroll;}
 
 .Project #btn_big .guide .text {background: #fff; height: 100px; text-align: center;  margin: 0 auto 25px;}
 .Project #btn_big .guide .text strong {display: block; font-size: 35px; color: var(--tc); padding: 20px 0 0 0; font-family: 'Lalezar', cursive;}
@@ -1551,9 +1551,9 @@ body {font-size:0.8rem; color: var(--dc);}
 
     /*회사 프로젝트 시작*/
 
-    .Project #btn_big .guide {display:none; z-index: 999;}
+    .Project #btn_big .guide {display:none; z-index: 9999;}
 
-    .Project #btn_big .guide figure {position:absolute; width:95%; height:100%; top:45%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y:scroll; overflow-x:hidden; }
+    .Project #btn_big .guide figure {position:absolute; width:95%; height:100%; top:45%; left:50%; transform:translate(-50%,-50%); padding:0px 0px; border:1px solid var(--dd); box-shadow:-0.1rem 0rem 1rem 0.1rem var(--b4); overflow-y: scroll; }
 
 
     .Project #btn_big .guide .text {background: #fff; height: auto; text-align: center; margin: 0 auto 3%;}
@@ -1582,8 +1582,8 @@ body {font-size:0.8rem; color: var(--dc);}
     .Project #btn_big .guide_01 .banner_img a {margin: 0 auto;}
     .Project #btn_big .guide_01 .banner_img a img {width: 100%;}
     
-    .Project #btn_big .guide_01 .company_guide {width: 100%;}
-    .Project #btn_big .guide_01 .company_guide .page_list {background: #fff; width: auto; height: 100%; display: flex; justify-content: center; align-items: flex-start;}
+    .Project #btn_big .guide_01 .company_guide {width: 100%; }
+    .Project #btn_big .guide_01 .company_guide .page_list {background: #fff; width: auto; height: 100vh; display: flex; justify-content: center; align-items: flex-start;}
     .Project #btn_big .guide_01 .company_guide ul {text-align: center;}
     .Project #btn_big .guide_01 .company_guide ul li {line-height: 2.3; cursor: pointer; font-size: 14px;}
     .Project #btn_big .guide_01 .company_guide ul li:nth-child(4) {margin-bottom: 20px;}
@@ -1591,7 +1591,7 @@ body {font-size:0.8rem; color: var(--dc);}
     .Project #btn_big .guide_01 .company_guide ul li.on {color: var(--tc);}
     .Project #btn_big .guide_01 .company_guide ul li:hover {color: var(--tc);}
     
-    .Project #btn_big .guide_01 .company_guide .page_name {flex: 0.7; position: sticky; position: -webkit-sticky; top: 0; left: 0;}
+    .Project #btn_big .guide_01 .company_guide .page_name {flex: 0.7; position: relative; position: -webkit-sticky; top: 0; left: 0;}
     .Project #btn_big .guide_01 .company_guide .page_name li {position: relative;}
     .Project #btn_big .guide_01 .company_guide .page_name li.on::before {content: ""; display: none; width: 10px; height: 10px; background: var(--tc); border-radius: 24px; position: absolute; top: 50%; left: 17%; transform: translate(-50%, -50%);}
     
