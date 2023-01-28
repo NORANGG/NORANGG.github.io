@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
 
 html {cursor: url(/img/cursor.png), auto; scroll-behavior: smooth; height: 100%; }
-body {width: 100%; margin: 0 auto; height: 100%; background: url(/img/main_profile.png) center/cover; overflow-y: overlay;}
+body {width: 100%; margin: 0 auto; height: 100%; background: url(../img/main_profile.png) center/cover; overflow-y: overlay;}
 body::-webkit-scrollbar {width: 15px;}
 body::-webkit-scrollbar-thumb {height: 10%; background: #1292b5; border-radius: 100px;}
 body::-webkit-scrollbar-track {background: #dcf5fd00;}
